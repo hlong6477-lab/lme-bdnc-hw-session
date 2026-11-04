@@ -1,0 +1,10 @@
+# Python
+.venv/
+.uvcache/
+__pycache__/
+*.pyc
+
+# editor / temp
+.DS_Store
+page*.png
+.env

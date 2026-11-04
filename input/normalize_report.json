@@ -1,0 +1,279 @@
+{
+ "n_chunks": 20,
+ "pairs": [
+  {
+   "id": "P01",
+   "n_rows_raw": 41,
+   "standalone_raw": [],
+   "title_en": "Beer made from recycled wastewater? Some want to see it on Australian bottle-o shelves",
+   "title_vi": "Bia làm từ nước thải tái chế: Bạn có dám thử?",
+   "en_url": "https://www.sbs.com.au/news/article/beer-made-from-recycled-wastewater-some-want-to-see-it-on-australian-bottle-o-shelves/fbmgsvr1d",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/bia-lam-tu-nuoc-thai-tai-che-ban-co-dam-thu/du92j8btr",
+   "title_rule": "in-table linked row",
+   "n_body_rows": 39
+  },
+  {
+   "id": "P02",
+   "n_rows_raw": 47,
+   "standalone_raw": [],
+   "title_en": "Australia is in a youth homelessness 'crisis'. These are the most affected areas",
+   "title_vi": "Úc đang đối mặt với một \"cuộc khủng hoảng\" vô gia cư ở giới trẻ",
+   "en_url": "https://www.sbs.com.au/news/article/australias-youth-homelessness-hotspots-amid-crisis/nearbhfr9",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/uc-%C4%91ang-%C4%91oi-mat-voi-mot-cuoc-khung-hoang-vo-gia-cu-o-gioi-tre/zkr179ada",
+   "title_rule": "in-table linked row",
+   "n_body_rows": 46
+  },
+  {
+   "id": "P03",
+   "n_rows_raw": 46,
+   "standalone_raw": [
+    "[Who are the biggest donors to Australia's political parties?](https://www.sbs.com.au/news/article/who-are-the-biggest-donors-to-australias-political-parties/ojow9dhy3)",
+    "[Từ tỷ phú đến các công ty cá cược: Danh sách những nhà tài trợ lớn nhất cho các đảng chính trị được tiết lộ \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/from-billionaires-to-betting-companies-the-biggest-donors-to-political-parties-revealed/rcgxyro08)"
+   ],
+   "title_en": "Who are the biggest donors to Australia's political parties?",
+   "title_vi": "Từ tỷ phú đến các công ty cá cược: Danh sách những nhà tài trợ lớn nhất cho các đảng chính trị được tiết lộ \\",
+   "en_url": "https://www.sbs.com.au/news/article/who-are-the-biggest-donors-to-australias-political-parties/ojow9dhy3",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/from-billionaires-to-betting-companies-the-biggest-donors-to-political-parties-revealed/rcgxyro08",
+   "title_rule": " + standalone EN + standalone VI",
+   "n_body_rows": 46
+  },
+  {
+   "id": "P04",
+   "n_rows_raw": 42,
+   "standalone_raw": [
+    "['Major flow-on effects': Australia's sleep struggle — and how much you need](https://www.sbs.com.au/news/article/how-australians-are-struggling-with-sleep-and-how-much-you-need/jnuz2p0t4)",
+    "[Ngủ bao nhiêu tiếng là đủ, và hậu quả của việc thiếu ngủ là gì? \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/major-flow-on-effects-australias-sleep-struggle-and-how-much-you-need/ya2u9ijih)"
+   ],
+   "title_en": "'Major flow-on effects': Australia's sleep struggle — and how much you need",
+   "title_vi": "Ngủ bao nhiêu tiếng là đủ, và hậu quả của việc thiếu ngủ là gì? \\",
+   "en_url": "https://www.sbs.com.au/news/article/how-australians-are-struggling-with-sleep-and-how-much-you-need/jnuz2p0t4",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/major-flow-on-effects-australias-sleep-struggle-and-how-much-you-need/ya2u9ijih",
+   "title_rule": " + standalone EN + standalone VI",
+   "n_body_rows": 42
+  },
+  {
+   "id": "P05",
+   "n_rows_raw": 64,
+   "standalone_raw": [
+    "[Fast-tracked citizenship to anti-wage theft laws: What's changing in Australia from 1 January](https://www.sbs.com.au/news/article/fast-tracked-citizenship-to-anti-wage-theft-laws-whats-changing-in-australia-from-1-january/h5nhvqfoo)",
+    "[Những thay đổi tác động đến người dân Úc có hiệu lực từ tháng 1/2025 \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/fast-tracked-citizenship-to-anti-wage-theft-laws-whats-changing-in-australia-from-1-january/4ptpsu4gr)"
+   ],
+   "title_en": "Fast-tracked citizenship to anti-wage theft laws: What's changing in Australia from 1 January",
+   "title_vi": "Những thay đổi tác động đến người dân Úc có hiệu lực từ tháng 1/2025 \\",
+   "en_url": "https://www.sbs.com.au/news/article/fast-tracked-citizenship-to-anti-wage-theft-laws-whats-changing-in-australia-from-1-january/h5nhvqfoo",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/fast-tracked-citizenship-to-anti-wage-theft-laws-whats-changing-in-australia-from-1-january/4ptpsu4gr",
+   "title_rule": " + standalone EN + standalone VI",
+   "n_body_rows": 64
+  },
+  {
+   "id": "P06",
+   "n_rows_raw": 30,
+   "standalone_raw": [
+    "[Visa rules, airfares and hot trends: How travel is changing in 2025 \\| SBS News](https://www.sbs.com.au/news/article/new-visa-rules-ai-itineraries-and-rising-airfares-how-travel-is-changing-in-2025/ur4r64ebp)",
+    "[Những thay đổi về du lịch trong năm 2025 \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/nhung-thay-%C4%91oi-ve-du-lich-trong-nam-2025/ocpuhsl8c)"
+   ],
+   "title_en": "Visa rules, airfares and hot trends: How travel is changing in 2025 \\",
+   "title_vi": "Những thay đổi về du lịch trong năm 2025 \\",
+   "en_url": "https://www.sbs.com.au/news/article/new-visa-rules-ai-itineraries-and-rising-airfares-how-travel-is-changing-in-2025/ur4r64ebp",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/nhung-thay-%C4%91oi-ve-du-lich-trong-nam-2025/ocpuhsl8c",
+   "title_rule": " + standalone EN + standalone VI",
+   "n_body_rows": 30
+  },
+  {
+   "id": "P07",
+   "n_rows_raw": 34,
+   "standalone_raw": [
+    "[Is Australian English different from English? \\| SBS](https://www.sbs.com.au/language/english/en/article/is-australian-english-different-from-english/cdetj5011)",
+    "[Tiếng Anh Úc có khác với tiếng Anh không? \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/tieng-anh-uc-co-khac-voi-tieng-anh-khong/cwc0mlbx1)"
+   ],
+   "title_en": "Is Australian English different from English?",
+   "title_vi": "Tiếng Anh Úc có khác với tiếng Anh không?",
+   "en_url": "https://www.sbs.com.au/language/english/en/article/is-australian-english-different-from-english/cdetj5011",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/tieng-anh-uc-co-khac-voi-tieng-anh-khong/cwc0mlbx1",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 33
+  },
+  {
+   "id": "P08",
+   "n_rows_raw": 30,
+   "standalone_raw": [
+    "[Revealed: Australian suburbs with the biggest home price falls](https://www.sbs.com.au/news/article/australian-suburbs-with-the-biggest-home-price-falls-revealed/dpok4235q)",
+    "[Những khu vực có giá nhà giảm mạnh nhất tại Úc trong năm 2024 \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/nhung-khu-vuc-co-gia-nha-giam-manh-nhat-tai-uc-trong-nam-2024/sz0777b40)"
+   ],
+   "title_en": "Revealed: Australian suburbs with the biggest home price falls",
+   "title_vi": "Những khu vực có giá nhà giảm mạnh nhất tại Úc trong năm 2024 \\",
+   "en_url": "https://www.sbs.com.au/news/article/australian-suburbs-with-the-biggest-home-price-falls-revealed/dpok4235q",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/nhung-khu-vuc-co-gia-nha-giam-manh-nhat-tai-uc-trong-nam-2024/sz0777b40",
+   "title_rule": " + standalone EN + standalone VI",
+   "n_body_rows": 30
+  },
+  {
+   "id": "P09",
+   "n_rows_raw": 40,
+   "standalone_raw": [
+    "[Bulk billing rates across Australia — and where you're most likely to find a fee-free GP \\| SBS News](https://www.sbs.com.au/news/article/bulk-billing-rates-across-australia-and-where-youre-most-likely-to-find-a-fee-free-gp/mdunrqyoc)",
+    "[Nơi nào ở Úc có chi phí khám bác sĩ gia đình thấp, được Medicare thanh toán nhiều hơn? \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/noi-ban-co-the-kham-bac-si-gia-%C4%91inh-mien-phi-o-uc/kpc7tewm3)"
+   ],
+   "title_en": "Bulk billing rates across Australia — and where you're most likely to find a fee-free GP",
+   "title_vi": "Nơi nào ở Úc có chi phí khám bác sĩ gia đình thấp, được Medicare thanh toán nhiều hơn?",
+   "en_url": "https://www.sbs.com.au/news/article/bulk-billing-rates-across-australia-and-where-youre-most-likely-to-find-a-fee-free-gp/mdunrqyoc",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/noi-ban-co-the-kham-bac-si-gia-%C4%91inh-mien-phi-o-uc/kpc7tewm3",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 39
+  },
+  {
+   "id": "P10",
+   "n_rows_raw": 41,
+   "standalone_raw": [
+    "[How the falling Aussie dollar could impact you](https://www.sbs.com.au/news/article/currency-exchange-rate-australian-dollar-overseas-travel/h7zyjw47b)",
+    "[Đồng đô la Úc giảm giá có thể ảnh hưởng đến túi tiền của bạn ngay cả khi bạn không đi nước ngoài \\| SBS Tiếng Việt](https://www.sbs.com.au/language/vietnamese/vi/article/dong-do-la-uc-giam-gia-co-the-anh-huong-%C4%91en-tui-tien-cua-ban-ngay-ca-khi-ban-khong-di-nuoc-ngoai/y1colcv19)"
+   ],
+   "title_en": "How the falling Aussie dollar could impact you",
+   "title_vi": "Đồng đô la Úc giảm giá có thể ảnh hưởng đến túi tiền của bạn ngay cả khi bạn không đi nước ngoài \\",
+   "en_url": "https://www.sbs.com.au/news/article/currency-exchange-rate-australian-dollar-overseas-travel/h7zyjw47b",
+   "vi_url": "https://www.sbs.com.au/language/vietnamese/vi/article/dong-do-la-uc-giam-gia-co-the-anh-huong-%C4%91en-tui-tien-cua-ban-ngay-ca-khi-ban-khong-di-nuoc-ngoai/y1colcv19",
+   "title_rule": " + standalone EN + standalone VI",
+   "n_body_rows": 41
+  },
+  {
+   "id": "P11",
+   "n_rows_raw": 43,
+   "standalone_raw": [
+    "[How America hands power from one president to the next](https://www.voanews.com/a/how-america-hands-power-from-one-president-to-the-next/7865708.html)",
+    "[Nước Mỹ trao quyền lực từ tổng thống này sang tổng thống kia ra sao?](https://www.voatiengviet.com/a/nuoc-my-trao-quyen-luc-tu-tong-thong-nay-sang-tong-thong-khac-ra-sao/7868475.html)"
+   ],
+   "title_en": "How America hands power from one president to the next",
+   "title_vi": "Nước Mỹ trao quyền lực từ tổng thống này sang tổng thống kia ra sao?",
+   "en_url": "https://www.voanews.com/a/how-america-hands-power-from-one-president-to-the-next/7865708.html",
+   "vi_url": "https://www.voatiengviet.com/a/nuoc-my-trao-quyen-luc-tu-tong-thong-nay-sang-tong-thong-khac-ra-sao/7868475.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 42
+  },
+  {
+   "id": "P12",
+   "n_rows_raw": 2,
+   "standalone_raw": [
+    "[RFK Jr. endorses Donald Trump](https://www.voanews.com/a/rfk-jr-endorses-donald-trump/7755738.html)",
+    "[Ứng cử viên tổng thống độc lập ủng hộ Donald Trump](https://www.voatiengviet.com/a/ung-cu-vien-tong-thong-doc-lap-ung-ho-donald-trump/7763038.html)"
+   ],
+   "title_en": "RFK Jr. endorses Donald Trump",
+   "title_vi": "Ứng cử viên tổng thống độc lập ủng hộ Donald Trump",
+   "en_url": "https://www.voanews.com/a/rfk-jr-endorses-donald-trump/7755738.html",
+   "vi_url": "https://www.voatiengviet.com/a/ung-cu-vien-tong-thong-doc-lap-ung-ho-donald-trump/7763038.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 1
+  },
+  {
+   "id": "P13",
+   "n_rows_raw": 12,
+   "standalone_raw": [
+    "SL: [Seoul working for pope visit to N.Korea, Vatican agency says \\| Reuters](https://www.reuters.com/world/asia-pacific/seoul-working-pope-visit-nkorea-vatican-agency-says-2021-07-08/)",
+    "TL: [Hàn Quốc tìm cách thu xếp cho chuyến thăm của Giáo hoàng tới Triều Tiên](https://www.voatiengviet.com/a/h%C3%A0n-qu%E1%BB%91c-t%C3%ACm-c%C3%A1ch-thu-x%E1%BA%BFp-cho-chuy%E1%BA%BFn-th%C4%83m-c%E1%BB%A7a-gi%C3%A1o-ho%C3%A0ng-francis-t%E1%BB%9Bi-tri%E1%BB%81u-ti%C3%AAn-/5958160.html)"
+   ],
+   "title_en": "Seoul working for pope visit to N.Korea, Vatican agency says",
+   "title_vi": "Hàn Quốc tìm cách thu xếp cho chuyến thăm của Giáo hoàng tới Triều Tiên",
+   "en_url": "https://www.reuters.com/world/asia-pacific/seoul-working-pope-visit-nkorea-vatican-agency-says-2021-07-08/",
+   "vi_url": "https://www.voatiengviet.com/a/h%C3%A0n-qu%E1%BB%91c-t%C3%ACm-c%C3%A1ch-thu-x%E1%BA%BFp-cho-chuy%E1%BA%BFn-th%C4%83m-c%E1%BB%A7a-gi%C3%A1o-ho%C3%A0ng-francis-t%E1%BB%9Bi-tri%E1%BB%81u-ti%C3%AAn-/5958160.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 11
+  },
+  {
+   "id": "P14",
+   "n_rows_raw": 10,
+   "standalone_raw": [
+    "SL: [Trump administration launches new 'self-deportation' app \\| Reuters](https://www.reuters.com/world/us/trump-administration-launches-new-self-deportation-app-2025-03-10/)",
+    "TL: [Chính quyền Trump ra mắt ứng dụng ‘tự động trục xuất’](https://www.voatiengviet.com/a/8006224.html)"
+   ],
+   "title_en": "Trump administration launches new 'self-deportation' app",
+   "title_vi": "Chính quyền Trump ra mắt ứng dụng ‘tự động trục xuất’",
+   "en_url": "https://www.reuters.com/world/us/trump-administration-launches-new-self-deportation-app-2025-03-10/",
+   "vi_url": "https://www.voatiengviet.com/a/8006224.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 9
+  },
+  {
+   "id": "P15",
+   "n_rows_raw": 22,
+   "standalone_raw": [
+    "SL: [ICE arrests Palestinian activist Mahmoud Khalil \\| AP News](https://apnews.com/article/columbia-university-mahmoud-khalil-ice-15014bcbb921f21a9f704d5acdcae7a8)",
+    "TL: [Nhà hoạt động Palestine hỗ trợ biểu tình tại Đại học Columbia bị các nhân viên di trú Mỹ bắt giữ](https://www.voatiengviet.com/a/nha-hoat-dong-palestine-bieu-tinh-dai-hoc-columbia-bi-nhan-vien-di-tru-my-bat-giu/8005148.html)"
+   ],
+   "title_en": "Immigration agents arrest Palestinian activist who helped lead Columbia University protests",
+   "title_vi": "Nhà hoạt động Palestine hỗ trợ biểu tình tại Đại học Columbia bị các nhân viên di trú Mỹ bắt giữ",
+   "en_url": "https://apnews.com/article/columbia-university-mahmoud-khalil-ice-15014bcbb921f21a9f704d5acdcae7a8",
+   "vi_url": "https://www.voatiengviet.com/a/nha-hoat-dong-palestine-bieu-tinh-dai-hoc-columbia-bi-nhan-vien-di-tru-my-bat-giu/8005148.html",
+   "title_rule": "in-table bold row",
+   "n_body_rows": 21
+  },
+  {
+   "id": "P16",
+   "n_rows_raw": 13,
+   "standalone_raw": [
+    "[Tanking Ruble Hits Russian Tourists, Thai Hotels](https://www.voanews.com/a/tanking-ruble-hits-russian-tourists-thai-hotels/2563917.html)",
+    "[Đồng rúp tuột giá tác động đến du khách Nga và khách sạn Thái Lan](https://www.voatiengviet.com/a/dong-rup-tuot-gia-tac-dong-den-du-khach-nga-va-khach-san-thai-lan/2564110.html)"
+   ],
+   "title_en": "Tanking Ruble Hits Russian Tourists, Thai Hotels",
+   "title_vi": "Đồng rúp tuột giá tác động đến du khách Nga và khách sạn Thái Lan",
+   "en_url": "https://www.voanews.com/a/tanking-ruble-hits-russian-tourists-thai-hotels/2563917.html",
+   "vi_url": "https://www.voatiengviet.com/a/dong-rup-tuot-gia-tac-dong-den-du-khach-nga-va-khach-san-thai-lan/2564110.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 12
+  },
+  {
+   "id": "P17",
+   "n_rows_raw": 20,
+   "standalone_raw": [
+    "[Southeast Asia's Rubber Farmers Hope for Rebound](https://www.voanews.com/a/south-asia-rubber-farmers-hope-for-rebound/2568844.html)",
+    "[Nông gia trồng cao su hy vọng phục hồi trở lại](https://www.voatiengviet.com/a/nong-gia-trong-cao-su-hy-vong-bat-tro-lai/2569179.html)"
+   ],
+   "title_en": "Southeast Asia's Rubber Farmers Hope for Rebound",
+   "title_vi": "Nông gia trồng cao su hy vọng phục hồi trở lại",
+   "en_url": "https://www.voanews.com/a/south-asia-rubber-farmers-hope-for-rebound/2568844.html",
+   "vi_url": "https://www.voatiengviet.com/a/nong-gia-trong-cao-su-hy-vong-bat-tro-lai/2569179.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 19
+  },
+  {
+   "id": "P18",
+   "n_rows_raw": 13,
+   "standalone_raw": [
+    "[Myanmar, North Korea and Philippines are Focus of UNICEF 2015 Appeal](https://www.voanews.com/a/myanmar-north-korea-philippines-focus-of-unicef-2015-aid-appeal/2618061.html)",
+    "[UNICEF kêu gọi quyên góp giúp trẻ em Miến Điện, Triều Tiên, Philippines](https://www.voatiengviet.com/a/unicef-keu-goi-quyen-gop-de-giup-tre-em-mien-dien-bac-trieu-tien-va-philippines/2618397.html)"
+   ],
+   "title_en": "Myanmar, North Korea and Philippines are Focus of UNICEF 2015 Appeal",
+   "title_vi": "UNICEF kêu gọi quyên góp giúp trẻ em Miến Điện, Triều Tiên, Philippines",
+   "en_url": "https://www.voanews.com/a/myanmar-north-korea-philippines-focus-of-unicef-2015-aid-appeal/2618061.html",
+   "vi_url": "https://www.voatiengviet.com/a/unicef-keu-goi-quyen-gop-de-giup-tre-em-mien-dien-bac-trieu-tien-va-philippines/2618397.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 12
+  },
+  {
+   "id": "P19",
+   "n_rows_raw": 14,
+   "standalone_raw": [
+    "[Trans-Pacific Air Passengers to Divvy Up $40M in Price-fixing Settlement](https://www.voanews.com/a/trans-pacific-air-passengers-to-divvy-up-40-million-in-price-fixing-settlement/2684962.html)",
+    "[Hành khách sẽ chia tiền thắng kiện vụ 'lũng đoạn giá vé' máy bay](https://www.voatiengviet.com/a/hanh-khach-se-chia-tien-thang-kien-vu-lung-doan-gia-ve/2685420.html)"
+   ],
+   "title_en": "Trans-Pacific Air Passengers to Divvy Up $40M in Price-fixing Settlement",
+   "title_vi": "Hành khách sẽ chia tiền thắng kiện vụ 'lũng đoạn giá vé' máy bay",
+   "en_url": "https://www.voanews.com/a/trans-pacific-air-passengers-to-divvy-up-40-million-in-price-fixing-settlement/2684962.html",
+   "vi_url": "https://www.voatiengviet.com/a/hanh-khach-se-chia-tien-thang-kien-vu-lung-doan-gia-ve/2685420.html",
+   "title_rule": "in-table row ~ standalone EN line",
+   "n_body_rows": 13
+  },
+  {
+   "id": "P20",
+   "n_rows_raw": 36,
+   "standalone_raw": [],
+   "title_en": "EU Rolls Out Trade Bans in Global Crackdown on Illegal Fishing",
+   "title_vi": "EU xúc tiến việc cấm buôn bán hải sản đánh bắt bất hợp pháp",
+   "en_url": "",
+   "vi_url": "",
+   "title_rule": "last resort: plain short first row",
+   "n_body_rows": 35
+  }
+ ],
+ "warnings": [
+  "P20: missing url (en=False, vi=False) — recorded as a source-data note"
+ ]
+}

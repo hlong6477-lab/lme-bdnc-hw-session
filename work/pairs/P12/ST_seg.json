@@ -1,0 +1,29 @@
+{
+ "paras": [
+  "Robert F. Kennedy Jr. announced his endorsement of former President Donald Trump, the Republican presidential nominee, on Friday. VOA's Carolyn Presutti reports from Glendale, Arizona, where the two politicians campaigned together for the first time."
+ ],
+ "flow": "Robert F. Kennedy Jr. announced his endorsement of former President Donald Trump, the Republican presidential nominee, on Friday. VOA's Carolyn Presutti reports from Glendale, Arizona, where the two politicians campaigned together for the first time.",
+ "sentences": [
+  {
+   "para": 0,
+   "text": "Robert F. Kennedy Jr.",
+   "fa": 0,
+   "fb": 21,
+   "id": "S001"
+  },
+  {
+   "para": 0,
+   "text": "announced his endorsement of former President Donald Trump, the Republican presidential nominee, on Friday.",
+   "fa": 22,
+   "fb": 129,
+   "id": "S002"
+  },
+  {
+   "para": 0,
+   "text": "VOA's Carolyn Presutti reports from Glendale, Arizona, where the two politicians campaigned together for the first time.",
+   "fa": 130,
+   "fb": 250,
+   "id": "S003"
+  }
+ ]
+}
