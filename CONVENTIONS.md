@@ -180,6 +180,11 @@ và ghi rõ "không dùng làm bằng chứng cấp câu".
   cách) trước khi kết luận occ.
 - Bảng đối chiếu vị trí câu (rows.json ↔ sentmap) khi gán nhãn: hai lỗi lệch
   câu của pilot đều do ghi nhầm câu liền kề (S024/S026, S046/S047).
+- **Segmenter chẻ câu tại dấu chấm viết tắt** (Jr., Mr., U.S., St.): khi hai
+  "câu" sentmap thực chất là MỘT câu thật, lấy **câu thật** làm chuẩn khi quyết
+  định [LC]/[TC] và "câu kề" của chính sách L; mã `sent` vẫn theo sentmap;
+  ghi chú việc chẻ trong §8 analysis (không bịa tie liên câu từ chủ ngữ chia
+  đôi).
 
 ### 8.4. Mật độ tham chiếu (không phải chỉ tiêu, chỉ để định vị)
 

@@ -1,0 +1,34 @@
+{
+ "pair": "P12",
+ "lang": "VI",
+ "ties": [
+  {
+   "id": "P12-VI-001",
+   "sent": "S003",
+   "text": "Trump",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: Donald Trump",
+   "conf": "high",
+   "alt": null,
+   "note": "biến thể rút gọn (họ) ← tên đầy đủ 'Donald Trump' (S001); chuỗi tên do câu dẫn tự sinh của VI lập nên"
+  },
+  {
+   "id": "P12-VI-002",
+   "sent": "S003",
+   "text": "ứng cử viên tổng thống",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: một ứng viên khác",
+   "conf": "med",
+   "alt": null,
+   "note": "gia đình hình thái 'ứng viên/ứng cử viên'; hai thành viên khác thực thể (Kennedy vs Trump) — liên kết từ vựng thuần túy"
+  }
+ ]
+}

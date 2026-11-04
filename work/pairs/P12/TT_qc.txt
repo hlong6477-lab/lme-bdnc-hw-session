@@ -1,0 +1,3 @@
+QC P12 VI: PASS
+counts: {'L': 2}
+ties: 2

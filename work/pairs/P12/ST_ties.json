@@ -1,0 +1,21 @@
+{
+ "pair": "P12",
+ "lang": "EN",
+ "ties": [
+  {
+   "id": "P12-EN-001",
+   "sent": "S003",
+   "text": "the two politicians",
+   "occ": 1,
+   "cat": "R",
+   "sub": "demonstrative",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: Robert F. Kennedy Jr. + S002: Donald Trump",
+   "conf": "high",
+   "alt": "L: superordinate",
+   "note": "mạo từ + số từ 'two' truy hồi đúng 2 nhân vật đã nêu; 'politicians' là danh từ thượng vị mô tả; câu S003 thuộc khối VI cắt (§8b)",
+   "ref": "A"
+  }
+ ]
+}
