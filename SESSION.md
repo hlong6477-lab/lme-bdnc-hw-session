@@ -36,10 +36,28 @@
 - Chạy ingest + segment trên bản chuẩn hóa: 20 cặp,
   EN ~756 câu / VI ~637 câu (chi tiết trong `work/pairs/`).
 
+### Bước 1 — pilot P01 (hoàn tất)
+- Subagent chạy pilot bị lỗi hạ tầng lặp lại (context deadline ×2, response
+  rỗng ×2; task nhỏ chẩn đoán PASS → hạ tầng chỉ ổn với tác vụ nhỏ). Agent 1-a
+  kịp viết analysis §1–§5 (chất lượng tốt, giữ nguyên) trước khi bị ngắt; điều phối
+  viên tự viết tiếp §6–§9 + tie table + QC theo đúng CONVENTIONS.
+- **Kết quả P01: EN 88 tie (R30 S3 E0 C8 L47) / VI 67 tie (R20 S1 E1 C8 L37)
+  — annotate + render đều PASS, đối chiếu §9 khớp 10/10 ô.**
+- Phát hiện & hiệu chỉnh khi chạy: 2 lỗi lệch câu (community S024→S026,
+  purified recycled water S046→S047); bẫy substring "ông" ⊂ công chúng/công
+  nghệ (occ 1→2 ở S031/S037); khuyến nghị dùng "he says"/"ông nói" làm text.
+- **Hiệu chỉnh CONVENTIONS.md §8**: chính sách đánh dấu L (chuỗi hẹp theo
+  multi-word item; đánh dấu biến thể mới / tái lập sau gap ≥2 hoặc điểm nối
+  diễn ngôn / tên attribution; không đánh dấu lặp kề + artifact), quy tắc câu
+  artifact, bẫy occ, mật độ tham chiếu.
+- Bài học hạ tầng cho batch: chia mỗi cặp thành tác vụ vi mô (analysis §1–5 →
+  analysis §6–9 → tie table → QC-fix), mỗi task một agent, điều phối viên chạy
+  pipeline + push.
+
 ### Kế hoạch (cập nhật liên tục)
 - [x] Bước 0: bootstrap + chuẩn hóa input + ingest/segment + push
-- [ ] Bước 1: pilot P01 (1 agent) — hiệu chỉnh quy ước nếu cần
-- [ ] Bước 2: batch A P02–P06
+- [x] Bước 1: pilot P01 — analysis 9 mục + tie table + QC PASS + push
+- [ ] Bước 2: batch A P02–P06 (mỗi cặp: 3–4 tác vụ vi mô)
 - [ ] Bước 3: batch B P07–P11
 - [ ] Bước 4: batch C P12–P16
 - [ ] Bước 5: batch D P17–P20

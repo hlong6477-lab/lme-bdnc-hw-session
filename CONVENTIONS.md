@@ -147,3 +147,42 @@ table, không bao giờ sửa pipeline.**
 5. Mặc định ref; bỏ qua phân tích thủ công để chạy nhanh.
 6. Push git / sửa file ngoài phạm vi cặp của mình
    (`work/analysis/PXX*`, `work/tie_tables/PXX.py`, `work/pairs/PXX/`).
+
+## 8. Hiệu chỉnh từ pilot P01 (BẮT BUỘC cho P02–P20)
+
+### 8.1. Chính sách đánh dấu L (chốt từ P01 §6.1)
+
+Chuỗi từ vựng định nghĩa **hẹp theo tổ hợp từ vựng** (multi-word item): mỗi
+thuật ngữ / tên riêng là một chuỗi riêng; danh từ đơn lẻ quá tản mát ("water",
+"nước") chỉ ghi inventory, không đánh dấu. **Đánh dấu [LC] khi:** (i) hạng mục
+là **biến thể mới** vào chuỗi (đồng nghĩa/trái nghĩa/thượng vị/general word/
+biến thể từ trở/word-order/gia đình hình thái); (ii) **tái lập chuỗi** sau
+khoảng cách ≥ 2 câu hoặc tại **điểm nối diễn ngôn** (subhead, attribution/
+lượt lời mới, mở đoạn); (iii) **lặp tên người nói** trong attribution. **Không
+đánh dấu:** lặp cùng dạng ở câu kề ngay trước; lặp tên thành phố kề nhau;
+câu artifact (caption pull-quote, câu lặp nguyên văn — xem 8.2). Một
+mark/câu/chuỗi; §6 phải có bảng kho chuỗi (inventory) đầy đủ + danh sách hàng
+được đánh dấu, để tie table chỉ chứa hàng có trong analysis.
+
+### 8.2. Câu artifact không đánh dấu tie
+
+Caption pull-quote (dòng attribution đứng riêng), câu lặp nguyên văn câu
+trước, dòng chú thích biên tập: **không** đánh dấu tie; mô tả trong §8 analysis
+và ghi rõ "không dùng làm bằng chứng cấp câu".
+
+### 8.3. Bẫy cơ khí (occ) học từ P01
+
+- Đại từ attribution: dùng text **"he says" / "ông nói"** thay vì "he"/"ông"
+  riêng lẻ — tránh bẫy substring ("he" ⊂ They/their/scheme/the; "ông" ⊂
+  **công** chúng/**công** nghệ). Nếu vẫn dùng dạng ngắn, đếm occ bằng tay theo
+  substring thật trong câu.
+- Chuỗi VI chứa dấu tiếng Việt: kiểm tra kỹ chữ có dấu (họ ≠ hoạch; khác ≠
+  cách) trước khi kết luận occ.
+- Bảng đối chiếu vị trí câu (rows.json ↔ sentmap) khi gán nhãn: hai lỗi lệch
+  câu của pilot đều do ghi nhầm câu liền kề (S024/S026, S046/S047).
+
+### 8.4. Mật độ tham chiếu (không phải chỉ tiêu, chỉ để định vị)
+
+P01 (tin tính năng 55/49 câu): EN 88 tie (R30 S3 E0 C8 L47), VI 67 tie
+(R20 S1 E1 C8 L37) ≈ 1,6 tie/câu EN. Cặp ngắn hơn sẽ mật độ thấp hơn — không
+ép bằng con số này; chất lượng đọc hiểu vẫn là tiêu chí duy nhất.
