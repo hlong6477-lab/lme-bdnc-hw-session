@@ -150,19 +150,48 @@ table, không bao giờ sửa pipeline.**
 
 ## 8. Hiệu chỉnh từ pilot P01 (BẮT BUỘC cho P02–P20)
 
-### 8.1. Chính sách đánh dấu L (chốt từ P01 §6.1)
+### 8.1. Chính sách đánh dấu L — **v2 (nới rộng, có hiệu lực thay thế chính sách pilot hẹp)**
 
-Chuỗi từ vựng định nghĩa **hẹp theo tổ hợp từ vựng** (multi-word item): mỗi
-thuật ngữ / tên riêng là một chuỗi riêng; danh từ đơn lẻ quá tản mát ("water",
-"nước") chỉ ghi inventory, không đánh dấu. **Đánh dấu [LC] khi:** (i) hạng mục
-là **biến thể mới** vào chuỗi (đồng nghĩa/trái nghĩa/thượng vị/general word/
-biến thể từ trở/word-order/gia đình hình thái); (ii) **tái lập chuỗi** sau
-khoảng cách ≥ 2 câu hoặc tại **điểm nối diễn ngôn** (subhead, attribution/
-lượt lời mới, mở đoạn); (iii) **lặp tên người nói** trong attribution. **Không
-đánh dấu:** lặp cùng dạng ở câu kề ngay trước; lặp tên thành phố kề nhau;
-câu artifact (caption pull-quote, câu lặp nguyên văn — xem 8.2). Một
-mark/câu/chuỗi; §6 phải có bảng kho chuỗi (inventory) đầy đủ + danh sách hàng
-được đánh dấu, để tie table chỉ chứa hàng có trong analysis.
+Sau khi hoàn tất 20/20 cặp theo chính sách pilot, điều phối viên rà soát thấy
+lexical cohesion bị **đánh dấu thiếu rõ rệt**: lặp cùng dạng ở câu kề và từ
+đơn lẻ đều là tie hợp lệ theo Halliday & Hasan (1976) nhưng bị chính sách
+pilot loại. Chỉ thị của giảng viên (2026-11-05): phân tích kỹ hơn, đánh dấu
+nhiều hơn. Chính sách v2 dưới đây **bổ sung** (không thay thế) các quy tắc
+khác của CONVENTIONS.
+
+**Chuỗi từ vựng giờ gồm cả từ đơn lẻ có nội dung thực** (danh từ, động từ,
+tính từ, trạng từ nội dung): mỗi thuật ngữ đa từ, tên riêng, và từ đơn nội
+dung là một chuỗi riêng.
+
+**Đánh dấu [LC] khi hạng mục xuất hiện ở câu N với tiền trạm ở câu M ≠ N:**
+(i) **lặp cùng dạng — kể cả câu kề ngay trước** (bỏ hạn chế "≥ 2 câu" và
+"câu kề không đánh dấu" của pilot);
+(ii) **biến thể mới** vào chuỗi (đồng nghĩa / trái nghĩa / thượng vị /
+general word / biến thể hình thái / word-order);
+(iii) tái lập chuỗi tại **điểm nối diễn ngôn** (subhead, attribution/lượt
+lời mới, mở đoạn);
+(iv) **lặp tên người nói** trong attribution;
+(v) **động từ attribution** (says/said/explains… / nói/cho biết/nhấn mạnh…)
+— chuỗi khung báo chí: mỗi câu có động từ attribution tái lập chuỗi thì
+1 hàng L, ante = lần attribution trước đó.
+
+**Vẫn KHÔNG đánh dấu:** cùng một dạng lặp nhiều lần **trong cùng một câu**
+(một mark/câu/chuỗi; occ đếm tay số lần trong câu); từ thuần chức năng
+(giới từ, trợ động từ, mạo từ đứng riêng, phó từ bé, đại từ — đại từ thuộc
+R); classifier VI đứng alone và tiểu từ cuối câu; caption pull-quote / câu
+artifact (xem 8.2); **lần đầu** trong văn bản (prerequisite); hạng mục trỏ
+thực thể khác ("water" nước uống ≠ "the waters" vùng biển — quyết định bằng
+ĐỌC HIỂU, không phải so chuỗi).
+
+**Thứ tự chống double-code giữ nguyên** (một dạng một hàng, §1, §2): một
+hạng mục vừa là biến thể mới vừa tái lập chuỗi → một hàng L với sub của quan
+hệ từ vựng chính.
+
+§6 analysis phải có bảng kho chuỗi (inventory) + danh sách hàng được đánh
+dấu, để tie table chỉ chứa hàng có trong analysis; §9 đối chiếu lại sau khi
+bổ sung. Mật độ định vị của v2 (không phải chỉ tiêu cứng): trung vị L
+khoảng 60–70 EN / 55–65 VI mỗi cặp dài; cặp siêu ngắn (vd P12, 2 câu) đánh
+dấu theo mức thực tế và nêu rõ lý do trong báo cáo.
 
 ### 8.2. Câu artifact không đánh dấu tie
 
