@@ -403,3 +403,309 @@ một mã theo mapping §2, phương án còn lại ghi `alt`. Không có thế 
   S022–S024 tạo trật tự thời gian bằng mốc lịch ("Đến ngày 15 tháng 9…", "Đến
   ngày 1 tháng 10…") — cấu trúc tuần tự nhưng mỗi mốc neo vào lịch bầu cử
   chứ không vào câu trước, nên không sinh thêm hàng C.
+
+## 6. Liên kết từ vựng (lexical cohesion)
+
+### 6.1. Chính sách đánh dấu L của cặp này (theo CONVENTIONS §8.1)
+
+Chuỗi định nghĩa **hẹp theo tổ hợp từ vựng** (multi-word item): mỗi thuật ngữ
+chính trị – định chế (presidential transition, transfer of power,
+administration, Tòa Bạch Ốc…), tên riêng và nhãn vai là một chuỗi riêng; danh
+từ đơn lẻ tản mát (president/tổng thống trần, election/bầu cử,
+agencies/cơ quan) chỉ ghi inventory. **Đánh dấu [LC] khi:** (i) hạng mục là
+**biến thể mới** vào chuỗi (đồng nghĩa/trái nghĩa/thượng vị/general word/gia
+đình hình thái/đảo tổ hợp/rút gọn) — kể cả ở câu kề nếu là hạng mục từ vựng
+mới thật sự (tiền lệ thực hành P05/P17: "transfer of power" kề "presidential
+transition" → đánh dấu; "handover" kề "succession" → đánh dấu); (ii) **tái lập
+chuỗi** sau khoảng cách ≥ 2 câu hoặc tại **điểm nối diễn ngôn** (mở đoạn sau
+subhead, attribution/lượt lời mới, mở khối tường thuật); (iii) **lặp tên người
+nói** trong attribution sau khoảng cách. **Không đánh dấu:** lặp cùng dạng ở
+câu kề ngay trước (Riley S011→S012, Tòa Bạch Ốc S016→S017, "vịt què"
+S052→S053); lần nêu đầu của thuật ngữ riêng (transition coordinating
+council, transition teams, Đạo luật Chuyển tiếp Tổng thống 1963 —
+prerequisite); các NP đã ghi R ở §4 ("this tradition"/"truyền thống này",
+"Neither practice", "both administrations"/"cả hai chính quyền" — không
+double-code); câu artifact S051. Một mark/câu/chuỗi; chuỗi dày ở các câu kề
+liên tiếp chỉ đánh dấu lần tái lập đầu tiên, các lần sau trong cùng mạch ghi
+inventory. Kho dưới dùng mã chữ A–V (bỏ chữ L để không trùng mã loại hình L);
+8 trường nghĩa (i)–(viii) của §1 được chi tiết hóa thành các chuỗi này.
+
+### 6.2. Kho chuỗi hai phía (inventory — gồm cả thành viên không đánh dấu)
+
+| Mã | Chuỗi | Thành viên EN | Thành viên VI | Đánh dấu |
+|---|---|---|---|---|
+| A | chuyển giao tổng thống (trường §1-i) | The presidential transition (S008) · transfer of power (S009) · the transition [Bush→Obama] (S010) · The transition period (S011) · "presidential transition" [cụm từ Riley truy vết] (S012) · the transition (S014) · presidential transition [attribution Muller] (S015) · the transition (S022) · succession plans (S025) · transition coordinating council / transition director (S025) · transition teams (S027) · an orderly presidential succession (S028) · a smooth transition (S033) · presidential succession (S045) · the complex handover (S046) · a smooth handover (S053) · The presidential transition (S057) | Chuyển giao tổng thống (S007) · quá trình chuyển giao quyền lực (S008) · quá trình chuyển giao [Bush→Obama] (S009) · thời kỳ chuyển tiếp (S010) · "chuyển giao quyền lực tổng thống" (S011) · quá trình chuyển tiếp ×2 (S013) · quá trình chuyển giao quyền lực tổng thống (S014) · quá trình chuyển tiếp (S020) · chuyển giao quyền lực (S021) · hội đồng điều phối quá trình chuyển giao / giám đốc quá trình chuyển giao (S022) · kế hoạch kế nhiệm (S023) · các nhóm chuyển giao (S024) · việc kế nhiệm tổng thống (S025) · cuộc chuyển giao suôn sẻ (S030) · quá trình kế nhiệm tổng thống (S042) · quá trình chuyển giao phức tạp (S043) · việc chuyển giao suôn sẻ (S048) · Thời kỳ chuyển giao tổng thống (S053) | EN: S009, S014, S022, S028, S033, S045, S046, S053, S057 · VI: S008, S010, S013, S020, S025, S030, S042, S048, S053 |
+| B | chính quyền / administration | one administration to another (S009) · a new administration (S037) · The incoming administration (S038) · key administration officials (S043) · both administrations (S046 — R-EN15) · current and future administrations (S060) · a new administration (S063) | chính quyền này… chính quyền khác (S008) · chính quyền mới (S034, S035) · các quan chức chính quyền chủ chốt (S040) · cả hai chính quyền (S043 — R-VI11) · chính quyền hiện tại và tương lai (S056) · một chính quyền mới (S059) | EN: S037, S043, S060, S063 · VI: S034, S040, S056, S059 |
+| C | chính phủ (liên bang) / government | a sprawling government bureaucracy (S006) · the federal government (S015) · the government (S048) · the apparatus of the federal government (S055) · [shadow government (S004) — thuật ngữ riêng] | tân chính phủ (S005) · chính phủ liên bang (S014) · các bộ phận quan trọng hơn của chính phủ (S045) · bộ máy của chính phủ liên bang (S051) · [chính phủ lập sẵn (S003) — thuật ngữ riêng] | EN: S015, S048, S055 · VI: S014, S045, S051 |
+| D | Tòa Bạch Ốc / White House | White House (S017, S018, S031, S033, S034, S036, S053) | Tòa Bạch Ốc (S016, S017, S028, S030, S031, S033, S049) | EN: S031, S036, S053 · VI: S028, S033, S049 |
+| E | GSA | the General Services Administration (S027) · the GSA (S030) · GSA (S053) | Tổng cục Dịch vụ GSA (S024) · GSA (S027, S049) | EN: S030, S053 · VI: S027, S049 |
+| F | hồ sơ tình báo hàng ngày | his daily intelligence briefing document — the President's Daily Brief (S021) · the daily intelligence briefing (S030) | tài liệu tóm tắt tình báo hàng ngày — Tóm tắt hàng ngày của Tổng thống (S019) · báo cáo tình báo hàng ngày (S027) | EN: S030 · VI: S027 |
+| G | Trung tâm Chuyển giao Tổng thống | the Center for Presidential Transition (S007, S038) | Trung tâm Chuyển giao Tổng thống (S006, S035) | EN: S038 · VI: S035 |
+| H | nhãn vai tổng thống (trường §1-v) | president-to-be (S006) · a sitting president and a president-elect (S017) · the incoming commander-in-chief (S021) · the president-elect's (S036) · the incoming president (S039) · presidents-elect (S042) · the outgoing president / the incoming president's (S057) · the sitting president (S058) · [dạng trần: president (S002, S019, S021, S025), President Harry Truman (S018) — không đánh dấu] | Tổng thống tương lai (S005) · tổng thống đương nhiệm / tổng thống đắc cử (S016) · tổng tư lệnh mới (S019) · tổng thống đắc cử (S033) · tân tổng thống (S036) · các tổng thống đắc cử (S039) · tổng thống sắp mãn nhiệm / tổng thống mới (S053) · tổng thống đương nhiệm (S054) · [dạng trần: tổng thống (S002, S018, S019, S022), Tổng thống Harry Truman (S017), Tổng thống Indonesia (S060) — không đánh dấu] | EN: S017, S021, S036, S039, S057 · VI: S016, S019, S033, S036, S053 |
+| I | truyền thống – phong tục – tập quán | tradition and custom (S014) · the customs and habits (S015) · Some of the traditions (S016) · this tradition (S018 — R-EN6, không lập hàng L) · In a tradition (S021) · Other practices (S020 — R-EN8) · Neither practice (S022 — R-EN9) · Breaking with tradition (S031) | Truyền thống và luật pháp (S012, subhead) · truyền thống và phong tục (S013) · phong tục và thói quen (S014) · Một số truyền thống (S015) · truyền thống này (S017 — R-VI5) · một truyền thống có từ năm 1968 (S019) · hoạt động ×2 (S020, đối ứng EN "practice" — liên kết đọc qua EN, không đánh dấu) · Phá vỡ truyền thống (S028) | EN: S021, S031 · VI: S019, S028 |
+| J | luật | laws and regulations (S014) · written into law / legally mandated (S022) · The Presidential Transition Act of 1963 (S023, tên riêng) · additions to the law (S028) | luật pháp (S012, subhead) · luật pháp và quy định (S013) · được viết thành luật / pháp luật quy định (S020) · Đạo luật Chuyển tiếp Tổng thống năm 1963 (S021, tên riêng) · [bổ sung gần nhất (S025) — EN có "to the law", VI lược] | EN: S022 · VI: S020 |
+| K | việc làm – vị trí (mục tuyển dụng) | Filling 4,000-plus jobs (S035, subhead) · more than 4,000 positions (S038) · political positions (S041) · [staffing (S037), recruitment (S040), appointments (S042), officials (S043), personnel announcements (S044) — tản mát] | Lấp đầy hơn 4.000 việc làm (S032, subhead) · hơn 4.000 vị trí (S035) · các vị trí chính trị (S038) · [tuyển dụng nhân sự (S034), nỗ lực tuyển dụng (S037 — R-VI9), các cuộc bổ nhiệm (S039), quan chức (S040), nhân sự (S041) — tản mát] | EN: S038 · VI: S035 |
+| M | lễ nhậm chức | Inauguration Day (S008) · his inauguration (S031) · is inaugurated (S039) · Inauguration Day (S042) · the incoming president's inauguration (S057) · [until January 20 (S058) — mốc lịch] | Ngày nhậm chức (S007) · lễ nhậm chức của ông Biden (S028) · tuyên thệ nhậm chức (S036, hiện thực hóa "is inaugurated") · Ngày nhậm chức (S039) · lễ nhậm chức của tổng thống mới (S053) · [ngày 20 tháng 1 (S054) — mốc lịch] | EN: S057 · VI: S053 |
+| N | nhiệm vụ | a mammoth task (S007) · main mission (S036) | một nhiệm vụ to lớn (S006) · nhiệm vụ chính (S033) | EN: S036 · VI: S033 |
+| O | ẩn dụ kết bài (trường §1-viii) | the pendulum has swung back (S032) · a high-stakes chess game (S059) · thread the needle (S060) · a diplomatic tightrope (S061) · The diplomatic dance (S062) · a delicate balancing act (S065) | con lắc (S029) · ván cờ đầy cam go (S055) · tìm cách cân bằng (S056) · sợi dây ngoại giao đầy thử thách (S057) · Vũ điệu ngoại giao (S058) · hành động cân bằng tinh tế (S061) | EN: S062 · VI: S058, S061 |
+| P | Trump | Donald Trump (S002) · Trump (S019, S029, S031, S032, S033, S043, S052, S053, S054, S063, S064) | Ông Donald Trump (S002) · ông Trump (S018, S026, S028, S029, S030, S040, S048, S049, S050, S059, S060) | EN: S019, S029, S043, S052, S063 · VI: S018, S026, S040, S048, S059 |
+| Q | Biden | President Joe Biden (S030) · Biden (S031, S033, S052, S053) | Tổng thống Joe Biden (S027) · ông Biden (S028 ×2, S030, S048, S049) | EN: S052 · VI: S048 |
+| R | Shurkin | Michael Shurkin (S010) · Shurkin (S047) | ông Michael Shurkin (S009) · Ông Shurkin (S044) | EN: S047 · VI: S044 |
+| S | Muller | Derek Muller (S015) · Muller (S054, S055, S063, S065) | Ông Derek Muller (S014) · Ông Muller (S050, S051, S059, S061) | EN: S054, S063 · VI: S050, S059 |
+| T | chính phủ – nhà lãnh đạo nước ngoài | Foreign governments (S061) · foreign governments / foreign leaders (S063) · those foreign government leaders (S065 — R-EN20) | các chính phủ nước ngoài (S057, S059) · các nhà lãnh đạo nước ngoài (S059) · các nhà lãnh đạo chính phủ nước ngoài (S061) | EN: — (dùng "those" = R-EN20) · VI: S061 |
+| U | tên riêng khác (đơn lệ hoặc lặp kề) | Russel Riley (S011, S012 kề) · Valerie Smith Boyd (S007) · Harry Truman (S018) · Dwight Eisenhower (S018 ×2, cùng câu) · Keir Starmer (S001) · Prabowo Subianto (S064) · George W. Bush / Barack Obama (S010) | Russel Riley (S010, S011 kề) · Valerie Smith Boyd (S006) · Harry Truman (S017) · Dwight Eisenhower (S017 ×2, cùng câu) · Keir Starmer (S001) · Prabowo Subianto (S060) · George W. Bush / Barack Obama (S009) | không (§8.1 — đơn lệ/lặp kề/[TC]) |
+| V | khác — chỉ inventory, không đánh dấu | president trần (S002, S019, S021, S025) · election (S001, S002, S025, S032) · federal agencies (S025, S053, S055) · "lame duck" (S056→S057 kề) · Washington (dateline S001, S031) · seamless/smooth (S009, S033, S053 — collocation kèm chuỗi A) · said/noted (verba dicendi) · Senate (S038) · U.S. embassies (S063) · Allies and rivals (S060) | tổng thống trần (S002, S018, S019, S022) · bầu cử (S001, S002, S022, S029) · cơ quan liên bang (S022, S049, S051 — tái lập ghi qua R-EN18/R-VI14) · "vịt què" (S052→S053 kề) · Washington (S028) · suôn sẻ (S008, S030, S048) · nói/cho biết/lưu ý · Thượng viện (S035) · toà đại sứ Hoa Kỳ (S059) · đồng minh và đối thủ (S056) | không |
+
+### 6.3. Các hàng L ghi vào tie table
+
+Mọi trích dẫn lấy nguyên văn từ sentmap; occ đã kiểm bằng tay (vd "ông Trump"
+xuất hiện 1 lần trong S018/S040/S048/S059, "GSA" 1 lần trong S049, "lễ nhậm
+chức" 1 lần trong S053); các câu có nhiều hàng thuộc các chuỗi khác nhau.
+
+**EN — 44 hàng:**
+
+| # | Câu | Nguyên văn | sub | Tiền trạm (mã câu + nguyên văn) |
+|---|---|---|---|---|
+| L-EN1 | S009 | transfer of power | synonym | S008 "The presidential transition" (chuỗi A; mục từ mới vào chuỗi ở câu kề; "from one administration to another" cùng câu — chuỗi B) |
+| L-EN2 | S014 | the transition | repetition | S012 "presidential transition" (chuỗi A; rút gọn, sau 2 câu, mở đoạn sau subhead S013; alt "R: the") |
+| L-EN3 | S015 | the federal government | repetition | S006 "a sprawling government bureaucracy" (chuỗi C; sau 9 câu; alt "R: the") |
+| L-EN4 | S017 | a sitting president and a president-elect | synonym | S006 "America’s president-to-be" (chuỗi H; sau 11 câu, tại "For example"; "a sitting president" là phép đối trong cùng NP — 1 mark) |
+| L-EN5 | S019 | Trump | repetition | S002 "Donald Trump" (chuỗi P; sau 17 câu — Trump quay lại mạch tường thuật) |
+| L-EN6 | S021 | the incoming commander-in-chief | synonym | S017 "a president-elect" (chuỗi H; sau 4 câu; nhãn vai mới) |
+| L-EN7 | S021 | In a tradition that dates to 1968 | repetition | S016 "Some of the traditions" (chuỗi I; sau 5 câu) |
+| L-EN8 | S022 | the transition | repetition | S015 "presidential transition" (chuỗi A; sau 7 câu; alt "R: the") |
+| L-EN9 | S022 | written into law | repetition | S014 "laws and regulations" (chuỗi J; sau 8 câu; "legally mandated" cùng câu — 1 mark) |
+| L-EN10 | S028 | an orderly presidential succession | synonym | S022 "the transition" (chuỗi A; sau 6 câu; nhánh "succession" tách từ lõi) |
+| L-EN11 | S029 | Trump | repetition | S019 "Trump" (chuỗi P; sau 10 câu, mở khối đứt gãy 2020) |
+| L-EN12 | S030 | the daily intelligence briefing | repetition | S021 "his daily intelligence briefing document" (chuỗi F; sau 9 câu, rút gọn; alt "R: the") |
+| L-EN13 | S030 | the GSA | repetition | S027 "the General Services Administration" (chuỗi E; sau 3 câu, viết tắt; alt "R: the") |
+| L-EN14 | S031 | Breaking with tradition | repetition | S021 "In a tradition that dates to 1968" (chuỗi I; sau 10 câu) |
+| L-EN15 | S031 | the White House | repetition | S018 "to the White House" (chuỗi D; sau 13 câu; alt "R: the") |
+| L-EN16 | S033 | a smooth transition | synonym | S028 "an orderly presidential succession" (chuỗi A; sau 5 câu; trở về đầu từ "transition") |
+| L-EN17 | S036 | A White House meet-and-greet | repetition | S034 "The White House" (chuỗi D; sau 2 câu, mở mục "Filling 4,000-plus jobs") |
+| L-EN18 | S036 | the president-elect’s | repetition | S017 "a president-elect" (chuỗi H; sau 19 câu, mở mục) |
+| L-EN19 | S036 | main mission | synonym | S007 "a mammoth task" (chuỗi N; sau 29 câu) |
+| L-EN20 | S037 | a new administration | repetition | S009 "from one administration to another" (chuỗi B; sau 28 câu, mở mục) |
+| L-EN21 | S038 | the Center for Presidential Transition | repetition | S007 "the Center for Presidential Transition" (chuỗi G; sau 31 câu, tại "according to"; alt "R: the") |
+| L-EN22 | S038 | more than 4,000 positions | repetition | S035 "Filling 4,000-plus jobs" (chuỗi K; sau 3 câu; subhead làm tiền trạm) |
+| L-EN23 | S039 | the incoming president | synonym | S036 "the president-elect’s" (chuỗi H; sau 3 câu; nhãn vai mới) |
+| L-EN24 | S043 | Trump | repetition | S033 "Trump" (chuỗi P; sau 10 câu, mở khối danh sách quan chức) |
+| L-EN25 | S043 | key administration officials | repetition | S038 "The incoming administration" (chuỗi B; sau 5 câu) |
+| L-EN26 | S045 | presidential succession | synonym | S033 "a smooth transition" (chuỗi A; sau 12 câu; nhánh "succession" trở lại) |
+| L-EN27 | S046 | the complex handover | synonym | S045 "presidential succession" (chuỗi A; câu kề; mục từ mới "handover" vào chuỗi) |
+| L-EN28 | S047 | Shurkin said | repetition | S010 "said Michael Shurkin" (chuỗi R; sau 37 câu; lặp tên người nói trong attribution — §8.1 iii) |
+| L-EN29 | S048 | the government | repetition | S015 "the federal government" (chuỗi C; sau 33 câu, trong trích dẫn Shurkin; alt "R: the") |
+| L-EN30 | S052 | Trump | repetition | S043 "Trump" (chuỗi P; sau 9 câu; trong "the Trump and Biden teams") |
+| L-EN31 | S052 | Biden | repetition | S033 "Biden" (chuỗi Q; sau 19 câu; cùng NP "the Trump and Biden teams") |
+| L-EN32 | S053 | a smooth handover | repetition | S046 "the complex handover" (chuỗi A; sau 7 câu; "a smooth" lặp "a smooth transition" S033) |
+| L-EN33 | S053 | the White House | repetition | S036 "A White House meet-and-greet" (chuỗi D; sau 17 câu; alt "R: the") |
+| L-EN34 | S053 | GSA | repetition | S030 "the GSA" (chuỗi E; sau 23 câu) |
+| L-EN35 | S054 | Muller said | repetition | S015 "said Derek Muller" (chuỗi S; sau 39 câu; lặp tên attribution — §8.1 iii) |
+| L-EN36 | S055 | the apparatus of the federal government | repetition | S048 "the government" (chuỗi C; sau 7 câu, trong trích dẫn Muller) |
+| L-EN37 | S057 | The presidential transition | synonym | S053 "a smooth handover" (chuỗi A; sau 4 câu, mở mục "'Lame duck' period"; nguyên dạng thuật ngữ trở lại; alt "R: The") |
+| L-EN38 | S057 | the outgoing president | antonym | S042 "presidents-elect" (chuỗi H; sau 15 câu, mở mục; "the incoming president's" cùng câu — 1 mark) |
+| L-EN39 | S057 | the incoming president's inauguration | repetition | S042 "Inauguration Day" (chuỗi M; sau 15 câu, mở mục) |
+| L-EN40 | S060 | current and future administrations | repetition | S046 "both administrations" (chuỗi B; sau 14 câu; "both" đã ghi R-EN15) |
+| L-EN41 | S062 | The diplomatic dance | collocation | S061 "walk a diplomatic tightrope" (chuỗi O; câu kề; ẩn dụ mới vào trường + lặp "diplomatic") |
+| L-EN42 | S063 | Muller noted | repetition | S054 "Muller said" (chuỗi S; sau 9 câu; lặp tên attribution) |
+| L-EN43 | S063 | Trump | repetition | S054 "Trump's team" (chuỗi P; sau 9 câu) |
+| L-EN44 | S063 | a new administration | repetition | S060 "current and future administrations" (chuỗi B; sau 3 câu, trong trích dẫn Muller) |
+
+**VI — 46 hàng:**
+
+| # | Câu | Nguyên văn | sub | Tiền trạm (mã câu + nguyên văn) |
+|---|---|---|---|---|
+| L-VI1 | S008 | quá trình chuyển giao quyền lực | repetition | S007 "Chuyển giao tổng thống" (chuỗi A; biến thể thêm bổ ngữ ở câu kề, đối ứng EN "transfer of power") |
+| L-VI2 | S010 | thời kỳ chuyển tiếp | synonym | S007 "Chuyển giao tổng thống" (chuỗi A; sau 3 câu; họ "chuyển tiếp" xuất hiện — EN giữ "transition") |
+| L-VI3 | S013 | quá trình chuyển tiếp | repetition | S010 "thời kỳ chuyển tiếp" (chuỗi A; sau 3 câu, mở đoạn sau subhead S012) |
+| L-VI4 | S014 | chính phủ liên bang | repetition | S005 "tân chính phủ" (chuỗi C; sau 9 câu) |
+| L-VI5 | S016 | một tổng thống đương nhiệm và một tổng thống đắc cử | synonym | S005 "Tổng thống tương lai" (chuỗi H; sau 11 câu, tại "Ví dụ"; "tổng thống đương nhiệm" là phép đối trong cùng NP — 1 mark) |
+| L-VI6 | S018 | ông Trump | repetition | S002 "Ông Donald Trump" (chuỗi P; sau 16 câu; lặp tên + danh xưng) |
+| L-VI7 | S019 | tổng tư lệnh mới | synonym | S016 "tổng thống đắc cử" (chuỗi H; sau 3 câu; nhãn vai mới) |
+| L-VI8 | S019 | một truyền thống có từ năm 1968 | repetition | S015 "Một số truyền thống" (chuỗi I; sau 4 câu) |
+| L-VI9 | S020 | quá trình chuyển tiếp | repetition | S013 "quá trình chuyển tiếp" (chuỗi A; sau 7 câu) |
+| L-VI10 | S020 | được viết thành luật | repetition | S013 "luật pháp và quy định" (chuỗi J; sau 7 câu; "pháp luật quy định" cùng câu — 1 mark) |
+| L-VI11 | S025 | việc kế nhiệm tổng thống có trật tự | synonym | S020 "quá trình chuyển tiếp" (chuỗi A; sau 5 câu; nhánh "kế nhiệm" tách từ lõi) |
+| L-VI12 | S026 | ông Trump | repetition | S018 "ông Trump" (chuỗi P; sau 8 câu, mở khối đứt gãy 2020) |
+| L-VI13 | S027 | báo cáo tình báo hàng ngày | repetition | S019 "tài liệu tóm tắt tình báo hàng ngày" (chuỗi F; sau 8 câu; biến thể thứ 3 — VI phân rã) |
+| L-VI14 | S027 | GSA | repetition | S024 "Tổng cục Dịch vụ GSA" (chuỗi E; sau 3 câu, rút gọn) |
+| L-VI15 | S028 | Phá vỡ truyền thống | repetition | S019 "một truyền thống có từ năm 1968" (chuỗi I; sau 9 câu) |
+| L-VI16 | S028 | Tòa Bạch Ốc | repetition | S017 "đến Tòa Bạch Ốc" (chuỗi D; sau 11 câu) |
+| L-VI17 | S030 | một cuộc chuyển giao suôn sẻ | synonym | S025 "việc kế nhiệm tổng thống có trật tự" (chuỗi A; sau 5 câu; họ "chuyển giao" trở lại) |
+| L-VI18 | S033 | Tòa Bạch Ốc | repetition | S031 "Tòa Bạch Ốc" (chuỗi D; sau 2 câu, mở mục "Lấp đầy hơn 4.000 việc làm") |
+| L-VI19 | S033 | tổng thống đắc cử | repetition | S016 "tổng thống đắc cử" (chuỗi H; sau 17 câu, mở mục) |
+| L-VI20 | S033 | nhiệm vụ chính | repetition | S006 "một nhiệm vụ to lớn" (chuỗi N; sau 27 câu; EN đối ứng là đồng nghĩa task→mission) |
+| L-VI21 | S034 | chính quyền mới | repetition | S008 "từ chính quyền này sang chính quyền khác" (chuỗi B; sau 26 câu, mở mục) |
+| L-VI22 | S035 | Trung tâm Chuyển giao Tổng thống | repetition | S006 "Trung tâm Chuyển giao Tổng thống" (chuỗi G; sau 29 câu, tại "Theo") |
+| L-VI23 | S035 | hơn 4.000 vị trí | repetition | S032 "Lấp đầy hơn 4.000 việc làm" (chuỗi K; sau 3 câu; subhead làm tiền trạm) |
+| L-VI24 | S036 | tân tổng thống | synonym | S033 "tổng thống đắc cử" (chuỗi H; sau 3 câu; nhãn vai mới) |
+| L-VI25 | S040 | Ông Trump | repetition | S030 "ông Trump" (chuỗi P; sau 10 câu, mở khối danh sách quan chức) |
+| L-VI26 | S040 | các quan chức chính quyền chủ chốt | repetition | S035 "chính quyền mới" (chuỗi B; sau 5 câu) |
+| L-VI27 | S042 | quá trình kế nhiệm tổng thống | synonym | S030 "một cuộc chuyển giao suôn sẻ" (chuỗi A; sau 12 câu; nhánh "kế nhiệm" trở lại) |
+| L-VI28 | S044 | Ông Shurkin | repetition | S009 "ông Michael Shurkin" (chuỗi R; sau 35 câu; lặp tên attribution + danh xưng — §8.1 iii) |
+| L-VI29 | S045 | các bộ phận quan trọng hơn của chính phủ | repetition | S014 "chính phủ liên bang" (chuỗi C; sau 31 câu, trong trích dẫn Shurkin) |
+| L-VI30 | S048 | ông Trump | repetition | S040 "Ông Trump" (chuỗi P; sau 8 câu; trong "nhóm của ông Trump và ông Biden") |
+| L-VI31 | S048 | ông Biden | repetition | S030 "ông Biden" (chuỗi Q; sau 18 câu; cùng NP) |
+| L-VI32 | S049 | việc chuyển giao suôn sẻ | synonym | S042 "quá trình kế nhiệm tổng thống" (chuỗi A; sau 7 câu; họ "chuyển giao" trở lại) |
+| L-VI33 | S049 | Tòa Bạch Ốc | repetition | S033 "Tòa Bạch Ốc" (chuỗi D; sau 16 câu) |
+| L-VI34 | S049 | GSA | repetition | S027 "GSA" (chuỗi E; sau 22 câu) |
+| L-VI35 | S050 | Ông Muller | repetition | S014 "Ông Derek Muller" (chuỗi S; sau 36 câu; lặp tên attribution + danh xưng) |
+| L-VI36 | S051 | chính phủ liên bang | repetition | S045 "các bộ phận quan trọng hơn của chính phủ" (chuỗi C; sau 6 câu; trong "bộ máy của chính phủ liên bang") |
+| L-VI37 | S053 | Thời kỳ chuyển giao tổng thống | repetition | S049 "việc chuyển giao suôn sẻ" (chuỗi A; sau 4 câu, mở mục "Thời kỳ 'vịt què'"; nguyên dạng "chuyển giao tổng thống" trở lại) |
+| L-VI38 | S053 | tổng thống sắp mãn nhiệm | antonym | S039 "các tổng thống đắc cử" (chuỗi H; sau 14 câu, mở mục; "tổng thống mới" cùng câu — 1 mark) |
+| L-VI39 | S053 | lễ nhậm chức | repetition | S039 "Ngày nhậm chức" (chuỗi M; sau 14 câu, mở mục) |
+| L-VI40 | S056 | chính quyền hiện tại và tương lai | repetition | S043 "cả hai chính quyền" (chuỗi B; sau 13 câu; "cả hai" đã ghi R-VI11) |
+| L-VI41 | S058 | Vũ điệu ngoại giao | collocation | S057 "sợi dây ngoại giao" (chuỗi O; câu kề; ẩn dụ mới vào trường + lặp "ngoại giao") |
+| L-VI42 | S059 | một chính quyền mới | repetition | S056 "chính quyền hiện tại và tương lai" (chuỗi B; sau 3 câu) |
+| L-VI43 | S059 | ông Trump | repetition | S050 "nhóm của ông Trump" (chuỗi P; sau 9 câu) |
+| L-VI44 | S059 | ông Muller | repetition | S050 "Ông Muller" (chuỗi S; sau 9 câu; lặp tên attribution + danh xưng) |
+| L-VI45 | S061 | hành động cân bằng tinh tế | repetition | S056 "tìm cách cân bằng" (chuỗi O; sau 5 câu; lặp "cân bằng" — EN phân rã tại vị trí này: "thread the needle" ↔ "balancing act") |
+| L-VI46 | S061 | các nhà lãnh đạo chính phủ nước ngoài | repetition | S059 "các nhà lãnh đạo nước ngoài" (chuỗi T; sau 2 câu; hiện thực hóa R-EN20 "those" bằng lặp danh từ — R→L) |
+
+### 6.4. Nhận định
+
+- **Chuỗi A là xương sống của bài (9 hàng mỗi phía)** nhưng đồ hình khác
+  nhau: EN phân rã thành 4 hạng mục (presidential transition / transfer of
+  power / handover / presidential succession) nên hai hàng rơi đúng vị trí
+  "mục từ mới vào chuỗi" (L-EN1 S009, L-EN27 S046); VI hội tụ về hai họ
+  chuyển giao + chuyển tiếp (tách nhánh kế nhiệm) nên "quá trình chuyển giao"
+  được tái dùng ở S043 không tạo hàng mới, bù lại mọi lần tái lập sau khoảng
+  cách (S020, S048) đều có hàng — hội tụ không làm giảm số đếm vì chính sách
+  đánh dấu theo tái lập/khoảng cách chứ không theo số dạng.
+- **Chuỗi nhân vật gần đối xứng (9 hàng mỗi phía: Trump 5, Muller 2, Biden 1,
+  Shurkin 1)** vì EN của cặp này vốn gọi tên đầy đủ trong mọi attribution
+  (không có "he said" như P17); khác biệt nằm ở hình thức: VI thêm danh xưng
+  ông/bà trước tên ở mọi lần lặp ("ông Trump", "Ông Muller", "Bà Valerie
+  Smith Boyd") — lặp tên + danh xưng là chiến lược theo dõi nhân vật chủ lực
+  của VI (phép lặp, Trần Ngọc Thêm).
+- **Hội tụ/phân rã hai chiều:** ẩn dụ kết bài phân rã phía EN ("thread the
+  needle" S060 ↔ "a delicate balancing act" S065 không cùng từ vựng → không
+  có hàng) nhưng hội tụ phía VI ("tìm cách cân bằng" S056 → "hành động cân
+  bằng tinh tế" S061 → L-VI45); ngược lại, chuỗi hồ sơ tình báo phân rã phía
+  VI (3 biến thể) nơi EN gần nguyên dạng — mỗi bên vẫn 1 hàng.
+- **Phép đối (antonym) đúng một cặp:** the outgoing president / tổng thống
+  sắp mãn nhiệm ← presidents-elect / các tổng thống đắc cử (L-EN38, L-VI38)
+  — cặp vai đối xứng của chuyển giao, đặt ở câu mở mục "'Lame duck' period".
+- Số đếm L phụ thuộc trực tiếp chính sách §6.1: các NP đã ghi R ở §4 (this
+  tradition, Neither practice, both/cả hai chính quyền, those foreign
+  government leaders), danh từ trần (president, election), tổ hợp thuộc tính
+  lần đầu (transition council/director/teams), tên lặp kề (Riley S011→S012,
+  Tòa Bạch Ốc S016→S017, "vịt què" S052→S053) và trường tuyển dụng tản mát
+  đều chỉ nằm trong kho §6.2, không thành hàng.
+
+## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
+
+| Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn hai đầu |
+|---|---:|---|
+| EN chỉ từ + danh từ → VI danh từ trần (bỏ chỉ từ; R→zero) | 3 | EN S008 "those critical 11 weeks" → VI S007 "11 tuần quan trọng"; EN S045 "these announcements dominate the news cycle" → VI S042 "những thông báo đang chiếm lĩnh tin tức"; EN S022 "Neither practice is written into law" → VI S020 "Không có hoạt động nào được viết thành luật" |
+| EN chỉ từ → VI lặp danh từ đầy đủ (R→L) | 1 | EN S065 "for those foreign government leaders" (R-EN20) → VI S061 "đối với các nhà lãnh đạo chính phủ nước ngoài" (L-VI46) |
+| EN mạo từ + danh từ tổng quát → VI danh từ + chỉ từ (danh ngữ hóa) | 2 | EN S009 "The period" → VI S008 "Khoảng thời gian này"; EN S019 "The example" → VI S018 "tấm gương này" |
+| EN đại từ → VI danh ngữ demonstrative (R đổi dạng, personal → demonstrative) | 1 | EN S034 "their two-hour meeting" → VI S031 "cuộc họp kéo dài hai giờ này" |
+| EN thế → VI hiện thực hóa | 3 | EN S015 "do" (S-EN1) → VI S014 "thực hiện"; EN S061 "those" (S-EN2, [TC]) → VI S057 "những chính phủ"; EN S064 "the two" → VI S060 "hai người" |
+| EN tỉnh lược → VI lấp đầy | 0 | không có E hai phía (§2); "is inaugurated" → "tuyên thệ nhậm chức" (S039/S036) là hiện thực hóa từ vựng, không phải lấp khe ∅ |
+| EN "the" + danh từ tái lập → VI danh từ trần/lặp (alt "R: the" ghi ở hàng L) | 10 | "the transition" (S014, S022), "the federal government" (S015), "the government" (S048), "the daily intelligence briefing" (S030), "the GSA" (S030), "the White House" (S031, S053), "the Center for Presidential Transition" (S038), "The presidential transition" (S057) ↔ "quá trình chuyển tiếp", "chính phủ liên bang", "báo cáo tình báo hàng ngày", "GSA", "Tòa Bạch Ốc", "Trung tâm Chuyển giao Tổng thống", "Thời kỳ chuyển giao tổng thống" |
+| EN nối tường minh giữ 1–1 đúng vị trí | 3 | "For example" ↔ "Ví dụ" (S017/S016, additive); "Then" ↔ "Rồi" (S029/S026, temporal); "But" ↔ "Nhưng" (S045/S042, adversative) — không lược, không tự sinh, không đổi kiểu |
+| EN nối ngầm → VI hiện thực | 0 | không có — đối lập ngầm của lede (EN S004→S005 ↔ VI S003→S004) và các bước lập luận (S031→S032, S057–S058→S059, S060–S061→S062) giữ ngầm ở cả hai phía (§5) |
+| EN tên trong attribution → VI tên + danh xưng (giữ 1–1, VI thêm ông/bà) | 6 | EN S047 "Shurkin said in an interview with VOA" ↔ VI S044 "Ông Shurkin nói trong một cuộc phỏng vấn với VOA"; EN S054 "Muller said" ↔ VI S050 "Ông Muller cho biết" (3 cặp đánh dấu L; 3 cặp lặp kề không đánh dấu: S055/S051, S063/S059, S065/S061, Riley S012/S011) |
+| VI dời attribution lên đầu câu (EN để cuối câu) | 5 | VI S006 "Bà Valerie Smith Boyd, chủ tịch Trung tâm Chuyển giao Tổng thống, nói:", S010 "Theo nhà sử học Russel Riley", S014 "Ông Derek Muller, giáo sư luật tại Notre Dame…, nói:", S035 "Theo Trung tâm Chuyển giao Tổng thống", S044 "Ông Shurkin nói… rằng" |
+| VI cắt khối câu (rows.json có "vi" rỗng) | 3 | EN S003 "What gives?", S020 "Other practices are more consequential.", S024 "Among other things:" — tie EN đứng độc lập (R-EN8, C-EN2) |
+| VI cắt cụm trong câu | 4 | dateline "WASHINGTON —" (S001); "for noncareer employees" (EN S026 ↔ VI S023); "— the federal government's landlord —" (EN S027 ↔ VI S024); "to the law" (EN S028 "recent additions to the law" ↔ VI S025 "những bổ sung gần nhất") |
+| VI cụ thể hóa mốc thời gian | 1 | EN S033 "On Wednesday" → VI S030 "Vào ngày 13/11" (biên tập VI chốt ngày tuyệt đối; "In July" → "Vào tháng 7 năm nay" thêm "năm nay" — explicitation nhẹ) |
+| VI tự sinh (câu/từ vựng liên kết) | 0 | không có — khác P17 (không có attribution tự sinh); mọi câu VI đều đối ứng 1–1 |
+| EN phân rã ↔ VI hội tụ (trường ẩn dụ kết bài) | 1 | EN S060 "thread the needle" ↔ VI S056 "tìm cách cân bằng"; EN S065 "a delicate balancing act" ↔ VI S061 "hành động cân bằng tinh tế" (L-VI45 — EN không có hàng tại vị trí này) |
+| VI phân rã ↔ EN gần nguyên dạng (hồ sơ tình báo) | 1 | EN S021 "his daily intelligence briefing document — the President's Daily Brief" → S030 "the daily intelligence briefing" ↔ VI S019 "tài liệu tóm tắt tình báo hàng ngày — Tóm tắt hàng ngày của Tổng thống" → S027 "báo cáo tình báo hàng ngày" (VI 3 biến thể, mỗi bên 1 hàng L) |
+| VI tách hệ danh từ chính phủ / chính quyền | 1 (hệ thống) | EN "government" (S006, S015, S048, S055) → VI "chính phủ / chính phủ liên bang" (S005, S014, S045, S051); EN "administration" (S009–S063) → VI "chính quyền" — VI phân biệt đều đặn hai danh từ mà EN dùng một trường |
+
+## 8. Bất thường dữ liệu nguồn (cần ghi chú khi thống kê)
+
+- **(a) Lỗi chính tả VI S061:** "đối phó vơi" (thiếu dấu — phải là "với").
+  Nguyên văn giữ nguyên khi trích dẫn; lỗi nằm ngoài mọi hàng tie của S061
+  (L-VI45 trích "hành động cân bằng tinh tế", L-VI46 trích "các nhà lãnh đạo
+  chính phủ nước ngoài"), không ảnh hưởng quyết định mã.
+- **(b) VI lược cụm "for noncareer employees"** (EN S026 "lock in succession
+  plans for noncareer employees" ↔ VI S023 "chốt kế hoạch kế nhiệm") — cắt
+  nội dung dịch, không phải tỉnh lược (phần bị bỏ không hồi phục được từ liên
+  văn bản VI); không bịa tie (§2).
+- **(c) VI lược appositive "— the federal government's landlord —"** (EN
+  S027 ↔ VI S024) — cùng loại cắt nội dung; chuỗi C phía VI không có thành
+  viên đối ứng tại đây.
+- **(d) VI lược "to the law"** (EN S028 "recent additions to the law" ↔ VI
+  S025 "những bổ sung gần nhất") — khiến chuỗi luật (J) không có thành viên
+  VI tại vị trí này; hàng L luật phía VI (L-VI10) đối ứng L-EN9 tại S022/S020
+  thay vì S028/S025.
+- **(e) Dateline "WASHINGTON —" (EN S001) bị VI lược;** EN S031 "left
+  Washington" lặp chữ Washington có trong dateline — dateline là siêu văn
+  bản, **không dùng làm bằng chứng cấp câu** (không lập hàng L "Washington";
+  VI S028 "rời khỏi Washington" đơn lệ).
+- **(f) EN S051 artifact:** dấu "”" đóng trích dẫn bị segmenter tách thành
+  "câu" riêng — không phải câu thật; **không đánh dấu tie, không dùng làm
+  bằng chứng cấp câu**; khi tính mật độ nên loại (65 câu sentmap = 64 câu
+  thật).
+- **(g) Lỗi gõ nguồn EN:** S004 ngoặc kép lệch (mở " cong, đóng " thẳng
+  trong "shadow government"); S034/S053 lẫn kiểu apostrophe ("substantive."
+  đóng thẳng) — chỉ là kiểu gõ, không ảnh hưởng ranh giới câu hay tie.
+- **(h) 3 khối cắt có "vi" rỗng trong rows.json** (rows 2, 16, 19 = EN S003,
+  S020, S024): tie EN tại đây đứng độc lập theo CONVENTIONS §1 (R-EN8,
+  C-EN2); **không dùng các vị trí này làm bằng chứng phía VI** (không bịa
+  tie đối ứng).
+- **(i) VI S041 "hơn dự kiến"** dễ đọc nhầm là "than expected" — R-VI10 chọn
+  đọc đối ứng EN "More" (S044), đã ghi chú §4; dùng thận trọng khi tổng hợp.
+- **(j) "On Wednesday" → "Vào ngày 13/11"** (EN S033 ↔ VI S030) — VI cụ thể
+  hóa mốc tương đối thành ngày tuyệt đối (biên tập theo ngày phát hành);
+  không sinh tie.
+- **(k) Ba subhead mỗi bên** (EN S013/S035/S056 ↔ VI S012/S032/S052) — hàng
+  body bình thường theo CONVENTIONS §1; S035 "Filling 4,000-plus jobs" /
+  S032 "Lấp đầy hơn 4.000 việc làm" được dùng làm tiền trạm cho L-EN22 /
+  L-VI23 (subhead là hàng body hợp lệ).
+- **(l) Segmenter sạch:** không có câu bị chẻ tại dấu viết tắt (U.S. S002,
+  "2008-09" S010, "14 North Strategies" giữ nguyên một câu); không có câu
+  trùng hai phía.
+- **(m) VI phân biệt hệ thống chính phủ (← government) / chính quyền (←
+  administration)** — khác biệt từ vựng đều đặn, không phải lỗi; riêng VI
+  S005 "tân chính phủ" (← EN "a sprawling government bureaucracy") ghi
+  inventory chuỗi C, cùng chỉ đối tượng với "chính quyền mới" nhưng khác
+  danh từ.
+- **(n) VI lược chỉ từ "those" của R-EN2, giữ "11 tuần quan trọng"** (EN
+  S008 "those critical 11 weeks" ↔ VI S007 "11 tuần quan trọng"): đây là
+  dịch chuyển R→zero đã đếm ở §7, không phải bất thường dữ liệu — ghi để
+  khỏi nhầm với cắt nội dung (b)–(d).
+
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+
+| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+|---|---:|---:|---|
+| EN — R | 20 | *(điền ở bước tie table)* | §4.1 (R-EN1–EN20), toàn bộ hướng A; hàng cầu nối: R-EN2, R-EN7 (med), R-EN15 (low); đọc chừng R-EN4 (low) |
+| EN — S | 2 | *(điền ở bước tie table)* | §3: S-EN1 [LC] conf thấp; S-EN2 [TC] — **không dùng làm bằng chứng liên câu** |
+| EN — E | 0 | *(điền ở bước tie table)* | §2: không có tỉnh lược (kể cả [TC]) |
+| EN — C | 4 | *(điền ở bước tie table)* | §5 (C-EN1–4), toàn bộ [LC]; C-EN2 thuộc khối cắt S024, conf thấp |
+| EN — L | 44 | *(điền ở bước tie table)* | §6.3 (L-EN1–EN44) theo chính sách §6.1; 10 hàng có alt "R: the" |
+| VI — R | 15 | *(điền ở bước tie table)* | §4.1 (R-VI1–VI15), toàn bộ hướng A; R-VI3 (low), R-VI11 (low) |
+| VI — S | 0 | *(điền ở bước tie table)* | §3: mọi pro-form EN được hiện thực hóa ("do"→"thực hiện", "those"→"những chính phủ", "the two"→"hai người") |
+| VI — E | 0 | *(điền ở bước tie table)* | §2 |
+| VI — C | 3 | *(điền ở bước tie table)* | §5 (C-VI1–3), giữ 1–1 đúng vị trí với EN |
+| VI — L | 46 | *(điền ở bước tie table)* | §6.3 (L-VI1–VI46) theo chính sách §6.1 |
+
+**Kết luận:**
+
+- **Từ vựng là thiết bị chủ lực của cặp này:** EN 44/70 tie ≈ 63%, VI 46/64 ≈
+  72% — L chiếm đa số hai phía; quy chiếu đứng thứ hai (20/15); tỉnh lược
+  vắng mặt hoàn toàn (0/0); nối rất mỏng (4/3) nhưng giữ 1–1 tuyệt đối về vị
+  trí và kiểu. Mật độ chung: EN ≈ 1,08 tie/câu (70/65; ≈1,09 nếu bỏ artifact
+  S051), VI ≈ 1,05 (64/61) — thấp hơn P01/P17 do bài dài, câu dài, kiểu
+  explainer.
+- **Bất đối xứng R↔L có hệ thống:** EN nhiều R hơn (20↔15) nhờ hệ chỉ từ –
+  mạo từ (those/these/the); VI bù bằng lặp danh từ và lặp tên kèm danh xưng
+  (L 46↔44) — "danh ngữ hóa" quy chiếu; 10 hàng L-EN mang alt "R: the" cho
+  thấy cùng một vị trí EN đọc được cả hai lớp.
+- **Theo dõi nhân vật gần đối xứng về số (9 hàng L mỗi phía: Trump 5, Muller
+  2, Biden 1, Shurkin 1) nhưng khác hình thức:** EN gọi tên trần ("Trump",
+  "Muller said" — không có "he said" nào, khác P17), VI thêm danh xưng ông/bà
+  ở mọi lần lặp — chiến lược theo dõi nhân vật chủ lực của VI là phép lặp
+  tên + danh xưng.
+- **[TC] không dùng làm bằng chứng liên câu:** duy nhất S-EN2 ("those" EN
+  S061); mọi hàng R/C/L và S-EN1 đều [LC], nên kết luận liên câu của cặp này
+  không dựa vào lớp bổ sung [TC].
+- **Các hàng conf thấp cần dùng thận trọng khi tổng hợp liên phiên:** S-EN1
+  (thế "do" không có VP nguyên bản), C-EN2 (mảnh dẫn danh sách, khối cắt),
+  R-EN4/R-VI3 ("they"/"họ" trong trích dẫn Shurkin), R-EN15/R-VI11 ("both"/
+  "cả hai" — cầu nối).
