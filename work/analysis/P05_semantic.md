@@ -41,8 +41,8 @@ cho nhân viên chăm sóc người cao tuổi" (S037), "Thuế lưu trú ngắn
 Victoria" (S041), "Thuế đất được gia hạn tại Victoria" (S045). Theo
 CONVENTIONS §1, các subhead được **đọc như hàng body** (thành viên chuỗi từ
 vựng, có thể làm tiền trạm); bên EN không có hàng đối ứng → bỏ trống, không
-bịa tie đối ứng. 41 cặp dịch ~1–1; 2 vị trí gộp segment (S039+S040→S031,
-S045+S046→S035, xem §8f).
+bịa tie đối ứng. 43 cặp dịch 1–1 (2 vị trí 2 câu EN ↔ 2 câu VI cùng hàng
+rows.json: S039+S040↔S031+S032, S045+S046↔S035+S036 — xem §8f).
 
 **Các chuỗi/trường nghĩa chi phối liên kết** (chi tiết đầy đủ ở §6.2): (i)
 bóc lột/trả thiếu tiền lương; (ii) phạt; (iii) ADF; (iv) người nộp đơn/cư dân;
@@ -92,12 +92,14 @@ cắt/chèn — cẩn thận bẫy nhầm câu kề, CONVENTIONS §8.3):
 | S037 | S028 | giữ; "The change"↔"Thay đổi này" + "you're"↔"bạn" (R↔R ×2) |
 | — | S029 | subhead VI tự sinh "Đơn xin thị thực du học trong nước" |
 | S038 | S030 | giữ |
-| S039 + S040 | S031 | gộp 2 segment EN → 1 segment VI chứa 2 câu thật (§8f) |
+| S039 | S031 | giữ 1–1 (cùng hàng rows.json với S040/S032) |
+| S040 | S032 | giữ 1–1 |
 | S041 | — | VI cắt (chương trình PBS Closing the Gap) |
 | S042 | — | VI cắt; EN-only "This expansion" (R) + "affordable medications" (L) |
 | S043 | S033 | giữ; "you'll" ↔ "bạn" (R↔R ref=E) |
 | S044 | S034 | giữ; gapping đối xứng hai phía (E↔E [TC], §2) |
-| S045 + S046 | S035 | gộp 2 segment EN → 1 segment VI chứa 2 câu thật (§8f); "Đồng thanh toán PBS" là lần nêu đầu tiên phía VI (tiền trạm EN nằm ở khối cắt) |
+| S045 | S035 | giữ 1–1; "Đồng thanh toán PBS" là lần nêu đầu tiên phía VI (tiền trạm EN nằm ở khối cắt) |
+| S046 | S036 | giữ 1–1 |
 | — | S037 | subhead VI tự sinh "Tăng lương cho nhân viên chăm sóc người cao tuổi" |
 | S047 | S038 | giữ |
 | S048 | S039 | giữ; EN giữ tên award (Aged Care Award…) ↔ VI dịch thành danh từ nghề nghiệp (§6–§7) |
@@ -116,7 +118,7 @@ cắt/chèn — cẩn thận bẫy nhầm câu kề, CONVENTIONS §8.3):
 | S059 | S048 | giữ |
 | S060 | — | VI cắt (Nam Úc bỏ đánh giá thu nhập đồng cư trú) |
 
-Tổng kết bản đồ: 41 cặp dịch 1–1 (trong đó 2 cặp là segment gộp); 19 câu EN
+Tổng kết bản đồ: 43 cặp dịch 1–1; 19 câu EN
 bị cắt; 7 subhead VI tự sinh; không có câu VI tự sinh nào ngoài subhead;
 không có tách câu (1 EN → nhiều VI).
 
@@ -302,8 +304,8 @@ Australians, threshold, students, doctor…) chỉ ghi inventory. Quy tắc áp 
 cho P05 (rút từ §8.1 + tiền lệ thực hành P17):
 
 1. **Tái lập chuỗi (bất kể cùng dạng hay biến thể) sau khoảng cách ≥ 2 câu
-   thật** → đánh dấu. Khoảng cách tính theo **câu thật**, kể cả khi segmenter
-   gộp 2 câu vào 1 segment (TT S031, S035 — §8f, theo CONVENTIONS §8.3).
+   thật** → đánh dấu. Khoảng cách tính theo **câu thật** (CONVENTIONS §8.3;
+   lưu ý S031/S032 và S035/S036 là 2 câu VI riêng biệt — xem §8f).
 2. **Biến thể mới vào chuỗi ở câu kề (gap 1)** → chỉ đánh dấu khi đó là **hạng
    mục từ vựng mới thật sự** (đồng nghĩa: wage→pay, vacant→empty, bỏ trống→để
    trống, gia hạn→mở rộng; gia đình hình thái: underpay→underpayment,
@@ -353,11 +355,11 @@ cho P05 (rút từ §8.1 + tiền lệ thực hành P17):
 | L. máy ATM | ATMs and cash withdrawal facilities (S023) · They (S024, R) · ATMs (S025) | máy ATM và thiết bị rút tiền mặt (S024) · các thiết bị này (S025, R) · máy ATM (S026) | EN: S025; VI: S026 (R tại S024/S025) |
 | M. lối ra vào | any entry areas (S024) · ATMs or entryways (S025) | khu vực ra vào (S025) · máy ATM hoặc lối ra vào (S026) | không (biến thể kề, đơn) |
 | N. miễn trừ y tế | medical exemptions (S036) · medical certificates (S037) | miễn trừ y tế (S027) · giấy chứng nhận y tế (S028) | EN: S037; VI: S028 (collocation trường nghĩa y tế) |
-| O. thị thực du học / CoE | New student visa rules (S038) · onshore applicants (S038) · Confirmation of Enrolment (CoE) (S038) · Onshore applications / a CoE (S040) | Đơn xin thị thực du học trong nước (S029 subhead) · thị thực du học / người nộp đơn trong nước / Xác nhận ghi danh (CoE) (S030) · Các đơn xin thị thực trong nước / CoE (S031) | EN: S040×2; VI: S031×2 |
-| P. PBS / đồng thanh toán | The Closing the Gap PBS Co-payment Program (S041) · The PBS co-payment (S045) · The co-payments (S046) | Đồng thanh toán PBS (S035 — lần nêu đầu tiên phía VI, tiền trạm EN nằm ở khối cắt) · Đồng thanh toán (S035, câu kề trong cùng segment) | EN: S045; VI: không |
+| O. thị thực du học / CoE | New student visa rules (S038) · onshore applicants (S038) · Confirmation of Enrolment (CoE) (S038) · Onshore applications / a CoE (S040) | Đơn xin thị thực du học trong nước (S029 subhead) · thị thực du học / người nộp đơn trong nước / Xác nhận ghi danh (CoE) (S030) · Các đơn xin thị thực trong nước / CoE (S032) | EN: S040×2; VI: S032×2 |
+| P. PBS / đồng thanh toán | The Closing the Gap PBS Co-payment Program (S041) · The PBS co-payment (S045) · The co-payments (S046) | Đồng thanh toán PBS (S035 — lần nêu đầu tiên phía VI, tiền trạm EN nằm ở khối cắt) · Đồng thanh toán (S036, câu kề) | EN: S045; VI: không |
 | Q. thuốc | all PBS medicines (S041) · affordable medications (S042) | — (khối VI cắt) | EN: S042 (đồng nghĩa medicines→medications) |
 | R. an toàn Medicare | The Original Medicare Safety Net threshold / the Extended Medicare Safety Net (S044, ×2 cùng câu) | Mạng lưới An toàn Medicare Ban đầu / Mở rộng (S034, ×2 cùng câu) | không ([TC]) |
-| S. nhóm bệnh nhân | general recipients / concession holders (S044) · general patients / concessional patients (S046) | bệnh nhân nói chung / người có thẻ ưu tiên (S034) · bệnh nhân thông thường / bệnh nhân ưu đãi (S035) | EN: S046; VI: S035 |
+| S. nhóm bệnh nhân | general recipients / concession holders (S044) · general patients / concessional patients (S046) | bệnh nhân nói chung / người có thẻ ưu tiên (S034) · bệnh nhân thông thường / bệnh nhân ưu đãi (S036) | EN: S046; VI: S036 |
 | T. chăm sóc người cao tuổi | those working in aged care (S047, R) · those on the Aged Care Award, Nurses Award, SCHDS Award (S048, R) · Aged Care Award workers (S049) | Tăng lương cho nhân viên chăm sóc người cao tuổi (S037 subhead) · những người làm việc trong lĩnh vực chăm sóc người cao tuổi (S038) · những nhân viên chăm sóc người cao niên, y tá… (S039) · Những người chăm sóc người cao tuổi (S040) | EN: S049 (S047/S048 là hàng R); VI: S038, S039, S040 |
 | U. lương / pay | Wage changes (S047) · Minimum pay rates (S048) · their minimum pay rate (S049) | Tăng lương (S037 subhead) · Thay đổi tiền lương (S038) · Mức lương tối thiểu (S039, S040) | EN: S048 (wage→pay); VI: S038 (các lặp "lương" còn lại kề nhau) |
 | V. phân loại việc làm (EN-only) | entry-level work classifications (S027) · introductory classifications (S028) · higher classifications (S029) | — (VI cắt) | EN: S028, S029 |
@@ -436,9 +438,9 @@ cho P05 (rút từ §8.1 + tiền lệ thực hành P17):
 | S026 | máy ATM | lặp — tái lập sau 2 câu | S024: các máy ATM và thiết bị rút tiền mặt |
 | S027 | Centrelink | lặp — tái lập tên cơ quan chủ thể khối sau 15 câu | S012: khoản tăng thanh toán của Centrelink |
 | S028 | giấy chứng nhận y tế | collocation — trường nghĩa y tế, kề; conf med | S027: miễn trừ y tế |
-| S031 | Các đơn xin thị thực trong nước | lặp — tái lập gần nguyên dạng subhead sau 2 câu (đóng khung khối) | S029 (subhead): Đơn xin thị thực du học trong nước |
-| S031 | CoE | lặp — rút gọn (viết tắt), tái lập sau 2 câu thật | S030: Xác nhận ghi danh (CoE) |
-| S035 | bệnh nhân thông thường | lặp — biến thể (bệnh nhân nói chung→bệnh nhân thông thường; cặp "người có thẻ ưu tiên"→"bệnh nhân ưu đãi" cùng chuỗi), sau 2 câu thật | S034: bệnh nhân nói chung… những người có thẻ ưu tiên |
+| S032 | Các đơn xin thị thực trong nước | lặp — tái lập gần nguyên dạng subhead sau 2 câu (đóng khung khối) | S029 (subhead): Đơn xin thị thực du học trong nước |
+| S032 | CoE | lặp — rút gọn (viết tắt), tái lập sau 2 câu thật | S030: Xác nhận ghi danh (CoE) |
+| S036 | bệnh nhân thông thường | lặp — biến thể (bệnh nhân nói chung→bệnh nhân thông thường; cặp "người có thẻ ưu tiên"→"bệnh nhân ưu đãi" cùng chuỗi), sau 2 câu thật | S034: bệnh nhân nói chung… những người có thẻ ưu tiên |
 | S038 | Thay đổi tiền lương | lặp — biến thể ← subhead (Tăng lương→Thay đổi tiền lương), mở khối sau subhead | S037 (subhead): Tăng lương cho nhân viên chăm sóc người cao tuổi |
 | S039 | những nhân viên chăm sóc người cao niên | lặp — biến thể (cao tuổi→cao niên; người làm việc→nhân viên), kề | S038: những người làm việc trong lĩnh vực chăm sóc người cao tuổi |
 | S040 | Những người chăm sóc người cao tuổi | lặp — biến thể quay lại dạng "cao tuổi" (dao động, §7), kề | S039: những nhân viên chăm sóc người cao niên |
@@ -489,7 +491,7 @@ cho P05 (rút từ §8.1 + tiền lệ thực hành P17):
 | VI tự sinh subhead (đọc như hàng body) | 7 | "Hình phạt cho việc bóc lột tiền lương" (S001); "ADF mở cửa cho công dân nước ngoài" (S006); "Cấm thu phí khi thanh toán bằng thẻ ghi nợ" (S021); "Đơn xin thị thực du học trong nước" (S029); "Tăng lương cho nhân viên chăm sóc người cao tuổi" (S037); "Thuế lưu trú ngắn hạn tại Victoria" (S041); "Thuế đất được gia hạn tại Victoria" (S045) |
 | VI cắt khối EN | 19 câu | S001–S002 (mở bài); S026–S035 (bền vững, phân loại entry-level, đá nhân tạo, khấu trừ bất động sản); S041–S042 (chương trình PBS Closing the Gap); S050–S051 (bảo hiểm y tế); S052–S053 (chuẩn hiệu suất xe); S060 (Nam Úc) |
 | EN giữ tên riêng ↔ VI dịch/biến thể (hội tụ – phân rã từ vựng) | 3 chuỗi | "Youth Allowance" giữ nguyên ở S012 hai phía nhưng S013 EN "Youth Allowance" ↔ VI "Trợ cấp thanh thiếu niên"; "Aged Care Award, Nurses Award, and the Social, Community, Home Care and Disability Services Award" (S048) ↔ "những nhân viên chăm sóc người cao niên, y tá và dịch vụ xã hội, cộng đồng, chăm sóc tại nhà và người khuyết tật" (S039); EN "aged care" ổn định ↔ VI "cao tuổi→cao niên→cao tuổi" dao động (S038–S040) |
-| Segmenter/rows gộp 2 câu EN → 1 segment VI (xử lý theo câu thật) | 2 | S039+S040 → S031; S045+S046 → S035 (§8f) |
+| Hàng rows.json chứa 2 câu mỗi bên (không gộp segment) | 2 | S039+S040 ↔ S031+S032; S045+S046 ↔ S035+S036 (§8f, hiệu chỉnh) |
 
 **Ghi chú thêm:** không xuất hiện dịch chuyển kinh điển "EN đại từ → VI zero"
 (§2: VI không có zero chủ ngữ liên câu nào) — thay vào đó EN đại từ được VI
@@ -519,13 +521,16 @@ từ tổng quát ("Những người…") hoặc lặp danh từ (R→R đổi d
 - **(e) Từ chọn đáng nghi VI S045 (subhead):** "Thuế đất được gia hạn" —
   "gia hạn" thường dùng cho thời hạn, khả năng đúng nghĩa phải là "mở rộng"
   như body S046; hàng L-VI S046 (gia hạn↔mở rộng) đánh dấu với conf med.
-- **(f) Segmenter gộp câu:** TT S031 và TT S035 mỗi segment chứa **2 câu
-  thật** (có dấu chấm tách giữa), đối ứng 2 segment EN (S039+S040;
-  S045+S046); `rows.json` cũng gộp các cặp này thành 1 hàng. Mã `sent` lấy
-  theo sentmap, nhưng mọi quyết định "câu kề"/khoảng cách cho chính sách L
-  (§6.1-1) và [LC]/[TC] đều tính theo **câu thật** (CONVENTIONS §8.3):
-  "bệnh nhân" VI S035 (câu thật 2) cách S034 đúng 2 câu thật → vẫn đánh dấu;
-  "Thay đổi này" (S031, câu thật 1) ← S030 là [LC].
+- **(f) Hiệu chỉnh sau đối chiếu sentmap (bước tie table):** bản nháp đầu
+  của analysis ghi nhầm "TT S031, S035 mỗi segment chứa 2 câu thật". Đối
+  chiếu `TT_sentmap.txt`/`rows.json` xác nhận thực tế các cặp này dịch
+  **2 câu EN ↔ 2 câu VI** trong cùng 1 hàng rows.json (S039+S040 ↔ S031+S032;
+  S045+S046 ↔ S035+S036), KHÔNG có segment gộp. Ba hàng L-VI tương ứng đã
+  lấy đúng mã theo sentmap ("Các đơn xin thị thực trong nước", "CoE" → S032;
+  "bệnh nhân thông thường" → S036). Kết luận linguistics không đổi; khoảng
+  cách cho chính sách L vẫn tính theo câu thật (CONVENTIONS §8.3):
+  "bệnh nhân thông thường" VI S036 cách S034 đúng 2 câu → vẫn đánh dấu;
+  "Thay đổi này" (S031) ← S030 là [LC].
 - **(g) 7 subhead VI tự sinh:** là hàng body theo CONVENTIONS §1/khảo sát
   (đọc như văn bản thật; đánh dấu bên có văn bản, bỏ trống bên cắt). Chúng là
   thành viên đầu chuỗi của khối (§6.2 A, C, J, O, T, AB, AC); câu body lặp
@@ -571,16 +576,16 @@ từ tổng quát ("Những người…") hoặc lặp danh từ (R→R đổi d
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---|---|
-| EN — R | 17 | (điền ở bước tie table) | §4.1 (R-EN1–EN17): A 12 + E 5; 7 hàng trong khối VI cắt |
-| EN — S | 0 | (điền ở bước tie table) | §3: không có phép thế |
-| EN — E | 1 | (điền ở bước tie table) | §2 (E-EN1) gapping, [TC] — không dùng làm bằng chứng liên câu |
-| EN — C | 4 | (điền ở bước tie table) | §5: additive 3 + adversative 1 (But, khối cắt) |
-| EN — L | 35 | (điền ở bước tie table) | §6.3 theo chính sách §6.1 (11 hàng trong khối cắt) |
-| VI — R | 10 | (điền ở bước tie table) | §4.2 (R-VI1–VI10): A 7 + E 3 |
-| VI — S | 0 | (điền ở bước tie table) | §3: không có phép thế |
-| VI — E | 1 | (điền ở bước tie table) | §2 (E-VI1) gapping, [TC] — không dùng làm bằng chứng liên câu |
-| VI — C | 3 | (điền ở bước tie table) | §5: toàn additive, đối xứng 3↔3 với EN trên phần dịch chung |
-| VI — L | 29 | (điền ở bước tie table) | §6.3 theo chính sách §6.1 (4 hàng bắt nguồn từ subhead) |
+| EN — R | 17 | 17 | §4.1 (R-EN1–EN17): A 12 + E 5; 7 hàng trong khối VI cắt |
+| EN — S | 0 | 0 | §3: không có phép thế |
+| EN — E | 1 | 1 | §2 (E-EN1) gapping, [TC] — không dùng làm bằng chứng liên câu |
+| EN — C | 4 | 4 | §5: additive 3 + adversative 1 (But, khối cắt) |
+| EN — L | 35 | 35 | §6.3 theo chính sách §6.1 (11 hàng trong khối cắt) |
+| VI — R | 10 | 10 | §4.2 (R-VI1–VI10): A 7 + E 3 |
+| VI — S | 0 | 0 | §3: không có phép thế |
+| VI — E | 1 | 1 | §2 (E-VI1) gapping, [TC] — không dùng làm bằng chứng liên câu |
+| VI — C | 3 | 3 | §5: toàn additive, đối xứng 3↔3 với EN trên phần dịch chung |
+| VI — L | 29 | 29 | §6.3 theo chính sách §6.1 (4 hàng bắt nguồn từ subhead) |
 
 **Kết luận:**
 

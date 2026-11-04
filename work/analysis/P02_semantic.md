@@ -670,16 +670,16 @@ chuỗi D/L của §6.2.
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---|---|
-| EN — R | 22 | (điền ở bước tie table) | §4.1 (R-EN1–EN22): 21 hướng A + 1 ref=E ("you" S022); 8 hàng attribution; 3 hàng EN-only trong khối VI thay (S043, S044, S046) |
-| EN — S | 0 | (điền ở bước tie table) | §3: không có phép thế |
-| EN — E | 1 | (điền ở bước tie table) | §2 (E-EN1) gapping, [TC] — không dùng làm bằng chứng liên câu |
-| EN — C | 5 | (điền ở bước tie table) | §5.1: additive 4 + causal 1; 2 hàng EN-only (S029, S046) |
-| EN — L | 39 | (điền ở bước tie table) | §6.3 theo chính sách §6.1 (4 hàng có alt "R: the"; 5 hàng tên riêng; 3 hàng EN-only) |
-| VI — R | 22 | (điền ở bước tie table) | §4.2 (R-VI1–VI22), toàn bộ hướng A; 7 hàng attribution honorific (cô/bà/ông); 4 hàng không có đối ứng EN (S006, S008, S028, S048) |
-| VI — S | 0 | (điền ở bước tie table) | §3: không có phép thế |
-| VI — E | 1 | (điền ở bước tie table) | §2 (E-VI1) tân ngữ zero, [LC], conf med (ghi cả hai phương án đọc) |
-| VI — C | 3 | (điền ở bước tie table) | §5.2: additive 2 + causal 1; 3/3 đối ứng 1–1 với EN trên phần dịch chung |
-| VI — L | 41 | (điền ở bước tie table) | §6.3 theo chính sách §6.1 (8 hàng tên riêng; 2 hàng từ câu tự sinh; 2 hàng có alt "L" đối xứng với EN) |
+| EN — R | 22 | 22 | §4.1 (R-EN1–EN22): 21 hướng A + 1 ref=E ("you" S022); 8 hàng attribution; 3 hàng EN-only trong khối VI thay (S043, S044, S046) |
+| EN — S | 0 | 0 | §3: không có phép thế |
+| EN — E | 1 | 1 | §2 (E-EN1) gapping, [TC] — không dùng làm bằng chứng liên câu |
+| EN — C | 5 | 5 | §5.1: additive 4 + causal 1; 2 hàng EN-only (S029, S046) |
+| EN — L | 39 | 39 | §6.3 theo chính sách §6.1 (4 hàng có alt "R: the"; 5 hàng tên riêng; 3 hàng EN-only) |
+| VI — R | 22 | 22 | §4.2 (R-VI1–VI22), toàn bộ hướng A; 7 hàng attribution honorific (cô/bà/ông); 4 hàng không có đối ứng EN (S006, S008, S028, S048) |
+| VI — S | 0 | 0 | §3: không có phép thế |
+| VI — E | 1 | 1 | §2 (E-VI1) tân ngữ zero, [LC], conf med (ghi cả hai phương án đọc) |
+| VI — C | 3 | 3 | §5.2: additive 2 + causal 1; 3/3 đối ứng 1–1 với EN trên phần dịch chung |
+| VI — L | 41 | 41 | §6.3 theo chính sách §6.1 (8 hàng tên riêng; 2 hàng từ câu tự sinh; 2 hàng có alt "L" đối xứng với EN) |
 
 **Kết luận:**
 

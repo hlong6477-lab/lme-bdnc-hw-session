@@ -1,0 +1,3 @@
+QC P05 VI: PASS
+counts: {'C': 3, 'E': 1, 'L': 29, 'R': 10}
+ties: 43
