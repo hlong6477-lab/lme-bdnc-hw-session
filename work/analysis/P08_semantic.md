@@ -536,16 +536,16 @@ suất (gap 6; lệch nghĩa §8d).
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 16 | (chưa chạy) | §4.1 (R-EN1–EN16); 14 hướng A + 2 hướng C (S001 "These", S010 "it" — đều conf low, §8b/e); không có ref=E |
-| EN — S | 1 | (chưa chạy) | §3 (S-EN1 "one"), [TC] |
-| EN — E | 0 | (chưa chạy) | §2: EN không có tỉnh lược |
-| EN — C | 10 | (chưa chạy) | §5: adversative 5 · additive 4 · temporal 1 |
-| EN — L | 49 | (chưa chạy) | §6.3 theo chính sách §6.1 (5 hàng có alt "R: the") |
-| VI — R | 15 | (chưa chạy) | §4.2 (R-VI1–VI15); toàn bộ hướng A |
-| VI — S | 0 | (chưa chạy) | §3: không có phép thế |
-| VI — E | 1 | (chưa chạy) | §2 (E-VI1), [TC] |
-| VI — C | 11 | (chưa chạy) | §5: adversative 5 · additive 5 · temporal 1 (2 hàng tự sinh) |
-| VI — L | 43 | (chưa chạy) | §6.3 theo chính sách §6.1 |
+| EN — R | 16 | 16 | §4.1 (R-EN1–EN16); 14 hướng A + 2 hướng C (S001 "These", S010 "it" — đều conf low, §8b/e); không có ref=E |
+| EN — S | 1 | 1 | §3 (S-EN1 "one"), [TC] |
+| EN — E | 0 | 0 | §2: EN không có tỉnh lược |
+| EN — C | 10 | 10 | §5: adversative 5 · additive 4 · temporal 1 |
+| EN — L | 49 | 49 | §6.3 theo chính sách §6.1 (5 hàng có alt "R: the") |
+| VI — R | 15 | 15 | §4.2 (R-VI1–VI15); toàn bộ hướng A |
+| VI — S | 0 | 0 | §3: không có phép thế |
+| VI — E | 1 | 1 | §2 (E-VI1), [TC] |
+| VI — C | 11 | 11 | §5: adversative 5 · additive 5 · temporal 1 (2 hàng tự sinh) |
+| VI — L | 43 | 43 | §6.3 theo chính sách §6.1 |
 
 **Kết luận:**
 - Tin 40/38 câu (6 hàng subhead EN, 5 subhead + 1 headline VI) với mật độ EN

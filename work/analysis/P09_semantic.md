@@ -438,3 +438,164 @@ câu kề).
   biến thể nhẹ câu kề (visiting→visits; very remote areas; các dạng "thẻ ưu
   đãi" kề nhau; "tăng gấp ba lần"; "due to cost(s)") đều nằm trong kho §6.2
   nhưng không đánh dấu.
+
+## 7. Các dịch chuyển liên kết nổi bật (tổng hợp từ §2–§6)
+
+Số liệu dưới đây đếm lại từ các bảng §2–§6 trước khi ghi.
+
+| Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn 2 đầu |
+|---|---:|---|
+| EN đại từ narration → VI danh từ (kèm đổi referent) | 1 | EN S008 "It says its data" ↔ VI S009 "Báo cáo cho biết dữ liệu của họ" (It = Cleanbill; VI đổi referent sang "báo cáo" → phía VI không có tie, §8e) |
+| EN chỉ từ tiền danh từ ↔ VI chỉ từ hậu danh từ (quy chiếu mở rộng) | 3 | EN S007 "this data" ↔ VI S008 "dữ liệu này"; EN S027 "those groups" ↔ VI S028 "các nhóm này"; EN S033 "This cost of living crisis" ↔ VI S033 "Cuộc khủng hoảng chi phí sinh hoạt này" |
+| EN đại từ attribution ↔ VI đại từ danh xưng (giữ 1–1) | 3 | EN S025 "he said" ↔ VI S026 "Ông nói"; EN S033 "he said" ↔ VI S033 "ông nói"; EN S035 "she said" ↔ VI S035 "cô nói" |
+| EN "the" + lặp từ vựng → VI lặp danh từ thuần | 13 | EN S040 "the NSW government" ↔ VI S037 "chính phủ NSW"; EN S036 "the RACGP" ↔ VI S036 "RACGP" ("the" chỉ ghi alt "R: the" trong hàng L, §4.3) |
+| EN "the" → VI danh từ + chỉ từ "này" | 1 | EN S010 "the findings" ↔ VI S011 "những phát hiện này" (hai phía đều L; "the"/"này" ghi alt) |
+| EN tỉnh lược → VI lấp đầy | 1 | EN S012 "a different picture than Cleanbill's ∅" ↔ VI S013 "một bức tranh khác với Cleanbill" |
+| EN ∅ ↔ VI ∅ giữ đối ứng 1–1 (trong đó 1 cặp EN lược sâu hơn) | 3 | EN S023 "needed to ∅ due to the cost" ↔ VI S024 "khi họ cần ∅ do chi phí"; EN S040 "70 per cent ∅ in the rest of NSW" ↔ VI S037 "70% ∅ ở phần còn lại của NSW"; EN S009 "and Tasmania the lowest ∅ (0 per cent)" ↔ VI S010 "và Tasmania ∅ thấp nhất (0%)" — cặp cuối EN lược cả động từ {had} + hạt nhân {rate of bulk billing}, VI chỉ lược động từ {có} |
+| Thuật ngữ hội tụ (EN) ↔ phân rã (VI) | 3 chuỗi | bulk billing: EN một thuật ngữ (S017 "more bulk billing") ↔ VI ~7 biến thể (S018 "hóa đơn bulk-billing", S030 "thanh toán toàn bộ"…); rebate: EN một từ (S040 "an ongoing rebate") ↔ VI luân phiên "chiết khấu" (S016) → "trợ giá" (S031) → "giảm giá" (S034/S035) → "chiết khấu" (S036); out-of-pocket: EN hội tụ (S029 "out-of-pocket costs") ↔ VI phân rã (S003 "phải trả nhiều tiền hơn", S030 "tự trả") |
+| EN nối hiện thực → VI lược nối | 1 | EN S024 "due to cost also means" ↔ VI S025 "do chi phí đồng nghĩa" (không có "cũng") |
+| EN nối ↔ VI nối giữ 1–1 (kể cả continuative) | 3 | EN S003 "However" ↔ VI S004 "Tuy nhiên"; EN S017 "now" ↔ VI S018 "hiện nay"; EN S019 "also" ↔ VI S020 "cũng" |
+| VI dời attribution lên đầu câu | 1 | EN S025 "…if it's not affordable and accessible," he said. ↔ VI S026 "Ông nói: "Nó không tốt…" (§8g) |
+| VI tự sinh chủ thể/từ "chính phủ" | 2 | VI S020 "được chính phủ thanh toán bulk-bill ít hơn" (EN S019 không có "government"); subhead VI S031 "Các bác sĩ yêu cầu chính phủ tăng trợ giá" (EN S030 "GPs call for rebate increase" không có) |
+| VI cắt khối EN | 4 câu | EN S037 "Wright said Medicare rebates should be increased for all patients…" không có đối ứng VI (cùng S038, S039); EN S031 chỉ giữ attribution gộp vào VI S032; hệ quả: 5 hàng L-EN vô đối ứng, VI S037 "ưu đãi mới" cách tiền trạm 9 câu thay vì 1 câu như EN |
+| EN hướng độc giả giảm số lần (cắt mệnh đề) | 1 vị trí | EN S008 "around you would say if you, as an adult without concessions, asked" (you ×2) ↔ VI S009 "xung quanh bạn" (bạn ×1, §8d) |
+
+**Các dịch chuyển kỳ vọng KHÔNG xuất hiện ở cặp này:** (i) EN đại từ → VI
+zero chủ ngữ liên câu: 0 — mọi mệnh đề VI đều đủ chủ ngữ (§2), quy chiếu
+được giải quyết bằng danh ngữ/đại từ tường minh; (ii) EN thế → VI hiện thực
+hóa: 0 — không có phép thế ở hai phía (§3); (iii) nối ngầm một bên → hiện
+thực bên kia: 0 — quan hệ đối lập–thời gian ngầm S022↔S023 (2023-24 ↔
+2021-22) không được hiện thực từ nối ở cả hai bên (§5). Các "chỗ rỗng" diễn
+đạt còn lại được giải quyết bằng tỉnh lược lượng từ/động từ [TC] (§2) hoặc
+quy chiếu mở rộng (§4).
+
+## 8. Bất thường dữ liệu nguồn
+
+**(a) Lỗi số liệu nguồn EN lan truyền sang VI.** EN S023 "In 2021-22 only
+3.5 of people put off or did not see a GP" — thiếu "per cent" sau "3.5"
+(lỗi nguồn SBS EN); VI S024 dịch theo chữ "chỉ có 3,5 người" (= đúng 3,5
+người, không phải 3,5%). EN S022 lại ghi "up from 7 per cent in 2022-23"
+trong khi S023 nhảy về "2021-22" — nguồn lẫn năm so sánh. **Không dùng cặp
+S022–S023 làm bằng chứng về quan hệ thời gian/đối lập giữa câu** (không tạo
+hàng C, xem §5).
+
+**(b) VI dịch sai "healthcare directory".** EN S004 "published by healthcare
+directory Cleanbill" → VI S005 "được giám đốc chăm sóc sức khỏe của
+Cleanbill công bố" — "directory" (danh bạ y tế) bị hiểu thành chức danh
+"giám đốc". Sai referent của chủ thể công bố; chuỗi L "báo cáo" hai phía
+không ảnh hưởng.
+
+**(c) VI cắt cụm trích dẫn "concerning trends".** EN S002 "has found
+"concerning trends"" → VI S002 chỉ còn "đã nghiên cứu về khả năng tiếp cận…".
+Hệ quả liên kết: hàng L-EN S010 "a concerning picture" có tiền trạm
+"concerning" cách 8 câu, còn VI S011 "đáng lo ngại" là lần đầu nêu — hàng L
+này không có đối ứng VI.
+
+**(d) VI rút gọn tổ hợp định nghĩa + cắt mệnh đề hỏi giá.** EN S006/S008 "a
+standard consultation during regular hours / during regular, weekday
+business hours" → VI S007/S009 "gặp bác sĩ vào giờ hành chính" (mất
+"weekday", đổi danh từ thành tổ hợp động từ); EN S008 "if you, as an adult
+without concessions, asked for their pricing and availability information"
+bị cắt, VI S009 thay bằng khẳng định "sẽ không tính phí thêm cho bệnh nhân
+trưởng thành". Hệ quả: EN "you" ×2 ↔ VI "bạn" ×1 (ref=E hai phía); hàng L
+chuỗi "buổi khám chuẩn" vẫn đánh dấu vì VI tái lập đúng tổ hợp "gặp bác sĩ
+vào giờ hành chính" (S007→S009).
+
+**(e) Đổi referent tại "It says".** EN S008 "It says" (It = Cleanbill, công
+ty) ↔ VI S009 "Báo cáo cho biết" (referent = báo cáo). Phía VI không có tie
+(danh từ "Báo cáo" lặp câu kề — inventory); đây là dịch chuyển R→danh từ kèm
+sai lệch referent, không phải lỗi đánh dấu.
+
+**(f) VI mất mệnh đề quan hệ "that were bulk billed".** EN S013 "the
+proportion of all GP visits nationwide that were bulk billed increased" →
+VI S014 "tỷ lệ các chuyến thăm khám bác sĩ gia đình trên toàn quốc tăng".
+Không tạo/bỏ hàng tie nào; ghi nhận vì làm mờ chuỗi A tại vị trí này.
+
+**(g) VI dời attribution lên đầu + mất dấu ngoặc kép đóng.** EN S025 để "he
+said" cuối câu; VI S026 mở đầu "Ông nói: "Nó không tốt…" và không có ngoặc
+kép đóng (lỗi nguồn VI). Hàng R-VI3 vẫn hợp lệ (tiền trạm ở S025, câu
+trước); **không dùng S026 làm bằng chứng về ranh giới câu/trích dẫn**.
+
+**(h) VI đảo nghĩa.** EN S028 "people in remote areas more likely to be bulk
+billed for GP visits" → VI S029 "những người ở vùng hẻo lánh có nhiều khả
+năng bị tính phí thêm cho các lần gặp bác sĩ gia đình" — "được thanh toán
+toàn bộ" bị đảo thành "bị tính phí thêm". Sai nghĩa nguồn; các hàng L/E tại
+S029–S030 vẫn dựa trên văn bản thật của từng phía.
+
+**(i) VI cắt mệnh đề mở đầu trích dẫn.** EN S035 ""Just to be able to turn
+the lights on and open the door, any increase…"" → VI S035 bắt đầu bằng
+""Bất kỳ sự gia tăng nào…"". Không ảnh hưởng hàng tie (EN S035 "patient
+rebates" không có đối ứng VI tại S035; VI "giảm giá cho bệnh nhân" S035 là
+tiền trạm cho hàng L S036).
+
+**(j) rows.json bất đối xứng — khối cắt.** 3 hàng EN có "vi" rỗng (EN
+S037–S039); hàng EN S031+S032 gộp chung một hàng "vi" (VI S032 giữ
+attribution của EN S031: "Giám đốc chương trình y tế của Viện Grattan Peter
+Breadon nói với SBS News"). Xử lý theo CONVENTIONS §1: đánh dấu bên có văn
+bản, bên kia để trống, không bịa tie đối ứng.
+
+**(k) VI dịch sai "visit numbers".** EN S003 "overall bulk billing visit
+numbers" → VI S004 "tổng số lượt truy cập thanh toán toàn bộ" — "visit"
+(lượt khám) thành "truy cập". **Không dùng "lượt truy cập" làm bằng chứng từ
+vựng** cho chuỗi chuyến thăm khám (xuất hiện một lần, không tạo chuỗi).
+
+**(l) VI mất đối lập "non-concession".** EN S002 "GP clinics bulk billing
+non-concession card holders" → VI S002 "chấp nhận không cần trả thêm phí nếu
+có thẻ Medicare" — mất phân biệt có/không thẻ ưu đãi. Hệ quả: hàng L-EN S003
+"concession card holders" (trái nghĩa với S002 "non-concession card
+holders") không có đối ứng VI cùng kiểu; VI S004 "chủ thẻ được hưởng ưu
+đãi" là lần đầu.
+
+**Bất thường hình thức khác (không ảnh hưởng tie):** 4 hàng subhead (EN
+S011, S018, S026, S030 ↔ VI S012, S019, S027, S031) là hàng body theo
+CONVENTIONS §1 — được đọc và đánh dấu như văn bản thật nhưng **không dùng làm
+bằng chứng về nhịp câu liên đoạn**; VI thay em-dash bằng " - " có dấu cách
+hai bên (S013, S023); VI dùng "đô"/"đô la" không nhất quán (S021 "41,69 đô
+… 54,26 đô la" ↔ S030 "49 đô la"); EN S035 "any increase ∅, any improvement
+in patient rebates" có hồi phục hướng về sau — không phải tỉnh lược hồi quy,
+không đánh dấu (chỉ ghi nhận ở §2).
+
+**Tóm tắt chỗ KHÔNG dùng làm bằng chứng cấp câu:** (i) 4+4 hàng subhead;
+(ii) cặp S022–S023 (lỗi số liệu "3.5"/năm); (iii) VI S026 (mất ngoặc kép,
+attribution dời); (iv) các hàng "vi" rỗng và hàng gộp S031/S032 trong
+rows.json; (v) VI S004 "lượt truy cập" và VI S002 "nếu có thẻ Medicare"
+(lỗi dịch, không làm bằng chứng từ vựng); (vi) EN S035 (hồi phục hướng sau,
+không phải tie).
+
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+
+Cột "Đọc tay" đếm lại từ các bảng §2–§6 (R: §4; E: §2; C: §5; L: §6.3).
+
+| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+|---|---:|---:|---|
+| EN — R | 8 | 8 | §4.1: 7 hồi quy (A) + 1 ngoại văn bản (E, "you") |
+| EN — S | 0 | 0 | §3: không có phép thế |
+| EN — E | 4 | 4 | §2: toàn bộ [TC] (E-EN1–E-EN4) |
+| EN — C | 4 | 4 | §5: C-EN1–C-EN4 |
+| EN — L | 45 | 45 | §6.3: đếm lại từng hàng = 45 (khớp tổng các chuỗi §6.2) |
+| VI — R | 7 | 7 | §4.2: 6 hồi quy (A) + 1 ngoại văn bản (E, "bạn") |
+| VI — S | 0 | 0 | §3: không có |
+| VI — E | 3 | 3 | §2: toàn bộ [TC] (E-VI1–E-VI3) |
+| VI — C | 3 | 3 | §5: C-VI1–C-VI3 |
+| VI — L | 40 | 40 | §6.3: đếm lại từng hàng = 40 |
+
+Cả hai cổng QC `pipeline.annotate` và `pipeline.render` đều **PASS**; số liệu
+"Đã ghi tie table" lấy trực tiếp từ kết quả chạy (EN 61, VI 53). **Không
+chênh lệch** giữa đọc tay và tie table ở cả 10 ô.
+
+**Kết luận:**
+
+- Tổng 61 tie EN / 53 tie VI; mật độ ~1,53 tie/câu EN (61/40) và ~1,43
+  tie/câu VI (53/37) — cùng bậc với mật độ tham chiếu P01 (~1,6).
+- **L áp đảo** (EN 45/61 ≈ 74%, VI 40/53 ≈ 75%): văn bản chính sách–dữ liệu
+  "danh từ hóa" cao, hầu như không dùng đại từ hồi quy nhân vật (§4.3).
+- **E toàn bộ [TC]** (EN 4, VI 3) và **S = 0** hai phía: hai mục này KHÔNG
+  dùng làm bằng chứng cho bất kỳ kết luận nào về liên kết liên câu.
+- **R thưa và chuẩn** (EN 8, VI 7): phần lớn là attribution và quy chiếu
+  mở rộng; ba cặp attribution giữ 1–1 (he said/ông nói; she said/cô nói).
+- Chênh lệch L (45 ↔ 40) đến gần như hoàn toàn từ khối cắt: 5 hàng L-EN của
+  EN S037–S039 không có đối ứng VI; trừ khối này hai bên ngang nhau
+  (40 ↔ 40, §6.4).
+- Ghi chú đếm: §4.3 viết "11 hàng L có alt 'R: the'" nhưng danh sách cùng
+  chỗ liệt kê 13 vị trí; đếm lại từ §6.3 được 13 hàng — tie table ghi alt
+  "R: the" trên đúng 13 hàng này (không ảnh hưởng số đếm L).
