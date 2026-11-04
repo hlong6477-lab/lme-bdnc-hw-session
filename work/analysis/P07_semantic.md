@@ -747,16 +747,16 @@ table lấy nguyên văn từng ký tự từ sentmap.
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 43 | (điền ở bước tie table) | §4.1a (R-EN1–43): 39 hướng A + 4 hướng E; tiểu loại personal 29 / demonstrative 13 / comparative 1 |
-| EN — S | 0 | (điền ở bước tie table) | §3: không có phép thế nào ([LC] lẫn [TC]) |
-| EN — E | 4 | (điền ở bước tie table) | §2.1 (E-EN1–4), toàn bộ [LC] |
-| EN — C | 8 | (điền ở bước tie table) | §5.1 (C-EN1–8), toàn bộ [LC] (6 adversative, 1 additive, 1 temporal) |
-| EN — L | 40 | (điền ở bước tie table) | §6.3 (L-EN1–40) theo chính sách §6.1 (33 repetition, 4 synonym, 2 antonym, 1 collocation) |
-| VI — R | 41 | (điền ở bước tie table) | §4.1b (R-VI1–41): 36 A + 5 E; tiểu loại personal 25 / demonstrative 15 / comparative 1; 1 hàng tự sinh (R-VI15 "bạn") |
-| VI — S | 0 | (điền ở bước tie table) | §3: không có phép thế nào |
-| VI — E | 4 | (điền ở bước tie table) | §2.2 (E-VI1–4): 3 [LC] + 1 [TC] (E-VI2, S014) |
-| VI — C | 9 | (điền ở bước tie table) | §5.2 (C-VI1–9), toàn bộ [LC]; 1 hàng tự sinh (C-VI4, S045) |
-| VI — L | 38 | (điền ở bước tie table) | §6.3 (L-VI1–38) theo chính sách §6.1 (35 repetition, 2 antonym, 1 collocation) |
+| EN — R | 43 | 43 | §4.1a (R-EN1–43): 39 hướng A + 4 hướng E; tiểu loại personal 29 / demonstrative 13 / comparative 1 |
+| EN — S | 0 | 0 | §3: không có phép thế nào ([LC] lẫn [TC]) |
+| EN — E | 4 | 4 | §2.1 (E-EN1–4), toàn bộ [LC] |
+| EN — C | 8 | 8 | §5.1 (C-EN1–8), toàn bộ [LC] (6 adversative, 1 additive, 1 temporal) |
+| EN — L | 40 | 40 | §6.3 (L-EN1–40) theo chính sách §6.1 (33 repetition, 4 synonym, 2 antonym, 1 collocation) |
+| VI — R | 41 | 41 | §4.1b (R-VI1–41): 36 A + 5 E; tiểu loại personal 25 / demonstrative 15 / comparative 1; 1 hàng tự sinh (R-VI15 "bạn") |
+| VI — S | 0 | 0 | §3: không có phép thế nào |
+| VI — E | 4 | 4 | §2.2 (E-VI1–4): 3 [LC] + 1 [TC] (E-VI2, S014) |
+| VI — C | 9 | 9 | §5.2 (C-VI1–9), toàn bộ [LC]; 1 hàng tự sinh (C-VI4, S045) |
+| VI — L | 38 | 38 | §6.3 (L-VI1–38) theo chính sách §6.1 (35 repetition, 2 antonym, 1 collocation) |
 
 **Tổng đọc tay:** EN 95 tie (R43/S0/E4/C8/L40) trên 73 câu ≈ 1,30 tie/câu;
 VI 92 tie (R41/S0/E4/C9/L38) ≈ 1,26 tie/câu.

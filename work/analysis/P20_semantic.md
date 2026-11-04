@@ -770,16 +770,16 @@ mà VI không có; (ii) **tách S026 → S020+S021** dồn 4 hàng L vào một 
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 33 | | §4.1 (R-EN1–EN33); 32 hướng A + 1 E (R-EN25); 4 hàng attribution "he said/he says"; 12 hàng nằm trong khối cắt |
-| EN — S | 1 | | §3 (S-EN1 "the ones", [LC]); không có S [TC] |
-| EN — E | 2 | | §2 (E-EN1, E-EN2) — **đều [TC]**, không dùng làm bằng chứng liên câu; E-EN2 trong khối cắt |
-| EN — C | 14 | | §5.1 (C-EN1–EN14); 4 hàng trong khối cắt; 10 hàng đối ứng 1–1 với VI |
-| EN — L | 58 | | §6.3 theo chính sách §6.1; 6 hàng có alt "R: the"; 20 hàng trong khối cắt; chuỗi đậm nhất: C (9), G (6), J (9), A (5) |
-| VI — R | 19 | | §4.2 (R-VI1–VI19); toàn bộ hướng A; 2 hàng neo trong lede tự sinh (R-VI1/2) |
-| VI — S | 0 | | §3: không có pro-form thế |
-| VI — E | 1 | | §2 (E-VI1 "đã phê chuẩn ∅", [LC]) — minh họa R→E |
-| VI — C | 11 | | §5.2 (C-VI1–VI11); 1 hàng tự sinh ("cũng" S016 = C-VI3); 10 hàng đối ứng 1–1 |
-| VI — L | 41 | | §6.3 theo chính sách §6.1; chuỗi đậm nhất: C (7), A (6), L (4), D/G/H/K (3) |
+| EN — R | 33 | 33 | §4.1 (R-EN1–EN33); 32 hướng A + 1 E (R-EN25); 4 hàng attribution "he said/he says"; 12 hàng nằm trong khối cắt |
+| EN — S | 1 | 1 | §3 (S-EN1 "the ones", [LC]); không có S [TC] |
+| EN — E | 2 | 2 | §2 (E-EN1, E-EN2) — **đều [TC]**, không dùng làm bằng chứng liên câu; E-EN2 trong khối cắt |
+| EN — C | 14 | 14 | §5.1 (C-EN1–EN14); 4 hàng trong khối cắt; 10 hàng đối ứng 1–1 với VI |
+| EN — L | 58 | 58 | §6.3 theo chính sách §6.1; 6 hàng có alt "R: the"; 20 hàng trong khối cắt; chuỗi đậm nhất: C (9), G (6), J (9), A (5) |
+| VI — R | 19 | 19 | §4.2 (R-VI1–VI19); toàn bộ hướng A; 2 hàng neo trong lede tự sinh (R-VI1/2) |
+| VI — S | 0 | 0 | §3: không có pro-form thế |
+| VI — E | 1 | 1 | §2 (E-VI1 "đã phê chuẩn ∅", [LC]) — minh họa R→E |
+| VI — C | 11 | 11 | §5.2 (C-VI1–VI11); 1 hàng tự sinh ("cũng" S016 = C-VI3); 10 hàng đối ứng 1–1 |
+| VI — L | 41 | 41 | §6.3 theo chính sách §6.1; chuỗi đậm nhất: C (7), A (6), L (4), D/G/H/K (3) |
 
 **Kết luận:**
 

@@ -674,16 +674,16 @@ chức" 1 lần trong S053); các câu có nhiều hàng thuộc các chuỗi kh
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 20 | *(điền ở bước tie table)* | §4.1 (R-EN1–EN20), toàn bộ hướng A; hàng cầu nối: R-EN2, R-EN7 (med), R-EN15 (low); đọc chừng R-EN4 (low) |
-| EN — S | 2 | *(điền ở bước tie table)* | §3: S-EN1 [LC] conf thấp; S-EN2 [TC] — **không dùng làm bằng chứng liên câu** |
-| EN — E | 0 | *(điền ở bước tie table)* | §2: không có tỉnh lược (kể cả [TC]) |
-| EN — C | 4 | *(điền ở bước tie table)* | §5 (C-EN1–4), toàn bộ [LC]; C-EN2 thuộc khối cắt S024, conf thấp |
-| EN — L | 44 | *(điền ở bước tie table)* | §6.3 (L-EN1–EN44) theo chính sách §6.1; 10 hàng có alt "R: the" |
-| VI — R | 15 | *(điền ở bước tie table)* | §4.1 (R-VI1–VI15), toàn bộ hướng A; R-VI3 (low), R-VI11 (low) |
-| VI — S | 0 | *(điền ở bước tie table)* | §3: mọi pro-form EN được hiện thực hóa ("do"→"thực hiện", "those"→"những chính phủ", "the two"→"hai người") |
-| VI — E | 0 | *(điền ở bước tie table)* | §2 |
-| VI — C | 3 | *(điền ở bước tie table)* | §5 (C-VI1–3), giữ 1–1 đúng vị trí với EN |
-| VI — L | 46 | *(điền ở bước tie table)* | §6.3 (L-VI1–VI46) theo chính sách §6.1 |
+| EN — R | 20 | 20 | §4.1 (R-EN1–EN20), toàn bộ hướng A; hàng cầu nối: R-EN2, R-EN7 (med), R-EN15 (low); đọc chừng R-EN4 (low) |
+| EN — S | 2 | 2 | §3: S-EN1 [LC] conf thấp; S-EN2 [TC] — **không dùng làm bằng chứng liên câu** |
+| EN — E | 0 | 0 | §2: không có tỉnh lược (kể cả [TC]) |
+| EN — C | 4 | 4 | §5 (C-EN1–4), toàn bộ [LC]; C-EN2 thuộc khối cắt S024, conf thấp |
+| EN — L | 44 | 44 | §6.3 (L-EN1–EN44) theo chính sách §6.1; 10 hàng có alt "R: the" |
+| VI — R | 15 | 15 | §4.1 (R-VI1–VI15), toàn bộ hướng A; R-VI3 (low), R-VI11 (low) |
+| VI — S | 0 | 0 | §3: mọi pro-form EN được hiện thực hóa ("do"→"thực hiện", "those"→"những chính phủ", "the two"→"hai người") |
+| VI — E | 0 | 0 | §2 |
+| VI — C | 3 | 3 | §5 (C-VI1–3), giữ 1–1 đúng vị trí với EN |
+| VI — L | 46 | 46 | §6.3 (L-VI1–VI46) theo chính sách §6.1 |
 
 **Kết luận:**
 

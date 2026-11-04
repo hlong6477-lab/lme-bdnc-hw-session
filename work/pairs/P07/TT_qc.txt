@@ -1,0 +1,3 @@
+QC P07 VI: PASS
+counts: {'C': 9, 'E': 4, 'L': 38, 'R': 41}
+ties: 92

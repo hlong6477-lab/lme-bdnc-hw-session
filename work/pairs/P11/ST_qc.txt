@@ -1,0 +1,3 @@
+QC P11 EN: PASS
+counts: {'C': 4, 'L': 44, 'R': 20, 'S': 2}
+ties: 70
