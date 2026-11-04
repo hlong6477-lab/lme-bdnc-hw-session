@@ -544,16 +544,16 @@ câu — khung đóng của bài; EN đối ứng "struggling with sleep" ← S0
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 15 | — | §4.1 (R-EN1–EN15): 11 hướng A + 4 ref=E (ngôi 1/2); 6 hàng attribution |
-| EN — S | 1 | — | §3 (S-EN1), [TC] thế động từ |
-| EN — E | 2 | — | §2 (E-EN1, E-EN2), đều [TC], đều ở câu VI cắt |
-| EN — C | 5 | — | §5: 2 additive + 2 adversative + 1 additive (also) |
-| EN — L | 34 | — | §6.3 theo chính sách §6.1 (4 hàng có alt "R: the", 1 hàng alt "R: other") |
-| VI — R | 7 | — | §4.2 (R-VI1–VI7): 6 hướng A + 1 ref=E; 3 hàng attribution "bà" |
-| VI — S | 0 | — | §3: không có phép thế |
-| VI — E | 1 | — | §2 (E-VI1), [TC] zero chủ ngữ |
-| VI — C | 8 | — | §5: 5 đối ứng 1–1 + 3 tự sinh (Nói cách khác, Tuy nhiên, Ngoài ra) |
-| VI — L | 20 | — | §6.3 theo chính sách §6.1 |
+| EN — R | 15 | 15 | §4.1 (R-EN1–EN15): 11 hướng A + 4 ref=E (ngôi 1/2); 6 hàng attribution |
+| EN — S | 1 | 1 | §3 (S-EN1), [TC] thế động từ |
+| EN — E | 2 | 2 | §2 (E-EN1, E-EN2), đều [TC], đều ở câu VI cắt |
+| EN — C | 5 | 5 | §5: 2 additive + 2 adversative + 1 additive (also) |
+| EN — L | 34 | 34 | §6.3 theo chính sách §6.1 (4 hàng có alt "R: the", 1 hàng alt "R: other"); tie table đính chính mã câu hàng "sleep quality" S024→S025 (chuỗi chỉ nằm ở S025, khớp bản đồ §1 + ST_seg.json) và ghi thêm alt "R: the" cho S017 theo đúng §6.3 (tổng 5 + 1, khác đếm 4 của §4.3 — chênh nội bộ của analysis, không thêm/bớt hàng) |
+| VI — R | 7 | 7 | §4.2 (R-VI1–VI7): 6 hướng A + 1 ref=E; 3 hàng attribution "bà" |
+| VI — S | 0 | 0 | §3: không có phép thế |
+| VI — E | 1 | 1 | §2 (E-VI1), [TC] zero chủ ngữ |
+| VI — C | 8 | 8 | §5: 5 đối ứng 1–1 + 3 tự sinh (Nói cách khác, Tuy nhiên, Ngoài ra) |
+| VI — L | 20 | 20 | §6.3 theo chính sách §6.1 |
 
 **Kết luận:**
 - Tin dịch vụ 45/36 câu với mật độ EN 57/45 ≈ 1,27 tie/câu và VI 36/36 = 1,00 —
