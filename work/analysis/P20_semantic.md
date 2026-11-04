@@ -421,5 +421,390 @@ Thanh Tùng 2020).
   and" S026; VI "và cũng không được" S007, "nhưng" S029, "trừ phi" S004/S013,
   "dù… hay" S042, "hay" S044, "và" S019/S038, "hơn là" S032, "thì lại" S023.
 
-*(Hết §5. §6–§9 — liên kết từ vựng, dịch chuyển, bất thường nguồn, đối chiếu
-số đếm — do task kế tiếp viết nối vào file này.)*
+*(§6 tiếp theo dưới đây.)*
+
+## 6. Liên kết từ vựng (lexical cohesion)
+
+### 6.1. Chính sách đánh dấu L của cặp này (CONVENTIONS §8.1 + tiền lệ P05/P17)
+
+Chuỗi định nghĩa **hẹp theo tổ hợp từ vựng** (multi-word item): mỗi thuật ngữ
+/ tên riêng là một chuỗi riêng ("red card"/"thẻ đỏ", "Port State Measures
+agreement", "Tổ chức Tư pháp Môi trường"…). Danh từ đơn **quá tản mát** lặp
+dày — "seafood/fish/cá/hải sản" trần (~10 lần mỗi phía), "nations/countries/
+nước", "ports/cảng", "fisheries/ngư nghiệp", verba dicendi say/nói/cho biết —
+chỉ ghi inventory §6.2, không đánh dấu; riêng **general word/đồng nghĩa mới
+vào chuỗi** (the product/sản phẩm, merchandise/hàng hóa) vẫn đánh dấu theo
+P17 ("producers"). Quy tắc áp dụng cho P20 (rút từ §8.1 + tiền lệ P05/P17):
+
+1. **Tái lập chuỗi (bất kể cùng dạng hay biến thể) sau khoảng cách ≥ 2 câu**
+   → đánh dấu: "the European Union" S026 sau 16 câu; "thẻ đỏ" S007 sau 2 câu;
+   "Fishing vessels" S062 sau 25 câu (khung mở–đóng cuối bài); "Trung Quốc"
+   S039 sau 17 câu (mở lại chủ đề sau chỗ VI cắt subhead).
+2. **Biến thể mới vào chuỗi ở câu kề (gap 0–1)** → chỉ đánh dấu khi là **hạng
+   mục từ vựng mới thật sự**: đồng nghĩa (the pact/hiệp ước, penalties/trừng
+   phạt, bản phúc trình←study), general word (The organization, những người),
+   viết tắt (the EJF, the U.S.), tên lục địa (Europe/Châu Âu), đảo tổ hợp
+   (chain of supply, đánh trộm cá←đánh cá trộm), thuật ngữ đầy đủ mới
+   ("illegal, unreported and unregulated (IIU) fishing"). **Không** đánh dấu
+   khi chỉ rút bớt định ngữ của cùng hạng mục mà chuỗi còn hoạt động ở câu kề
+   ("The agreement" S035 ← S032 khi S034 đã có "the treaty"; "thỏa thuận"
+   S030 ← S027 khi S029 đã có "hiệp ước" — tiền lệ P05 §6.1 quy tắc 2), và
+   khi lặp nguyên dạng câu kề.
+3. **Tên riêng**: lặp kề và thành phần liệt kê (South Korea, Trung Quốc trong
+   danh sách thị trường S026/S021) → inventory; tái lập chủ thể trung tâm sau
+   khoảng cách lớn (Long S041/S044, Conniff S059, Ganapathiraju S051, Trung
+   Quốc S039) và **attribution lặp tên người nói sau gap ≥ 2** ("said
+   Ganapathiraju" S054) → đánh dấu; attribution kề ("said Conniff" S048,
+   "said Trent" S058, "explained Ganapathiraju" S028, "said Long" S045) →
+   inventory (tiền lệ P17: Yium S005/S006 kề không đánh dấu).
+4. **Bốn subhead EN (S012, S022, S040, S056)** là hàng body (CONVENTIONS §1)
+   nhưng theo P17 chỉ là **thành viên inventory**: mỗi subhead được câu body
+   đầu đoạn kế tiếp nhận lại chuỗi tương ứng bằng biến thể mới có đánh dấu
+   riêng (S013, S023, S041, S057) nên subhead không phát sinh mark riêng,
+   tránh đánh dấu hai lần cùng chuỗi tại cùng điểm nối.
+5. Một mark/câu/chuỗi; một NP chỉ nhận một hàng (chuỗi đại diện được chọn,
+   chuỗi còn lại nêu trong ghi chú — vd "South Korean ships" S013 tính cho
+   chuỗi D, thành tố "ships" ghi chú cho chuỗi G). Tiền trạm luôn đứng trước
+   câu chứa hàng L.
+
+### 6.2. Kho chuỗi hai phía (inventory — gồm cả thành viên không đánh dấu)
+
+| Chuỗi | Thành viên EN | Thành viên VI | Đánh dấu |
+|---|---|---|---|
+| A. EU (tổ chức) | the European Union (S001) · the EU fisheries commissioner (S001) · EU red cards (S004 — định ngữ thuộc chuỗi B) · EU countries (S005) · member countries' waters (S005) · EU markets (S006) · for Europe (S006) · the European Commission (S009) · the European Union (S026) · the EU (S034) · The U.S., the European Union (S043) | Châu Âu (S001) · Liên hiệp Châu Âu (S002) · Liên hiệp Châu Âu + ủy viên ngư nghiệp EU (S004) · các nước EU + các nước thành viên EU (S007) · EU (S009) · thị trường EU (S008) · Châu Âu (S008) · Ủy hội Âu châu (S011) · Liên hiệp Châu Âu (S021) · EU (S029) | EN: S006, S009, S026, S034, S043; VI: S002, S007, S008, S011, S021, S029 |
+| B. thẻ phạt (red/yellow card) | "red card" (S001) · "yellow card" (S002, thuật ngữ mới — prerequisite) · EU red cards (S004) · The red card (S005, kề) · a red card (S016) | “thẻ đỏ” (S004) · “thẻ vàng” (S005, prerequisite) · thẻ đỏ (S007) | EN: S004, S016; VI: S007 |
+| C. đánh bắt bất hợp pháp (IUU) | illegal fishing (S001) · pirate fishing (S004) · illegally caught fish (S006) · Illegal Foreign Catches (S022 subhead) · illegal, unreported and unregulated (IIU) fishing (S023) · illegal or unreported (S024) · illegal catches (S028) · illegal fishing (S033) · illegal fish (S035) · Ending Illegal Fishing Project (S037 — tên riêng dự án) · over-fishing (S045, S054) · illegal fishing (S054) · IUU fishing (S057) · illegal waters (S064) · illicit catches (S064) | đánh bắt cá bất hợp pháp (S002) · đánh bắt bất hợp pháp (S004) · đánh cá trộm (S007) · đánh bắt bất hợp pháp (S008) · đánh trộm cá (S015) · chuyển cá bất hợp pháp (S015 — hành động khác, chỉ inventory) · đánh bắt bất hợp pháp, không báo cáo và không qui định IIU (S017) · bất hợp pháp hay không được báo cáo (S018) · hải sản đánh bắt bất hợp pháp (S023) · Dự án Chấm dứt Đánh bắt bất hợp pháp + cá được đánh bắt bất hợp pháp (S030) · qui định đánh bắt của IUU (S039 — dịch lệch §8j) · đánh bắt bất hợp pháp (S041) · vùng biển bất hợp pháp (S044) · hải sản đánh bắt bất hợp pháp (S044) | EN: S004, S006, S023, S028, S033, S045, S054, S057, S064; VI: S007, S015, S017, S023, S030, S039, S044 |
+| D. Nam Triều Tiên | South Korea + Seoul (S001) · South Korean-flagged ships (S003) · [South] Korea (S008) · South Korean ships (S013) · South Korean pirates (S014, kề) · South Korea (S016) · brand Korea (S017) · the country (S019) · they/their (S020, R-EN12) · South Korea (S026 — liệt kê thị trường) | Nam Triều Tiên (S001) · Nam Triều Tiên + Seoul + cờ Nam Triều Tiên (S004) · Nam Triều Tiên (S005, kề) · treo cờ Nam Triều Tiên (S006) · các ông (S011–S013 — ngôi 2 trong trích dẫn, R-VI4) · Nam Triều Tiên (S010) · các tàu thuyền Nam Triều Tiên (S014) · Nam Triều Tiên (S015, kề) · Nam Triều Tiên (S021 — liệt kê thị trường) | EN: S008, S013, S017, S019; VI: S004, S010, S014 |
+| E. hải sản/cá (general word) | seafood (S005) · fish (S006) · high-value fish species (S013) · fish (S014) · seafood (S022 subhead, S023) · the product (S026) · seafood imports (S030) · illegal fish (S035) · the fish (S043) · seafood suppliers (S044) · their product (S045) · the (sea)food (S049) · merchandise (S050) · fish (S051) · seafood (S057) — seafood/fish trần tản mát | hải sản (S001) · hải sản nhập khẩu (S003) · hải sản (S007) · hải sản (S017) · nhập khẩu hải sản (S021) · những sản phẩm (S021) · hải sản (S023) · hải sản (S025) · cá (S030, S031) · những hải sản (S037) · hàng hóa (S038) · hải sản (S039) · hải sản (S044) — hải sản/cá trần tản mát | EN: S026 (the product), S050 (merchandise); VI: S021 (sản phẩm), S038 (hàng hóa) |
+| F. thị trường/nước nhập khẩu | EU markets (S006) · major seafood importing markets (S026) · these markets + these importing countries (S028, R-EN16) · major import markets (S031) · all big markets (S043) · export destinations (S053) | thị trường EU (S008) · những thị trường nhập khẩu hải sản chính (S021) · các thị trường này (S021, [TC]) · những thị trường này (S023, R-VI10) · tất cả những nước nhập khẩu (S023) · những thị trường nhập khẩu khác (S026) | EN: S026, S031, S043, S053; VI: S021, S026 |
+| G. tàu thuyền/ngư dân | boats (S001) · ships (S003) · ships (S013 — tính cho chuỗi D) · local fishermen (S014) · the vessels (S015) · foreign vessels (S033) · The fisherman (S036) · Fishing vessels (S062) · the boat (S062, [TC]) · vessel monitoring system (S063) · vessels (S064, kề) | tàu thuyền (S004) · tàu thuyền + nhiều chiếc (S006 — classifier) · các tàu thuyền Nam Triều Tiên (S014 — tính cho chuỗi D) · con tàu + ngư dân địa phương (S015) · tàu thuyền + các ngư dân trẻ (S016) · các tàu thuyền (S028) · Ngư dân (S031) · các tàu + những tàu này (S042, [TC]) · các tàu thuyền (S043) · những tàu (S044, kề) | EN: S003, S014, S015, S033, S036, S062; VI: S028, S031, S042 |
+| H. thỏa thuận cảng (PSMA) | Port State Measures agreement (S032) · It (S033, R-EN19) · the pact (S033) · the treaty (S034) · The agreement (S035) · it (S034, R-EN20) · the Port States Measures agreement (S039) | thỏa thuận các Biện pháp tại Cảng của các Quốc gia (S027) · Thỏa thuận này + ký thỏa thuận (S028, R-VI13) · hiệp ước (S029) · thỏa thuận (S030, rút gọn — inventory) · thỏa thuận về các Biện pháp tại Cảng các Quốc gia (S034) | EN: S033, S034, S039; VI: S029, S034 |
+| I. nghiên cứu/phúc trình | A new study (S023) · It (S024, R-EN14) · the report (S026) · A 2009 government report (S030 — tài liệu khác, chỉ inventory) · his research (S051) | một cuộc nghiên cứu mới (S003 — tự sinh) · Một cuộc nghiên cứu mới (S017) · Cuộc nghiên cứu này (S018, R-VI7) · bản phúc trình (S020) · Một phúc trình năm 2009 của chính phủ (S025 — tài liệu khác, chỉ inventory) | EN: S026, S051; VI: S017, S020 |
+| J1. Trent + EJF | Steve Trent of the Environmental Justice Foundation (S006) · he said (S009, R-EN4) · the EJF (S013) · The organization (S014) · It says (S015, R-EN7) · the EJF's Trent (S016) · he says (S019, R-EN11) · the EJF's Steve Trent (S057) · said Trent (S058, kề) | Ông Steve Trent thuộc Tổ chức Tư pháp Môi trường (S008) · Tổ chức Tư pháp Môi trường (S014) · Tổ chức này (S015, R-VI6) · Tổ chức này (S016, kề) · ông Steve Trent của Tổ chức Tư pháp Môi trường (S039) | EN: S013, S014, S016, S057; VI: S014, S039 |
+| J2. Ganapathiraju | Pramod Ganapathiraju (S026) · explained Ganapathiraju (S028, kề) · Ganapathiraju at UBC (S051) · said Ganapathiraju (S054) | ông Pramod Ganapathiraju (S020) · Ông nói (S021, R-VI9) | EN: S051, S054; VI: — |
+| J3. Long | said Anthony Long, who runs the Ending Illegal Fishing Project… (S037) · Long explains (S041) · he said (S042, R-EN24) · Long (S044) · said Long (S045, kề) | Ông Anthony Long (S030 — VI dời attribution lên đây) | EN: S041, S044; VI: — |
+| J4. Conniff | Richard Conniff (S047) · said Conniff (S048, kề) · Conniff said (S059) | Ông Richard Conniff (S035) | EN: S059; VI: — |
+| K. chế tài/trừng phạt | warning (S002) · further sanctions (S003) · there will be penalties (S011) · an international rebuke (S018) · embargo (S021) | trừng phạt (S004) · cảnh cáo (S005) · chế tài (S006) · lời đe dọa (S009 — inventory) · những trừng phạt (S013) | EN: S003, S011, S018, S021; VI: S005, S006, S013 |
+| L. quốc gia (Mỹ, Trung Quốc, nations) | the United States (S023) · the U.S. (S026) · the United States (S030) · The U.S. Senate (S032, kề) · The U.S. (S043) · this country (S049, R-EN28) · China (S025) · China (S026, kề) · China (S057) · the Chinese government (S058, kề) · China (S059, S060, kề) · nations (S033) · other nations (S059) · these other countries (S060) — nations/countries tản mát, chỉ inventory | Hoa Kỳ (S003) · nước Mỹ (S017) · Hoa Kỳ (S021) · Hoa Kỳ (S025) · Thượng viện Hoa Kỳ (S027, kề) · nước này (S037, R-VI16) · Trung Quốc (S019) · Trung Quốc (S021, kề) · Trung Quốc (S039) · chính phủ Trung Quốc (S040, kề) · các nước (S007, S023, S024, S029, S034, S040 — tản mát) | EN: S026, S030, S043, S057; VI: S017, S021, S025, S039 |
+| M. nhà phân phối | the distributors (S047) · The distributors (S048, kề) · distributors (S051) | những nơi phân phối (S035) · Các nhà phân phối (S036) · những người (S038, general word) | EN: S051; VI: S036, S038 |
+| N. chuỗi cung ứng (EN-only) | the seafood supply chain (S041) · the chain of supply (S043) · the supply chain (S045, kề) · that supply (S043, [TC]) | — (khối cắt) | EN: S043; VI: — |
+| O. nhận diện (identification) | identification markings (S014) · a unique identification number (S062) · beacons identifying themselves (S064, kề) | dấu hiệu có thể nhận diện được (S015) · số hiệu nhận diện đặc biệt (S042) · tín hiệu nhận diện hiện tại (S044, kề) | EN: S062; VI: S042 |
+| P. quy định (regulation) | the new tough regulation (S006) · Additional regulatory changes (S061) | các qui định nghiêm khắc mới (S008) · qui định đánh bắt của IUU (S039 — dịch lệch, inventory) · Những thay đổi thêm về các qui định (S041) | EN: S061; VI: S041 |
+| Q. khác (chỉ inventory) | ports (S030, S033, S036, S037) · tracks/monitoring/surveillance (S006, S029, S063, S064) · fisheries patrols/patrol (S014, S037) · suppliers (S044, S045, S046 — nhóm khác nhà phân phối) · catches (S052) · fisheries (S058, S060) · manpower (S028, S029) · tuna/salmon/pollock (S024) · tên riêng đơn lẻ (Ghana, Curacao, Belize, Cambodia, Guinea, Japan, Thailand, Bangkok, West Africa, Marine Policy, UBC, Pew, U.N. FAO) · verba dicendi · 4 subhead | cảng (S024, S025, S028, S032) · theo dõi/giám sát (S008, S024, S043, S044) · tàu tuần tra/tuần tra (S015, S032) · ngư nghiệp (S004, S015, S020) · cá ngừ/cá hồi/cá pôlắc (S018) · công-ten-nơ (S021) · tên riêng đơn lẻ (Ghana, Curacao, Belize, Campuchia, Guinea, Nhật Bản, Thái Lan, Bangkok, Tây Phi, Chính sách Hàng hải, British Columbia, Pew, Lương Nông Liên hiệp quốc, Steve Herman/VOA S003 tự sinh) · verba dicendi | — |
+
+### 6.3. Các hàng L ghi vào tie table
+
+**EN — 58 hàng** (một mark/câu/chuỗi; tiền trạm luôn đứng trước):
+
+| # | Câu | Nguyên văn | sub | Tiền trạm | Ghi chú |
+|---|---|---|---|---|---|
+| L-EN1 | S003 | ships | synonym | S001: boats flying its flag | biến thể boats→ships (gap 1) |
+| L-EN2 | S003 | further sanctions | synonym | S002: a "yellow card" warning | đồng nghĩa trường chế tài, câu kề |
+| L-EN3 | S004 | EU red cards | repetition | S001: a so-called "red card" | tái lập sau 2 câu + định ngữ EU; alt "R: the" |
+| L-EN4 | S004 | pirate fishing | synonym | S001: illegal fishing | đồng nghĩa ẩn dụ; dạng gốc S001 |
+| L-EN5 | S006 | for Europe | synonym | S005: EU countries | tên lục địa mới vào chuỗi A; lỗi nguồn "for Europe/." (§8b) |
+| L-EN6 | S006 | illegally caught fish | synonym | S004: pirate fishing | tổ hợp participle mới vào chuỗi C |
+| L-EN7 | S008 | [South] Korea | repetition | S001: South Korea | rút gọn, tái lập sau 6 câu; ngoặc vuông nguồn (§8p) |
+| L-EN8 | S009 | the European Commission | synonym | S006: for Europe | thuật ngữ cơ quan mới vào chuỗi A; conf med |
+| L-EN9 | S011 | there will be penalties | synonym | S003: further sanctions | trong trích dẫn nội bộ Ủy hội; tái lập sau 7 câu |
+| L-EN10 | S013 | the EJF | repetition | S006: the Environmental Justice Foundation | viết tắt, tái lập sau 6 câu |
+| L-EN11 | S013 | South Korean ships | repetition | S008: [South] Korea | tái lập chuỗi D sau 4 câu; "ships" cũng tái lập chuỗi G (gap 9) — một NP một hàng |
+| L-EN12 | S014 | The organization | general word | S013: the EJF | alt "R: The" (§1) |
+| L-EN13 | S014 | local fishermen | collocation | S013: South Korean ships | biến thể người vào chuỗi G, câu kề |
+| L-EN14 | S015 | the vessels | synonym | S013: South Korean ships | vessels mới vào chuỗi G, câu kề |
+| L-EN15 | S016 | a red card | repetition | S005: The red card | tái lập sau 10 câu; khối cắt |
+| L-EN16 | S016 | the EJF's Trent | repetition | S014: The organization | tái lập tổ chức + người (Trent ← S006); khối cắt |
+| L-EN17 | S017 | brand Korea | synonym | S016: South Korea | metonym thương hiệu, câu kề; khối cắt |
+| L-EN18 | S018 | an international rebuke | synonym | S011: there will be penalties | tái lập sau 6 câu; khối cắt |
+| L-EN19 | S019 | the country | general word | S016: South Korea | đại từ tổng quát hóa quốc gia; khối cắt |
+| L-EN20 | S021 | the relatively modest embargo | synonym | S018: an international rebuke | biến thể embargo mới; khối cắt |
+| L-EN21 | S023 | illegal, unreported and unregulated (IIU) fishing | repetition | S022: Illegal Foreign Catches (subhead) | thuật ngữ đầy đủ mới; "(IIU)" sai chính tả (§8g); tiền trạm kề là subhead (inventory), dạng gốc S004 |
+| L-EN22 | S026 | the European Union | repetition | S009: the European Commission | tái lập sau 16 câu; alt "R: the" |
+| L-EN23 | S026 | major seafood importing markets | repetition | S006: EU markets | tái lập chuỗi F sau 19 câu tại attribution |
+| L-EN24 | S026 | the product | general word | S023: seafood entering the United States | general word mới vào chuỗi E |
+| L-EN25 | S026 | the report | synonym | S023: A new study | đồng nghĩa report←study (§4.4 giao từ R sang L); alt "R: the" |
+| L-EN26 | S026 | the U.S. | repetition | S023: the United States | viết tắt, tái lập sau 2 câu |
+| L-EN27 | S028 | illegal catches | repetition | S023: illegal, unreported and unregulated (IIU) fishing | biến thể catches, tái lập sau 4 câu |
+| L-EN28 | S030 | the United States | repetition | S026: the U.S. | tái lập sau 3 câu; alt "R: the" |
+| L-EN29 | S031 | major import markets | repetition | S026: major seafood importing markets | rút gọn + đổi thành tố (importing→import) |
+| L-EN30 | S033 | the pact | synonym | S032: Port State Measures agreement | đồng nghĩa mới, câu kề |
+| L-EN31 | S033 | foreign vessels | repetition | S015: the vessels | tái lập chuỗi G sau 17 câu |
+| L-EN32 | S033 | illegal fishing | repetition | S028: illegal catches | tái lập dạng gốc sau 4 câu |
+| L-EN33 | S034 | the treaty | synonym | S033: the pact | đồng nghĩa mới, câu kề; alt "R: the" |
+| L-EN34 | S034 | the EU | repetition | S026: the European Union | viết tắt, tái lập sau 7 câu |
+| L-EN35 | S036 | The fisherman | repetition | S014: local fishermen | tái lập sau 21 câu; lỗi số nguồn "The fisherman have" (§8e) |
+| L-EN36 | S039 | the Port States Measures agreement | repetition | S035: The agreement | tái lập tên gần đầy đủ sau 3 câu; sai chính tả "States" (§8g); alt "R: the" |
+| L-EN37 | S041 | Long | repetition | S037: said Anthony Long | tái lập tên sau 3 câu (§1); khối cắt |
+| L-EN38 | S043 | The U.S. | repetition | S030: the United States | tái lập sau 12 câu; khối cắt |
+| L-EN39 | S043 | the European Union | repetition | S034: the EU | tái lập sau 8 câu; khối cắt |
+| L-EN40 | S043 | all big markets | general word | S031: major import markets | big←major (general word); khối cắt |
+| L-EN41 | S043 | the chain of supply | repetition | S041: the seafood supply chain | đảo tổ hợp, câu kề; khối cắt |
+| L-EN42 | S044 | Long | repetition | S041: Long explains | tái lập tên sau 2 câu; khối cắt |
+| L-EN43 | S045 | over-fishing | collocation | S035: illegal fish | biến thể "đánh bắt quá mức" vào chuỗi C sau 9 câu; conf med; khối cắt |
+| L-EN44 | S050 | all merchandise | general word | S049: the (sea)food | general word mới, câu kề |
+| L-EN45 | S051 | Ganapathiraju at UBC | repetition | S028: explained Ganapathiraju | tái lập tên sau 22 câu; khối cắt |
+| L-EN46 | S051 | his research | synonym | S026: the report | đồng nghĩa research←study/report; khối cắt |
+| L-EN47 | S051 | distributors | repetition | S048: The distributors | tái lập sau 2 câu; khối cắt |
+| L-EN48 | S053 | export destinations | synonym | S043: all big markets | biến thể destinations←markets; khối cắt |
+| L-EN49 | S054 | illegal fishing | repetition | S045: over-fishing | tái lập dạng gốc sau 8 câu; "over-fishing" cùng câu cùng chuỗi — 1 mark; khối cắt |
+| L-EN50 | S054 | said Ganapathiraju | repetition | S051: Ganapathiraju at UBC | lặp tên người nói trong attribution sau gap 2 (§8.1 iii); khối cắt |
+| L-EN51 | S057 | the EJF's Steve Trent | repetition | S016: the EJF's Trent | tái lập người + tổ chức sau 40 câu, mở đoạn (subhead S056 — inventory) |
+| L-EN52 | S057 | China | repetition | S026: China | tái lập sau 30 câu, mở đoạn |
+| L-EN53 | S057 | IUU fishing | repetition | S023: illegal, unreported and unregulated (IIU) fishing | viết tắt; IIU→IUU biến thể chính tả nguồn (§8g) |
+| L-EN54 | S059 | Conniff | repetition | S048: said Conniff | tái lập tên sau 10 câu; khối cắt |
+| L-EN55 | S061 | Additional regulatory changes | repetition | S006: the new tough regulation | tái lập trường quy định sau 54 câu — khung mở–đóng của bài |
+| L-EN56 | S062 | Fishing vessels | repetition | S033: foreign vessels | tái lập chuỗi G sau 28 câu — khung đóng; "the boat" cùng câu [TC] |
+| L-EN57 | S062 | a unique identification number | repetition | S014: identification markings | khung mở–đóng nhận diện sau 47 câu; conf med |
+| L-EN58 | S064 | illicit catches | synonym | S057: IUU fishing | illicit←illegal; "illegal waters" cùng câu cùng chuỗi — 1 mark |
+
+**VI — 41 hàng:**
+
+| # | Câu | Nguyên văn | sub | Tiền trạm | Ghi chú |
+|---|---|---|---|---|---|
+| L-VI1 | S002 | Liên hiệp Châu Âu | synonym | S001: bán hải sản cho Châu Âu | tên đầy đủ mới vào chuỗi A; lede tự sinh — tie VI độc lập (CONVENTIONS §1) |
+| L-VI2 | S004 | Nam Triều Tiên | repetition | S001: Nam Triều Tiên có thể trở thành quốc gia đã phát triển đầu tiên | tái lập sau 2 câu; "Seoul" và "cờ Nam Triều Tiên" cùng câu cùng chuỗi |
+| L-VI3 | S005 | cảnh cáo | synonym | S004: trừng phạt | đồng nghĩa mới, câu kề |
+| L-VI4 | S006 | chế tài | synonym | S005: cảnh cáo | đồng nghĩa mới, câu kề |
+| L-VI5 | S007 | các nước EU | repetition | S004: ủy viên ngư nghiệp EU | tái lập sau 2 câu; "các nước thành viên EU" cùng câu |
+| L-VI6 | S007 | thẻ đỏ | repetition | S004: “thẻ đỏ” | tái lập sau 2 câu (“thẻ vàng” S005 là thuật ngữ mới — prerequisite, §1) |
+| L-VI7 | S007 | đánh cá trộm | synonym | S004: đánh bắt bất hợp pháp | đối ứng EN "pirate fishing" (L-EN4) |
+| L-VI8 | S008 | Châu Âu | synonym | S007: các nước EU | tên lục địa mới vào chuỗi A; "thị trường EU" cùng câu (kề, không đánh dấu) |
+| L-VI9 | S010 | Nam Triều Tiên | repetition | S006: treo cờ Nam Triều Tiên | tái lập sau 3 câu |
+| L-VI10 | S011 | Ủy hội Âu châu | synonym | S008: Châu Âu | thuật ngữ cơ quan mới; đối ứng EN "the European Commission" (L-EN8) |
+| L-VI11 | S013 | những trừng phạt | repetition | S006: chế tài | tái lập sau 6 câu (dạng gốc S004) |
+| L-VI12 | S014 | Tổ chức Tư pháp Môi trường | repetition | S008: Tổ chức Tư pháp Môi trường | tái lập tên đầy đủ sau 5 câu, mở đoạn (VI cắt subhead EN S012); EN đối ứng viết tắt "the EJF" |
+| L-VI13 | S014 | các tàu thuyền Nam Triều Tiên | repetition | S010: Nam Triều Tiên | tái lập chuỗi D sau 3 câu; "tàu thuyền" cũng tái lập chuỗi G (gap 7) — một NP một hàng |
+| L-VI14 | S015 | đánh trộm cá | repetition | S007: đánh cá trộm | đảo tổ hợp, tái lập sau 7 câu |
+| L-VI15 | S017 | Một cuộc nghiên cứu mới | repetition | S003: một cuộc nghiên cứu mới | tái lập sau 13 câu; tiền trạm nằm trong lede tự sinh |
+| L-VI16 | S017 | đánh bắt bất hợp pháp, không báo cáo và không qui định IIU | repetition | S015: đánh trộm cá | thuật ngữ đầy đủ mới (đối ứng L-EN21); "IIU" sai chính tả (§8g) |
+| L-VI17 | S017 | nước Mỹ | synonym | S003: Hoa Kỳ | biến thể nước Mỹ←Hoa Kỳ sau 13 câu |
+| L-VI18 | S020 | bản phúc trình | synonym | S018: Cuộc nghiên cứu này | đồng nghĩa phúc trình←nghiên cứu (câu cách 1, hạng mục mới) |
+| L-VI19 | S021 | Hoa Kỳ | repetition | S017: nước Mỹ | tái lập sau 3 câu (dạng gốc S003) |
+| L-VI20 | S021 | những thị trường nhập khẩu hải sản chính | repetition | S008: thị trường EU | tái lập chuỗi F sau 12 câu; "các thị trường này" cùng câu là [TC] (tách câu — §7) |
+| L-VI21 | S021 | Liên hiệp Châu Âu | repetition | S011: Ủy hội Âu châu | tái lập sau 9 câu (dạng gốc S002/S004) |
+| L-VI22 | S021 | những sản phẩm | general word | S017: hải sản được đưa vào nước Mỹ | general word mới vào chuỗi E (đối ứng L-EN24) |
+| L-VI23 | S023 | hải sản đánh bắt bất hợp pháp | repetition | S017: đánh bắt bất hợp pháp, không báo cáo và không qui định IIU | tái lập sau 5 câu |
+| L-VI24 | S025 | Hoa Kỳ | repetition | S021: Hoa Kỳ | tái lập sau 3 câu; đối ứng L-EN28 |
+| L-VI25 | S026 | những thị trường nhập khẩu khác | repetition | S023: những thị trường này | tái lập sau 2 câu; "tất cả những nước nhập khẩu" cùng câu (R-VI10/11) |
+| L-VI26 | S028 | các tàu thuyền | repetition | S016: một số tàu thuyền | tái lập chuỗi G sau 11 câu; đối ứng L-EN31 |
+| L-VI27 | S029 | hiệp ước | synonym | S028: Thỏa thuận này | đồng nghĩa mới, câu kề; đối ứng L-EN33 |
+| L-VI28 | S029 | EU | repetition | S021: Liên hiệp Châu Âu | viết tắt, tái lập sau 7 câu |
+| L-VI29 | S030 | cá được đánh bắt bất hợp pháp | repetition | S023: hải sản đánh bắt bất hợp pháp | tái lập sau 6 câu; occ 2 — "Dự án Chấm dứt Đánh bắt bất hợp pháp" cùng câu cùng chuỗi |
+| L-VI30 | S031 | Ngư dân | repetition | S015: ngư dân địa phương | tái lập chuỗi G (dạng người) sau 15 câu; đối ứng L-EN35; "các tàu thuyền" S028 cũng thuộc chuỗi |
+| L-VI31 | S034 | thỏa thuận về các Biện pháp tại Cảng các Quốc gia | repetition | S030: thỏa thuận (xem thỏa thuận như là) | tái lập tên đầy đủ sau 3 câu (§1); "thỏa thuận" S030 là rút gọn kề — inventory |
+| L-VI32 | S036 | Các nhà phân phối | synonym | S035: những nơi phân phối | biến thể mới, câu kề |
+| L-VI33 | S038 | tất cả hàng hóa | general word | S037: những hải sản | general word mới (đối ứng L-EN44) |
+| L-VI34 | S038 | những người | general word | S036: Các nhà phân phối | theo §3 (đối ứng S-EN1 "the ones"); "họ" cùng câu là R-VI17 |
+| L-VI35 | S039 | ông Steve Trent của Tổ chức Tư pháp Môi trường | repetition | S008: Ông Steve Trent thuộc Tổ chức Tư pháp Môi trường | tái lập người + tổ chức sau 30 câu, mở đoạn; đối ứng L-EN51 |
+| L-VI36 | S039 | IUU | repetition | S017: IIU | tái lập sau 21 câu; IIU→IUU (§8g); nằm trong cụm dịch lệch "qui định đánh bắt của IUU" (§8j) |
+| L-VI37 | S039 | Trung Quốc | repetition | S021: Trung Quốc | tái lập sau 17 câu, mở đoạn; đối ứng L-EN52 |
+| L-VI38 | S041 | Những thay đổi thêm về các qui định | repetition | S008: các qui định nghiêm khắc mới | tái lập trường quy định sau 32 câu — khung đóng; đối ứng L-EN55 |
+| L-VI39 | S042 | Các tàu đánh cá | repetition | S031: Ngư dân | tái lập chuỗi G sau 10 câu (dạng tàu ← S028); "những tàu này" cùng câu [TC]; đối ứng L-EN56 |
+| L-VI40 | S042 | số hiệu nhận diện đặc biệt | repetition | S015: dấu hiệu có thể nhận diện được | khung mở–đóng nhận diện sau 26 câu; conf med; đối ứng L-EN57 |
+| L-VI41 | S044 | hải sản đánh bắt bất hợp pháp | repetition | S039: qui định đánh bắt của IUU | tái lập dạng gốc sau 4 câu; "vùng biển bất hợp pháp" cùng câu cùng chuỗi — 1 mark |
+
+**Các ứng viên đã kiểm tra và loại (không đánh dấu):** "The agreement" S035
+(rút định ngữ của S032, chuỗi còn "the treaty" S034 — P05 quy tắc 2); "thỏa
+thuận" S030 (tương tự, chuỗi có "hiệp ước" S029); "these other countries"
+S060 ← "other nations" S059 và "other destinations" S054 ← S053 (biến thể
+kề của trường danh từ đơn tản mát nations/countries/destinations — §4.4 đã
+cân nhắc alt "R: these/other", chuyển về inventory); "The red card" S005,
+"said Conniff" S048, "said Trent" S058, "explained
+Ganapathiraju" S028, "said Long" S045, "the Chinese government" S058,
+"China" S059/S060 (lặp kề); "South Korea" S026 / "Trung Quốc" S021 /
+"Nam Triều Tiên" S021 (thành phần liệt kê thị trường); "EU" S009, "Tổ chức
+này" S016, "Việc này" S033, "Nam Triều Tiên" S005/S006/S015, "tàu thuyền"
+S016, "các ngư dân trẻ" S016 (lặp kề nguyên dạng/gia đình hình thái);
+"the (sea)food" S049, "their product" S045 (biến thể kiểu gõ/trong câu
+product ×2); "the system" S042 (bridging, conf thấp — §4.4); "A 2009
+government report" S030 / "Một phúc trình năm 2009" S025 (lặp từ "report/
+phúc trình" nhưng **tài liệu khác** — báo cáo chính phủ Mỹ 2009 ≠ nghiên cứu
+Marine Policy; không đánh dấu để tránh đọc nhầm đồng quy chiếu); "Ending
+Illegal Fishing Project" S037 (tên riêng dự án chứa "Illegal Fishing");
+suppliers S044–S046 (nhóm nhà cung ứng ≠ nhà phân phối); seafood/fish/cá/
+hải sản trần, nations/countries/nước, ports/cảng, fisheries/ngư nghiệp,
+theo dõi/monitoring, tuần tra (danh từ đơn tản mát — quy tắc §6.1); 4
+subhead (quy tắc 4).
+
+### 6.4. Nhận định
+
+- **Quy mô:** L-EN 58 hàng / L-VI 41 hàng — hạng mục lớn nhất hai phía
+  (54%/57% tổng tie). Mật độ L/câu xấp xỉ (EN 0,91; VI 0,93): VI nén chuỗi
+  vào bản dịch ngắn hơn (44 câu) nên đậm tương đương dù mất hẳn 4 khối.
+- **Chuỗi chủ đạo:** C (đánh bắt bất hợp pháp/IUU) dày nhất (EN 9, VI 7) và
+  **đối xứng từng vị trí dịch** — hai bên giữ ổn định cặp thuật ngữ (illegal
+  fishing ↔ đánh bắt bất hợp pháp; pirate fishing ↔ đánh cá trộm; IUU ↔
+  IIU/IUU với cùng lỗi chính tả hai phía). Chuỗi A (EU) là nơi VI đa dạng hóa
+  danh xưng hơn (Châu Âu → Liên hiệp Châu Âu → EU → Ủy hội Âu châu) nên VI
+  6 hàng, EN 5.
+- **Ảnh hưởng 4 khối cắt:** 20/58 hàng L-EN nằm gọn trong 4 khối (S016–S021:
+  6; S041–S046: 7; S051–S055: 6; S059–S060: 1) — các chuỗi chỉ tồn tại EN
+  (rebuke/embargo, chuỗi cung ứng, export destinations, Conniff tái lập)
+  không phải "mất liên kết khi dịch" mà là nội dung bị cắt; VI trống, không
+  bịa tie đối ứng. Phía VI không có hàng nào không neo được trừ các hàng
+  chạm lede tự sinh (L-VI1 ← S001; L-VI15 tiền trạm S003).
+- **Hội tụ:** VI hội tụ nơi EN viết tắt ("the EJF" ↔ "Tổ chức Tư pháp Môi
+  trường" nguyên dạng; "the U.S." ↔ "Hoa Kỳ") và hai bên cùng giữ hai khung
+  mở–đóng lớn: nhận diện (identification markings S014 → a unique
+  identification number S062 ↔ dấu hiệu nhận diện S015 → số hiệu nhận diện
+  S042) và quy định (the new tough regulation S006 → regulatory changes
+  S061 ↔ các qui định nghiêm khắc mới S008 → thay đổi qui định S041).
+- **Phân rã có kiểm soát:** chuỗi H hai bên cùng phân rã đồng nghĩa nối tiếp
+  (agreement → pact → treaty ↔ thỏa thuận → hiệp ước) — mỗi biến thể mới đều
+  có hàng, chuỗi không bao giờ đứt; phân rã duy nhất bất đối xứng là IIU
+  (S023) → IUU (S057), VI lặp lại đúng từng lỗi (§8g).
+- **Câu đậm nhất:** EN S026 (attribution Ganapathiraju + liệt kê 4 thị
+  trường) tái lập đồng thời 5 chuỗi (A, E, F, I, L); VI tách thành S020+S021
+  nên 4 hàng tương ứng dồn vào S021 — ví dụ rõ nhất việc tách câu làm dày
+  mật độ L/câu phía VI.
+
+*(Hết §6.)*
+
+## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
+
+| Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn hai đầu |
+|---|---:|---|
+| EN đại từ [−người] → VI danh từ + chỉ từ (R↔R, "danh ngữ hóa") | 6 | EN S024 "It finds 40 percent of the tuna from Thailand is illegal or unreported" ↔ VI S018 "Cuộc nghiên cứu này phát hiện là 40% cá ngừ từ Thái Lan là bất hợp pháp"; EN S033 "It is designed to keep foreign vessels…" ↔ VI S028 "Thỏa thuận này nhắm mục đích loại trừ các tàu thuyền…"; EN S064 "It would be able to track vessels…" ↔ VI S044 "Hệ thống này sẽ có khả năng theo dõi những tàu…" |
+| EN demonstrative/đại từ → VI lặp danh từ (R→L) | 3 | EN S005 "The red card means those countries cannot sell their seafood" ↔ VI S007 "cấm Belize, Campuchia và Guinea không được bán hải sản"; EN S007 "It's beginning to show its teeth" ↔ VI S009 chủ ngữ "EU"; EN S036 "The fisherman have to bring it to port" ↔ VI S031 "Ngư dân phải đưa cá vào cảng" |
+| EN đại từ tân ngữ → VI ∅ (R→E) | 1 | EN S034 "Ten coastal countries and the EU have already ratified it" ↔ VI S029 "10 nước ven biển và EU đã phê chuẩn ∅" (E-VI1) |
+| Giữ quy chiếu mở rộng pro-form 1–1 | 3 | EN S008 "And that is what is happening with regard to [South] Korea" ↔ VI S010 "Và đó là điều đang xảy ra đối với Nam Triều Tiên"; EN S025 "That was also the case with 70 percent of salmon imports" ↔ VI S019 "Đây cũng là trường hợp của 70% cá hồi nhập khẩu"; EN S049 "That's where most of the (sea)food comes into this country" ↔ VI S037 "Đó là nơi hầu hết những hải sản vào nước này" |
+| Đổi khoảng cách deixis (EN distal → VI proximal) | 1 | EN S025 "That was also the case" ↔ VI S019 "Đây cũng là trường hợp" (That→Đây); đối chứng giữ distal: EN S049 "That's" ↔ VI S037 "Đó"; EN S050 "it" ↔ VI S038 "tình trạng ấy" (distal hóa + danh từ tổng quát) |
+| EN "the" + đầu ngữ lặp/biến thể → hàng L có alt "R: the" | 6 | EN S014 "The organization" / S026 "the report" / S026 "the European Union" / S030 "the United States" / S034 "the treaty" / S039 "the Port States Measures agreement" ↔ VI "Tổ chức này" (R-VI6) / "bản phúc trình" / "Liên hiệp Châu Âu" / "Hoa Kỳ" / "hiệp ước" / "thỏa thuận về các Biện pháp tại Cảng các Quốc gia" |
+| Viết tắt EN ↔ tên đầy đủ VI (bất đối xứng inventory) | 2 | EN S013 "the EJF has documented" ↔ VI S014 "Tổ chức Tư pháp Môi trường đã ghi nhận"; EN S026 "the U.S. and other major seafood importing markets" ↔ VI S021 "Hoa Kỳ và những thị trường nhập khẩu hải sản chính" |
+| Nối giữ 1–1 cùng kiểu | 10 | "And"↔"Và" (S008/S010, S011/S013, S050/S038); "also"↔"cũng" (S025/S019, S063/S043); "But, at the same time"↔"Nhưng đồng thời" (S028/S023); "So/Therefore"↔"Do đó" ×3 (S029/S024, S037/S032, S039/S034); "Additional"↔"thêm" (S061/S041) |
+| VI tự sinh nối (hiện thực hóa nối ngầm EN) | 1 | EN S015 "It says on some of the vessels, workers as young as 14 are forced…" ↔ VI S016 "Tổ chức này cũng nói trên một số tàu thuyền, các ngư dân trẻ khoảng 14 tuổi bị buộc…" ("cũng" = C-VI3) |
+| VI bỏ / dời attribution | 5 | EN S009 "…," he said." (VI S011 bỏ); EN S028 "…," explained Ganapathiraju." (bỏ); EN S037 "…," said Anthony Long, who runs the Ending Illegal Fishing Project for the Pew Charitable Trust." (toàn bộ intro dời lên S030 "Ông Anthony Long, điều hành Dự án…"); EN S048 "…," said Conniff." (bỏ); EN S058 "…," said Trent." (bỏ) |
+| VI tách câu attribution → đổi cấp liên kết [LC]→[TC] | 1 | EN S026 một câu attribution ("The lead author of the report… said the U.S. and other major seafood importing markets… see most of the product…") ↔ VI tách S020 "Tác giả đứng đầu bản phúc trình là ông Pramod Ganapathiraju…" + S021 "Ông nói…"; hệ quả: EN "these markets" S028 [LC] (R-EN16) ↔ VI "các thị trường này" S021 [TC] |
+| VI tự sinh lede + attribution | 3 câu | VI S001–S003 "BANGKOK — Tháng tới, Nam Triều Tiên có thể trở thành quốc gia đã phát triển đầu tiên bị cấm bán hải sản cho Châu Âu…"; "Thông tín viên Steve Herman thuộc văn phòng Đông Nam Á của Đài VOA ở Bangkok tường trình chi tiết." — không có đối ứng EN; tie VI (R-VI1/2, L-VI1) đứng độc lập |
+| Ẩn dụ EN → thuật ngữ VI (hiện thực hóa) | 1 | EN S061 "Additional regulatory changes are being implemented to try to stem the tide." ↔ VI S041 "Những thay đổi thêm về các qui định đang được thực hiện để ngăn chặn việc đánh bắt bất hợp pháp." |
+| Lệch ngôi / honorific trong trích dẫn | 3 | EN S009 "We are seeing the European Commission saying" ↔ VI S011 "Chúng ta đang thấy Ủy hội Âu châu nói rằng" (ngôi 1 độc quyền → bao gồm); EN S010 "What you have done doesn't satisfy us." ↔ VI S012 "Những gì các ông làm không thỏa mãn chúng tôi." (you→các ông honorific; us→chúng tôi loại trừ) |
+| EN tỉnh lược lượng từ [TC] → VI classifier (không sinh tie VI) | 1 | EN S003 "many ∅ in waters off the coast of West Africa" (E-EN1) ↔ VI S006 "nhiều chiếc hoạt động trong vùng biển ngoài khơi Tây Phi" (classifier — mapping §4) |
+| EN cắt khối / subhead (VI trống) | 4 khối + 4 subhead | S016–S021 (Trent 2 "brand Korea"), S041–S046 (chuỗi cung ứng), S051–S055 (Ganapathiraju 2), S059–S060 (Conniff về Trung Quốc) + subhead S012/S022/S040/S056 — 23 câu EN không dịch; 20/58 hàng L-EN và 12/33 hàng R-EN nằm gọn trong 4 khối |
+
+**Nhận định:** phần được dịch gần như "trong suốt" về nối (10/10 đối ứng giữ
+kiểu) và giải quyết mọi chỗ rỗng diễn đạt EN bằng **danh ngữ hóa** (danh từ +
+chỉ từ) hoặc lặp danh từ — không có chiều ngược "EN lấp đầy chỗ VI zero" nào
+ở cấp [LC]. Hai dịch chuyển có tính cấu trúc nhất của cặp: (i) **bỏ
+attribution** (5 lần) làm EN giàu hàng R-EN4/11/24/32 + hàng L tên nhân vật
+mà VI không có; (ii) **tách S026 → S020+S021** dồn 4 hàng L vào một câu VI,
+đảo ngược vị trí đậm nhất của bài.
+
+*(Hết §7.)*
+
+## 8. Bất thường dữ liệu nguồn (cần ghi chú khi thống kê)
+
+- **(a) Không URL nguồn:** `meta.json` có `en_url`/`vi_url` rỗng hai phía —
+  bất thường đã ghi nhận từ bước chuẩn hóa (xem phần Lưu ý nguồn đầu file);
+  không bịa URL; không ảnh hưởng tie.
+- **(b) EN S006 cụt + dấu lạ:** "praised the new tough regulation for
+  Europe/." — dấu "/" lạc và câu thiếu vế so với bản dịch (VI S008 "ca ngợi
+  các qui định nghiêm khắc mới của Châu Âu"). Không dùng làm bằng chứng về
+  ranh giới mệnh đề/câu; từ "Europe" còn nguyên vẹn nên hàng L-EN5 vẫn trích
+  được.
+- **(c) EN S035 thiếu động từ chính:** "The agreement as an affordable way to
+  stop illegal fish from entering the global market, Long argues." — thiếu
+  "is"; §2 đã loại không bịa ∅ từ lỗi nguồn. NP "The agreement" và "illegal
+  fish" (tiền trạm của L-EN43) còn nguyên — dùng được làm tiền trạm; cấu trúc
+  câu không dùng làm bằng chứng cấp câu.
+- **(d) EN S037 "draw" khả nghi:** "…you need to patrol out at sea or draw in
+  space [satellite] surveillance" — "draw" gần như chắc chắn lỗi gõ của
+  "drone"; "[satellite]" là chèn biên tập (VI S032 dịch "theo dõi bằng vệ
+  tinh"). Không dùng "draw" làm bằng chứng cấp câu.
+- **(e) EN S036 lỗi số:** "The fisherman have to bring it to port." — số ít
+  đi với "have". Hàng L-EN35 đánh dấu trên hình thức nguyên văn "The
+  fisherman"; ghi chú lỗi, không sửa nguyên văn.
+- **(f) EN S051 thiếu "to":** "they are not able obtain the same amount of
+  fish year to year" — lỗi nguồn; nằm trong khối cắt nên không ảnh hưởng tie
+  VI.
+- **(g) Sai chính tả "IIU"/"IUU" hai phía:** EN S023 "(IIU)", VI S017 "IIU"
+  (đúng: IUU); EN S057 và VI S039 viết đúng "IUU" — biến thể chính tả của
+  chính nguồn, trích nguyên văn kèm lỗi (L-EN21/53, L-VI16/36); tương tự EN
+  S039 "Port State**s** Measures" (thiếu dấu so với S032 "Port State
+  Measures").
+- **(h) VI S033 thiếu dấu:** "Việc này chắc chắc là giảm bớt tốn kém" —
+  "chắc chắc" (đúng: chắc chắn); nguyên văn giữ khi trích (đã dẫn trong
+  C-VI8).
+- **(i) VI thiếu dấu cách:** S003 "…hay không có giấy tờ hợp lệ.Thông tín
+  viên Steve Herman…" — hai câu thật dính thành MỘT câu sentmap (ranh giới
+  theo sentmap; không dùng ranh giới bên trong S003 làm bằng chứng cấp câu);
+  S039 "ngày càng tăng- sẽ" — dấu gạch nối + khoảng trắng lạc.
+- **(j) VI dịch lệch nghĩa:** S039 "chống lại qui định đánh bắt của IUU" (EN
+  S057: "combating IUU fishing" — đánh bắt kiểu IUU, không phải "qui định
+  của IUU"); S044 "thay đổi tín hiệu nhận diện hiện tại" (EN S064: "switch
+  off existing beacons" — tắt, không phải thay đổi); S035 tên sách rút phụ
+  đề: "Người tìm các Chủng loại" ← "Species Seekers: Heroes, Fools, and the
+  Mad Pursuit of Life on Earth". Các hàng tie tại đây (L-VI36, L-VI41…) ghi
+  theo nguyên văn VI nhưng **không dùng làm bằng chứng cho nghĩa phía EN**.
+- **(k) VI tự sinh số liệu + lede:** S003 "một phần 3 hải sản nhập khẩu được
+  đánh bắt bất hợp pháp" — không có đối ứng EN (EN chỉ có 40% / 70% / 45% /
+  2% / 85%); cả lede S001–S003 + attribution "Thông tín viên Steve Herman…
+  Đài VOA" là khối tự sinh — tie VI tại đây (R-VI1/2, L-VI1) đứng độc lập,
+  không dùng làm bằng chứng phía EN.
+- **(l) VI bỏ 5 attribution:** "he said" (S009), "explained Ganapathiraju"
+  (S028), "said Anthony Long, who runs…" (S037 — nội dung dời lên S030),
+  "said Conniff" (S048), "said Trent" (S058) — hệ quả: EN có 4 hàng R
+  attribution + 9 hàng L tên nhân vật/tổ chức, VI gần như không có (chỉ
+  "Ông nói" S021 = R-VI9).
+- **(m) rows.json — đếm lại bằng công cụ (`json.load`):** **35 hàng** (không
+  phải 36 như ghi ở §1), ô `vi` trống **14** (khớp phiếu khảo sát 35/14,
+  không phải 15): 4 hàng subhead + 10 hàng khối body gộp chứa đúng 19 câu
+  body bị cắt; ô `en` trống 1 (hàng 0 — lede VI tự sinh). Số "36 hàng / 15
+  hàng VI trống" ở §1 là đếm nhầm; mọi đối chiếu câu–bảng trong §6 dùng
+  sentmap (64 câu EN / 44 câu VI) làm chuẩn.
+- **(n) 4 subhead EN (S012, S022, S040, S056):** là hàng body theo
+  CONVENTIONS §1 nhưng VI cắt toàn bộ; theo chính sách §6.1 chỉ là thành
+  viên inventory (chuỗi do câu body đầu đoạn đảm nhiệm), không dùng làm bằng
+  chứng cấp câu phía VI.
+- **(o) 4 khối cắt (S016–S021, S041–S046, S051–S055, S059–S060):** EN đánh
+  dấu đầy đủ (20 hàng L, 12 hàng R, 4 hàng C, 1 hàng E nằm gọn trong khối),
+  VI để trống — không bịa tie đối ứng (CONVENTIONS §1).
+- **(p) Lỗi gõ nhỏ khác:** EN S008 "[South] Korea" (ngoặc vuông biên tập —
+  trích nguyên văn trong L-EN7); EN S009 dấu trích lẫn kiểu ("'you haven't
+  done enough," — mở đơn đóng kép); "Curacao" không dấu ç hai phía (S002/
+  S005); EN segmenter **không** chẻ câu tại "U.S."/"U.N." (S026, S032 giữ
+  nguyên trong câu) — không có trường hợp CONVENTIONS §8.3 phải gộp câu.
+
+*(Hết §8.)*
+
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+
+| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+|---|---:|---:|---|
+| EN — R | 33 | | §4.1 (R-EN1–EN33); 32 hướng A + 1 E (R-EN25); 4 hàng attribution "he said/he says"; 12 hàng nằm trong khối cắt |
+| EN — S | 1 | | §3 (S-EN1 "the ones", [LC]); không có S [TC] |
+| EN — E | 2 | | §2 (E-EN1, E-EN2) — **đều [TC]**, không dùng làm bằng chứng liên câu; E-EN2 trong khối cắt |
+| EN — C | 14 | | §5.1 (C-EN1–EN14); 4 hàng trong khối cắt; 10 hàng đối ứng 1–1 với VI |
+| EN — L | 58 | | §6.3 theo chính sách §6.1; 6 hàng có alt "R: the"; 20 hàng trong khối cắt; chuỗi đậm nhất: C (9), G (6), J (9), A (5) |
+| VI — R | 19 | | §4.2 (R-VI1–VI19); toàn bộ hướng A; 2 hàng neo trong lede tự sinh (R-VI1/2) |
+| VI — S | 0 | | §3: không có pro-form thế |
+| VI — E | 1 | | §2 (E-VI1 "đã phê chuẩn ∅", [LC]) — minh họa R→E |
+| VI — C | 11 | | §5.2 (C-VI1–VI11); 1 hàng tự sinh ("cũng" S016 = C-VI3); 10 hàng đối ứng 1–1 |
+| VI — L | 41 | | §6.3 theo chính sách §6.1; chuỗi đậm nhất: C (7), A (6), L (4), D/G/H/K (3) |
+
+**Kết luận:**
+
+- **Từ vựng là thiết bị chủ lực của cặp cắt mạnh nhất này:** L chiếm 58/108
+  tie EN (54%) và 41/72 tie VI (57%); mật độ 1,69 tie/câu EN và 1,64 tie/câu
+  VI — đậm nhất trong các cặp đã phân tích, phản ánh tin chính sách VOA với
+  hệ thuật ngữ dày (thẻ đỏ/thẻ vàng, IUU, PSMA) lặp có chủ đích.
+- **Chênh lệch L (58 vs 41) chủ yếu do cắt, không do phân rã khi dịch:**
+  20/58 hàng L-EN nằm gọn trong 4 khối cắt; phần được dịch giữ chuỗi gần đối
+  xứng từng vị trí (thẻ đỏ S004/S007; thuật ngữ IUU hai phía; chuỗi PSMA
+  biến thể đồng nghĩa song song; hai khung mở–đóng nhận diện và quy định được
+  VI giữ nguyên vẹn).
+- **R→danh ngữ hóa là dịch chuyển hệ thống:** trong 18 cặp R có đối ứng, VI
+  chỉ giữ pro-form 3 lần ("đó/Đây/Đó"); 6 cặp đổi sang danh từ + chỉ từ
+  ("It" → "Cuộc nghiên cứu này/Thỏa thuận này/Hệ thống này"), 3 cặp R→L, 1
+  cặp R→E — đây là nguồn chính của chênh lệch R (33 vs 19) và của việc VI
+  gần như không có đại từ ngôi 3 (duy nhất "họ" R-VI17).
+- **S/E gần như vắng ở cấp liên câu:** EN S1 [LC] + E2 đều [TC]; VI S0 + E1
+  [LC]. Các hiện tượng [TC] (E-EN1/2; VI "các thị trường này" S021, "những
+  tàu này" S042, "con tàu" S015, "nhiều chiếc" S006, "14 nước khác" S029)
+  chỉ mang tính mô tả, **không dùng làm bằng chứng cho bất kỳ kết luận nào về
+  liên kết liên câu** (CONVENTIONS §5).
+- Số "Đọc tay" ở trên là chuẩn để lấp tie table (cột "Đã ghi tie table" để
+  trống chờ cổng QC `pipeline.annotate`/`render`); lưu ý số liệu đúng của
+  `rows.json` là **35 hàng / 14 ô VI trống** (§8m), khác số đếm ghi ở §1 —
+  cần hiệu chỉnh khi thống kê khảo sát.
+
+*(Hết §9 — hoàn chỉnh §1–§9 cho P20.)*
