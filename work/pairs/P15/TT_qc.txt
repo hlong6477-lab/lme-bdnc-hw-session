@@ -1,0 +1,3 @@
+QC P15 VI: PASS
+counts: {'E': 3, 'L': 26, 'R': 9}
+ties: 38

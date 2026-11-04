@@ -507,16 +507,16 @@ Khalil]).
 
 | Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 11 | — | §4.1 (R-EN1–EN11); toàn bộ hướng A; 2 hàng attribution ("he added") + 1 hàng nơi chốn ("there") |
-| EN — S | 1 | — | §3 (S-EN1 "one"), [TC] |
-| EN — E | 1 | — | §2 (E-EN1), [TC]; đối xứng với E-VI2 |
-| EN — C | 3 | — | §5 (also + But ×2); VI mất cả 3 vị trí |
-| EN — L | 41 | — | §6.3 theo chính sách §6.1 (8 hàng có alt "R: the/The/his") |
-| VI — R | 9 | — | §4.2 (R-VI1–VI9); toàn bộ hướng A; 2 hàng chỉ từ + danh từ tổng quát ("này" ×2) |
-| VI — S | 0 | — | §3: không có phép thế |
-| VI — E | 3 | — | §2 (E-VI1 [TC], E-VI2 [TC], E-VI3 [LC]) |
-| VI — C | 0 | — | §5: EN 3 ↔ VI 0 — mất nối do cắt/viết lại |
-| VI — L | 26 | — | §6.3 theo chính sách §6.1 (2 hàng có alt "R: này/đó") |
+| EN — R | 11 | **11** | §4.1 (R-EN1–EN11); toàn bộ hướng A; 2 hàng attribution ("he added") + 1 hàng nơi chốn ("there") |
+| EN — S | 1 | **1** | §3 (S-EN1 "one"), [TC] |
+| EN — E | 1 | **1** | §2 (E-EN1), [TC]; đối xứng với E-VI2 |
+| EN — C | 3 | **3** | §5 (also + But ×2); VI mất cả 3 vị trí |
+| EN — L | 41 | **41** | §6.3 theo chính sách §6.1; tie table ghi **10** hàng có alt "R: the/The/his" (S008, S013, S017, S020 ×2, S021, S022, S023, S025, S028) — con số "8" khi đọc tay là đếm sót, số hàng L không đổi |
+| VI — R | 9 | **9** | §4.2 (R-VI1–VI9); toàn bộ hướng A; 2 hàng chỉ từ + danh từ tổng quát ("này" ×2) |
+| VI — S | 0 | **0** | §3: không có phép thế |
+| VI — E | 3 | **3** | §2 (E-VI1 [TC], E-VI2 [TC], E-VI3 [LC]) |
+| VI — C | 0 | **0** | §5: EN 3 ↔ VI 0 — mất nối do cắt/viết lại |
+| VI — L | 26 | **26** | §6.3 theo chính sách §6.1 (2 hàng có alt "R: này/đó" — S005, S024, khớp) |
 
 **Kết luận:**
 - Tin 34/29 câu (31/26 câu thật sau khi bỏ 5 hàng artifact "(1)/(?)") với mật

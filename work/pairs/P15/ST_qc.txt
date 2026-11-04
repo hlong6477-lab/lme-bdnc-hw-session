@@ -1,0 +1,3 @@
+QC P15 EN: PASS
+counts: {'C': 3, 'E': 1, 'L': 41, 'R': 11, 'S': 1}
+ties: 57
