@@ -1,0 +1,3 @@
+QC P14 EN: PASS
+counts: {'E': 1, 'L': 16, 'R': 3}
+ties: 20

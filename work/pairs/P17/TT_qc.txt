@@ -1,0 +1,3 @@
+QC P17 VI: PASS
+counts: {'C': 4, 'E': 1, 'L': 26, 'R': 6}
+ties: 37
