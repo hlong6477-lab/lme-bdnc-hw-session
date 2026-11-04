@@ -57,13 +57,16 @@
 ### Kế hoạch (cập nhật liên tục)
 - [x] Bước 0: bootstrap + chuẩn hóa input + ingest/segment + push
 - [x] Bước 1: pilot P01 — analysis 9 mục + tie table + QC PASS + push
-- [ ] Bước 2: batch A P02–P06 (mỗi cặp: 3–4 tác vụ vi mô)
-- [ ] Bước 3: batch B P07–P11
-- [ ] Bước 4: batch C P12–P16
-- [ ] Bước 5: batch D P17–P20
-- [ ] Bước 6: build Appendix 1 + export DOCX/PDF + validate
-- [ ] Bước 7: Appendix 2 — thống kê + báo cáo phân tích tổng hợp
-- [ ] Bước 8: kiểm tra trực quan + giao deliverable
+- [x] Bước 2: batch A P02–P06 (P02/P05 tie table qua micro-task sau khi
+  sandbox recycle; P05 §8f hiệu chỉnh sau đối chiếu sentmap)
+- [x] Bước 3: batch B P07–P11 (P07/P11/P20 wave A+B+C; P20 retry sau 1 lỗi
+  transport)
+- [x] Bước 4: batch C P12–P16
+- [x] Bước 5: batch D P17–P20 — 20/20 cặp QC PASS, §9 khớp 10/10 ô
+- [x] Bước 6: build Appendix 1 + export DOCX/PDF + validate 20/20 OK
+- [x] Bước 7: Appendix 2 — thống kê + báo cáo phân tích tổng hợp
+- [x] Bước 8: kiểm tra trực quan (37+6 trang: 0 trang trắng, đủ 20 Pair,
+  2445 run màu khớp export, 494 mũ A/C/E, dấu VI chuẩn) + giao deliverable
 
 ### Ghi chú nguồn từng cặp (từ bước chuẩn hóa, chuyển cho agent tương ứng)
 - P01: có các hàng subhead bold hai bên ('We're at a tipping point', Public
@@ -87,3 +90,28 @@
 - P16–P19: tiêu đề trùng standalone + in-table.
 - P20: không có URL nguồn; có hàng lede VI tự sinh (ô EN=none); subhead EN
   "EU Aims for Public Shaming…" (VI=none); nhiều khối cắt một bên.
+
+### Bước 2–5 — hoàn tất 20/20 cặp (tổng kết)
+- Hạ tầng: chia tác vụ vi mô (analysis §1–5 → §6–9 → tie table), mỗi task
+  một agent, điều phối viên chạy pipeline + push. Lỗi transport hiếm (3 lần),
+  retry là đủ. Sandbox bị recycle 1 lần giữa chừng — khôi phục từ GitHub
+  (mọi tiến trình đã được push đúng như yêu cầu).
+- Kết quả 20 cặp (tie EN/VI): P01 88/67 · P02 67/67 · P03 52/53 · P04 57/36 ·
+  P05 57/43 · P06 30/15 · P07 95/92 · P08 76/70 · P09 61/53 · P10 45/50 ·
+  P11 70/64 · P12 1/2 · P13 20/8 · P14 20/19 · P15 57/38 · P16 30/29 ·
+  P17 37/37 · P18 36/36 · P19 42/41 · P20 108/72.
+- Toàn bộ: EN 1.049 tie (R279 S11 E24 C101 L634) / VI 892 (R215 S4 E22
+  C93 L558); mật độ 1,41 / 1,31 tie/câu.
+
+### Bước 6–8 — Appendix 1 + 2, kiểm tra, giao hàng
+- Appendix 1 (out/appendix1/): md + html + segments + stats; DOCX 22 bảng,
+  2.445 run màu (Y990/G17/B48/O196/P1194), 494 mũ A/C/E; PDF 37 trang;
+  validate 20/20 OK, marker coverage 100%.
+- Appendix 2 (out/appendix2/): appendix2_stats.json + Appendix2.md/docx/pdf
+  (6 trang): bảng A.1–A.4 + 6 phát hiện tổng hợp (L chủ lực 60/63%; danh ngữ
+  hóa quy chiếu R→L; ref A >91%; E/S hiếm và [TC]; nối gần đối xứng;
+  chênh lệch do biên tập) + bất thường nguồn + hạn chế.
+- Kiểm tra: 0 trang trắng, đủ Pair 01–20 trong PDF, màu render thật trên
+  trang (R/L 37/37 trang), dấu tiếng Việt chuẩn, không placeholder sót.
+- Deliverable copy sang download/: Appendix1.docx/pdf, Appendix2.docx/pdf,
+  Phan-tich-chi-tiet-20-cap_EN-VI.zip (20 file analysis), appendix2_stats.json.
