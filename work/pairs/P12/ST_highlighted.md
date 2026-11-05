@@ -6,4 +6,4 @@
 
 ---
 
-Robert F. Kennedy Jr. announced his endorsement of former President Donald Trump, the Republican presidential nominee, on Friday. VOA's Carolyn Presutti reports from Glendale, Arizona, where 🟨⟦the two politicians⟧ campaigned together for the first time.
+Robert F. Kennedy Jr. announced his endorsement of former President Donald Trump, the Republican presidential nominee, on Friday. VOA's Carolyn Presutti 🟪⟦reports⟧ from Glendale, Arizona, where 🟨⟦the two politicians⟧ 🟪⟦campaigned⟧ together for the first time.
