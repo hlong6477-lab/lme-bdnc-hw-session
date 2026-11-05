@@ -458,4 +458,208 @@ TT = [
      "gia đình hình thái ('cầu' → 'nhu cầu'); cùng câu 'nhu cần' là lỗi "
      "chính tả (§8b); đối ứng EN 'appetite' (S024)", 1, None, None, "LC",
      None),
+
+    # ---------- L v2 bổ sung ----------
+    # Chính sách L v2 (CONVENTIONS §8.1) áp cho văn bản VI: chuỗi gồm từ đơn
+    # nội dung ('cao su', 'giá', 'đôla'…), tên riêng ('Ông Yium', 'Thái Lan',
+    # 'VOA', 'Trung Quốc'), động từ attribution ('nói/cho biết/thông báo' = 1
+    # chuỗi riêng); lặp cùng dạng kể cả câu kề; 1 mark/câu/chuỗi; occ đếm tay.
+    # Bỏ qua: 'Bangkok' (S002) trùng dateline 'BANGKOK' (S001, artifact);
+    # 'hoạt động' S005↔S006 trỏ hoạt động khác nhau; 'kiểm soát' S009↔S012
+    # trỏ đối tượng khác; từ thời gian/chức năng ('năm', 'tháng', 'mức',
+    # 'khác' đứng alone). Không dùng regex/danh sách từ.
+    ("S002", "sụt xuống", "L", "repetition",
+     "S001: Một sự sụt giảm về lượng nhập", "med", None,
+     "cùng gốc 'sụt' ('sụt giảm' → 'sụt xuống'); mở chuỗi rớt giá; đối ứng "
+     "EN 'falling' (S002)", 1, None, None, "LC", None),
+    ("S003", "cao su", "L", "repetition", "S001: lượng nhập cao su", "high",
+     None, "chuỗi từ đơn 'cao su' (§8.1); trong 'nông gia trồng cao su'", 1,
+     None, None, "LC", None),
+    ("S003", "tụt xuống", "L", "synonym", "S002: Giá đã sụt xuống", "high",
+     None, "'tụt' ~ 'sụt', lặp thành tố 'xuống'; chuỗi rớt giá, câu kề", 1,
+     None, None, "LC", None),
+    ("S004", "cao su", "L", "repetition", "S003: nông gia trồng cao su",
+     "high", None,
+     "chuỗi từ đơn 'cao su' — 'số cao su sẽ giao'; 'Cao su' hoa trong tên "
+     "'Tổ hợp Cao su Quốc tế' thuộc chuỗi tên riêng", 1, None, None, "LC",
+     None),
+    ("S005", "Ông Yium", "L", "repetition", "S004: Ông Yium Tavarolit",
+     "high", None,
+     "lặp tên người nói trong attribution, câu kề (§8.1 iv); đối ứng EN "
+     "'Yium' (S005)", 1, None, None, "LC", None),
+    ("S006", "Ông Yium", "L", "repetition", "S005: Ông Yium nói", "high",
+     None,
+     "lặp tên câu kề (§8.1 i); VI giữ tên thay vì đại từ như EN ('he said' "
+     "là R)", 1, None, None, "LC", None),
+    ("S006", "cho biết", "L", "synonym", "S005: Ông Yium nói", "high", None,
+     "chuỗi động từ attribution (§8.1 v); 'cho biết' ~ 'nói'; đối ứng EN "
+     "'says' (S005)", 1, None, None, "LC", None),
+    ("S007", "cao su", "L", "repetition", "S005: một số nhà trồng cao su",
+     "high", None, "chuỗi từ đơn 'cao su'; trong 'các cây cao su'", 1, None,
+     None, "LC", None),
+    ("S008", "nói", "L", "synonym", "S006: Ông Yium cho biết", "high", None,
+     "chuỗi động từ attribution; 'nói' tái xuất sau biến thể 'cho biết' "
+     "(S005 'nói' cùng chuỗi); đối ứng EN 'contends' (S009)", 1, None, None,
+     "LC", None),
+    ("S009", "nói", "L", "repetition", "S008: Tổ hợp nói", "high", None,
+     "chuỗi động từ attribution; lặp 'nói' câu kề; đối ứng EN 'say' (S010)",
+     1, None, None, "LC", None),
+    ("S009", "VOA", "L", "repetition",
+     "S002: thông tín viên VOA Steve Herman", "high", None,
+     "chuỗi tên riêng; tái lập sau 7 câu", 1, None, None, "LC", None),
+    ("S009", "Thái Lan", "L", "repetition",
+     "S003: Thái Lan, Malaysia và Indonesia", "high", None,
+     "chuỗi tên riêng; trong 'chính phủ Thái Lan'; tái lập sau 6 câu; đối "
+     "ứng EN 'Thailand’s' (S010)", 1, None, None, "LC", None),
+    ("S010", "Thái Lan", "L", "repetition", "S009: chính phủ Thái Lan",
+     "high", None,
+     "chuỗi tên riêng; lặp câu kề, chủ ngữ mở đoạn; đối ứng EN 'Thailand' "
+     "(S011)", 1, None, None, "LC", None),
+    ("S010", "cao su", "L", "repetition", "S007: các cây cao su", "high",
+     None,
+     "chuỗi từ đơn 'cao su'; 'mua cao su thẳng' — danh từ trần; đối ứng EN "
+     "'rubber' (S011)", 1, None, None, "LC", None),
+    ("S010", "đôla", "L", "repetition", "S003: 36 tỷ đôla", "high", None,
+     "chuỗi đơn vị tiền tệ; 2 lần trong câu ('2 tỷ đôla', '11 tỷ đôla'); EN "
+     "dùng ký hiệu '$' nên không có đối ứng từ", 2, None, None, "LC", None),
+    ("S010", "nông nghiệp", "L", "repetition",
+     "S006: các hoạt động nông nghiệp khác", "high", None,
+     "lặp danh từ sau 4 câu; đối ứng EN 'agriculture' (S011)", 1, None,
+     None, "LC", None),
+    ("S011", "nói", "L", "repetition",
+     "S009: các chuyên gia phân tích … nói", "high", None,
+     "chuỗi động từ attribution; 'nói rằng' — lượt lời broker; đối ứng EN "
+     "'says' (S012)", 1, None, None, "LC", None),
+    ("S011", "Thái Lan", "L", "repetition", "S010: Thái Lan đang tài trợ",
+     "high", None,
+     "chuỗi tên riêng; lặp câu kề trong 'của Thái Lan'; đối ứng EN "
+     "'Thailand' (S012)", 1, None, None, "LC", None),
+    ("S012", "nói", "L", "repetition", "S011: nói rằng", "high", None,
+     "chuỗi động từ attribution; 'nói với đài VOA'; EN đối ứng 'he tells "
+     "VOA' (R — không double-code)", 1, None, None, "LC", None),
+    ("S012", "VOA", "L", "repetition", "S009: mà VOA liên lạc", "high",
+     None, "chuỗi tên riêng; 'đài VOA' — khoảng cách 3 câu", 1, None, None,
+     "LC", None),
+    ("S012", "chính phủ Thái", "L", "repetition", "S011: chính phủ Thái",
+     "high", None, "lặp nguyên dạng câu kề trong lời broker", 1, None, None,
+     "LC", None),
+    ("S012", "chặt", "L", "repetition", "S007: Một số chặt tất cả", "high",
+     None,
+     "động từ lặp sau 5 câu ('chặt bớt'); đối ứng EN 'cut down' (S013)", 1,
+     None, None, "LC", None),
+    ("S012", "mức cung", "L", "repetition",
+     "S008: tỷ lệ giữa cung và cầu", "high", None,
+     "'cung' tái lập sau 4 câu ('kiểm soát mức cung'); đối ứng EN 'the "
+     "supply' (S013)", 1, None, None, "LC", None),
+    ("S013", "cao su", "L", "repetition", "S012: cây cao su", "high", None,
+     "chuỗi từ đơn 'cao su'; 3 lần trong câu (sản xuất/mua/mua); đối ứng EN "
+     "'rubber' (S014)", 3, None, None, "LC", None),
+    ("S013", "mua", "L", "repetition", "S010: việc mua cao su thẳng", "high",
+     None,
+     "động từ lặp sau 3 câu; 2 lần trong câu; đối ứng EN 'buying' (S014)", 2,
+     None, None, "LC", None),
+    ("S013", "chính phủ", "L", "repetition", "S012: chính phủ Thái", "high",
+     None,
+     "rút gọn bỏ định ngữ 'Thái', câu kề; đối ứng EN 'the government' "
+     "(S014)", 1, None, None, "LC", None),
+    ("S013", "giá đắt", "L", "repetition", "S008: giá thấp như vậy", "high",
+     None,
+     "từ 'giá' tái lập; định ngữ 'đắt' đối lập 'thấp' — cùng chuỗi giá "
+     "(S004, S008)", 1, None, None, "LC", None),
+    ("S014", "toàn cầu", "L", "repetition", "S013: thị trường toàn cầu",
+     "high", None,
+     "tính từ lặp câu kề; phạm vi toàn cầu của thặng dư; đối ứng EN "
+     "'global' (S015)", 1, None, None, "LC", None),
+    ("S015", "nói", "L", "repetition", "S012: nói với đài VOA", "high",
+     None,
+     "chuỗi động từ attribution; khoảng cách 3 câu, lượt lời chủ tịch; đối "
+     "ứng EN 'says' (S016)", 1, None, None, "LC", None),
+    ("S015", "Thái Lan", "L", "repetition", "S011: của Thái Lan", "high",
+     None,
+     "chuỗi tên riêng; dạng đầy đủ tái lập sau 4 câu; đối ứng EN 'Thailand' "
+     "(S016)", 1, None, None, "LC", None),
+    ("S015", "chính phủ", "L", "repetition", "S013: chính phủ mua cao su",
+     "med", None,
+     "biến thể số nhiều ('các chính phủ khác' bao gồm chính phủ Thái); đối "
+     "ứng EN 'other governments' (S016)", 1, None, None, "LC", None),
+    ("S015", "trợ giúp", "L", "synonym", "S010: Thái Lan đang tài trợ",
+     "high", None,
+     "'trợ giúp' ~ 'tài trợ'; chuỗi tài trợ nối tiếp S016 'Hỗ trợ cấp "
+     "thời'; đối ứng EN 'aid' (S016)", 1, None, None, "LC", None),
+    ("S016", "nói", "L", "repetition",
+     "S015: Tổ hợp Cao su Quốc tế nói", "high", None,
+     "chuỗi động từ attribution; lặp câu kề; EN đối ứng 'he said' (R — tên "
+     "'Ông Yium' là hàng L riêng)", 1, None, None, "LC", None),
+    ("S017", "giúp", "L", "synonym", "S016: Hỗ trợ cấp thời", "high", None,
+     "'giúp' ~ 'hỗ trợ'; chuỗi tài trợ - trợ giúp; đối ứng EN 'assist' "
+     "(S019)", 1, None, None, "LC", None),
+    ("S018", "chọn lựa", "L", "repetition",
+     "S015: không có chọn lựa nào khác", "high", None,
+     "lặp danh từ sau 3 câu trong lời ông Yium; đối ứng EN 'no choice' "
+     "(S020)", 1, None, None, "LC", None),
+    ("S018", "biện pháp", "L", "repetition",
+     "S017: các biện pháp bền vững", "high", None,
+     "lặp danh từ câu kề trong lời ông Yium; đối ứng EN 'measures' (S020)",
+     1, None, None, "LC", None),
+    ("S018", "nông gia cao su", "L", "repetition", "S017: các nông gia",
+     "high", None,
+     "biến thể thêm định ngữ 'cao su', câu kề; đối ứng EN 'rubber farmers' "
+     "(S020)", 1, None, None, "LC", None),
+    ("S018", "giúp", "L", "repetition", "S017: để giúp các nông gia", "high",
+     None, "động từ lặp câu kề; đối ứng EN 'help' (S020)", 1, None, None,
+     "LC", None),
+    ("S018", "đau khổ", "L", "synonym",
+     "S004: đang gánh chịu giá quá thấp", "med", None,
+     "'đau khổ' ~ 'gánh chịu' (chuỗi chịu đựng); lời ông Yium đóng khung "
+     "với mở bài; đối ứng EN 'suffering' (S020)", 1, None, None, "LC", None),
+    ("S019", "cao su", "L", "repetition", "S018: nông gia cao su", "high",
+     None, "chuỗi từ đơn 'cao su'; câu kề; trong 'giá cao su'", 1, None,
+     None, "LC", None),
+    ("S019", "giá", "L", "repetition", "S013: giá đắt như vậy", "high",
+     None, "chuỗi từ 'giá' tái lập sau 6 câu (S004, S008, S013)", 1, None,
+     None, "LC", None),
+    ("S019", "xuống", "L", "repetition", "S003: tụt xuống mức thấp nhất",
+     "med", None,
+     "động từ 'xuống' tái lập thành tố của 'sụt xuống'/'tụt xuống' — chuỗi "
+     "rớt giá sau 16 câu", 1, None, None, "LC", None),
+    ("S020", "giá", "L", "repetition", "S019: giá cao su", "high", None,
+     "chuỗi 'giá'; 2 lần trong câu ('đẩy giá lên', 'giá lại tụt xuống'); "
+     "đối ứng EN 'prices' (S022)", 2, None, None, "LC", None),
+    ("S020", "tụt xuống", "L", "repetition",
+     "S003: tụt xuống mức thấp nhất", "high", None,
+     "lặp nguyên tổ hợp sau 17 câu; chuỗi rớt giá (S002 'sụt xuống', S019 "
+     "'xuống'); đối ứng EN 'sagged' (S022)", 1, None, None, "LC", None),
+    ("S021", "Trung Quốc", "L", "repetition",
+     "S001: lượng nhập cao su vào Trung Quốc", "high", None,
+     "chuỗi tên riêng; tái lập sau 20 câu — khung mở (nhập giảm) ↔ đóng "
+     "(nhập tăng gấp đôi); đối ứng EN 'China' (S023)", 1, None, None, "LC",
+     None),
+    ("S021", "Thái Lan", "L", "repetition",
+     "S015: Thái Lan và các chính phủ khác", "high", None,
+     "chuỗi tên riêng; tái lập sau 6 câu; đối ứng EN 'Thailand' (S023)", 1,
+     None, None, "LC", None),
+    ("S021", "cao su", "L", "repetition", "S019: giá cao su", "high", None,
+     "chuỗi từ đơn 'cao su'; khoảng cách 2 câu ('gạo và cao su'); đối ứng "
+     "EN 'rubber' (S023)", 1, None, None, "LC", None),
+    ("S021", "nông sản", "L", "repetition",
+     "S010: dự án kích hoạt nông nghiệp", "med", None,
+     "cùng gốc 'nông' ('nông nghiệp' → 'nông sản'); đối ứng EN "
+     "'agricultural' (S023)", 1, None, None, "LC", None),
+    ("S021", "thông báo", "L", "synonym", "S016: Ông Yium nói", "high",
+     None,
+     "chuỗi động từ attribution; 'thông báo' ~ 'nói'; chủ thể mới (Trung "
+     "Quốc)", 1, None, None, "LC", None),
+    ("S022", "Thái Lan", "L", "repetition", "S021: từ Thái Lan", "high",
+     None,
+     "chuỗi tên riêng; lặp câu kề ('nhu cầu nội địa của Thái Lan'); đối "
+     "ứng EN 'Thai' (S024)", 1, None, None, "LC", None),
+    ("S022", "cao su", "L", "repetition", "S021: gạo và cao su", "high",
+     None,
+     "chuỗi từ đơn 'cao su'; câu kề ('nhu cần về cao su' — 'nhu cần' là "
+     "lỗi chính tả §8b); đối ứng EN 'rubber' (S024)", 1, None, None, "LC",
+     None),
+    ("S022", "giúp", "L", "synonym", "S020: Sự hỗ trợ … giúp tạm thời",
+     "high", None,
+     "'giúp' ~ 'hỗ trợ'; chuỗi tài trợ - trợ giúp; đối ứng EN 'help' (S024)",
+     1, None, None, "LC", None),
 ]
