@@ -1,25 +1,25 @@
 {
  "grand": {
-  "en_markers": 1049,
-  "vi_markers": 892
+  "en_markers": 2020,
+  "vi_markers": 1774
  },
  "pairs": {
   "P01": {
    "en": {
-    "markers": 88,
+    "markers": 138,
     "by_cat": {
      "C": 8,
-     "L": 47,
+     "L": 97,
      "R": 30,
      "S": 3
     }
    },
    "vi": {
-    "markers": 67,
+    "markers": 122,
     "by_cat": {
      "C": 8,
      "E": 1,
-     "L": 37,
+     "L": 92,
      "R": 20,
      "S": 1
     }
@@ -27,249 +27,250 @@
   },
   "P02": {
    "en": {
-    "markers": 67,
+    "markers": 117,
     "by_cat": {
      "C": 5,
      "E": 1,
-     "L": 39,
+     "L": 89,
      "R": 22
     }
    },
    "vi": {
-    "markers": 67,
+    "markers": 111,
     "by_cat": {
      "C": 3,
      "E": 1,
-     "L": 41,
+     "L": 85,
      "R": 22
     }
    }
   },
   "P03": {
    "en": {
-    "markers": 52,
+    "markers": 122,
     "by_cat": {
      "C": 7,
      "E": 4,
-     "L": 36,
+     "L": 106,
      "R": 4,
      "S": 1
     }
    },
    "vi": {
-    "markers": 53,
+    "markers": 96,
     "by_cat": {
      "C": 8,
      "E": 1,
-     "L": 40,
+     "L": 83,
      "R": 4
     }
    }
   },
   "P04": {
    "en": {
-    "markers": 57,
+    "markers": 103,
     "by_cat": {
      "C": 5,
      "E": 2,
-     "L": 34,
+     "L": 80,
      "R": 15,
      "S": 1
     }
    },
    "vi": {
-    "markers": 36,
+    "markers": 80,
     "by_cat": {
      "C": 8,
      "E": 1,
-     "L": 20,
+     "L": 64,
      "R": 7
     }
    }
   },
   "P05": {
    "en": {
-    "markers": 57,
+    "markers": 111,
     "by_cat": {
      "C": 4,
      "E": 1,
-     "L": 35,
+     "L": 89,
      "R": 17
     }
    },
    "vi": {
-    "markers": 43,
+    "markers": 87,
     "by_cat": {
      "C": 3,
      "E": 1,
-     "L": 29,
+     "L": 73,
      "R": 10
     }
    }
   },
   "P06": {
    "en": {
-    "markers": 30,
+    "markers": 59,
     "by_cat": {
      "C": 5,
-     "L": 17,
+     "L": 46,
      "R": 8
     }
    },
    "vi": {
-    "markers": 15,
+    "markers": 42,
     "by_cat": {
      "C": 5,
-     "L": 6,
+     "L": 33,
      "R": 4
     }
    }
   },
   "P07": {
    "en": {
-    "markers": 95,
+    "markers": 173,
     "by_cat": {
      "C": 8,
      "E": 4,
-     "L": 40,
+     "L": 118,
      "R": 43
     }
    },
    "vi": {
-    "markers": 92,
+    "markers": 178,
     "by_cat": {
      "C": 9,
      "E": 4,
-     "L": 38,
+     "L": 124,
      "R": 41
     }
    }
   },
   "P08": {
    "en": {
-    "markers": 76,
+    "markers": 132,
     "by_cat": {
      "C": 10,
-     "L": 49,
+     "L": 105,
      "R": 16,
      "S": 1
     }
    },
    "vi": {
-    "markers": 70,
+    "markers": 125,
     "by_cat": {
      "C": 11,
      "E": 1,
-     "L": 43,
+     "L": 98,
      "R": 15
     }
    }
   },
   "P09": {
    "en": {
-    "markers": 61,
+    "markers": 108,
     "by_cat": {
      "C": 4,
      "E": 4,
-     "L": 45,
+     "L": 92,
      "R": 8
     }
    },
    "vi": {
-    "markers": 53,
+    "markers": 94,
     "by_cat": {
      "C": 3,
      "E": 3,
-     "L": 40,
+     "L": 81,
      "R": 7
     }
    }
   },
   "P10": {
    "en": {
-    "markers": 45,
+    "markers": 85,
     "by_cat": {
      "C": 7,
-     "L": 25,
+     "L": 65,
      "R": 13
     }
    },
    "vi": {
-    "markers": 50,
+    "markers": 88,
     "by_cat": {
      "C": 7,
      "E": 1,
-     "L": 29,
+     "L": 67,
      "R": 13
     }
    }
   },
   "P11": {
    "en": {
-    "markers": 70,
+    "markers": 168,
     "by_cat": {
      "C": 4,
-     "L": 44,
+     "L": 142,
      "R": 20,
      "S": 2
     }
    },
    "vi": {
-    "markers": 64,
+    "markers": 118,
     "by_cat": {
      "C": 3,
-     "L": 46,
+     "L": 100,
      "R": 15
     }
    }
   },
   "P12": {
    "en": {
-    "markers": 1,
+    "markers": 3,
     "by_cat": {
+     "L": 2,
      "R": 1
     }
    },
    "vi": {
-    "markers": 2,
+    "markers": 3,
     "by_cat": {
-     "L": 2
+     "L": 3
     }
    }
   },
   "P13": {
    "en": {
-    "markers": 20,
+    "markers": 53,
     "by_cat": {
      "C": 3,
      "E": 1,
-     "L": 12,
+     "L": 45,
      "R": 4
     }
    },
    "vi": {
-    "markers": 8,
+    "markers": 38,
     "by_cat": {
      "E": 1,
-     "L": 6,
+     "L": 36,
      "R": 1
     }
    }
   },
   "P14": {
    "en": {
-    "markers": 20,
+    "markers": 54,
     "by_cat": {
      "E": 1,
-     "L": 16,
+     "L": 50,
      "R": 3
     }
    },
    "vi": {
-    "markers": 19,
+    "markers": 55,
     "by_cat": {
      "C": 1,
-     "L": 15,
+     "L": 51,
      "R": 2,
      "S": 1
     }
@@ -277,79 +278,79 @@
   },
   "P15": {
    "en": {
-    "markers": 57,
+    "markers": 107,
     "by_cat": {
      "C": 3,
      "E": 1,
-     "L": 41,
+     "L": 91,
      "R": 11,
      "S": 1
     }
    },
    "vi": {
-    "markers": 38,
+    "markers": 78,
     "by_cat": {
      "E": 3,
-     "L": 26,
+     "L": 66,
      "R": 9
     }
    }
   },
   "P16": {
    "en": {
-    "markers": 30,
+    "markers": 66,
     "by_cat": {
      "C": 2,
-     "L": 19,
+     "L": 55,
      "R": 9
     }
    },
    "vi": {
-    "markers": 29,
+    "markers": 68,
     "by_cat": {
      "C": 2,
      "E": 2,
-     "L": 19,
+     "L": 58,
      "R": 6
     }
    }
   },
   "P17": {
    "en": {
-    "markers": 37,
+    "markers": 80,
     "by_cat": {
      "C": 4,
      "E": 1,
-     "L": 24,
+     "L": 67,
      "R": 8
     }
    },
    "vi": {
-    "markers": 37,
+    "markers": 89,
     "by_cat": {
      "C": 4,
      "E": 1,
-     "L": 26,
+     "L": 78,
      "R": 6
     }
    }
   },
   "P18": {
    "en": {
-    "markers": 36,
+    "markers": 84,
     "by_cat": {
      "C": 3,
      "E": 1,
-     "L": 24,
+     "L": 72,
      "R": 7,
      "S": 1
     }
    },
    "vi": {
-    "markers": 36,
+    "markers": 75,
     "by_cat": {
      "C": 2,
-     "L": 24,
+     "L": 63,
      "R": 8,
      "S": 2
     }
@@ -357,40 +358,40 @@
   },
   "P19": {
    "en": {
-    "markers": 42,
+    "markers": 78,
     "by_cat": {
      "C": 5,
      "E": 1,
-     "L": 29,
+     "L": 65,
      "R": 7
     }
    },
    "vi": {
-    "markers": 41,
+    "markers": 83,
     "by_cat": {
      "C": 5,
-     "L": 30,
+     "L": 72,
      "R": 6
     }
    }
   },
   "P20": {
    "en": {
-    "markers": 108,
+    "markers": 179,
     "by_cat": {
      "C": 14,
      "E": 2,
-     "L": 58,
+     "L": 129,
      "R": 33,
      "S": 1
     }
    },
    "vi": {
-    "markers": 72,
+    "markers": 144,
     "by_cat": {
      "C": 11,
      "E": 1,
-     "L": 41,
+     "L": 113,
      "R": 19
     }
    }

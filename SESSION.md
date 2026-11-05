@@ -115,3 +115,35 @@
   trang (R/L 37/37 trang), dấu tiếng Việt chuẩn, không placeholder sót.
 - Deliverable copy sang download/: Appendix1.docx/pdf, Appendix2.docx/pdf,
   Phan-tich-chi-tiet-20-cap_EN-VI.zip (20 file analysis), appendix2_stats.json.
+
+### Bước 9 — Bổ sung L theo chính sách v2 (2026-11-05, theo chỉ thị giảng viên)
+
+- **Chỉ thị:** phân tích chưa kĩ; tìm thêm và mark highlight nhiều hơn; mục
+  tiêu vượt số lượng overall distribution của bản nháp (R246/149, S0/0, E1/0,
+  C65/67, L1293/1175; tổng 1605/1391); các category bị đánh giá quá ít
+  (Substitution, Ellipsis) cần được khảo đủ.
+- **Chính sách v2 (CONVENTIONS §8.1):** bỏ hạn chế pilot "không đánh dấu lặp
+  kề" + "từ đơn chỉ nhập inventory"; thêm chuỗi động từ attribution; giữ
+  nguyên mọi quy tắc chất lượng khác (manual-first, 1 mark/câu/chuỗi, [LC],
+  chống double-code, artifact).
+- **Thực thi:** 40 micro-task (20 cặp × 2 phía ST/TT), mỗi task một agent
+  độc lập, QC 2 cổng PASS từng cặp. Sandbox bị recycle thêm 2 lần giữa chừng
+  (working tree bị reset về commit cũ) — khôi phục bằng commit-sau-mỗi-wave
+  + merge từ GitHub; 4 kết quả bị mất được làm lại (P06-TT, P07-ST, P08-ST
+  một phần, P14-ST).
+- **Kết quả (v2, sau bổ sung):** EN 2.020 tie (R279 S11 E24 C101 L1605 — L
+  79,5%) / VI 1.774 (R215 S4 E22 C93 L1440 — L 81,2%); mật độ 2,72/2,60
+  tie/câu; trung vị L/cặp 84,5 EN / 72,5 VI.
+- **Vượt mọi mục tiêu:** ST tổng 2.020 > 1.605; TT 1.774 > 1.391; từng danh
+  mục: R 279>246, S 11>0, E 24>1, C 101>65, L 1605>1293 (EN) và R 215>149,
+  S 4>0, E 22>0, C 93>67, L 1440>1175 (VI). S/E hết tình trạng "quá ít rõ
+  rệt về mặt ngôn ngữ học".
+- **Analysis đồng bộ:** 20 file §6.4 mới (danh mục hàng L v2, prefix-verify
+  vs pilot) + §9 dựng lại (pilot + v2); script scripts/update_analyses_v2.py.
+- **Appendix rebuild:** Appendix 1 (md/html/segments/stats + DOCX 22 bảng,
+  3.398 run màu Y990/G17/B48/O196/P3047, 494 mũ, PDF 53 trang, validate
+  20/20, marker EN 2020/VI 1774 coverage 100%); Appendix 2 (stats + báo cáo
+  6 trang v2: L 79,5/81,2%, lặp trong L 82,3/85,4%, phát hiện B.6 cập nhật —
+  VI đậm hơn EN ở 6 cặp sau v2). Kiểm tra: 0 trang trắng cả hai PDF.
+- Deliverable download/ làm mới: Appendix1.docx/pdf, Appendix2.docx/pdf,
+  zip 20 analysis (bản §6.4+§9), appendix2_stats.json.

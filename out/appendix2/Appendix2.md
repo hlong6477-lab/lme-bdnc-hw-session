@@ -1,7 +1,7 @@
 # Phụ lục 2 — Thống kê liên kết văn bản & tổng hợp phân tích đối chiếu EN–VI
 
 **Bộ dữ liệu:** 20 cặp bài báo song ngữ Anh–Việt (Appendix 1) · 742 câu EN / 682 câu VI ·
-1.049 đơn vị liên kết (tie) phía EN và 892 tie phía VI, gán nhãn thủ công từng cặp.
+2.020 đơn vị liên kết (tie) phía EN và 1.774 tie phía VI, gán nhãn thủ công từng cặp.
 
 **Khung lý thuyết:** phía EN — Halliday & Hasan (1976), *Cohesion in English*
 (quy chiếu R, thế S, tỉnh lược E, nối C, liên kết từ vựng L); phía VI — Trần
@@ -11,9 +11,14 @@ Thanh Tùng 2020), quy về cùng thang 5 danh mục. Trọng tâm nghiên cứu
 chỉ ghi ở cấp liên câu [LC]; S/E có thêm lớp bổ sung trong câu [TC] và
 **không** dùng làm bằng chứng cho kết luận về liên kết liên câu.
 
+**Chính sách phiên (v2, 2026-11-05):** theo chỉ thị giảng viên, chính sách
+liên kết từ vựng được nới rộng so với bản pilot — ghi nhận lặp cùng dạng ở cả
+câu kề, từ đơn có nội dung thực, và chuỗi động từ attribution
+(CONVENTIONS §8.1 v2). Mọi hàng vẫn là quyết định đọc hiểu tay (manual-first).
+
 **Kiểm soát chất lượng:** mỗi cặp qua cổng QC cơ khí hai lượt (vị trí đánh dấu,
-occurrence, hướng tiền trạm, tái tạo văn bản gốc) và đối chiếu 10/10 ô giữa số
-đếm tay với tie table; 20/20 cặp PASS.
+occurrence, hướng tiền trạm, tái tạo văn bản gốc) và đối chiếu giữa số đếm tay
+với tie table; 20/20 cặp PASS.
 
 ---
 
@@ -23,46 +28,45 @@ occurrence, hướng tiền trạm, tái tạo văn bản gốc) và đối chi�
 
 | Danh mục | EN (số) | EN (%) | VI (số) | VI (%) | Chênh EN−VI |
 |---|---:|---:|---:|---:|---:|
-| R — quy chiếu | 279 | 26,6 | 215 | 24,1 | +64 |
-| S — thế | 11 | 1,0 | 4 | 0,4 | +7 |
-| E — tỉnh lược | 24 | 2,3 | 22 | 2,5 | +2 |
-| C — nối | 101 | 9,6 | 93 | 10,4 | +8 |
-| L — từ vựng | 634 | 60,4 | 558 | 62,6 | +76 |
-| **Tổng** | **1.049** | 100 | **892** | 100 | **+157** |
+| R — quy chiếu | 279 | 13,8 | 215 | 12,1 | +64 |
+| S — thế | 11 | 0,5 | 4 | 0,2 | +7 |
+| E — tỉnh lược | 24 | 1,2 | 22 | 1,2 | +2 |
+| C — nối | 101 | 5,0 | 93 | 5,2 | +8 |
+| L — từ vựng | 1.605 | 79,5 | 1.440 | 81,2 | +165 |
+| **Tổng** | **2.020** | 100 | **1.774** | 100 | **+246** |
 | Số câu | 742 | | 682 | | +60 |
-| Mật độ (tie/câu) | 1,41 | | 1,31 | | |
+| Mật độ (tie/câu) | 2,72 | | 2,6 | | |
 
 ### A.2. Mật độ từng cặp
 
 | Cặp | Câu EN | Câu VI | Tie EN | Tie VI | Mật độ EN | Mật độ VI | Ghi chú thể loại |
 |---|---:|---:|---:|---:|---:|---:|---|
-| P01 | 55 | 49 | 88 | 67 | 1,60 | 1,37 | tin tính năng (SBS) |
-| P02 | 47 | 51 | 67 | 67 | 1,43 | 1,31 | tin tính năng, nhiều trích dẫn |
-| P03 | 37 | 40 | 52 | 53 | 1,41 | 1,33 | VI tự sinh 14 câu chuyển tiếp |
-| P04 | 45 | 36 | 57 | 36 | 1,27 | 1,00 | service journalism, VI cắt |
-| P05 | 60 | 48 | 57 | 43 | 0,95 | 0,90 | listicle thông báo |
-| P06 | 38 | 24 | 30 | 15 | 0,79 | 0,63 | VI cắt 15/38 câu |
-| P07 | 73 | 73 | 95 | 92 | 1,30 | 1,26 | feature giải thích, 73/73 giữ 1–1 |
-| P08 | 40 | 38 | 76 | 70 | 1,90 | 1,84 | listicle thống kê giá nhà |
-| P09 | 40 | 37 | 61 | 53 | 1,53 | 1,43 | chính sách – dữ liệu |
-| P10 | 31 | 43 | 45 | 50 | 1,45 | 1,16 | tài chính cá nhân, VI chèn 14 câu |
-| P11 | 65 | 61 | 70 | 64 | 1,08 | 1,05 | explainer nghi thức |
-| P12 | 3 | 3 | 1 | 2 | 0,33 | 0,67 | cặp micro (2 câu thật mỗi phía) |
-| P13 | 13 | 8 | 20 | 8 | 1,54 | 1,00 | tin ngắn, VI cắt khối 2018 |
-| P14 | 12 | 12 | 20 | 19 | 1,67 | 1,58 | tin chính trị dày tên riêng |
-| P15 | 34 | 29 | 57 | 38 | 1,68 | 1,31 | VI cắt/viết lại (VOA); analysis P15 tính theo 31/26 câu thật (sau bỏ artifact) → 1,84/1,46 |
-| P16 | 18 | 18 | 30 | 29 | 1,67 | 1,61 | tin du lịch Nga |
-| P17 | 24 | 22 | 37 | 37 | 1,54 | 1,68 | VI lặp tên attribution |
-| P18 | 22 | 24 | 36 | 36 | 1,64 | 1,50 | tin quyên góp từ thiện |
-| P19 | 21 | 22 | 42 | 41 | 2,00 | 1,86 | tin pháp lý, thuật ngữ dày nhất |
-| P20 | 64 | 44 | 108 | 72 | 1,69 | 1,64 | cặp cắt mạnh nhất (23 câu EN bị bỏ) |
+| P01 | 55 | 49 | 138 | 122 | 2,51 | 2,49 | tin tính năng (SBS) |
+| P02 | 47 | 51 | 117 | 111 | 2,49 | 2,18 | tin tính năng, nhiều trích dẫn |
+| P03 | 37 | 40 | 122 | 96 | 3,3 | 2,4 | VI tự sinh 14 câu chuyển tiếp |
+| P04 | 45 | 36 | 103 | 80 | 2,29 | 2,22 | service journalism, VI cắt |
+| P05 | 60 | 48 | 111 | 87 | 1,85 | 1,81 | listicle thông báo |
+| P06 | 38 | 24 | 59 | 42 | 1,55 | 1,75 | VI cắt 15/38 câu |
+| P07 | 73 | 73 | 173 | 178 | 2,37 | 2,44 | feature giải thích, 73/73 giữ 1–1 |
+| P08 | 40 | 38 | 132 | 125 | 3,3 | 3,29 | listicle thống kê giá nhà |
+| P09 | 40 | 37 | 108 | 94 | 2,7 | 2,54 | chính sách – dữ liệu |
+| P10 | 31 | 43 | 85 | 88 | 2,74 | 2,05 | tài chính cá nhân, VI chèn 14 câu |
+| P11 | 65 | 61 | 168 | 118 | 2,58 | 1,93 | explainer nghi thức |
+| P12 | 3 | 3 | 3 | 3 | 1,0 | 1,0 | cặp micro (2 câu thật mỗi phía) |
+| P13 | 13 | 8 | 53 | 38 | 4,08 | 4,75 | tin ngắn, VI cắt khối 2018 |
+| P14 | 12 | 12 | 54 | 55 | 4,5 | 4,58 | tin chính trị dày tên riêng |
+| P15 | 34 | 29 | 107 | 78 | 3,15 | 2,69 | VI cắt/viết lại (VOA) |
+| P16 | 18 | 18 | 66 | 68 | 3,67 | 3,78 | tin du lịch Nga |
+| P17 | 24 | 22 | 80 | 89 | 3,33 | 4,05 | VI lặp tên attribution |
+| P18 | 22 | 24 | 84 | 75 | 3,82 | 3,12 | tin quyên góp từ thiện |
+| P19 | 21 | 22 | 78 | 83 | 3,71 | 3,77 | tin pháp lý, thuật ngữ dày nhất |
+| P20 | 64 | 44 | 179 | 144 | 2,8 | 3,27 | cặp cắt mạnh nhất (23 câu EN bị bỏ) |
 
-Mật độ dao động 0,33–2,00 tie/câu theo **thể loại và mức biên tập**, không
-theo độ dài: cao nhất ở tin pháp lý (P19), listicle thống kê (P08), chính sách
-dày thuật ngữ (P20); thấp nhất ở listicle thông báo khép kín từng mục (P05),
-cặp micro (P12) và explainer câu dài (P11). (Bảng dùng số câu cơ khí của bộ
-segment để nhất quán 20/20 cặp; một số analysis tính mật độ theo “câu thật”
-sau khi loại artifact — khác biệt có ghi chú riêng.)
+Mật độ dao động 1.00–4.75 tie/câu theo **thể loại và mức biên tập**. Sau chính sách v2, các cặp
+tên riêng/danh từ lặp dày (P13, P14, P16, P17, P19) có mật độ cao nhất; thấp
+nhất vẫn là cặp micro (P12) và listicle khép kín từng mục (P05). (Bảng dùng số
+câu cơ khí của bộ segment để nhất quán 20/20 cặp; một số analysis tính mật độ
+theo "câu thật" sau khi loại artifact — khác biệt có ghi chú riêng.)
 
 ### A.3. Thành phần phụ từng danh mục
 
@@ -70,20 +74,20 @@ sau khi loại artifact — khác biệt có ghi chú riêng.)
 
 | Tiểu loại | EN | (% R EN) | VI | (% R VI) |
 |---|---:|---:|---:|---:|
-| personal (đại từ nhân xưng) | 158 | 56,6 | 97 | 45,1 |
-| demonstrative (chỉ từ/demonstrative) | 102 | 36,6 | 105 | 48,8 |
-| comparative (so sánh) | 19 | 6,8 | 13 | 6,0 |
+| comparative | 19 | 6,8 | 13 | 6,0 |
+| demonstrative | 102 | 36,6 | 105 | 48,8 |
+| personal | 158 | 56,6 | 97 | 45,1 |
 
-**Liên kết từ vựng (L) — 634 EN / 558 VI:**
+**Liên kết từ vựng (L) — 1.605 EN / 1.440 VI:**
 
 | Tiểu loại | EN | (% L EN) | VI | (% L VI) |
 |---|---:|---:|---:|---:|
-| repetition (lặp) | 508 | 80,1 | 477 | 85,5 |
-| synonym (đồng nghĩa) | 82 | 12,9 | 53 | 9,5 |
-| antonym (trái nghĩa) | 10 | 1,6 | 8 | 1,4 |
-| superordinate (thượng vị) | 10 | 1,6 | 5 | 0,9 |
-| general word (từ tổng quát) | 15 | 2,4 | 8 | 1,4 |
-| collocation (đóng đôi) | 9 | 1,4 | 7 | 1,3 |
+| antonym | 21 | 1,3 | 23 | 1,6 |
+| collocation | 26 | 1,6 | 23 | 1,6 |
+| general word | 21 | 1,3 | 12 | 0,8 |
+| repetition | 1321 | 82,3 | 1230 | 85,4 |
+| superordinate | 14 | 0,9 | 6 | 0,4 |
+| synonym | 202 | 12,6 | 146 | 10,1 |
 
 **Nối (C) — 101 EN / 93 VI:** additive 44/44 · adversative 37/38 · causal 10/4
 · temporal 9/7 · continuative 1/0.
@@ -100,42 +104,41 @@ nominal 16, verbal 4, clausal 2.
 |---|---:|---:|
 | Hồi quy A | 255 (91,4% R) | 201 (93,5% R) |
 | Tiến chỉ C | 2 (0,7%) | 0 |
-| Ngoại văn bản E | 22 (7,9%) | 14 (6,5%) |
-| Cấp [LC] (liên câu) | 1.024 (97,6%) | 876 (98,2%) |
-| Cấp [TC] (trong câu — chỉ S/E) | 25 (2,4%) | 16 (1,8%) |
+| Ngoại văn bản E | 22 (7,9% R) | 14 (6,5% R) |
+| Cấp [LC] (liên câu) | 1.995 (98,8%) | 1.758 (99,1%) |
+| Cấp [TC] (trong câu — chỉ S/E) | 25 (1,2%) | 16 (0,9%) |
 
 ---
 
 ## B. Sáu phát hiện tổng hợp
 
-### B.1. Liên kết từ vựng là thiết bị chủ lực của cả hai ngôn ngữ — và VI còn "lặp" nhiều hơn EN
+### B.1. Liên kết từ vựng là thiết bị chủ lực tuyệt đối — và chính sách đánh dấu quyết định "ai lặp nhiều hơn"
 
-L chiếm 60,4% (EN) và 62,6% (VI) tổng số tie; trong nội bộ L, phép lặp
-chiếm 80,1% (EN) và **85,5% (VI)**. Đây là bằng nghị định lượng cho luận điểm
+L chiếm 79,5% (EN) và 81,2% (VI) tổng số tie; trong nội bộ L, phép lặp
+chiếm 82,3% (EN) và **85,4% (VI)**. Đây là bằng chứng định lượng cho luận điểm
 của Trần Ngọc Thêm rằng *phép lặp* là thiết bị liên kết nền tảng của tiếng
 Việt: VI duy trì chuỗi bằng cách tái lập danh từ/tên riêng gần nguyên dạng,
-trong khi EN dễ **phân rã** sang biến thể đồng nghĩa hơn hẳn (synonym EN 82 ↔
-VI 53; đối chiếu từng cặp: P13 chuỗi "Triều Tiên" EN 5 biến thể ↔ VI lặp tên;
-P17 VI hội tụ chuỗi đáy giá nơi EN phân rã). Hệ quả dịch thuật: bản VI thường
-**đậm từ vựng hơn bản EN ở đúng phần được dịch chung** (P05: L 29 VI ↔ 24 EN
-trên phần dịch; P09: 40 ↔ 40), dù tổng thể EN nhiều tie hơn vì VI cắt khối.
+trong khi EN dễ **phân rã** sang biến thể đồng nghĩa hơn hẳn (synonym EN 202 ↔
+VI 146). Chính sách v2 — ghi nhận đủ lặp câu kề và từ đơn — khiến khoảng
+cách L EN−VI (1.605 ↔ 1.440) phản ánh trung thực hơn mức độ "đậm từ vựng"
+thực của hai bản: phần chênh nằm chủ yếu ở các khối EN bị biên tập cắt.
 
 ### B.2. "Danh ngữ hóa quy chiếu" là dịch chuyển hệ thống EN → VI
 
 Chênh R (279 ↔ 215) không nằm ở số lượng đại từ thuần: EN personal 158 (56,6%
-R) nhưng VI personal chỉ 97 (45,1%), trong khi VI demonstrative 105 (48,8%)
-cao hơn cả绝对 số lẫn tỉ lệ dù tổng R ít hơn. Kết hợp đọc từng cặp, mô típ
+R) nhưng VI personal chỉ 97 (45,1%), trong khi VI demonstrative 105 (48,8)
+cao hơn cả tuyệt đối lẫn tỉ lệ dù tổng R ít hơn. Kết hợp đọc từng cặp, mô típ
 lặp lại nhất quán: **EN dùng đại từ/mạo từ thì VI dùng danh ngữ chỉ từ +
 danh từ, hoặc lặp tên kèm danh xưng**:
 
 - "It / This / The + N" (EN) → "Cuộc nghiên cứu này / Thỏa thuận này / Hệ
-  thống này" (P20, 18/18 cặp R đối ứng); "vụ kiện này, thời gian đó, việc
-  này" (P19, VI 0 đại từ nhân xưng liên câu); "Hãng hàng giải này, tuyến bay
-  này" (P06); "the analysis ↔ phân tích này", "the problem ↔ vấn đề này" (P02).
+  thống này" (P20); "vụ kiện này, thời gian đó, việc này" (P19, VI 0 đại từ
+  nhân xưng liên câu); "the analysis ↔ phân tích này", "the problem ↔ vấn đề
+  này" (P02).
 - Đại từ attribution EN "he said/she said" → VI "Ông X nói / Bà Y / Cô Z" —
   **honorific phân tầng theo nhân vật** (P02: cô/bà/ông; P11: ông/bà đi kèm
-  mọi lần lặp tên; P17: "he said" → "Ông Yium", khiến VI đậm hơn EN duy nhất
-  ở cặp này). EN chỉ mã hóa she/he; VI mã hóa cả giới tính lẫn thứ bậc xã giao.
+  mọi lần lặp tên; P17: "he said" → "Ông Yium"). EN chỉ mã hóa she/he; VI mã
+  hóa cả giới tính lẫn thứ bậc xã giao.
 - Chiều ngược cũng có nhưng hiếm: VI dùng chỉ từ "này" nơi EN chỉ lặp mạo từ
   (P02, P05) — tức cùng một vị trí, EN ghi L (lặp danh từ) còn VI ghi R
   (danh ngữ chỉ từ): hai ngôn ngữ phân công tính xác định theo hai đường.
@@ -150,7 +153,7 @@ thân bài) chứ không phải tiến chỉ tu từ. Không có cặp nào ref=
 
 ### B.4. Thế và tỉnh lược hiếm, gần như toàn bộ trong câu — không dùng làm bằng chứng liên câu
 
-S (11/4) và E (24/22) cộng lại chỉ 3,3% (EN) và 2,9% (VI) tổng tie; 25/16
+S (11/4) và E (24/22) cộng lại chỉ 1,7% (EN) và 1,5% (VI) tổng tie; 25/16
 hàng [TC] đều thuộc S/E. Điểm đáng chú ý về mặt đối chiếu:
 
 - **VI không ưa zero liên câu trong bộ liệu này**: các khe zero của VI tập
@@ -175,16 +178,18 @@ Ngoài ra" tại đúng 3 chỗ EN dùng thiết bị khác) và **EN tường m
 đổi hạng mục: "other steps" (R, EN) ↔ "cũng" (C, VI) ở P14 — minh họa nguyên
 tắc *function, not form* giữa hai khung.
 
-### B.6. Chênh lệch tổng EN−VI chủ yếu do biên tập (cắt/gộp/tự sinh), không do hệ thống ngôn ngữ
+### B.6. Chênh lệch tổng EN−VI (2.020−1.774 = +246) chủ yếu do biên tập (cắt/gộp/tự sinh), không do hệ thống ngôn ngữ
 
-EN đậm hơn VI ở 18/20 cặp (+157 tie), nhưng phân tích từng cặp cho thấy phần
-lớn chênh lệch nằm ở **khối bị cắt**: P20 (23 câu EN bị bỏ, chứa 20/58 hàng L
-của EN), P06 (15/38 câu), P04, P05, P13, P15. Trên phần dịch chung, hai phía
-gần đối xứng (P09: L 40 ↔ 40). VI chỉ đậm hơn ở P17 (lặp tên attribution) và
-P12 (cặp micro). Ngược lại, VI **tự sinh** câu chuyển tiếp và lede ở P03 (14
-câu), P10 (14 câu), P20 (lede 3 câu) — các câu này tạo tie VI độc lập, tiền
-trạm trong chính văn bản VI. Mọi so sánh cấp câu giữa hai phía vì vậy phải
-đi qua bản đồ câu của từng cặp (mục §1 trong 20 file phân tích).
+EN đậm hơn VI ở 13/20 cặp, nhưng phân tích từng cặp cho thấy phần
+lớn chênh lệch nằm ở **khối bị cắt**: P20 (23 câu EN bị bỏ, chứa phần lớn hàng L
+của EN), P06 (15/38 câu), P04, P05, P13, P15. VI đậm hơn EN ở 6 cặp (P07, P10, P14, P16, P17, P19) —
+sau chính sách v2 ghi nhận đủ lặp kề và từ đơn, các cặp VI lặp tên riêng/
+attribution dày (P17: 89 vs 80) hoặc VI tự sinh chuyển tiếp (P10) nổi bật
+lên — nhất quán với luận điểm "phép lặp là thiết bị nền tảng của tiếng Việt".
+VI **tự sinh** câu chuyển tiếp và lede ở P03 (14 câu), P10 (14 câu), P20
+(lede 3 câu) — các câu này tạo tie VI độc lập, tiền trạm trong chính văn
+bản VI. Mọi so sánh cấp câu giữa hai phía vì vậy phải đi qua bản đồ câu của
+từng cặp (mục §1 trong 20 file phân tích).
 
 ---
 
@@ -204,15 +209,17 @@ Tổng hợp từ mục §8 của 20 file phân tích:
    **cả hai phía** P20; một số bản dịch sai nghĩa (P07 S022 "làm tăng độ tin
    cậy" — ngược nghĩa gốc).
 4. **Segmenter chẻ câu tại dấu viết tắt/điểm dừng bất thường** (Mr., Jr., U.S.,
-   dấu "”" tách rời P11 S051): các quyết định [LC]/[TC] và "câu kề" đã tính
+   dấu nháy kép tách rời P11 S051): các quyết định [LC]/[TC] và "câu kề" đã tính
    lại theo câu thật theo quy ước phiên, có ghi chú trong từng analysis.
 
 ## D. Hạn chế của phiên phân tích
 
-- Số đếm phụ thuộc **chính sách đánh dấu L của phiên** (chuỗi hẹp theo tổ hợp
-  từ đa tiết; đánh dấu biến thể mới/tái lập sau khoảng cách ≥ 2 câu; không
-  đánh dấu lặp kề) — các nghiên cứu khác dùng chính sách khác sẽ ra số khác;
-  cần trích kèm quy ước khi so sánh.
+- Số đếm phụ thuộc **chính sách đánh dấu L của phiên**. Phiên này dùng chính
+  sách **v2 (2026-11-05)**: chuỗi gồm cả từ đơn nội dung; đánh dấu lặp cùng
+  dạng ở cả câu kề; chuỗi động từ attribution; tái lập tại điểm nối diễn
+  ngôn; 1 mark/câu/chuỗi — các nghiên cứu dùng chính sách khác sẽ ra số
+  khác; cần trích kèm quy ước khi so sánh. (Bản pilot hẹp hơn được thay
+  thế; số pilot vẫn lưu trong lịch sử git.)
 - Phân tích manual-first một luồng, mỗi hàng có conf (high/med/low) và alt
   (phương án mã khác đã cân nhắc); các hàng bridging/conf thấp đã ghi rõ.
 - Lớp [TC] (41 hàng toàn bộ) chỉ mang tính bổ sung mô tả, không kết luận được
@@ -223,6 +230,6 @@ Tổng hợp từ mục §8 của 20 file phân tích:
 ---
 
 *Báo cáo này được tổng hợp từ 20 file phân tích chi tiết (`work/analysis/
-P01–P20_semantic.md`, mỗi file 9 mục) và số liệu tie đã qua cổng QC của
-pipeline; số liệu thô tại `out/appendix2/appendix2_stats.json` và
-`out/appendix1/match_stats.json`.*
+P01–P20_semantic.md`, mỗi file 9 mục, mục §6.4 và §9 cập nhật theo chính sách
+v2) và số liệu tie đã qua cổng QC của pipeline; số liệu thô tại
+`out/appendix2/appendix2_stats.json` và `out/appendix1/match_stats.json`.*
