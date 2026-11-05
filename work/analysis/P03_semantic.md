@@ -466,6 +466,143 @@ quyên góp→tài trợ; sau 7 câu; câu tự sinh tách từ EN S032).
   kho §6.2 nhưng không đánh dấu; "quảng cáo" (VI S038) và "advertising" (EN
   S034) đổi đối tượng (quảng cáo bầu cử thay vì quảng cáo cờ bạc) → inventory.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 70 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S003 | hidden money | repetition | S001: money given to political parties |
+| 2 | S003 | disclosed | repetition | S001: weak disclosure laws |
+| 3 | S004 | donations | repetition | S001: "dark" donations |
+| 4 | S004 | disclosed | repetition | S003: not required to be disclosed |
+| 5 | S005 | donations | repetition | S004: donations under $16,300 |
+| 6 | S005 | Labor | repetition | S002: Labor and its state branches |
+| 7 | S006 | Labor | repetition | S005: to federal Labor |
+| 8 | S006 | donated | repetition | S005: One of the largest donations |
+| 9 | S007 | donated | repetition | S006: donated across party lines |
+| 10 | S007 | billionaire | repetition | S005: billionaire Anthony Pratt |
+| 11 | S008 | donated | repetition | S007: donated $325,000 |
+| 12 | S008 | Labor | repetition | S006: for Labor |
+| 13 | S009 | donated | repetition | S008: also donated tens of thousands of dollars |
+| 14 | S010 | donation | repetition | S009: Sportsbet donated $88,000 |
+| 15 | S010 | Labor | repetition | S008: to Labor as the government mulled |
+| 16 | S010 | Sportbet's | repetition | S009: Sportsbet donated $88,000 |
+| 17 | S011 | the government | repetition | S010: the government had decided |
+| 18 | S011 | rejected | repetition | S010: decided to reject |
+| 19 | S011 | gambling | synonym | S008: reforming sports betting |
+| 20 | S013 | sport gambling | repetition | S011: problem gambling |
+| 21 | S014 | donated | repetition | S009: Sportsbet donated $88,000 |
+| 22 | S014 | the Liberals | repetition | S007: the Liberals South Australia branch |
+| 23 | S015 | donated | repetition | S014: Sportsbet also donated $60,000 |
+| 24 | S015 | Labor's | repetition | S010: donation to Labor |
+| 25 | S015 | the Liberals | repetition | S014: to the Liberals |
+| 26 | S015 | Nationals | repetition | S014: the Nationals |
+| 27 | S016 | said | repetition | S011: Prime Minister Anthony Albanese said |
+| 28 | S016 | gambling | repetition | S013: a big issue of sport gambling |
+| 29 | S017 | the Coalition | repetition | S016: a Coalition government |
+| 30 | S018 | Labor | repetition | S015: Labor's state divisions |
+| 31 | S018 | the Greens | repetition | S002: the Greens $17 million |
+| 32 | S018 | the bill | repetition | S017: a bill to the Senate |
+| 33 | S019 | Labor-led | repetition | S018: Labor and the Greens |
+| 34 | S020 | donations | repetition | S010: Sportbet's donation to Labor |
+| 35 | S021 | SBS News | repetition | S020: SBS News' inquiry |
+| 36 | S021 | the Labor party | repetition | S019: a Labor-led report |
+| 37 | S021 | comment | repetition | S016: a request for comment |
+| 38 | S022 | Greens | repetition | S018: the Greens |
+| 39 | S023 | the Liberals | repetition | S015: to the Liberals and Nationals |
+| 40 | S023 | donations | repetition | S020: the gambling industry donations |
+| 41 | S023 | said | repetition | S018: she said |
+| 42 | S024 | the Greens' | repetition | S023: the Greens democracy spokesperson |
+| 43 | S024 | donated | repetition | S023: these donations |
+| 44 | S025 | Turpie | repetition | S024: Duncan Turpie |
+| 45 | S025 | donated | repetition | S024: who donated around $275,000 |
+| 46 | S025 | the party | repetition | S024: various branches of the party |
+| 47 | S025 | reported | synonym | S023: the Greens democracy spokesperson said |
+| 48 | S026 | SBS News | repetition | S021: SBS News has contacted |
+| 49 | S026 | this donation | repetition | S025: Turpie had donated $472,088 |
+| 50 | S026 | the Greens' | repetition | S024: the Greens' largest individual donor |
+| 51 | S026 | said | repetition | S023: the Greens democracy spokesperson said |
+| 52 | S030 | election campaign | repetition | S027: before a federal election is called |
+| 53 | S030 | spending | synonym | S028: donations and expenditure caps |
+| 54 | S030 | donations | repetition | S028: appropriate donations and expenditure caps |
+| 55 | S032 | political parties | repetition | S031: registered political parties |
+| 56 | S032 | the Senate | repetition | S017: a bill to the Senate |
+| 57 | S033 | Labor | repetition | S021: the Labor party |
+| 58 | S033 | Liberal | repetition | S023: the Liberals never had any such plans |
+| 59 | S033 | receive | repetition | S030: can only receive donations |
+| 60 | S034 | major parties | repetition | S033: a major party stitch-up |
+| 61 | S034 | independents | repetition | S033: independents have branded |
+| 62 | S034 | advertising | repetition | S019: gambling advertising |
+| 63 | S035 | teal independents | repetition | S034: for independents only running in a single seat |
+| 64 | S036 | donated | repetition | S025: Turpie had donated $472,088 |
+| 65 | S037 | Daniel | repetition | S036: Zoe Daniel |
+| 66 | S037 | Spender | repetition | S036: Allegra Spender |
+| 67 | S037 | Chaney | repetition | S036: Kate Chaney |
+| 68 | S037 | Steggall | repetition | S036: Zali Steggall |
+| 69 | S037 | Ryan | repetition | S036: Monique Ryan |
+| 70 | S037 | donations | repetition | S036: It donated $145,000 |
+
+
+Phía VI — 43 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | tài trợ | synonym | S001: cải cách quyên góp bầu cử |
+| 2 | S002 | các đảng liên bang | repetition | S001: các đảng chính trị lớn |
+| 3 | S003 | các khoản quyên góp | repetition | S001: cải cách quyên góp bầu cử |
+| 4 | S004 | đã quyên góp | repetition | S003: từ các khoản quyên góp khác |
+| 5 | S004 | Đảng Lao động Liên bang | repetition | S002: Đảng Lao động Liên bang |
+| 6 | S005 | tỷ phú | repetition | S004: tỷ phú Anthony Pratt |
+| 7 | S005 | Đảng Tự do | repetition | S002: Đảng Tự do Liên bang |
+| 8 | S006 | áp lực | repetition | S001: Khi áp lực cải cách quyên góp bầu cử gia tăng |
+| 9 | S007 | chính phủ | repetition | S006: đối với chính phủ |
+| 10 | S007 | cải cách luật cá cược thể thao | repetition | S006: cải cách luật tài trợ chính trị |
+| 11 | S010 | từ chối | repetition | S009: quyết định từ chối lệnh cấm |
+| 12 | S010 | chính phủ | repetition | S009: chính phủ đã quyết định |
+| 13 | S010 | cấm hoàn toàn quảng cáo cá cược | repetition | S009: lệnh cấm quảng cáo cá cược toàn diện |
+| 14 | S011 | vấn đề cờ bạc | repetition | S010: vấn đề cờ bạc |
+| 15 | S013 | những khoản quyên góp đáng kể | repetition | S009: khoản quyên góp của Sportsbet |
+| 16 | S014 | Đảng Lao động | repetition | S009: cho Đảng Lao động |
+| 17 | S014 | những khoản tài trợ đáng kể | synonym | S013: những khoản quyên góp đáng kể |
+| 18 | S014 | các công ty cá cược | repetition | S013: từ các công ty cá cược |
+| 19 | S015 | Đảng Tự do | repetition | S002: Đảng Tự do Liên bang |
+| 20 | S015 | Đảng Quốc gia | repetition | S002: Đảng Quốc gia Liên bang |
+| 21 | S016 | các chi nhánh tiểu bang | repetition | S003: các chi nhánh tiểu bang của các đảng này |
+| 22 | S016 | Đảng Tự do | repetition | S015: cho Đảng Tự do |
+| 23 | S016 | Đảng Quốc gia | repetition | S015: cho Đảng Quốc gia |
+| 24 | S017 | Đảng Xanh | repetition | S002: Đảng Xanh Liên bang |
+| 25 | S017 | hai đảng lớn | repetition | S001: các đảng chính trị lớn |
+| 26 | S020 | Đảng Xanh Úc | repetition | S017: Thượng nghị sĩ Queensland của Đảng Xanh |
+| 27 | S021 | Turpie | repetition | S020: Duncan Turpie |
+| 28 | S021 | Đảng Xanh | repetition | S020: Đảng Xanh Úc |
+| 29 | S022 | nói | repetition | S018: bà nói |
+| 30 | S024 | Đảng Xanh | repetition | S022: cựu nghị viên Đảng Xanh |
+| 31 | S024 | máy đánh bạc | repetition | S023: máy đánh bạc |
+| 32 | S025 | cuộc tổng tuyển cử liên bang | repetition | S001: trước thềm cuộc tổng tuyển cử liên bang |
+| 33 | S028 | minh bạch hơn | repetition | S006: đảm bảo tính minh bạch |
+| 34 | S030 | Giới hạn số tiền quyên góp tối đa | repetition | S029: Giới hạn chi tiêu cho mỗi ứng viên |
+| 35 | S035 | các đảng chính trị | repetition | S034: các đảng chính trị đã đăng ký |
+| 36 | S036 | Các ứng viên độc lập | repetition | S029: chi tiêu cho mỗi ứng viên |
+| 37 | S036 | chỉ trích | repetition | S022: Trước những chỉ trích |
+| 38 | S037 | Các đảng lớn | repetition | S036: có lợi cho các đảng lớn |
+| 39 | S037 | ngân sách công | repetition | S036: ngân sách nhà nước |
+| 40 | S038 | Các ứng viên độc lập | repetition | S036: Các ứng viên độc lập chỉ trích mạnh mẽ |
+| 41 | S038 | gặp bất lợi | antonym | S037: được hưởng lợi từ ngân sách công |
+| 42 | S040 | Đảng Lao động | repetition | S018: tiếp tục tài trợ cho Đảng Lao động |
+| 43 | S040 | Đảng Tự do | repetition | S018: và Đảng Tự do |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -546,35 +683,30 @@ quyên góp→tài trợ; sau 7 câu; câu tự sinh tách từ EN S032).
   không nằm trong flow ST/TT → không tie table, chỉ so sánh định tính; không
   dùng làm bằng chứng cấp câu.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 4 | 4 | §4.1 (R-EN1–EN4); toàn bộ hướng A; 3/4 là đại từ attribution + 1 đại từ ngôi 1 |
-| EN — S | 1 | 1 | §3 (S-EN1 "the same financial year"), [LC] |
-| EN — E | 4 | 4 | §2 (E-EN1–EN4), toàn bộ gapping [TC] |
-| EN — C | 7 | 7 | §5 (5 additive + 2 adversative), toàn bộ [LC] |
-| EN — L | 36 | 36 | §6.3 theo chính sách §6.1 (14 hàng có alt "R: the", 1 hàng alt "R: this") |
-| VI — R | 4 | 4 | §4.2 (R-VI1–VI4); toàn bộ hướng A; toàn bộ liên quan attribution |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1), gapping [TC] |
-| VI — C | 8 | 8 | §5 (5 additive + 2 adversative + 1 temporal), toàn bộ [LC] |
-| VI — L | 40 | 40 | §6.3 theo chính sách §6.1 (2 hàng có alt "R: này") |
+| EN — R | 4 | 4 | §4 |
+| EN — S | 1 | 1 | §3 |
+| EN — C | 7 | 7 | §5 |
+| EN — E | 4 | 4 | §2 |
+| EN — L | 106 | 106 | §6 (pilot 36 + v2 70) |
+| VI — R | 4 | 4 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 8 | 8 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 83 | 83 | §6 (pilot 40 + v2 43) |
 
-**Kết luận:**
-- Cặp P03 **bất đối xứng cấu trúc mạnh nhất trong các cặp đã làm** (VI cắt 10
-  câu EN gồm 2 khối, tự sinh 14 câu, đổi 1 người nói) nhưng tổng mật độ tie gần
-  nhau: EN 52/37 ≈ 1,41 tie/câu, VI 53/40 ≈ 1,33 tie/câu — VI tự sinh đủ câu
-  chuyển tiếp để bù khoảng cách.
-- Từ vựng là thiết bị chủ lực hai phía (EN 36, VI 40); quy chiếu toàn bộ hướng
-  A và gần như toàn bộ là đại từ attribution (7/8 hàng) — đặc trưng tin có
-  nhiều trích dẫn; không có ref=E.
-- Nối additive chiếm hơn nửa (10/15 hàng C); 4 vị trí nối hiện thực hóa lệch
-  một phía (EN also/But ↔ VI ngầm; VI Ngoài ra/Tuy nhiên ↔ EN ngầm) — mỗi bên
-  theo quy ước ngôn ngữ mình (mapping §3.8).
-- **Các hàng [TC] không dùng làm bằng chứng liên kết liên câu:** toàn bộ 5 hàng
-  E (EN 4 + VI 1 — gapping trong câu); các ứng viên [TC] của R/S (điều này, đây,
-  các đảng này, any such plans…) đã loại ở §3–§4. 100/105 hàng còn lại đều [LC].
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 52 ties R4/S1/E4/C7/L36; VI 53
-  ties R4/S0/E1/C8/L40).
+- Tổng tie: EN **122** / VI **96** (pilot: EN 52 / VI 53).
+- Bổ sung v2 (70 EN + 43 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 106 (87%),
+  L-VI 83 (86%).
+- L-EN (106) > L-VI (83): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 4 / VI 4 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 4 / VI 1; thế EN 1 / VI 0;
+  nối EN 7 / VI 8.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

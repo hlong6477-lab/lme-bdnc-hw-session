@@ -1,8 +1,3 @@
 QC P07 EN: PASS
-<<<<<<< HEAD
-counts: {'C': 8, 'E': 4, 'L': 115, 'R': 43}
-ties: 170
-=======
 counts: {'C': 8, 'E': 4, 'L': 118, 'R': 43}
 ties: 173
->>>>>>> origin/main

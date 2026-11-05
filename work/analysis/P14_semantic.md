@@ -294,6 +294,100 @@ lặp ← S006 ông Trump (tái lập sau 6 câu, mở đoạn kết; danh xưng
 - Chuỗi phụ "lịch hẹn" (S010→S012, gap 2) được đánh dấu như chuỗi "thư mời"
   của P13 — cùng quy tắc tái lập.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 34 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | The U.S. Customs and Border Protection app | repetition | S001: a new app |
+| 2 | S003 | The CBP Home app | repetition | S002: The U.S. Customs and Border Protection app, called CBP Home |
+| 3 | S003 | gives | synonym | S002: will offer an option |
+| 4 | S003 | the option | repetition | S002: an option |
+| 5 | S003 | leave | synonym | S002: intent to depart |
+| 6 | S003 | said | repetition | S002: the agency said |
+| 7 | S003 | legally | antonym | S001: in the United States illegally |
+| 8 | S004 | deport | repetition | S001: deportation push |
+| 9 | S004 | return | repetition | S003: to return legally |
+| 10 | S005 | vowed | collocation | S003: said in a statement |
+| 11 | S005 | deport | repetition | S004: we will deport them |
+| 12 | S006 | Trump's | repetition | S005: Trump |
+| 13 | S006 | deportation | repetition | S001: deportation push |
+| 14 | S006 | numbers | repetition | S005: record numbers |
+| 15 | S007 | immigrants | repetition | S001: immigrants in the United States illegally |
+| 16 | S007 | the United States | repetition | S005: the U.S. |
+| 17 | S007 | illegally | repetition | S005: in the U.S. illegally |
+| 18 | S007 | to leave | repetition | S003: the option to leave now |
+| 19 | S008 | Trump administration | repetition | S007: The Trump administration |
+| 20 | S008 | regulation | collocation | S007: other steps |
+| 21 | S008 | face | repetition | S001: rather than face possible arrest and detention |
+| 22 | S008 | fines or jail time | collocation | S001: arrest and detention |
+| 23 | S009 | launched | synonym | S001: rolled out a new app |
+| 24 | S010 | app | repetition | S009: an app known as CBP One |
+| 25 | S010 | Biden-era | repetition | S009: under Biden |
+| 26 | S010 | included | repetition | S006: Biden's deportations included |
+| 27 | S010 | allowed | repetition | S001: will allow |
+| 28 | S010 | legal | repetition | S008: legal status |
+| 29 | S010 | feature | collocation | S003: the option |
+| 30 | S011 | saying | repetition | S005: has vowed |
+| 31 | S011 | the United States | repetition | S007: the United States |
+| 32 | S011 | migrants | repetition | S010: migrants in Mexico |
+| 33 | S012 | migrants | repetition | S011: vet migrants |
+| 34 | S012 | shut down | antonym | S009: was launched under Biden |
+
+
+Phía VI — 36 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Ứng dụng | repetition | S001: một ứng dụng mới |
+| 2 | S003 | Ứng dụng CBP Home | repetition | S002: Ứng dụng của Cơ quan Bảo vệ Biên giới và Hải quan Mỹ, gọi là CBP Home |
+| 3 | S003 | cho phép | repetition | S001: cho phép những người nhập cư |
+| 4 | S003 | rời đi | repetition | S002: ý định rời đi |
+| 5 | S003 | nói | synonym | S002: theo tuyên bố của cơ quan này |
+| 6 | S003 | hợp pháp | antonym | S001: đang ở Mỹ trái phép |
+| 7 | S003 | cơ hội | collocation | S002: một sự lựa chọn |
+| 8 | S004 | trục xuất | repetition | S001: chính sách trục xuất |
+| 9 | S004 | quay lại | repetition | S003: quay lại hợp pháp |
+| 10 | S005 | cam kết | collocation | S003: Kristi Noem nói |
+| 11 | S005 | trục xuất | repetition | S004: sẽ trục xuất họ |
+| 12 | S006 | ông Trump | repetition | S005: Tổng thống Trump |
+| 13 | S006 | trục xuất | repetition | S005: cam kết trục xuất |
+| 14 | S006 | Số liệu | collocation | S005: một số lượng kỷ lục |
+| 15 | S007 | người nhập cư | repetition | S003: người nhập cư |
+| 16 | S007 | trái phép | repetition | S005: di dân vào Mỹ trái phép |
+| 17 | S007 | rời khỏi | repetition | S003: rời đi ngay |
+| 18 | S007 | nước Mỹ | repetition | S005: vào Mỹ |
+| 19 | S008 | chính quyền Trump | repetition | S007: Chính quyền Trump |
+| 20 | S008 | quy định | collocation | S007: các biện pháp khác |
+| 21 | S008 | đối mặt với | repetition | S001: đối mặt với khả năng bị bắt giam |
+| 22 | S008 | án phạt hoặc án tù | collocation | S001: khả năng bị bắt giam |
+| 23 | S008 | Mỹ | repetition | S007: nước Mỹ |
+| 24 | S009 | ra mắt | repetition | S001: ra mắt một ứng dụng mới |
+| 25 | S009 | ứng dụng | repetition | S003: Ứng dụng CBP Home |
+| 26 | S010 | Ứng dụng CBP One | repetition | S009: ứng dụng CBP One |
+| 27 | S010 | Biden | repetition | S009: Biden |
+| 28 | S010 | cho phép | repetition | S003: cho phép |
+| 29 | S010 | hợp pháp | repetition | S008: không có giấy tờ hợp pháp |
+| 30 | S010 | tính năng | collocation | S002: một sự lựa chọn |
+| 31 | S011 | cho rằng | collocation | S005: cam kết |
+| 32 | S011 | người nhập cư | repetition | S007: người nhập cư |
+| 33 | S011 | Mỹ | repetition | S008: tại Mỹ |
+| 34 | S012 | đóng | antonym | S009: ra mắt |
+| 35 | S012 | di dân | repetition | S010: di dân ở Mexico |
+| 36 | S012 | ứng dụng | repetition | S010: Ứng dụng CBP One |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -350,39 +444,30 @@ lặp ← S006 ông Trump (tái lập sau 6 câu, mở đoạn kết; danh xưng
   bằng chứng cấp câu. Không có câu nào bị segmenter chẻ tại dấu viết tắt
   (không có Jr./Mr./U.S. cuối câu).
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 3 | 3 | §4.1 (they, we, other); toàn bộ hướng A |
-| EN — S | 0 | 0 | §3: "don't" mã E; "one million" là số từ |
-| EN — E | 1 | 1 | §2 (E-EN1 "don’t" + ∅), [LC] |
-| EN — C | 0 | 0 | §5: mọi liên từ EN đều trong câu; phụ gia S007 mã hóa bằng "other" (R) |
-| EN — L | 16 | 16 | §6.3 theo chính sách §6.1 |
-| VI — R | 2 | 2 | §4.2 (họ, chúng tôi); hướng A |
-| VI — S | 1 | 1 | §3 (S-VI1 "làm vậy"), [LC] |
-| VI — E | 0 | 0 | §2: 4 ứng viên vế tọa hợp VP đã loại có lý do |
-| VI — C | 1 | 1 | §5 (C-VI1 "cũng"), [LC] |
-| VI — L | 15 | 15 | §6.3 theo chính sách §6.1 |
+| EN — R | 3 | 3 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 0 | 0 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 50 | 50 | §6 (pilot 16 + v2 34) |
+| VI — R | 2 | 2 | §4 |
+| VI — S | 1 | 1 | §3 |
+| VI — C | 1 | 1 | §5 |
+| VI — E | 0 | 0 | §2 |
+| VI — L | 51 | 51 | §6 (pilot 15 + v2 36) |
 
-**Kết luận:**
-- Tin 12/12 câu ánh xạ 1–1; mật độ EN ≈ 1,67 tie/câu (20/12) và VI ≈ 1,58
-  (19/12) — cao hơn P13 (1,5/1,0) vì P14 dày tên riêng và chuỗi định danh
-  (Trump, Biden, CBP Home/CBP One, đảng phái) xuất hiện gần như mỗi câu;
-  chất lượng đọc hiểu vẫn là tiêu chí (CONVENTIONS §8.4).
-- Quy chiếu toàn bộ hướng A, gói trong trích dẫn Noem ở S004: đại từ ngôi 1
-  ("we"/"chúng tôi") đủ điều kiện [LC] nhờ attribution ở câu trước — mô hình
-  P01; ngoài S004 chỉ còn "other steps" (EN) mang quan hệ liên câu phụ gia.
-- Điểm nổi bật của cặp: bộ ba đối ứng chéo tại S004 (E-EN "don’t" ↔ S-VI
-  "làm vậy"; R "they/we" ↔ R "họ/chúng tôi") và tại S007 (R-EN "other" ↔
-  C-VI "cũng") — hai vị trí minh họa rõ nhất "function, not form" giữa hai
-  khung H&H và TNT.
-- Từ vựng là thiết bị chủ lực (EN 16, VI 15); chuỗi "người di cư" cho thấy EN
-  phân rã (5 biến thể) ↔ VI hội tụ (2 nhãn chính), ngược với chuỗi app nơi EN
-  chuộng diễn đạt lại còn VI lặp tên riêng.
-- Các hàng S/E của cặp đều là [LC] (khác P13 nơi S/E chỉ [TC]) — mọi kết luận
-  liên câu của P14 dựa được trên cả 5 loại thiết bị R/S/E/C/L; không dùng [TD]
-  (tiêu đề lệch thuật ngữ §8a) làm bằng chứng.
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 20 ties R3/S0/E1/C0/L16;
-  VI 19 ties R2/S1/E0/C1/L15).
+- Tổng tie: EN **54** / VI **55** (pilot: EN 20 / VI 19).
+- Bổ sung v2 (34 EN + 36 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 50 (93%),
+  L-VI 51 (93%).
+- L-VI (51) > L-EN (50): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 3 / VI 2 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 0; thế EN 0 / VI 1;
+  nối EN 0 / VI 1.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

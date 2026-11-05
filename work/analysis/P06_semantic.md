@@ -362,6 +362,86 @@ EN "factors" S022).
   "tuyến bay" generic (S018 EN/S019 VI) và toàn bộ tên riêng lặp kề nằm trong
   kho §6.2 nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 29 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | the US | repetition | S001: the United States |
+| 2 | S002 | eligible | repetition | S001: you may be eligible |
+| 3 | S003 | The program | repetition | S002: the US Global Entry program |
+| 4 | S003 | Australians | repetition | S002: eligible Australian travellers |
+| 5 | S005 | next year | repetition | S001: next year |
+| 6 | S006 | the UK | repetition | S005: the United Kingdom |
+| 7 | S008 | ETIAS | repetition | S007: an ETIAS (European Travel Information and Authorisation System) visa waiver |
+| 8 | S009 | the new process | repetition | S008: The ETIAS process |
+| 9 | S009 | tourists | synonym | S008: requiring travellers to complete |
+| 10 | S011 | flights | repetition | S004: US domestic flights |
+| 11 | S013 | cutting | synonym | S012: Emirates will axe its Singapore to Melbourne route |
+| 12 | S015 | the airline | repetition | S014: The airline |
+| 13 | S015 | visitors | synonym | S009: simplify entry for tourists |
+| 14 | S017 | The report | repetition | S016: the annual Amex Air Monitor report |
+| 15 | S017 | jump | synonym | S016: airfares within and from Australia will surge |
+| 16 | S019 | ACCC | repetition | S018: the Australian Competition and Consumer Commission (ACCC) |
+| 17 | S019 | told | synonym | S015: a statement from the airline said |
+| 18 | S021 | reduce | repetition | S018: a significant reduction in competition |
+| 19 | S022 | significant | repetition | S018: a significant reduction in competition |
+| 20 | S023 | the price of jet fuel | repetition | S022: the price of jet fuel |
+| 21 | S025 | destinations | repetition | S024: the actual destinations |
+| 22 | S029 | predicts | repetition | S017: The report predicts |
+| 23 | S029 | trends | repetition | S024: myriad trends |
+| 24 | S030 | Content creators | repetition | S029: content creators |
+| 25 | S031 | connect | synonym | S028: designed to link content creators with consumers |
+| 26 | S032 | travellers | repetition | S015: visitors travelling from Japan to Australia |
+| 27 | S035 | communities | repetition | S032: Community-driven travel |
+| 28 | S037 | AI-driven | repetition | S036: the use of AI |
+| 29 | S038 | airlines | repetition | S037: Many airlines |
+
+
+Phía VI — 27 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Hoa Kỳ | repetition | S001: Hoa Kỳ |
+| 2 | S002 | đủ điều kiện | repetition | S001: đủ điều kiện |
+| 3 | S003 | Chương trình | repetition | S002: chương trình Nhập cảnh Toàn cầu ưu tiên - Global Entry |
+| 4 | S003 | người Úc | repetition | S002: du khách Úc |
+| 5 | S007 | Vương quốc Anh | repetition | S006: Vương quốc Anh |
+| 6 | S007 | ETA | repetition | S006: Giấy phép du lịch điện tử (Electronic Travel Authorisation - ETA) |
+| 7 | S009 | ETIAS | repetition | S008: miễn thị thực ETIAS |
+| 8 | S009 | du khách | repetition | S002: du khách Úc |
+| 9 | S009 | hộ chiếu | repetition | S007: người mang hộ chiếu Úc |
+| 10 | S010 | quy trình | repetition | S009: Quy trình ETIAS |
+| 11 | S010 | khách du lịch | synonym | S009: du khách |
+| 12 | S010 | châu Âu | repetition | S008: Khu vực Schengen của châu Âu |
+| 13 | S012 | chuyến bay | repetition | S005: các chuyến bay nội địa |
+| 14 | S014 | cắt giảm | repetition | S013: cắt giảm các chuyến bay |
+| 15 | S015 | dịch vụ từ Cairns đến Tokyo | repetition | S014: dịch vụ hàng ngày từ Cairns đến Tokyo |
+| 16 | S016 | hãng hàng không | repetition | S015: Hãng hàng không này |
+| 17 | S016 | du khách | synonym | S010: khách du lịch |
+| 18 | S018 | Báo cáo | repetition | S017: báo cáo thường niên của Amex Air Monitor |
+| 19 | S018 | tăng | repetition | S017: tăng vọt |
+| 20 | S018 | giá vé máy bay | repetition | S017: giá vé máy bay |
+| 21 | S020 | ACCC | repetition | S019: Ủy ban Cạnh tranh và Người tiêu dùng Úc (ACCC) |
+| 22 | S020 | nói | synonym | S016: cho biết |
+| 23 | S021 | lưu ý | synonym | S020: nói |
+| 24 | S021 | tác động | repetition | S020: tác động đến giá vé máy bay |
+| 25 | S022 | giảm | repetition | S019: sự cạnh tranh giảm đáng kể |
+| 26 | S024 | lưu ý | repetition | S021: ACCC lưu ý |
+| 27 | S024 | giá nhiên liệu máy bay | repetition | S023: giá nhiên liệu máy bay |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -415,40 +495,30 @@ EN "factors" S022).
   Siem Reap (Cambodia)… chỉ có phía EN; VI không đối chiếu được — mọi hàng liên
   quan (S027, S029, S035, S036, S037) là tie đơn phương EN.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 8 | 8 | §4.1 (R-EN1–EN8): 7 hướng A + 1 ref=E ("you" S001); 2 hàng attribution "she said"/"he said" trong khối cắt |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 0 | 0 | §2: không có khe tỉnh lược (các ứng viên đã loại) |
-| EN — C | 5 | 5 | §5: temporal 2 (Meanwhile; At the same time), additive 1 (also), adversative 2 (However ×2) |
-| EN — L | 17 | 17 | §6.3 theo chính sách §6.1 (6 hàng có alt "R: the"); 10 hàng trong khối cắt |
-| VI — R | 4 | 4 | §4.2 (R-VI1–VI4): 3 hướng A + 1 ref=E ("bạn" S001); 2 hàng chỉ từ + danh từ tổng quát |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 0 | 0 | §2: không có zero chủ ngữ liên câu (các ứng viên [TC] đã loại) |
-| VI — C | 5 | 5 | §5: adversative 3 (Tuy nhiên ×3, trong đó S004 tự sinh), temporal 1 (Trong khi đó), additive 1 (cũng) — 4/5 đối ứng 1–1 với EN |
-| VI — L | 6 | 6 | §6.3 theo chính sách §6.1 |
+| EN — R | 8 | 8 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 5 | 5 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 46 | 46 | §6 (pilot 17 + v2 29) |
+| VI — R | 4 | 4 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 5 | 5 | §5 |
+| VI — E | 0 | 0 | §2 |
+| VI — L | 33 | 33 | §6 (pilot 6 + v2 27) |
 
-**Kết luận:**
-- Cặp **bất đối xứng mạnh về dung lượng**: VI cắt trọn 15/38 câu EN (khối
-  xu hướng du lịch — Skyscanner/Byrdli/AI); 17/30 hàng tie EN nằm trong khối
-  cắt và là tie đơn phương theo quy ước khối cắt; mọi kết luận so sánh EN–VI
-  chỉ chặt chẽ trong khối dùng chung S001–S023 ↔ S001–S024.
-- **S = E = 0 ở cả hai phía** — khác P13/P17: văn bản hai phía đầy cú pháp
-  (EN không khe lược, VI không zero chủ ngữ liên câu); không dùng [TC] làm
-  bằng chứng liên kết nào trong tie table này (toàn bộ 45 hàng đều [LC]).
-- Quy chiếu thưa (EN 8, VI 4) nhưng có **ref=E đối xứng 1↔1** ở vị trí mở bài
-  ("you"/"bạn" hướng độc giả); VI không dùng đại từ nhân xưng ngôi 3 độc lập —
-  thay bằng chỉ từ + danh từ tổng quát ("Hãng hàng không này", "tuyến bay này")
-  tại các vị trí EN dùng "the + danh từ" (2 lần L→R, §7).
-- Nối 5↔5 nhưng lệch cấu trúc: 4 cặp giữ 1–1; 1 hàng VI tự sinh ("Tuy nhiên"
-  S004) phát sinh từ việc tách EN S003 thành 2 câu — bằng chứng việc cắt/ghép
-  câu của bản dịch trực tiếp tạo ra thiết bị liên kết mới.
-- Từ vựng là thiết bị chủ lực (EN 17, VI 6; trong khối dùng chung 7↔6): mật độ
-  EN 30/38 ≈ 0,79 tie/câu, VI 15/24 ≈ 0,63 — thấp hơn P01/P17 vì chuỗi chủ đề
-  (tên riêng, du khách, giá vé) lặp kề dày nên rơi vào lệnh cấm đánh dấu của
-  chính sách §6.1.
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 30 ties R8/S0/E0/C5/L17;
-  VI 15 ties R4/S0/E0/C5/L6).
+- Tổng tie: EN **59** / VI **42** (pilot: EN 30 / VI 15).
+- Bổ sung v2 (29 EN + 27 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 46 (78%),
+  L-VI 33 (79%).
+- L-EN (46) > L-VI (33): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 8 / VI 4 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 0; thế EN 0 / VI 0;
+  nối EN 5 / VI 5.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

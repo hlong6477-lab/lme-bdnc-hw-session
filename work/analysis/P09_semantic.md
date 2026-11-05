@@ -439,6 +439,118 @@ câu kề).
   đãi" kề nhau; "tăng gấp ba lần"; "due to cost(s)") đều nằm trong kho §6.2
   nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 47 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | A new report | repetition | S001: a new report |
+| 2 | S002 | patients | repetition | S001: patients are paying more out-of-pocket |
+| 3 | S002 | paying more out-of-pocket | repetition | S001: paying more out-of-pocket |
+| 4 | S002 | GP clinics | repetition | S001: bulk billing GP clinics |
+| 5 | S002 | bulk billing | repetition | S001: bulk billing GP clinics |
+| 6 | S002 | general practitioner | repetition | S001: GP clinics |
+| 7 | S003 | the report's | repetition | S002: A new report |
+| 8 | S004 | found | repetition | S002: A new report has found |
+| 9 | S005 | the proportion | synonym | S004: the rate of bulk billing GP clinics |
+| 10 | S005 | decreased | repetition | S004: a decrease in the rate |
+| 11 | S006 | The report | repetition | S005: the report found |
+| 12 | S006 | patient | repetition | S002: such patients |
+| 13 | S006 | concessions | repetition | S003: concession card holders |
+| 14 | S007 | Cleanbill | repetition | S004: healthcare directory Cleanbill |
+| 15 | S008 | data | repetition | S007: this data |
+| 16 | S009 | GP clinics | repetition | S007: calling clinics |
+| 17 | S010 | said | repetition | S008: It says |
+| 18 | S011 | says | repetition | S010: authors said |
+| 19 | S012 | the government | repetition | S011: Government |
+| 20 | S013 | GP visits | repetition | S012: visits from concession card holders |
+| 21 | S015 | under-16s | repetition | S012: under-16s |
+| 22 | S015 | concession card holders | repetition | S012: concession card holders |
+| 23 | S016 | told | repetition | S011: Government says |
+| 24 | S016 | tripled | repetition | S014: its tripling of Medicare bulk billing incentive payments |
+| 25 | S017 | Every state and territory | repetition | S016: every state and territory |
+| 26 | S017 | rise | repetition | S016: has started rising |
+| 27 | S019 | found | repetition | S016: told SBS News |
+| 28 | S019 | paying more out-of-pocket | repetition | S018: Paying more out-of-pocket |
+| 29 | S019 | GP visits | repetition | S013: all GP visits |
+| 30 | S020 | visiting a doctor | repetition | S001: to see doctors |
+| 31 | S022 | found | repetition | S019: also found |
+| 32 | S024 | told | repetition | S022: Analysis … found |
+| 33 | S024 | healthcare | repetition | S010: healthcare accessibility in Australia |
+| 34 | S027 | the incentives | repetition | S026: Bulk billing incentives |
+| 35 | S028 | Data | repetition | S013: The government's data |
+| 36 | S028 | found | repetition | S027: Wright said |
+| 37 | S029 | very remote areas | repetition | S028: remote areas |
+| 38 | S031 | told | repetition | S028: has found |
+| 39 | S031 | Tasmania | repetition | S020: patients in Tasmania |
+| 40 | S032 | expense | synonym | S029: out-of-pocket costs |
+| 41 | S034 | the patient rebate | repetition | S030: rebate increase |
+| 42 | S036 | called for | repetition | S030: GPs call for |
+| 43 | S036 | Medicare rebates | repetition | S035: patient rebates |
+| 44 | S037 | bulk bill | repetition | S032: the decrease in bulk billing |
+| 45 | S037 | longer consultations | repetition | S036: GP consultations |
+| 46 | S039 | GP clinics | repetition | S038: clinics can charge |
+| 47 | S040 | a new incentive | repetition | S039: the current federal incentive |
+
+
+Phía VI — 41 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | báo cáo mới | repetition | S001: một báo cáo mới |
+| 2 | S002 | bác sĩ gia đình | repetition | S001: bác sĩ gia đình |
+| 3 | S003 | Bệnh nhân | repetition | S001: bệnh nhân phải trả nhiều tiền hơn |
+| 4 | S004 | thanh toán toàn bộ | repetition | S001: tỷ lệ Medicare thanh toán toàn bộ |
+| 5 | S005 | thanh toán hoàn toàn | repetition | S004: thanh toán toàn bộ |
+| 6 | S005 | phòng khám | repetition | S002: các phòng khám bác sĩ gia đình |
+| 7 | S005 | giảm | repetition | S002: ngày một giảm |
+| 8 | S007 | phòng khám | repetition | S006: các phòng khám chấp nhận |
+| 9 | S007 | thẻ ưu đãi | repetition | S004: chủ thẻ được hưởng ưu đãi (concession card) |
+| 10 | S007 | không tính phí thêm | synonym | S002: không cần trả thêm phí |
+| 11 | S008 | Cleanbill | repetition | S005: của Cleanbill |
+| 12 | S008 | thanh toán hoàn toàn | repetition | S007: thanh toán tiền khám bệnh hoàn toàn bằng Medicare |
+| 13 | S008 | những bệnh nhân này | repetition | S007: một bệnh nhân mới |
+| 14 | S009 | dữ liệu của họ | repetition | S008: dữ liệu này |
+| 15 | S011 | cho biết | repetition | S009: Báo cáo cho biết |
+| 16 | S013 | chính phủ | repetition | S012: Chính phủ |
+| 17 | S013 | thanh toán hoàn toàn bulk-billing | repetition | S012: tỷ lệ thanh toán bulk-billing |
+| 18 | S014 | Dữ liệu của chính phủ | repetition | S013: dữ liệu thanh toán hoàn toàn bulk-billing |
+| 19 | S014 | các chuyến thăm khám bác sĩ gia đình | synonym | S004: tổng số lượt truy cập thanh toán toàn bộ |
+| 20 | S015 | sự gia tăng này | repetition | S014: tăng từ 75,6% lên 77,3% |
+| 21 | S016 | thanh toán khuyến khích | repetition | S015: các khoản thanh toán khuyến khích của Medicare |
+| 22 | S016 | người dưới 16 tuổi | repetition | S013: người dưới 16 tuổi |
+| 23 | S017 | tăng gấp ba lần | repetition | S015: tăng gấp ba lần vào cuối năm 2023 |
+| 24 | S020 | phát hiện | repetition | S017: Mark Butler nói với SBS News |
+| 25 | S020 | các cuộc thăm khám bác sĩ gia đình | repetition | S014: các chuyến thăm khám bác sĩ gia đình |
+| 26 | S020 | phải trả nhiều tiền hơn | repetition | S019: Trả nhiều tiền hơn |
+| 27 | S021 | đi khám bác sĩ | repetition | S001: để đi khám bác sĩ |
+| 28 | S022 | Chi phí thăm khám bác sĩ | repetition | S021: Chi phí đi khám bác sĩ |
+| 29 | S023 | không đến bác sĩ gia đình | synonym | S022: hủy lịch hẹn bác sĩ |
+| 30 | S023 | do chi phí | repetition | S022: Chi phí thăm khám bác sĩ gia tăng |
+| 31 | S024 | hoãn hoặc không gặp bác sĩ gia đình | synonym | S023: không đến bác sĩ gia đình |
+| 32 | S024 | do chi phí | repetition | S023: do chi phí |
+| 33 | S025 | nói với SBS News | repetition | S017: Mark Butler nói với SBS News |
+| 34 | S025 | hệ thống chăm sóc sức khỏe | repetition | S011: khả năng tiếp cận chăm sóc sức khỏe |
+| 35 | S028 | các ưu đãi | repetition | S027: Ưu đãi thanh toán hoàn toàn |
+| 36 | S029 | tính phí thêm | repetition | S009: không tính phí thêm |
+| 37 | S030 | những khu vực hẻo lánh | repetition | S029: vùng hẻo lánh |
+| 38 | S032 | phòng khám gia đình | repetition | S010: các phòng khám NSW GP |
+| 39 | S035 | giảm giá cho bệnh nhân | repetition | S034: tăng giảm giá cho bệnh nhân |
+| 40 | S036 | kêu gọi | synonym | S031: Các bác sĩ yêu cầu |
+| 41 | S037 | thanh toán bulk-billing | repetition | S032: thanh toán bulk-billing |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp từ §2–§6)
 
 Số liệu dưới đây đếm lại từ các bảng §2–§6 trước khi ghi.
@@ -562,40 +674,30 @@ rows.json; (v) VI S004 "lượt truy cập" và VI S002 "nếu có thẻ Medicar
 (lỗi dịch, không làm bằng chứng từ vựng); (vi) EN S035 (hồi phục hướng sau,
 không phải tie).
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-Cột "Đọc tay" đếm lại từ các bảng §2–§6 (R: §4; E: §2; C: §5; L: §6.3).
-
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 8 | 8 | §4.1: 7 hồi quy (A) + 1 ngoại văn bản (E, "you") |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 4 | 4 | §2: toàn bộ [TC] (E-EN1–E-EN4) |
-| EN — C | 4 | 4 | §5: C-EN1–C-EN4 |
-| EN — L | 45 | 45 | §6.3: đếm lại từng hàng = 45 (khớp tổng các chuỗi §6.2) |
-| VI — R | 7 | 7 | §4.2: 6 hồi quy (A) + 1 ngoại văn bản (E, "bạn") |
-| VI — S | 0 | 0 | §3: không có |
-| VI — E | 3 | 3 | §2: toàn bộ [TC] (E-VI1–E-VI3) |
-| VI — C | 3 | 3 | §5: C-VI1–C-VI3 |
-| VI — L | 40 | 40 | §6.3: đếm lại từng hàng = 40 |
+| EN — R | 8 | 8 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 4 | 4 | §5 |
+| EN — E | 4 | 4 | §2 |
+| EN — L | 92 | 92 | §6 (pilot 45 + v2 47) |
+| VI — R | 7 | 7 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 3 | 3 | §5 |
+| VI — E | 3 | 3 | §2 |
+| VI — L | 81 | 81 | §6 (pilot 40 + v2 41) |
 
-Cả hai cổng QC `pipeline.annotate` và `pipeline.render` đều **PASS**; số liệu
-"Đã ghi tie table" lấy trực tiếp từ kết quả chạy (EN 61, VI 53). **Không
-chênh lệch** giữa đọc tay và tie table ở cả 10 ô.
-
-**Kết luận:**
-
-- Tổng 61 tie EN / 53 tie VI; mật độ ~1,53 tie/câu EN (61/40) và ~1,43
-  tie/câu VI (53/37) — cùng bậc với mật độ tham chiếu P01 (~1,6).
-- **L áp đảo** (EN 45/61 ≈ 74%, VI 40/53 ≈ 75%): văn bản chính sách–dữ liệu
-  "danh từ hóa" cao, hầu như không dùng đại từ hồi quy nhân vật (§4.3).
-- **E toàn bộ [TC]** (EN 4, VI 3) và **S = 0** hai phía: hai mục này KHÔNG
-  dùng làm bằng chứng cho bất kỳ kết luận nào về liên kết liên câu.
-- **R thưa và chuẩn** (EN 8, VI 7): phần lớn là attribution và quy chiếu
-  mở rộng; ba cặp attribution giữ 1–1 (he said/ông nói; she said/cô nói).
-- Chênh lệch L (45 ↔ 40) đến gần như hoàn toàn từ khối cắt: 5 hàng L-EN của
-  EN S037–S039 không có đối ứng VI; trừ khối này hai bên ngang nhau
-  (40 ↔ 40, §6.4).
-- Ghi chú đếm: §4.3 viết "11 hàng L có alt 'R: the'" nhưng danh sách cùng
-  chỗ liệt kê 13 vị trí; đếm lại từ §6.3 được 13 hàng — tie table ghi alt
-  "R: the" trên đúng 13 hàng này (không ảnh hưởng số đếm L).
+- Tổng tie: EN **108** / VI **94** (pilot: EN 61 / VI 53).
+- Bổ sung v2 (47 EN + 41 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 92 (85%),
+  L-VI 81 (86%).
+- L-EN (92) > L-VI (81): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 8 / VI 7 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 4 / VI 3; thế EN 0 / VI 0;
+  nối EN 4 / VI 3.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

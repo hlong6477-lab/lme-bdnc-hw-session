@@ -476,6 +476,128 @@ cho P05 (rút từ §8.1 + tiền lệ thực hành P17):
   Australians, companies/Individuals…) đều nằm trong kho §6.2 nhưng không
   đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 54 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | key changes | repetition | S001: a wave of changes |
+| 2 | S003 | laws | repetition | S002: From new workplace laws |
+| 3 | S003 | come into effect | synonym | S002: some key changes taking effect |
+| 4 | S005 | fines | repetition | S004: companies could be fined |
+| 5 | S005 | face | repetition | S003: now risk facing criminal charges |
+| 6 | S006 | Small businesses | synonym | S004: companies could be fined |
+| 7 | S008 | Australia | repetition | S007: fast-track their Australian citizenship |
+| 8 | S009 | effective | repetition | S003: laws that come into effect |
+| 9 | S012 | payment | repetition | S002: welfare payment hikes |
+| 10 | S012 | Australians | repetition | S008: lived in Australia for at least 12 months |
+| 11 | S013 | Youth Allowance | repetition | S012: Youth Allowance, Austudy, ABSTUDY… |
+| 12 | S013 | Austudy | repetition | S012: Youth Allowance, Austudy, ABSTUDY… |
+| 13 | S013 | payments | repetition | S012: a 1 January Centrelink payment increase |
+| 14 | S013 | increase | repetition | S012: a 1 January Centrelink payment increase |
+| 15 | S014 | Australians | repetition | S012: Over a million Australians |
+| 16 | S014 | a fortnight | repetition | S013: by up to $30.60 a fortnight |
+| 17 | S015 | an increase | repetition | S013: Youth Allowance and Austudy payments will increase |
+| 18 | S015 | a fortnight | repetition | S014: an extra $54 a fortnight |
+| 19 | S016 | rise | synonym | S015: will receive an increase |
+| 20 | S016 | payments | repetition | S013: Youth Allowance and Austudy payments |
+| 21 | S016 | people | general word | S012: Over a million Australians |
+| 22 | S019 | the cost | synonym | S018: Australian passport prices |
+| 23 | S019 | Australian passport | repetition | S018: Australian passport prices |
+| 24 | S020 | passports | repetition | S019: a standard 10-year Australian passport |
+| 25 | S022 | surcharges | repetition | S021: debit card surcharges |
+| 26 | S024 | won't be allowed | repetition | S023: will no longer be allowed within 5m |
+| 27 | S025 | visible | repetition | S024: to be visible from gaming rooms |
+| 28 | S025 | entryways | synonym | S024: any entry areas |
+| 29 | S026 | businesses | repetition | S006: Small businesses complying |
+| 30 | S027 | changes | repetition | S002: some key changes |
+| 31 | S029 | Employees | repetition | S003: underpay their employees |
+| 32 | S029 | increased pay | synonym | S027: minimum wage requirements |
+| 33 | S030 | employees | repetition | S029: Employees must progress |
+| 34 | S031 | the new year | repetition | S001: As we enter the New Year |
+| 35 | S032 | engineered stone bench tops, panels and slabs | repetition | S031: engineered stone bench tops, panels and slabs |
+| 36 | S032 | came into effect | repetition | S003: laws that come into effect |
+| 37 | S037 | welfare | repetition | S002: welfare payment hikes |
+| 38 | S039 | international students | repetition | S038: New student visa rules |
+| 39 | S044 | will increase | repetition | S043: which is increasing in line with indexation |
+| 40 | S046 | The co-payments | repetition | S045: The PBS co-payment |
+| 41 | S047 | awards | repetition | S028: introductory classifications in awards |
+| 42 | S047 | Wage | repetition | S030: the minimum wage |
+| 43 | S047 | take effect | repetition | S002: some key changes taking effect |
+| 44 | S048 | the Aged Care Award | repetition | S047: several awards |
+| 45 | S049 | minimum pay rate | repetition | S048: Minimum pay rates |
+| 46 | S053 | new cars | repetition | S052: Any new cars sold in Australia |
+| 47 | S055 | The levy | repetition | S054: will need to pay a levy |
+| 48 | S055 | booking fee | repetition | S054: accepting accommodation bookings |
+| 49 | S057 | properties | repetition | S054: Victorian property owners |
+| 50 | S057 | Victoria's | repetition | S054: Victorian property owners |
+| 51 | S057 | residential | repetition | S056: their principal place of residence |
+| 52 | S058 | The tax | repetition | S057: Victoria's vacant residential land tax |
+| 53 | S058 | a property | repetition | S057: properties in regional Victoria |
+| 54 | S058 | owners | repetition | S054: Victorian property owners |
+
+
+Phía VI — 44 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S003 | các công ty | synonym | S002: Những người sử dụng lao động cố tình trả lương thấp hơn |
+| 2 | S004 | phải đối mặt | repetition | S002: có nguy cơ phải đối mặt với các cáo buộc hình sự |
+| 3 | S004 | tiền phạt | repetition | S003: các công ty có thể bị phạt |
+| 4 | S005 | Các doanh nghiệp nhỏ | synonym | S003: các công ty có thể bị phạt tới ba lần |
+| 5 | S008 | Úc | repetition | S007: nhanh chóng nhập quốc tịch Úc |
+| 6 | S009 | có hiệu lực | repetition | S002: theo luật có hiệu lực vào ngày 1 tháng 1 |
+| 7 | S012 | người Úc | repetition | S008: phải sống tại Úc |
+| 8 | S013 | Austudy | repetition | S012: Youth Allowance, Austudy, ABSTUDY… |
+| 9 | S013 | các khoản thanh toán | repetition | S012: khoản tăng thanh toán của Centrelink |
+| 10 | S013 | sẽ tăng lên | repetition | S012: được tăng lên để theo kịp lạm phát |
+| 11 | S014 | Người Úc | repetition | S012: Hơn một triệu người Úc |
+| 12 | S014 | mỗi hai tuần | repetition | S013: 30,60 đô la mỗi hai tuần |
+| 13 | S014 | được tăng thêm | repetition | S013: sẽ tăng lên tới 30,60 đô la |
+| 14 | S015 | mỗi hai tuần | repetition | S014: 54 đô la mỗi hai tuần |
+| 15 | S015 | được tăng lên | repetition | S014: sẽ được tăng thêm 54 đô la |
+| 16 | S016 | tăng | repetition | S015: sẽ được tăng lên tới 30,10 đô la |
+| 17 | S016 | các khoản thanh toán | repetition | S013: các khoản thanh toán của Austudy |
+| 18 | S016 | mọi người | general word | S012: Hơn một triệu người Úc |
+| 19 | S019 | hộ chiếu Úc | repetition | S018: Phí làm hộ chiếu Úc |
+| 20 | S019 | chi phí | synonym | S018: Phí làm hộ chiếu Úc |
+| 21 | S020 | hộ chiếu | repetition | S019: hộ chiếu Úc tiêu chuẩn |
+| 22 | S022 | phụ phí thẻ ghi nợ | repetition | S021 (subhead): Cấm thu phí khi thanh toán bằng thẻ ghi nợ |
+| 23 | S023 | phụ phí | repetition | S022: trả phụ phí thẻ ghi nợ (debit card) |
+| 24 | S025 | được phép | repetition | S024: sẽ không còn được phép đặt |
+| 25 | S026 | nhìn thấy | repetition | S025: không được phép nhìn thấy |
+| 26 | S026 | lối ra vào | repetition | S025: bất kỳ khu vực ra vào nào |
+| 27 | S030 | thị thực du học | repetition | S029 (subhead): Đơn xin thị thực du học trong nước |
+| 28 | S030 | những người nộp đơn trong nước | repetition | S029 (subhead): Đơn xin thị thực du học trong nước |
+| 29 | S031 | sinh viên quốc tế | synonym | S030: các quy định mới về thị thực du học |
+| 30 | S034 | sẽ tăng | repetition | S033: mức này đang tăng theo chỉ số |
+| 31 | S036 | Đồng thanh toán | repetition | S035: Đồng thanh toán PBS |
+| 32 | S036 | bệnh nhân ưu đãi | repetition | S034: những người có thẻ ưu tiên (concession card) |
+| 33 | S038 | có hiệu lực | repetition | S009: có hiệu lực từ ngày 1 tháng 1 |
+| 34 | S038 | chăm sóc người cao tuổi | repetition | S037 (subhead): Tăng lương cho nhân viên chăm sóc người cao tuổi |
+| 35 | S039 | Mức lương tối thiểu | repetition | S038: Thay đổi tiền lương cho một số lĩnh vực |
+| 36 | S040 | mức lương tối thiểu | repetition | S039: Mức lương tối thiểu sẽ tăng |
+| 37 | S042 | Victoria | repetition | S041 (subhead): Thuế lưu trú ngắn hạn tại Victoria |
+| 38 | S044 | thuế | repetition | S043: Khoản thuế này |
+| 39 | S044 | cho thuê | repetition | S042: cho thuê phòng dưới 28 ngày liên tiếp |
+| 40 | S046 | Thuế đất | repetition | S045 (subhead): Thuế đất được gia hạn tại Victoria |
+| 41 | S046 | Victoria | repetition | S045 (subhead): Thuế đất được gia hạn tại Victoria |
+| 42 | S046 | các bất động sản | repetition | S042: chủ sở hữu bất động sản tại Victoria |
+| 43 | S047 | chủ sở hữu | repetition | S042: chủ sở hữu bất động sản tại Victoria |
+| 44 | S047 | bất động sản | repetition | S046: các bất động sản ở vùng Victoria |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -572,40 +694,30 @@ từ tổng quát ("Những người…") hoặc lặp danh từ (R→R đổi d
   (riêng EN S053 lặp cụm — §8c — là lỗi nguồn, không phải pull-quote); các
   subhead VI là hàng body (§8g), không phải artifact.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
-|---|---:|---|---|
-| EN — R | 17 | 17 | §4.1 (R-EN1–EN17): A 12 + E 5; 7 hàng trong khối VI cắt |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 1 | 1 | §2 (E-EN1) gapping, [TC] — không dùng làm bằng chứng liên câu |
-| EN — C | 4 | 4 | §5: additive 3 + adversative 1 (But, khối cắt) |
-| EN — L | 35 | 35 | §6.3 theo chính sách §6.1 (11 hàng trong khối cắt) |
-| VI — R | 10 | 10 | §4.2 (R-VI1–VI10): A 7 + E 3 |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1) gapping, [TC] — không dùng làm bằng chứng liên câu |
-| VI — C | 3 | 3 | §5: toàn additive, đối xứng 3↔3 với EN trên phần dịch chung |
-| VI — L | 29 | 29 | §6.3 theo chính sách §6.1 (4 hàng bắt nguồn từ subhead) |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
+|---|---:|---:|---|
+| EN — R | 17 | 17 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 4 | 4 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 89 | 89 | §6 (pilot 35 + v2 54) |
+| VI — R | 10 | 10 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 3 | 3 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 73 | 73 | §6 (pilot 29 + v2 44) |
 
-**Kết luận:**
-
-- Listicle 60/48 câu với mật độ thấp hơn P01/P17 (EN 57/60 ≈ 0,95 tie/câu;
-  VI 43/48 ≈ 0,90): văn phong thông báo, nhiều khối 1–3 câu khép kín, không
-  có trích dẫn nhân vật nên không có đại từ attribution.
-- Từ vựng là thiết bị chủ lực (L 35/29). Chênh lệch EN−VI (+6) hoàn toàn do
-  19 câu EN bị VI cắt (11 L + 7 R + 1 C EN-only); **trên phần dịch chung VI
-  đậm hơn EN** (L 29 so với 24) nhờ 7 subhead tự sinh gieo chuỗi, biến thể
-  dịch tên chương trình ("Trợ cấp thanh thiếu niên") và dao động từ vựng
-  (cao tuổi/cao niên; bỏ trống/để trống).
-- Quy chiếu toàn hướng A (12/17 EN, 7/10 VI) + nhóm ref=E đặc trưng service
-  journalism (we/you/here ↔ Bạn/bạn); không có ref=C; không có đại từ
-  ngôi 3 phía VI — VI neo bằng chỉ từ "này" + danh từ (R-VI9/10) hoặc lặp
-  danh từ, sinh ra cặp bất đối xứng có chủ đích "The levy/The tax" (EN,
-  không đánh dấu) ↔ "Khoản thuế này/Thuế này" (VI, R).
-- E hiếm và đối xứng tuyệt đối (1↔1, cùng vị trí gapping [TC]); C thưa nhưng
-  giữ 1–1 ở 3 vị trí additive trên phần dịch chung. **Mọi hàng E đều là
-  [TC]** — không dùng hai hàng này làm bằng chứng cho liên kết liên câu.
-- Số đếm tay 10 ô chuẩn bị cho tie table: EN R17/S0/E1/C4/L35 (57); VI
-  R10/S0/E1/C3/L29 (43). Cột "Đã ghi tie table" sẽ điền và đối chiếu ở
-  bước tie table (task sau), kèm chạy cổng QC `pipeline.annotate` +
-  `pipeline.render` cho P05.
+- Tổng tie: EN **111** / VI **87** (pilot: EN 57 / VI 43).
+- Bổ sung v2 (54 EN + 44 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 89 (80%),
+  L-VI 73 (84%).
+- L-EN (89) > L-VI (73): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 17 / VI 10 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 1; thế EN 0 / VI 0;
+  nối EN 4 / VI 3.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

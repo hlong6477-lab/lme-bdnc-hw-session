@@ -186,6 +186,33 @@ nghĩa với President/presidential (S002), đã ghi vào `alt` của hàng R-EN
   quả trực tiếp của việc câu dẫn đã giới thiệu "Cựu Tổng thống Mỹ Donald
   Trump" trước đó.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 2 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S003 | reports | repetition | S002: announced his endorsement |
+| 2 | S003 | campaigned | collocation | S002: the Republican presidential nominee |
+
+
+Phía VI — 1 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S003 | ủng hộ | repetition | S001: ủng hộ (nhóm cử tri ủng hộ một ứng viên khác) |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -225,36 +252,30 @@ nghĩa với President/presidential (S002), đã ghi vào `alt` của hàng R-EN
 - **(f) Đối chiếu rows.json ↔ sentmap:** 1 hàng body duy nhất, khớp đúng
   flow ST/TT theo byte; không có câu trùng, thiếu dấu cách hay sai số liệu.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 1 | 1 | §4.1: "the two politicians" (S003 ← S001+S002); "his" trong câu thật → không tính |
-| EN — S | 0 | 0 | §3: không có one/do/so… |
-| EN — E | 0 | 0 | §2: không có ∅ thật; "chủ ngữ thiếu" là artifact "Jr." → không bịa E |
-| EN — C | 0 | 0 | §5: không có connector đọc được ở ranh giới câu thật |
-| EN — L | 0 | 0 | §6.3: không có chuỗi từ vựng băng ranh giới câu thật |
-| VI — R | 0 | 0 | §4: VI không dùng đại từ/demonstrative liên câu |
-| VI — S | 0 | 0 | §3: không có pro-form |
-| VI — E | 0 | 0 | §2: chủ ngữ tường minh trong câu thật |
-| VI — C | 0 | 0 | §5: quan hệ dẫn–giải thích ngầm, không liên từ |
-| VI — L | 2 | 2 | §6.3: "Trump", "ứng cử viên tổng thống" (đều S003 ← S001) |
+| EN — R | 1 | 1 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 0 | 0 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 2 | 2 | §6 (pilot 0 + v2 2) |
+| VI — R | 0 | 0 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 0 | 0 | §5 |
+| VI — E | 0 | 0 | §2 |
+| VI — L | 3 | 3 | §6 (pilot 2 + v2 1) |
 
-**Kết luận:**
-
-- Cặp micro có mật độ tie rất thấp (EN 1, VI 2; tổng 3) — phản ánh đúng thực
-  tế văn bản: mỗi bên chỉ có 2 câu thật; EN hai câu chia sẻ trường nghĩa chứ
-  không chia sẻ hình thức từ, còn VI tạo được 2 liên kết từ vựng hoàn toàn
-  nhờ câu dẫn tự sinh.
-- Duy nhất 1 hàng R toàn cặp ("the two politicians", EN) lại nằm trong khối
-  bị VI cắt; VI "bù" bằng 2 hàng L (tên rút gọn + gia đình hình thái "ứng
-  viên/ứng cử viên") — một minh họa gọn của dịch chuyển R↔L mang tính cấu
-  trúc thay vì cục bộ.
-- Cả 3 hàng đều [LC] theo câu thật; không có hàng [TC] nào (S = E = 0 hai
-  phía) — không mục nào trong bảng vi phạm quy tắc "R/C/L chỉ [LC]", và
-  không có gì phải loại khỏi kết luận liên câu vì lý do [TC].
-- Bất thường dữ liệu nguồn chi phối trực tiếp kết quả (§8a): nếu ăn theo
-  chia câu giả tại "Jr.", EN sẽ có thêm R ("his") + E (chủ ngữ giả) và VI
-  thêm E — cả ba đều bị loại có chủ đích. Khuyến nghị điều phối viên thống
-  nhất chính sách này cho các cặp khác có chứa tên viết tắt có dấu chấm
-  ("Jr.", "Mr.", "Gov."…).
+- Tổng tie: EN **3** / VI **3** (pilot: EN 1 / VI 2).
+- Bổ sung v2 (2 EN + 1 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 2 (67%),
+  L-VI 3 (100%).
+- L-VI (3) > L-EN (2): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 1 / VI 0 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 0; thế EN 0 / VI 0;
+  nối EN 0 / VI 0.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

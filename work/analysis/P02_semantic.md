@@ -555,6 +555,124 @@ aged 16 to 24…) hoặc tái lập **đề cập từ ngữ** ("the word 'homel
   states and territories/bang và vùng lãnh thổ) đều nằm trong kho §6.2 nhưng
   không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 50 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | the word 'homeless' | repetition | S001: experiencing homelessness |
+| 2 | S004 | homelessness | repetition | S001: experiencing homelessness |
+| 3 | S005 | homelessness | repetition | S004: They experienced homelessness |
+| 4 | S006 | said | repetition | S005: She said |
+| 5 | S006 | struggled | repetition | S001: struggling to find a place to live |
+| 6 | S007 | said | repetition | S006: she said |
+| 7 | S008 | the word homelessness | repetition | S002: the word 'homeless' |
+| 8 | S008 | identify | repetition | S002: to identify with the word 'homeless' |
+| 9 | S010 | homelessness | repetition | S005: the stigma attached to homelessness |
+| 10 | S011 | people aged 16-24 | synonym | S001: young people |
+| 11 | S012 | people aged 16 to 24 | repetition | S011: people aged 16-24 |
+| 12 | S013 | young people | repetition | S001: young people |
+| 13 | S013 | homelessness | repetition | S012: at risk of homelessness |
+| 14 | S015 | states and territories | superordinate | S014: The Northern Territory outback, New England and North West NSW, Illawarra, and Western Australia outback |
+| 15 | S016 | said | repetition | S007: she said |
+| 16 | S017 | young people | repetition | S016: young people |
+| 17 | S019 | youth homelessness | repetition | S009: Youth homelessness across Australia |
+| 18 | S020 | youth homelessness | repetition | S019: the youth homelessness crisis |
+| 19 | S021 | young people | repetition | S018: young people |
+| 20 | S022 | young people | repetition | S021: young people |
+| 21 | S022 | those factors | repetition | S020: several factors contributing to youth homelessness |
+| 22 | S022 | finish school | repetition | S016: rates of finishing high school |
+| 23 | S023 | homelessness | repetition | S020: youth homelessness in Australia |
+| 24 | S024 | Youth foyers | repetition | S023: youth foyers |
+| 25 | S025 | said | repetition | S021: she said |
+| 26 | S025 | young people | repetition | S023: young people |
+| 27 | S026 | young people | repetition | S025: young people |
+| 28 | S027 | young people | repetition | S026: young people |
+| 29 | S027 | crisis services | repetition | S026: crisis services |
+| 30 | S029 | schools | repetition | S022: finish school |
+| 31 | S030 | prevention | repetition | S029: more focus on prevention |
+| 32 | S032 | said | repetition | S026: she said |
+| 33 | S032 | homelessness | repetition | S031: into homelessness |
+| 34 | S036 | for two years | repetition | S024: up to two years |
+| 35 | S037 | believes | repetition | S029: He believes |
+| 36 | S038 | unsafe environments | repetition | S037: unstable or unsafe environments |
+| 37 | S038 | absolutely nowhere to go | repetition | S034: 'Absolutely nowhere to go' |
+| 38 | S038 | said | repetition | S036: She said |
+| 39 | S039 | young people | repetition | S037: young people |
+| 40 | S040 | the government | repetition | S023: the government |
+| 41 | S041 | said | repetition | S038: she said |
+| 42 | S041 | homelessness | repetition | S032: experiencing homelessness |
+| 43 | S042 | the spokesperson | repetition | S041: a Department of Social Services spokesperson |
+| 44 | S042 | housing and homelessness | repetition | S041: the housing and homelessness support sectors |
+| 45 | S042 | said | repetition | S041: spokesperson said |
+| 46 | S043 | homeless | repetition | S042: housing and homelessness reform agenda |
+| 47 | S044 | homelessness | repetition | S043: who are homeless |
+| 48 | S046 | youth homelessness | repetition | S028: youth homelessness |
+| 49 | S047 | added | synonym | S046: They said |
+| 50 | S047 | homelessness | repetition | S046: youth homelessness |
+
+
+Phía VI — 44 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | vô gia cư | repetition | S001: tình trạng vô gia cư |
+| 2 | S002 | bất ổn về nhà ở | synonym | S001: chật vật tìm kiếm một nơi ở |
+| 3 | S004 | cảnh vô gia cư | repetition | S002: thuộc diện "vô gia cư" |
+| 4 | S005 | tình trạng vô gia cư | repetition | S004: rơi vào cảnh vô gia cư |
+| 5 | S006 | cảm giác xấu hổ | repetition | S005: cảm thấy xấu hổ |
+| 6 | S006 | vật lộn | synonym | S001: chật vật tìm kiếm |
+| 7 | S007 | cho biết | synonym | S005: Tyrah chia sẻ |
+| 8 | S009 | định kiến và sự xấu hổ | repetition | S005: định kiến xã hội… xấu hổ |
+| 9 | S009 | nhận mình thuộc diện | repetition | S002: chấp nhận mình thuộc diện "vô gia cư" |
+| 10 | S011 | rơi vào cảnh vô gia cư | repetition | S004: từng rơi vào cảnh vô gia cư |
+| 11 | S012 | thanh niên từ 16-24 tuổi | repetition | S001: nơi thanh niên đang đối mặt |
+| 12 | S013 | thanh niên trong độ tuổi 16-24 | repetition | S012: nhóm thanh niên từ 16-24 tuổi |
+| 13 | S014 | thanh niên | repetition | S013: thanh niên trong độ tuổi 16-24 |
+| 14 | S014 | tình trạng vô gia cư | repetition | S013: những người vô gia cư |
+| 15 | S015 | khu vực | repetition | S014: Khu vực Latrobe-Gippsland |
+| 16 | S016 | bang và vùng lãnh thổ | superordinate | S015: Vùng ngoại ô Lãnh thổ Bắc Úc, New England…, Illawarra…, Tây Úc |
+| 17 | S019 | rất phổ biến | repetition | S008: điều rất phổ biến |
+| 18 | S020 | cuộc khủng hoảng vô gia cư ở thanh niên | repetition | S019: vấn đề vô gia cư ở thanh niên |
+| 19 | S021 | thanh niên Úc | repetition | S019: vấn đề vô gia cư ở thanh niên |
+| 20 | S021 | tình trạng vô gia cư | repetition | S020: (subhead) cuộc khủng hoảng vô gia cư ở thanh niên |
+| 21 | S022 | chi phí nhà ở | repetition | S021: thiếu nhà ở giá rẻ |
+| 22 | S022 | chật vật | repetition | S013: đang chật vật tìm kiếm chỗ ở ổn định |
+| 23 | S024 | hoàn thành | repetition | S017: tỷ lệ hoàn thành trung học phổ thông |
+| 24 | S025 | thoát khỏi cảnh vô gia cư | repetition | S021: tình trạng vô gia cư |
+| 25 | S027 | Youth foyers | repetition | S026: (subhead) Youth Foyers |
+| 26 | S030 | dịch vụ khẩn cấp | repetition | S029: dịch vụ hỗ trợ khẩn cấp |
+| 27 | S032 | cho rằng | synonym | S030: bà nói |
+| 28 | S033 | hỗ trợ nhà ở | repetition | S031: hệ thống hỗ trợ khẩn cấp |
+| 29 | S033 | các trường học | repetition | S028: tiếp tục học tập |
+| 30 | S035 | ngăn chặn | repetition | S033: ngăn chặn tình trạng này từ sớm |
+| 31 | S036 | thiếu niên | repetition | S002: suốt thời niên thiếu |
+| 32 | S037 | thiếu niên | repetition | S036: tuổi thiếu niên |
+| 33 | S039 | trên khắp nước Úc | repetition | S019: trên khắp cả nước |
+| 34 | S040 | trong hai năm | repetition | S027: trong thời gian tối đa hai năm |
+| 35 | S042 | không còn nơi nào để đi | repetition | S038: (subhead) 'Không còn nơi nào để đi' |
+| 36 | S043 | nơi ở ổn định | synonym | S041: chỗ ở an toàn |
+| 37 | S044 | Chính phủ | repetition | S025: kêu gọi chính phủ tài trợ |
+| 38 | S045 | nhấn mạnh | repetition | S033: Ông nhấn mạnh |
+| 39 | S046 | giải quyết tình trạng vô gia cư | repetition | S045: giải quyết tình trạng vô gia cư |
+| 40 | S046 | cho biết | repetition | S040: Cô cho biết |
+| 41 | S047 | chính phủ | repetition | S046: Chính phủ cam kết |
+| 42 | S048 | giảm số lượng thanh niên | repetition | S035: giảm bớt số lượng thanh niên |
+| 43 | S049 | bang và vùng lãnh thổ | repetition | S016: tất cả các bang và vùng lãnh thổ |
+| 44 | S051 | có nguy cơ mất nhà ở | repetition | S013: có nguy cơ mất nhà ở |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -666,43 +784,30 @@ chuỗi D/L của §6.2.
   đối ứng, mỗi câu đánh dấu theo văn bản VI (S007: L "Chan-Hampton"; S009:
   R "chúng tôi", L "từ 'vô gia cư'", L "định kiến/xấu hổ").
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
-|---|---:|---|---|
-| EN — R | 22 | 22 | §4.1 (R-EN1–EN22): 21 hướng A + 1 ref=E ("you" S022); 8 hàng attribution; 3 hàng EN-only trong khối VI thay (S043, S044, S046) |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 1 | 1 | §2 (E-EN1) gapping, [TC] — không dùng làm bằng chứng liên câu |
-| EN — C | 5 | 5 | §5.1: additive 4 + causal 1; 2 hàng EN-only (S029, S046) |
-| EN — L | 39 | 39 | §6.3 theo chính sách §6.1 (4 hàng có alt "R: the"; 5 hàng tên riêng; 3 hàng EN-only) |
-| VI — R | 22 | 22 | §4.2 (R-VI1–VI22), toàn bộ hướng A; 7 hàng attribution honorific (cô/bà/ông); 4 hàng không có đối ứng EN (S006, S008, S028, S048) |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1) tân ngữ zero, [LC], conf med (ghi cả hai phương án đọc) |
-| VI — C | 3 | 3 | §5.2: additive 2 + causal 1; 3/3 đối ứng 1–1 với EN trên phần dịch chung |
-| VI — L | 41 | 41 | §6.3 theo chính sách §6.1 (8 hàng tên riêng; 2 hàng từ câu tự sinh; 2 hàng có alt "L" đối xứng với EN) |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
+|---|---:|---:|---|
+| EN — R | 22 | 22 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 5 | 5 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 89 | 89 | §6 (pilot 39 + v2 50) |
+| VI — R | 22 | 22 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 3 | 3 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 85 | 85 | §6 (pilot 41 + v2 44) |
 
-**Kết luận:**
-
-- Tin tính năng 47/51 câu với mật độ tương đương P01 (EN 67 tie ≈ 1,43
-  tie/câu; VI 67 ≈ 1,31): quy chiếu và từ vựng là hai thiết bị chủ lực, cân
-  bằng tuyệt đối về tổng số (67↔67 — trùng nhau ngẫu nhiên, không phải mục
-  tiêu).
-- **R đôi bên bằng nhau (22↔22) nhưng khác cơ cấu:** EN có 1 ref=E ("you"
-  generic) và 3 hàng EN-only trong khối bị thay; VI có 4 hàng tự đứng (2 từ
-  attribution neo tên, 2 từ câu tự sinh) và **honorific cô/bà/ông** phân tầng
-  theo nhân vật — cùng một hệ ngôi mà EN chỉ mã hóa she/he.
-- Mô típ bất đối xứng lặp lại hai lần "EN 'the + N lặp' (L) ↔ VI 'N + này'
-  (R)" (the analysis/phân tích này; the problem/vấn đề này) — VI hiện thực
-  hóa tính xác định bằng chỉ từ, EN giao cho mạo từ (tiền lệ P05).
-- VI can thiệp biên tập mạnh (4 câu tự sinh, 2 lần tách câu, 1 lần gộp–tái
-  phân bổ, 1 khối thay, bỏ attribution khi chuyển sang gạch đầu dòng) — mọi
-  so sánh cấp câu phải dùng bản đồ §1; các cặp S023↔S025 (kèm subhead S026)
-  và S043+S044↔S048 **không dùng làm bằng chứng đối ứng**.
-- E rất hiếm (1↔1) và **không đối xứng vị trí** (EN [TC] gapping ↔ VI [LC]
-  zero tân ngữ); C thưa (5↔3) nhưng 3 vị trí dịch chung giữ 1–1. Hàng E-EN1
-  là [TC] — không dùng làm bằng chứng cho liên kết liên câu; hàng E-VI1 là
-  [LC] hợp lệ với conf med.
-- Số đếm tay 10 ô chuẩn bị cho tie table: EN R22/S0/E1/C5/L39 (67); VI
-  R22/S0/E1/C3/L41 (67). Cột "Đã ghi tie table" sẽ điền và đối chiếu ở bước
-  tie table (task sau), kèm chạy cổng QC `pipeline.annotate` +
-  `pipeline.render` cho P02.
+- Tổng tie: EN **117** / VI **111** (pilot: EN 67 / VI 67).
+- Bổ sung v2 (50 EN + 44 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 89 (76%),
+  L-VI 85 (77%).
+- L-EN (89) > L-VI (85): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 22 / VI 22 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 1; thế EN 0 / VI 0;
+  nối EN 5 / VI 3.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

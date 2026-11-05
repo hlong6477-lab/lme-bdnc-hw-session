@@ -347,6 +347,125 @@ câu "nhu cần" là lỗi chính tả, §8b).
   prices, market trần, Thailand, choice/chọn lựa, agricultural/nông nghiệp)
   và cặp speculators/traders đều nằm trong kho §6.2 nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 43 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | falling | synonym | S001: A decrease in rubber imports |
+| 2 | S004 | rubber | repetition | S003: rubber farmers |
+| 3 | S005 | Yium | repetition | S004: Yium Tavarolit |
+| 4 | S005 | says | synonym | S004: explains |
+| 5 | S009 | supply and demand | repetition | S008: Supply and demand |
+| 6 | S009 | contends | synonym | S007: he said |
+| 7 | S010 | say | synonym | S009: The consortium contends |
+| 8 | S010 | Thailand’s | repetition | S003: Thailand, Malaysia and Indonesia |
+| 9 | S011 | Thailand | repetition | S010: Thailand’s government |
+| 10 | S011 | rubber | repetition | S007: all rubber trees |
+| 11 | S011 | agriculture | repetition | S006: other agricultural activities |
+| 12 | S012 | Thailand | repetition | S011: Thailand is funding |
+| 13 | S012 | government | repetition | S010: Thailand’s government |
+| 14 | S012 | says | repetition | S010: analysts … say |
+| 15 | S013 | cut down | repetition | S007: cutting down all rubber trees |
+| 16 | S013 | the supply | repetition | S009: supply and demand |
+| 17 | S014 | the government | repetition | S013: the Thai government |
+| 18 | S014 | buying | synonym | S011: purchasing rubber directly from producers |
+| 19 | S014 | rubber | repetition | S013: rubber trees |
+| 20 | S015 | global | repetition | S014: the global market |
+| 21 | S016 | Thailand | repetition | S012: intervention by Thailand |
+| 22 | S016 | other governments | repetition | S014: the government |
+| 23 | S016 | says | synonym | S013: he tells VOA |
+| 24 | S016 | aid | synonym | S011: Thailand is funding … programs |
+| 25 | S017 | farmers | repetition | S016: their rubber farmers |
+| 26 | S019 | assist | repetition | S018: Immediate assistance |
+| 27 | S020 | rubber farmers | repetition | S019: assist farmers |
+| 28 | S020 | measures | repetition | S019: sustainable measures |
+| 29 | S020 | no choice | repetition | S016: have no choice |
+| 30 | S020 | help | synonym | S019: measures to assist |
+| 31 | S020 | suffering | repetition | S004: They are suffering |
+| 32 | S021 | rubber | repetition | S020: rubber farmers |
+| 33 | S021 | low | repetition | S009: such low prices |
+| 34 | S022 | prices | repetition | S009: such low prices |
+| 35 | S022 | sagged | synonym | S002: Prices have been falling |
+| 36 | S023 | China | repetition | S001: imports by China |
+| 37 | S023 | Thailand | repetition | S016: Thailand and other governments |
+| 38 | S023 | agricultural | repetition | S011: agriculture stimulus project |
+| 39 | S023 | rubber | repetition | S021: a five-year low for rubber |
+| 40 | S024 | rubber | repetition | S023: rice and rubber |
+| 41 | S024 | Thai | repetition | S023: from Thailand next year |
+| 42 | S024 | global | repetition | S015: The global supply surplus |
+| 43 | S024 | help | repetition | S022: support helped temporarily |
+
+
+Phía VI — 52 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | sụt xuống | repetition | S001: Một sự sụt giảm về lượng nhập |
+| 2 | S003 | cao su | repetition | S001: lượng nhập cao su |
+| 3 | S003 | tụt xuống | synonym | S002: Giá đã sụt xuống |
+| 4 | S004 | cao su | repetition | S003: nông gia trồng cao su |
+| 5 | S005 | Ông Yium | repetition | S004: Ông Yium Tavarolit |
+| 6 | S006 | Ông Yium | repetition | S005: Ông Yium nói |
+| 7 | S006 | cho biết | synonym | S005: Ông Yium nói |
+| 8 | S007 | cao su | repetition | S005: một số nhà trồng cao su |
+| 9 | S008 | nói | synonym | S006: Ông Yium cho biết |
+| 10 | S009 | nói | repetition | S008: Tổ hợp nói |
+| 11 | S009 | VOA | repetition | S002: thông tín viên VOA Steve Herman |
+| 12 | S009 | Thái Lan | repetition | S003: Thái Lan, Malaysia và Indonesia |
+| 13 | S010 | Thái Lan | repetition | S009: chính phủ Thái Lan |
+| 14 | S010 | cao su | repetition | S007: các cây cao su |
+| 15 | S010 | đôla | repetition | S003: 36 tỷ đôla |
+| 16 | S010 | nông nghiệp | repetition | S006: các hoạt động nông nghiệp khác |
+| 17 | S011 | nói | repetition | S009: các chuyên gia phân tích … nói |
+| 18 | S011 | Thái Lan | repetition | S010: Thái Lan đang tài trợ |
+| 19 | S012 | nói | repetition | S011: nói rằng |
+| 20 | S012 | VOA | repetition | S009: mà VOA liên lạc |
+| 21 | S012 | chính phủ Thái | repetition | S011: chính phủ Thái |
+| 22 | S012 | chặt | repetition | S007: Một số chặt tất cả |
+| 23 | S012 | mức cung | repetition | S008: tỷ lệ giữa cung và cầu |
+| 24 | S013 | cao su | repetition | S012: cây cao su |
+| 25 | S013 | mua | repetition | S010: việc mua cao su thẳng |
+| 26 | S013 | chính phủ | repetition | S012: chính phủ Thái |
+| 27 | S013 | giá đắt | repetition | S008: giá thấp như vậy |
+| 28 | S014 | toàn cầu | repetition | S013: thị trường toàn cầu |
+| 29 | S015 | nói | repetition | S012: nói với đài VOA |
+| 30 | S015 | Thái Lan | repetition | S011: của Thái Lan |
+| 31 | S015 | chính phủ | repetition | S013: chính phủ mua cao su |
+| 32 | S015 | trợ giúp | synonym | S010: Thái Lan đang tài trợ |
+| 33 | S016 | nói | repetition | S015: Tổ hợp Cao su Quốc tế nói |
+| 34 | S017 | giúp | synonym | S016: Hỗ trợ cấp thời |
+| 35 | S018 | chọn lựa | repetition | S015: không có chọn lựa nào khác |
+| 36 | S018 | biện pháp | repetition | S017: các biện pháp bền vững |
+| 37 | S018 | nông gia cao su | repetition | S017: các nông gia |
+| 38 | S018 | giúp | repetition | S017: để giúp các nông gia |
+| 39 | S018 | đau khổ | synonym | S004: đang gánh chịu giá quá thấp |
+| 40 | S019 | cao su | repetition | S018: nông gia cao su |
+| 41 | S019 | giá | repetition | S013: giá đắt như vậy |
+| 42 | S019 | xuống | repetition | S003: tụt xuống mức thấp nhất |
+| 43 | S020 | giá | repetition | S019: giá cao su |
+| 44 | S020 | tụt xuống | repetition | S003: tụt xuống mức thấp nhất |
+| 45 | S021 | Trung Quốc | repetition | S001: lượng nhập cao su vào Trung Quốc |
+| 46 | S021 | Thái Lan | repetition | S015: Thái Lan và các chính phủ khác |
+| 47 | S021 | cao su | repetition | S019: giá cao su |
+| 48 | S021 | nông sản | repetition | S010: dự án kích hoạt nông nghiệp |
+| 49 | S021 | thông báo | synonym | S016: Ông Yium nói |
+| 50 | S022 | Thái Lan | repetition | S021: từ Thái Lan |
+| 51 | S022 | cao su | repetition | S021: gạo và cao su |
+| 52 | S022 | giúp | synonym | S020: Sự hỗ trợ … giúp tạm thời |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -399,35 +518,30 @@ câu "nhu cần" là lỗi chính tả, §8b).
   ST/TT, không có tie table; VI thêm "trở lại" cho "rebound". Chỉ so sánh định
   tính (không dùng làm bằng chứng cấp câu).
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 8 | 8 | §4.1 (R-EN1–EN8); toàn bộ hướng A; 3 hàng là đại từ attribution |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 1 | 1 | §2 (E-EN1), [LC] |
-| EN — C | 4 | 4 | §5, toàn bộ [LC] adversative, đối ứng 1–1 với VI |
-| EN — L | 24 | 24 | §6.3 theo chính sách §6.1 (11 hàng có alt: 9 "R: the" + 2 "R: such") |
-| VI — R | 6 | 6 | §4.2 (R-VI1–VI6); toàn bộ hướng A |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1), [LC] |
-| VI — C | 4 | 4 | §5, đối xứng 4↔4 với EN |
-| VI — L | 26 | 26 | §6.3 theo chính sách §6.1 |
+| EN — R | 8 | 8 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 4 | 4 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 67 | 67 | §6 (pilot 24 + v2 43) |
+| VI — R | 6 | 6 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 4 | 4 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 78 | 78 | §6 (pilot 26 + v2 52) |
 
-**Kết luận:**
-- Tin 24/22 câu với mật độ EN 37/24 ≈ 1,54 tie/câu và VI 37/22 ≈ 1,68 — VI
-  đậm hơn EN (ngược P01/P13), chủ yếu vì VI lặp tên/danh ngữ tại các vị trí EN
-  dùng đại từ attribution ("he said" → "Ông Yium") và VI hội tụ từ vựng nơi EN
-  phân rã (chuỗi đáy giá).
-- Quy chiếu toàn bộ hướng A; không có đại từ ngôi 1/2 và không có ref=E (khác
-  P01); 6/14 hàng R hai phía là các dạng quy chiếu mở rộng/danh ngữ demonstrative
-  ("this/that" ↔ "đây/điều đó/Nhân vật này") — VI ưa neo bằng danh ngữ hơn đại từ.
-- Nối đối xứng tuyệt đối 4↔4, toàn adversative, giữ 1–1 từng vị trí — kể cả
-  "Otherwise" ↔ "Nếu không thì"; không có nối bị lược hay tự sinh.
-- Từ vựng là thiết bị chủ lực (EN 24, VI 26); toàn bộ 74 hàng tie đều [LC] —
-  không có hàng [TC] nào trong tie table của cặp này (các ứng viên [TC] —
-  his/họ/they S022 — đã loại ở §4), nên mọi hàng đều dùng được làm bằng chứng
-  liên kết liên câu.
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 37 ties R8/S0/E1/C4/L24;
-  VI 37 ties R6/S0/E1/C4/L26).
+- Tổng tie: EN **80** / VI **89** (pilot: EN 37 / VI 37).
+- Bổ sung v2 (43 EN + 52 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 67 (84%),
+  L-VI 78 (88%).
+- L-VI (78) > L-EN (67): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 8 / VI 6 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 1; thế EN 0 / VI 0;
+  nối EN 4 / VI 4.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

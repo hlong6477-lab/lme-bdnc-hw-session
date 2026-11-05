@@ -430,6 +430,120 @@ Khalil]).
   campus, university/trường đại học), tên người lặp dày (Khalil, Greer), công
   thức "the AP" (trừ S015) đều nằm trong kho §6.2 nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 50 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Columbia | repetition | S001: Columbia University’s protests |
+| 2 | S003 | took him into custody | synonym | S001: arrested |
+| 3 | S004 | Greer | repetition | S003: his attorney, Amy Greer |
+| 4 | S004 | the ICE agents | repetition | S003: several Immigration and Customs Enforcement agents |
+| 5 | S004 | Khalil’s | repetition | S002: Mahmoud Khalil |
+| 6 | S004 | said | synonym | S003: told The Associated Press |
+| 7 | S005 | said | repetition | S004: Greer said |
+| 8 | S005 | revoking | repetition | S004: to revoke Khalil’s student visa |
+| 9 | S006 | confirmed | synonym | S005: the agent said |
+| 10 | S007 | Trump’s | repetition | S006: President Trump’s |
+| 11 | S007 | promised | synonym | S001: the Trump administration’s pledge |
+| 12 | S008 | The administration | repetition | S001: the Trump administration’s |
+| 13 | S008 | claimed | synonym | S006: confirmed Khalil’s arrest |
+| 14 | S009 | Hamas | repetition | S008: supporting Hamas |
+| 15 | S009 | Khalil’s role | repetition | S001: played a prominent role |
+| 16 | S009 | signaled | synonym | S008: The administration has claimed |
+| 17 | S011 | Saturday night | repetition | S003: Saturday night |
+| 18 | S011 | Manhattan residence | synonym | S003: his university-owned apartment |
+| 19 | S011 | said | synonym | S009: McLaughlin signaled |
+| 20 | S012 | said | repetition | S011: Greer said |
+| 21 | S012 | detention | repetition | S001: to detain and deport student activists |
+| 22 | S012 | Khalil’s attorney | repetition | S005: the attorney |
+| 23 | S013 | Sunday | repetition | S006: a statement Sunday |
+| 24 | S014 | said | repetition | S012: Khalil’s attorney said |
+| 25 | S014 | Sunday night | repetition | S013: visit Sunday |
+| 26 | S015 | told | synonym | S014: Greer said |
+| 27 | S015 | Greer | repetition | S014: Greer said |
+| 28 | S015 | detained | repetition | S012: immigration detention facility |
+| 29 | S018 | said | synonym | S015: Greer told the AP |
+| 30 | S018 | law enforcement agents | superordinate | S011: ICE agents |
+| 31 | S019 | The spokesperson | repetition | S018: A Columbia University spokesperson |
+| 32 | S019 | declined | repetition | S018: declined to say |
+| 33 | S020 | said | repetition | S018: spokesperson said |
+| 34 | S020 | revoking | repetition | S005: revoking that instead |
+| 35 | S020 | deported | repetition | S007: deportation effort |
+| 36 | S021 | green card holders | repetition | S020: green cards |
+| 37 | S022 | a crime | repetition | S021: alleged criminal activity |
+| 38 | S023 | said | repetition | S020: Marco Rubio said |
+| 39 | S024 | Khalil | repetition | S019: Khalil’s detention |
+| 40 | S025 | the Trump administration | repetition | S023: the Trump administration |
+| 41 | S025 | visible activists | repetition | S001: student activists |
+| 42 | S027 | Khalil | repetition | S024: Khalil |
+| 43 | S027 | the AP | repetition | S015: the AP |
+| 44 | S027 | pro-Palestinian | repetition | S001: a Palestinian activist |
+| 45 | S028 | Columbia | repetition | S027: a new Columbia University office |
+| 46 | S028 | The investigations | repetition | S027: under investigation |
+| 47 | S029 | The university’s | repetition | S027: Columbia University |
+| 48 | S032 | told | synonym | S023: said Camille Mackler |
+| 49 | S032 | social media posts | repetition | S031: social media posts |
+| 50 | S032 | the AP | repetition | S027: the AP |
+
+
+Phía VI — 40 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Luật sư Amy Greer | repetition | S001: theo luật sư của anh cho biết |
+| 2 | S002 | Đại học Columbia | repetition | S001: tại Đại học Columbia |
+| 3 | S002 | bắt giữ | repetition | S001: đã bắt giữ |
+| 4 | S003 | ICE | repetition | S002: nhân viên Thực thi Di trú và Hải quan |
+| 5 | S003 | Luật sư Greer | repetition | S002: Luật sư Amy Greer |
+| 6 | S003 | cho biết | synonym | S002: nói với AP |
+| 7 | S003 | Khalil | repetition | S002: Mahmoud Khalil |
+| 8 | S004 | bà Greer | repetition | S003: Luật sư Greer |
+| 9 | S004 | thu hồi | repetition | S003: để thu hồi thị thực sinh viên của Khalil |
+| 10 | S005 | những sinh viên quốc tế | repetition | S001: một sinh viên sau đại học người Palestine |
+| 11 | S005 | các khuôn viên trường đại học | repetition | S002: khuôn viên Đại học Columbia |
+| 12 | S005 | mùa xuân năm ngoái | repetition | S001: vào mùa xuân năm ngoái |
+| 13 | S005 | Israel | repetition | S001: chống Israel |
+| 14 | S006 | ông Trump | repetition | S005: Tổng thống Donald Trump |
+| 15 | S006 | tuyên bố | synonym | S004: nhân viên này cho biết |
+| 16 | S007 | Khalil | repetition | S004: Khalil |
+| 17 | S007 | đóng vai trò | repetition | S001: đóng vai trò nổi bật |
+| 18 | S007 | sinh viên | repetition | S005: những sinh viên quốc tế |
+| 19 | S011 | luật sư Greer | repetition | S009: Luật sư Greer cho biết |
+| 20 | S011 | AP | repetition | S002: nói với AP |
+| 21 | S011 | bị giam giữ | repetition | S010: một cơ sở giam giữ người nhập cư |
+| 22 | S014 | cho biết | synonym | S011: luật sư Greer nói với AP |
+| 23 | S014 | từ chối | repetition | S009: chính quyền đã từ chối |
+| 24 | S014 | khuôn viên trường đại học | repetition | S007: trong khuôn viên trường |
+| 25 | S015 | Người phát ngôn này | repetition | S014: Một người phát ngôn của Đại học Columbia |
+| 26 | S015 | từ chối | repetition | S014: từ chối cho biết |
+| 27 | S016 | bình luận | repetition | S015: từ chối bình luận |
+| 28 | S017 | Bộ An ninh Nội địa Mỹ | repetition | S016: Bộ An ninh Nội địa |
+| 29 | S017 | hỗ trợ | synonym | S006: ủng hộ Hamas |
+| 30 | S022 | Khalil | repetition | S015: việc giam giữ Khalil |
+| 31 | S023 | văn phòng này | repetition | S022: một văn phòng mới của Đại học Columbia |
+| 32 | S023 | hàng chục sinh viên | repetition | S007: nhà hoạt động sinh viên |
+| 33 | S023 | bày tỏ | repetition | S020: bày tỏ quan điểm |
+| 34 | S026 | vai trò đáng kể | repetition | S007: đóng vai trò |
+| 35 | S026 | chỉ trích | repetition | S023: sự chỉ trích |
+| 36 | S027 | cáo buộc | repetition | S026: Lời cáo buộc chống lại Khalil |
+| 37 | S027 | mạng xã hội | repetition | S026: các đăng tải trên mạng xã hội |
+| 38 | S027 | Khalil | repetition | S026: Lời cáo buộc chống lại Khalil |
+| 39 | S027 | AP | repetition | S023: được chia sẻ với AP |
+| 40 | S029 | ủng hộ | repetition | S006: ủng hộ Hamas |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -503,35 +617,30 @@ Khalil]).
   từ vựng "arrest" vẫn tính một chuỗi (liên kết từ vựng theo hạng mục, không
   theo referent); hàng L tại S011 không đánh dấu (kề S009), ghi nhận ở đây.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 11 | **11** | §4.1 (R-EN1–EN11); toàn bộ hướng A; 2 hàng attribution ("he added") + 1 hàng nơi chốn ("there") |
-| EN — S | 1 | **1** | §3 (S-EN1 "one"), [TC] |
-| EN — E | 1 | **1** | §2 (E-EN1), [TC]; đối xứng với E-VI2 |
-| EN — C | 3 | **3** | §5 (also + But ×2); VI mất cả 3 vị trí |
-| EN — L | 41 | **41** | §6.3 theo chính sách §6.1; tie table ghi **10** hàng có alt "R: the/The/his" (S008, S013, S017, S020 ×2, S021, S022, S023, S025, S028) — con số "8" khi đọc tay là đếm sót, số hàng L không đổi |
-| VI — R | 9 | **9** | §4.2 (R-VI1–VI9); toàn bộ hướng A; 2 hàng chỉ từ + danh từ tổng quát ("này" ×2) |
-| VI — S | 0 | **0** | §3: không có phép thế |
-| VI — E | 3 | **3** | §2 (E-VI1 [TC], E-VI2 [TC], E-VI3 [LC]) |
-| VI — C | 0 | **0** | §5: EN 3 ↔ VI 0 — mất nối do cắt/viết lại |
-| VI — L | 26 | **26** | §6.3 theo chính sách §6.1 (2 hàng có alt "R: này/đó" — S005, S024, khớp) |
+| EN — R | 11 | 11 | §4 |
+| EN — S | 1 | 1 | §3 |
+| EN — C | 3 | 3 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 91 | 91 | §6 (pilot 41 + v2 50) |
+| VI — R | 9 | 9 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 0 | 0 | §5 |
+| VI — E | 3 | 3 | §2 |
+| VI — L | 66 | 66 | §6 (pilot 26 + v2 40) |
 
-**Kết luận:**
-- Tin 34/29 câu (31/26 câu thật sau khi bỏ 5 hàng artifact "(1)/(?)") với mật
-  độ EN 57/31 ≈ 1,84 tie/câu và VI 38/26 ≈ 1,46 — **EN đậm hơn VI rõ rệt**
-  (ngược P17), phản ánh mức biên tập cắt gọt của VOA: VI cắt 5 câu, viết lại 2
-  khối, dời 1 khối.
-- Quy chiếu toàn bộ hướng A, không ref=E; VI ưa neo bằng chỉ từ + danh từ tổng
-  quát ("Đây", "này", "đó") và tên + danh xưng ("bà Mackler") hơn là đại từ
-  thuần; EN giữ hệ đại từ chuẩn (he/she/They/It/This/there).
-- Nối là điểm bất đối xứng lớn nhất: EN 3 (additive "also" + adversative
-  "But" ×2) ↔ VI 0 — cả ba vị trí nằm trong khối bị cắt/viết lại.
-- Từ vựng là thiết bị chủ lực (EN 41, VI 26); ba chuỗi khung mở–đóng chỉ trọn
-  vẹn phía EN (escalation/threat/anti-Semitism); hai chuỗi mở–đóng dài hai phía
-  đều có (Palestine S001↔S029 VI 28 câu; Khalil-arrest xuyên suốt).
-- 91/95 hàng là [LC]; 4 hàng [TC] (S-EN1, E-EN1, E-VI1, E-VI2) là lớp bổ sung
-  cho S/E — không dùng 4 hàng này làm bằng chứng cho kết luận về liên kết
-  liên câu; các hàng [TC] đối xứng (E-EN1 ↔ E-VI2) chỉ dùng để mô tả dịch
-  chuyển hình thức.
+- Tổng tie: EN **107** / VI **78** (pilot: EN 57 / VI 38).
+- Bổ sung v2 (50 EN + 40 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 91 (85%),
+  L-VI 66 (85%).
+- L-EN (91) > L-VI (66): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 11 / VI 9 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 3; thế EN 1 / VI 0;
+  nối EN 3 / VI 0.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

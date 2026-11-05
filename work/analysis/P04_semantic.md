@@ -467,6 +467,120 @@ câu — khung đóng của bài; EN đối ứng "struggling with sleep" ← S0
   bed, hours of sleep, người, giờ), cấu trúc song song khảo sát, và các lặp kề
   đều nằm trong kho §6.2 nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 46 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S003 | struggling | repetition | S002: struggle to get a good night's sleep |
+| 2 | S003 | their sleep | repetition | S002: a good night's sleep |
+| 3 | S004 | struggled | repetition | S003: struggling with their sleep |
+| 4 | S004 | asleep | repetition | S003: their sleep |
+| 5 | S005 | snoring | repetition | S004: their partner snoring |
+| 6 | S005 | were woken | synonym | S004: were kept up by their partner snoring |
+| 7 | S007 | hours of sleep | repetition | S006: any sleep issues |
+| 8 | S008 | says | repetition | S007: one expert says |
+| 9 | S008 | Australian adults | repetition | S007: the average Australian |
+| 10 | S009 | suggests | synonym | S008: says |
+| 11 | S010 | overestimating | synonym | S007: this number might be inflated |
+| 12 | S012 | seven to nine hours | repetition | S007: 6.9 hours of sleep |
+| 13 | S012 | each night | repetition | S007: each night |
+| 14 | S013 | This figure | general word | S012: seven to nine hours of quality sleep |
+| 15 | S013 | thousands of studies | repetition | S011: a 2016 study |
+| 16 | S014 | sleep disorder | synonym | S011: sleep problem |
+| 17 | S017 | chronic sleep deprivation | repetition | S016: sleep deprivation |
+| 18 | S018 | the magical seven to nine-hour recommendation | repetition | S017: the seven to nine-hour recommendation |
+| 19 | S019 | more sleep | repetition | S017: chronic sleep deprivation |
+| 20 | S019 | adults | repetition | S018: healthy adults |
+| 21 | S020 | need | repetition | S019: Children need more sleep |
+| 22 | S022 | may need | repetition | S021: you only need |
+| 23 | S023 | while men | repetition | S022: more than men |
+| 24 | S024 | health conditions | synonym | S014: underlying health problem |
+| 25 | S026 | most adults | repetition | S019: more sleep than adults |
+| 26 | S027 | Shriane said | repetition | S026: Shriane said |
+| 27 | S027 | our quality of sleep | repetition | S026: good quality sleep |
+| 28 | S028 | struggle | repetition | S004: struggled to stay asleep |
+| 29 | S028 | tired | synonym | S024: cause fatigue |
+| 30 | S028 | stay awake | repetition | S027: when you're awake |
+| 31 | S029 | your sleep needs | repetition | S028: not getting quality sleep |
+| 32 | S030 | the effects | repetition | S007: "major flow-on effects" |
+| 33 | S031 | Short-term sleep deprivation | repetition | S030: sleep deprivation |
+| 34 | S031 | mood | repetition | S029: extreme fluctuations in mood |
+| 35 | S032 | chronically deprived | repetition | S031: Short-term sleep deprivation |
+| 36 | S033 | struggle | repetition | S028: struggle to stay awake |
+| 37 | S034 | Sleep | repetition | S033: enough quality sleep |
+| 38 | S035 | improve your sleep | repetition | S034: Sleep is a pillar of health |
+| 39 | S037 | Go to bed | repetition | S025: the hours we're in bed |
+| 40 | S040 | four hours before sleep | repetition | S039: six to eight hours before sleep |
+| 41 | S041 | one to two hours before sleep | repetition | S040: four hours before sleep |
+| 42 | S042 | your bed | repetition | S037: Go to bed |
+| 43 | S043 | your bedroom | repetition | S042: your bed |
+| 44 | S043 | dark | antonym | S041: bright lights |
+| 45 | S044 | fall asleep | repetition | S041: before sleep |
+| 46 | S045 | a professional | synonym | S007: one expert |
+
+
+Phía VI — 44 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | người Úc | repetition | S001: 71% người Úc |
+| 2 | S002 | giấc ngủ | repetition | S001: giấc ngủ ngon |
+| 3 | S003 | khó ngủ | repetition | S002: giấc ngủ của mình |
+| 4 | S005 | ngủ | repetition | S004: giấc ngủ |
+| 5 | S006 | người Úc | repetition | S005: trung bình người Úc |
+| 6 | S006 | con số thực tế | repetition | S005: con số này có thể không chính xác |
+| 7 | S006 | nói rằng | synonym | S005: một chuyên gia cho rằng |
+| 8 | S007 | ngủ | repetition | S006: nhà nghiên cứu giấc ngủ |
+| 9 | S008 | mỗi đêm | repetition | S005: 6,9 tiếng mỗi đêm |
+| 10 | S008 | 7 đến 9 tiếng | repetition | S005: ngủ 6,9 tiếng |
+| 11 | S009 | sức khỏe | repetition | S008: người trưởng thành khoẻ mạnh |
+| 12 | S010 | ngủ | repetition | S009: những người ngủ dưới 7 tiếng |
+| 13 | S011 | mỗi đêm | repetition | S008: mỗi đêm |
+| 14 | S011 | nói rằng | repetition | S006: nói rằng |
+| 15 | S012 | ngủ năm tiếng | repetition | S011: ngủ 5 tiếng mỗi đêm |
+| 16 | S014 | người lớn | synonym | S008: người trưởng thành |
+| 17 | S014 | thời gian ngủ | repetition | S007: thời gian ngủ của mình |
+| 18 | S015 | Trẻ nhỏ | repetition | S003: trẻ nhỏ đánh thức |
+| 19 | S015 | cần | repetition | S014: cần ngủ nhiều hơn |
+| 20 | S017 | ngủ nhiều hơn | repetition | S014: cần ngủ nhiều hơn người lớn |
+| 21 | S018 | sức khỏe | repetition | S009: các vấn đề sức khỏe nghiêm trọng |
+| 22 | S019 | giấc ngủ | repetition | S018: cần ngủ nhiều giờ hơn |
+| 23 | S020 | chất lượng giấc ngủ | repetition | S019: chất lượng giấc ngủ |
+| 24 | S020 | bà Shriane nói | repetition | S014: bà Shriane nói |
+| 25 | S021 | thường xuyên | repetition | S020: thường xuyên mệt mỏi |
+| 26 | S021 | cơ thể | repetition | S013: cơ thể và não của họ |
+| 27 | S022 | thèm ăn | repetition | S021: thèm ăn bất thường |
+| 28 | S022 | cảm xúc | synonym | S021: thay đổi tâm trạng |
+| 29 | S022 | ảnh hưởng | repetition | S013: bị ảnh hưởng xấu |
+| 30 | S024 | bệnh | repetition | S010: mắc bệnh tiềm ẩn |
+| 31 | S025 | sức khỏe | repetition | S024: cân nặng khỏe mạnh |
+| 32 | S026 | cải thiện giấc ngủ | repetition | S025: Giấc ngủ đóng vai trò trọng yếu |
+| 33 | S028 | thức dậy | repetition | S003: thức dậy đi vệ sinh trong đêm |
+| 34 | S028 | mỗi ngày | repetition | S015: mỗi ngày |
+| 35 | S029 | ngủ | repetition | S028: Đi ngủ |
+| 36 | S031 | 4 tiếng trước khi ngủ | repetition | S030: 6-8 tiếng trước khi ngủ |
+| 37 | S032 | 1-2 tiếng trước khi ngủ | repetition | S031: 4 tiếng trước khi ngủ |
+| 38 | S032 | tránh | repetition | S029: Tránh ngủ trưa |
+| 39 | S033 | giường | repetition | S007: nằm trên giường |
+| 40 | S034 | phòng ngủ | repetition | S033: sử dụng giường |
+| 41 | S034 | tối | antonym | S032: ánh sáng mạnh |
+| 42 | S035 | thư giãn | repetition | S032: Thư giãn trước giờ ngủ |
+| 43 | S035 | ra khỏi giường | repetition | S033: sử dụng giường |
+| 44 | S036 | chuyên gia y tế | repetition | S005: một chuyên gia |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -540,39 +654,30 @@ câu — khung đóng của bài; EN đối ứng "struggling with sleep" ← S0
   mật độ thấp của đoạn cuối là đặc tính thể loại, không phải thiếu sót phân
   tích.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 15 | 15 | §4.1 (R-EN1–EN15): 11 hướng A + 4 ref=E (ngôi 1/2); 6 hàng attribution |
-| EN — S | 1 | 1 | §3 (S-EN1), [TC] thế động từ |
-| EN — E | 2 | 2 | §2 (E-EN1, E-EN2), đều [TC], đều ở câu VI cắt |
-| EN — C | 5 | 5 | §5: 2 additive + 2 adversative + 1 additive (also) |
-| EN — L | 34 | 34 | §6.3 theo chính sách §6.1 (4 hàng có alt "R: the", 1 hàng alt "R: other"); tie table đính chính mã câu hàng "sleep quality" S024→S025 (chuỗi chỉ nằm ở S025, khớp bản đồ §1 + ST_seg.json) và ghi thêm alt "R: the" cho S017 theo đúng §6.3 (tổng 5 + 1, khác đếm 4 của §4.3 — chênh nội bộ của analysis, không thêm/bớt hàng) |
-| VI — R | 7 | 7 | §4.2 (R-VI1–VI7): 6 hướng A + 1 ref=E; 3 hàng attribution "bà" |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1), [TC] zero chủ ngữ |
-| VI — C | 8 | 8 | §5: 5 đối ứng 1–1 + 3 tự sinh (Nói cách khác, Tuy nhiên, Ngoài ra) |
-| VI — L | 20 | 20 | §6.3 theo chính sách §6.1 |
+| EN — R | 15 | 15 | §4 |
+| EN — S | 1 | 1 | §3 |
+| EN — C | 5 | 5 | §5 |
+| EN — E | 2 | 2 | §2 |
+| EN — L | 80 | 80 | §6 (pilot 34 + v2 46) |
+| VI — R | 7 | 7 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 8 | 8 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 64 | 64 | §6 (pilot 20 + v2 44) |
 
-**Kết luận:**
-- Tin dịch vụ 45/36 câu với mật độ EN 57/45 ≈ 1,27 tie/câu và VI 36/36 = 1,00 —
-  thấp hơn P01/P17 chủ yếu vì: (i) 9 câu cuối là danh sách mệnh lệnh không có
-  liên kết liên câu; (ii) VI cắt đúng các câu già tie nhất của EN (S001, S011,
-  S023, S027); (iii) VI gộp câu biến nhiều tái lập EN thành lặp kề phía VI.
-- Quy chiếu toàn bộ hướng A + 5 hàng ref=E (đều là đại từ ngôi 1/2 hướng độc
-  giả — đặc trưng thể loại dịch vụ, đánh dấu theo chính sách vị trí đại diện
-  §4.3); chuỗi attribution Shriane chi phối: EN 12 hàng (6 tên L + 6 đại từ R),
-  VI 8 hàng (5 tên L + 3 đại từ R) — VI dịch "she"→"bà" giữ R ở 3 vị trí, khác
-  P17 (VI lặp tên hoàn toàn).
-- Nối là thiết bị có dịch chuyển rõ nhất: 5 cặp 1–1 và **3 liên từ VI tự sinh**
-  ("Nói cách khác", "Tuy nhiên", "Ngoài ra") tại đúng 3 chỗ EN dùng thiết bị
-  khác (R "That's", cấu trúc phủ định, nối ngầm) — R→C và hiện thực hóa nối.
-- Từ vựng là thiết bị chủ lực (EN 34, VI 20); hai khung mở–đóng ("struggle"→
-  "struggling with sleep" EN; "khó ngủ"→"khó ngủ" VI) và vòng ""major flow-on
-  effects"" S007→S034 (chỉ có phía EN) là bằng chứng liên kết cấp diễn ngôn;
-  toàn bộ 93 hàng tie đều [LC] trừ 4 hàng [TC] (S-EN1, E-EN1, E-EN2, E-VI1) —
-  các hàng [TC] không dùng để kết luận về liên kết liên câu.
-- Số đếm tay khớp tie table 10/10 ô — kiểm chứng bằng `pipeline.annotate` và
-  `pipeline.render`: cả hai cổng in **PASS** (EN 57 ties R15/S1/E2/C5/L34;
-  VI 36 ties R7/S0/E1/C8/L20).
+- Tổng tie: EN **103** / VI **80** (pilot: EN 57 / VI 36).
+- Bổ sung v2 (46 EN + 44 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 80 (78%),
+  L-VI 64 (80%).
+- L-EN (80) > L-VI (64): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 15 / VI 7 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 2 / VI 1; thế EN 1 / VI 0;
+  nối EN 5 / VI 8.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

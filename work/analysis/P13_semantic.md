@@ -262,6 +262,93 @@ Quốc (thủ đô ↔ quốc gia).
 - Số đếm L phụ thuộc trực tiếp chính sách §6.1: nếu đánh dấu mọi lặp kề, VI
   sẽ vượt 15 hàng; mọi thành viên vẫn nằm trong kho §6.2 để kiểm tra.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 33 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Any visit | repetition | S001: a possible visit by Pope Francis |
+| 2 | S002 | priests | collocation | S001: a Catholic news agency |
+| 3 | S003 | Catholic | repetition | S001: a Catholic news agency |
+| 4 | S004 | South Korea | repetition | S001: outh Korea's |
+| 5 | S004 | said | repetition | S001: has said |
+| 6 | S004 | a Mass | collocation | S003: Catholic |
+| 7 | S004 | the Pontifical Mission Societies | synonym | S001: Pope Francis |
+| 8 | S005 | Fides | repetition | S004: Fides |
+| 9 | S005 | said | repetition | S004: said |
+| 10 | S005 | Park | repetition | S004: Park Jie-won |
+| 11 | S005 | the Mass | repetition | S004: a Mass |
+| 12 | S005 | the Vatican's | repetition | S001: the Vatican |
+| 13 | S005 | South Korea | repetition | S004: South Korea |
+| 14 | S005 | Archbishop | collocation | S004: a Mass |
+| 15 | S006 | Park | repetition | S005: Park |
+| 16 | S007 | Park | repetition | S006: Park |
+| 17 | S007 | the church | collocation | S005: the Mass |
+| 18 | S007 | spoke | synonym | S005: told |
+| 19 | S007 | comments | synonym | S004: the announcement |
+| 20 | S007 | attendance | collocation | S005: the Mass |
+| 21 | S008 | Park's | repetition | S007: Park |
+| 22 | S008 | confirmed | repetition | S007: confirmed |
+| 23 | S008 | comments | repetition | S007: comments |
+| 24 | S009 | South Korean | repetition | S005: South Korea |
+| 25 | S009 | an invitation | collocation | S005: a possible papal visit |
+| 26 | S009 | relayed | synonym | S005: told |
+| 27 | S010 | Kim and Moon | repetition | S009: Kim Jong Un và Moon Jae-in |
+| 28 | S011 | Vatican officials | repetition | S005: the Vatican's |
+| 29 | S011 | said | repetition | S005: said |
+| 30 | S012 | any invitation | repetition | S011: an official written invitation |
+| 31 | S013 | said | repetition | S011: said |
+| 32 | S013 | consider | repetition | S011: considered |
+| 33 | S013 | made | repetition | S004: made the announcement |
+
+
+Phía VI — 30 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | chuyến thăm | repetition | S001: chuyến thăm (trong 'thực hiện chuyến thăm tới Triều Tiên') |
+| 2 | S002 | Triều Tiên | repetition | S001: Triều Tiên |
+| 3 | S002 | linh mục | collocation | S001: Công giáo (trong 'hãng thông tấn Công giáo') |
+| 4 | S003 | Triều Tiên | repetition | S002: Triều Tiên |
+| 5 | S003 | Công giáo | repetition | S001: Công giáo (trong 'hãng thông tấn Công giáo') |
+| 6 | S003 | tín đồ | collocation | S002: linh mục |
+| 7 | S003 | đức tin | collocation | S001: Công giáo |
+| 8 | S004 | cho biết | repetition | S001: cho biết |
+| 9 | S004 | Hàn Quốc | repetition | S001: Hàn Quốc (trong 'cơ quan tình báo Hàn Quốc') |
+| 10 | S004 | thánh lễ | collocation | S003: Công giáo |
+| 11 | S004 | Hiệp hội Truyền giáo Giáo hoàng | synonym | S001: Giáo hoàng Francis |
+| 12 | S004 | Mokpo | collocation | S001: Hàn Quốc |
+| 13 | S005 | Fides | repetition | S004: Fides |
+| 14 | S005 | đưa tin | synonym | S004: cho biết |
+| 15 | S005 | Park | repetition | S004: Park Jie-won |
+| 16 | S005 | Thánh lễ | repetition | S004: thánh lễ |
+| 17 | S005 | Tổng giám mục | collocation | S004: thánh lễ |
+| 18 | S005 | Vatican | repetition | S001: Vatican |
+| 19 | S005 | Hàn Quốc | repetition | S004: Hàn Quốc |
+| 20 | S005 | khả năng | repetition | S001: khả năng (trong 'làm việc về khả năng') |
+| 21 | S005 | Gwangju | collocation | S004: Hàn Quốc |
+| 22 | S006 | Park | repetition | S005: Park |
+| 23 | S007 | Park | repetition | S006: Park |
+| 24 | S007 | nhà thờ | collocation | S005: Thánh lễ |
+| 25 | S007 | nói chuyện | repetition | S005: nói (trong 'ông Park nói với những người tham dự') |
+| 26 | S007 | bình luận | synonym | S004: thông báo (trong 'đưa ra thông báo này') |
+| 27 | S007 | tham dự | repetition | S005: tham dự (trong 'những người tham dự Thánh lễ') |
+| 28 | S008 | Park | repetition | S007: Park |
+| 29 | S008 | xác nhận | repetition | S007: xác nhận |
+| 30 | S008 | bình luận | repetition | S007: bình luận |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -304,36 +391,30 @@ Quốc (thủ đô ↔ quốc gia).
   "Pontifical Mission Societies" → "Hiệp hội Truyền giáo Giáo hoàng" (dịch
   tên tổ chức, "Giáo hoàng" trong tên riêng không lập chuỗi D — xem §6.2 J).
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 4 | 4 | §4.1 (R-EN1–EN4); toàn bộ hướng A |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 1 | 1 | §2 (E-EN1), [TC] |
-| EN — C | 3 | 3 | §5, toàn bộ [LC], nằm trong khối VI cắt |
-| EN — L | 12 | 12 | §6.3 theo chính sách §6.1 |
-| VI — R | 1 | 1 | §4.2 (R-VI1), hướng A |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1), [TC] |
-| VI — C | 0 | 0 | §5: khối dùng chung không có nối liên câu |
-| VI — L | 6 | 6 | §6.3 theo chính sách §6.1 |
+| EN — R | 4 | 4 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 3 | 3 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 45 | 45 | §6 (pilot 12 + v2 33) |
+| VI — R | 1 | 1 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 0 | 0 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 36 | 36 | §6 (pilot 6 + v2 30) |
 
-**Kết luận:**
-- Tin ngắn 13/8 câu với mật độ EN ≈ 1,5 tie/câu (20/13) và VI = 1,0 (8/8) —
-  thấp hơn P01 (1,6/1,37), đúng dự báo "cặp ngắn hơn sẽ mật độ thấp hơn"
-  (CONVENTIONS §8.4); chênh lệch EN–VI chủ yếu do khối cắt 2018 chứa 10/20
-  hàng EN (R-EN4, C×3, L×6).
-- Quy chiếu toàn bộ hướng A; không có đại từ ngôi 1/2 (khác P01) vì mọi
-  attribution đều cùng câu — hệ quả là mỗi phía chỉ còn 1 hàng quy chiếu "thật
-  sự liên câu" bên ngoài mô tả danh ngữ: EN "They" (S013) và VI "thông báo
-  này" (S004).
-- Từ vựng là thiết bị chủ lực (EN 12, VI 6); chuỗi Triều Tiên minh họa rõ EN
-  phân rã (5 biến thể) ↔ VI hội tụ (lặp tên), còn chuỗi Giáo hoàng ngược lại
-  (EN dao động "papal/the pope", VI giữ nguyên danh "Giáo hoàng Francis").
-- Hai hàng E (E-EN1, E-VI1) đều chỉ [TC] — **không dùng làm bằng chứng** cho
-  bất kỳ kết luận nào về liên kết liên câu; các kết luận liên câu dựa trên
-  R/C/L [LC].
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 20 ties R4/S0/E1/C3/L12;
-  VI 8 ties R1/S0/E1/C0/L6).
+- Tổng tie: EN **53** / VI **38** (pilot: EN 20 / VI 8).
+- Bổ sung v2 (33 EN + 30 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 45 (85%),
+  L-VI 36 (95%).
+- L-EN (45) > L-VI (36): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 4 / VI 1 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 1; thế EN 0 / VI 0;
+  nối EN 3 / VI 0.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

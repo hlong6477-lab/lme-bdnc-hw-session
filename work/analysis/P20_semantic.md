@@ -660,6 +660,173 @@ subhead (quy tắc 4).
 
 *(Hết §6.)*
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 71 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | South Korea | repetition | S001: South Korea |
+| 2 | S002 | yellow card | antonym | S001: a so-called “red card” |
+| 3 | S002 | handed | repetition | S001: is poised to hand |
+| 4 | S005 | The red card | repetition | S004: EU red cards |
+| 5 | S005 | EU countries | repetition | S001: the European Union |
+| 6 | S012 | EU | repetition | S009: the European Commission |
+| 7 | S012 | Illegal Fishing | repetition | S006: illegally caught fish |
+| 8 | S013 | waters | repetition | S003: waters off the coast of West Africa |
+| 9 | S013 | West Africa | repetition | S003: the coast of West Africa |
+| 10 | S014 | South Korean pirates | repetition | S013: South Korean ships |
+| 11 | S014 | says | repetition | S009: he said |
+| 12 | S016 | South Korea | repetition | S014: South Korean pirates |
+| 13 | S016 | repercussions | synonym | S011: there will be penalties |
+| 14 | S021 | the country | repetition | S019: the country |
+| 15 | S021 | damaging | repetition | S017: gets some damage |
+| 16 | S022 | Illegal Foreign Catches | repetition | S012: Illegal Fishing |
+| 17 | S023 | seafood | repetition | S005: their seafood |
+| 18 | S023 | entering | repetition | S022: Still Enter |
+| 19 | S024 | illegal or unreported | repetition | S023: illegal, unreported and unregulated (IIU) fishing |
+| 20 | S026 | China | repetition | S025: both from China |
+| 21 | S026 | South Korea | repetition | S016: South Korea |
+| 22 | S028 | explained Ganapathiraju | repetition | S026: Pramod Ganapathiraju |
+| 23 | S028 | low | antonym | S027: quite high |
+| 24 | S029 | the manpower | repetition | S028: the amount of manpower |
+| 25 | S030 | government report | repetition | S026: the report |
+| 26 | S030 | the ports | repetition | S029: their ports |
+| 27 | S032 | The U.S. | repetition | S030: the United States |
+| 28 | S033 | nations | synonym | S028: these importing countries |
+| 29 | S034 | coastal countries | synonym | S033: nations |
+| 30 | S034 | approval | repetition | S032: gave its approval |
+| 31 | S035 | The agreement | repetition | S032: Port State Measures agreement |
+| 32 | S035 | illegal fish | repetition | S033: illegal fishing |
+| 33 | S035 | the global market | repetition | S031: major import markets |
+| 34 | S035 | argues | synonym | S028: explained Ganapathiraju |
+| 35 | S036 | port | repetition | S030: the ports |
+| 36 | S037 | said Anthony Long | repetition | S035: Long argues |
+| 37 | S037 | patrol | repetition | S014: fisheries patrols |
+| 38 | S038 | cost effective | synonym | S035: an affordable way |
+| 39 | S041 | explains | synonym | S037: said Anthony Long |
+| 40 | S043 | Japan | repetition | S026: Japan |
+| 41 | S043 | the shape of fishing | repetition | S035: illegal fish |
+| 42 | S044 | noted | synonym | S042: he said |
+| 43 | S045 | the supply chain | repetition | S043: the chain of supply |
+| 44 | S045 | illegal fishermen | repetition | S036: The fisherman |
+| 45 | S045 | said Long | repetition | S044: Long |
+| 46 | S046 | suppliers | repetition | S045: Different suppliers |
+| 47 | S046 | a system | repetition | S042: the system |
+| 48 | S047 | said | repetition | S045: said Long |
+| 49 | S048 | The distributors | repetition | S047: the distributors |
+| 50 | S048 | said Conniff | repetition | S047: American Richard Conniff |
+| 51 | S049 | (sea)food | repetition | S044: seafood suppliers |
+| 52 | S049 | comes into | synonym | S035: entering |
+| 53 | S051 | said | repetition | S048: said Conniff |
+| 54 | S051 | fish | synonym | S049: the (sea)food |
+| 55 | S052 | The catches | repetition | S028: illegal catches |
+| 56 | S054 | the demand | repetition | S053: the demand |
+| 57 | S056 | Chinese Regulators | repetition | S026: China |
+| 58 | S057 | predict | synonym | S054: said Ganapathiraju |
+| 59 | S058 | the Chinese government | repetition | S057: China |
+| 60 | S058 | said Trent | repetition | S057: the EJF's Steve Trent |
+| 61 | S058 | fisheries | repetition | S057: IUU fishing |
+| 62 | S058 | a global platform | repetition | S056: Global Approach |
+| 63 | S059 | China | repetition | S058: the Chinese government |
+| 64 | S059 | other nations | synonym | S039: the developing countries |
+| 65 | S059 | changes | repetition | S043: change the shape of fishing |
+| 66 | S060 | other countries | synonym | S059: other nations |
+| 67 | S062 | flags | repetition | S001: boats flying its flag |
+| 68 | S063 | monitoring | repetition | S029: monitoring, control and surveillance |
+| 69 | S063 | satellite | repetition | S037: space [satellite] surveillance |
+| 70 | S064 | vessels | repetition | S062: Fishing vessels |
+| 71 | S064 | track | repetition | S006: tracks illegally caught fish |
+
+
+Phía VI — 72 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S003 | hải sản nhập khẩu | repetition | S001: hải sản |
+| 2 | S003 | đánh bắt bất hợp pháp | repetition | S002: nạn đánh bắt cá bất hợp pháp |
+| 3 | S004 | Liên hiệp Châu Âu | repetition | S002: Liên hiệp Châu Âu |
+| 4 | S004 | truy dẹp | repetition | S002: sự truy dẹp |
+| 5 | S004 | đánh bắt bất hợp pháp | repetition | S003: được đánh bắt bất hợp pháp |
+| 6 | S005 | Nam Triều Tiên | repetition | S004: Nam Triều Tiên |
+| 7 | S005 | thẻ vàng | antonym | S004: “thẻ đỏ” |
+| 8 | S005 | trao | repetition | S004: trao “thẻ đỏ” |
+| 9 | S006 | những tàu thuyền | repetition | S004: những tàu thuyền mang cờ Nam Triều Tiên |
+| 10 | S006 | Nam Triều Tiên | repetition | S005: Nam Triều Tiên |
+| 11 | S006 | treo cờ | repetition | S004: mang cờ Nam Triều Tiên |
+| 12 | S007 | hải sản | repetition | S003: hải sản nhập khẩu |
+| 13 | S007 | cấm | repetition | S001: bị cấm bán hải sản |
+| 14 | S008 | đánh bắt bất hợp pháp | repetition | S004: việc đánh bắt bất hợp pháp |
+| 15 | S009 | EU | repetition | S008: thị trường EU |
+| 16 | S009 | đưa ra | repetition | S007: đã đưa ra thẻ đỏ đầu tiên |
+| 17 | S009 | đe dọa | synonym | S005: cảnh cáo |
+| 18 | S010 | xảy ra | repetition | S002: Điều này xảy ra |
+| 19 | S011 | nói | repetition | S004: Các nhà quan sát nói |
+| 20 | S014 | vùng biển ngoài khơi Tây Phi | repetition | S006: vùng biển ngoài khơi Tây Phi |
+| 21 | S014 | đánh bắt | repetition | S008: việc đánh bắt bất hợp pháp |
+| 22 | S015 | nói | repetition | S011: Ủy hội Âu châu nói rằng |
+| 23 | S015 | Nam Triều Tiên | repetition | S014: các tàu thuyền Nam Triều Tiên |
+| 24 | S015 | con tàu | repetition | S014: các tàu thuyền Nam Triều Tiên |
+| 25 | S015 | ngư nghiệp | repetition | S004: ủy viên ngư nghiệp EU |
+| 26 | S016 | một số tàu thuyền | repetition | S015: con tàu |
+| 27 | S016 | các ngư dân trẻ | repetition | S015: ngư dân địa phương |
+| 28 | S016 | nói | repetition | S015: Tổ chức này nói |
+| 29 | S017 | hải sản | repetition | S007: bán hải sản |
+| 30 | S018 | bất hợp pháp hay không được báo cáo | repetition | S017: đánh bắt bất hợp pháp, không báo cáo và không qui định IIU |
+| 31 | S019 | nhập khẩu | repetition | S003: hải sản nhập khẩu |
+| 32 | S020 | Ngư nghiệp | repetition | S015: các tàu tuần tra ngư nghiệp |
+| 33 | S021 | Trung Quốc | repetition | S019: xuất xứ từ Trung Quốc |
+| 34 | S021 | Nam Triều Tiên | repetition | S015: Nam Triều Tiên |
+| 35 | S023 | khá thấp | antonym | S022: Khối lượng khá cao |
+| 36 | S024 | nhân lực | repetition | S023: số nhân lực cần thiết |
+| 37 | S024 | theo dõi | repetition | S008: chuyên theo dõi |
+| 38 | S025 | phúc trình | repetition | S020: bản phúc trình |
+| 39 | S025 | cho thấy | repetition | S003: cho thấy |
+| 40 | S025 | hải sản | repetition | S023: hải sản đánh bắt bất hợp pháp |
+| 41 | S025 | các cảng | repetition | S024: các cảng |
+| 42 | S027 | Hoa Kỳ | repetition | S025: Hoa Kỳ |
+| 43 | S028 | đánh bắt bất hợp pháp | repetition | S023: hải sản đánh bắt bất hợp pháp |
+| 44 | S028 | cảng | repetition | S025: tại các cảng |
+| 45 | S029 | đã phê chuẩn | synonym | S027: đã chấp thuận thỏa thuận |
+| 46 | S030 | thỏa thuận | repetition | S029: hiệp ước |
+| 47 | S030 | thị trường toàn cầu | repetition | S026: những thị trường nhập khẩu |
+| 48 | S031 | cảng | repetition | S028: cảng của các quốc gia ký thỏa thuận |
+| 49 | S032 | tuần tra | repetition | S015: các tàu tuần tra ngư nghiệp |
+| 50 | S032 | theo dõi | repetition | S024: việc theo dõi, kiểm soát và giám sát |
+| 51 | S032 | các cảng | repetition | S031: cảng |
+| 52 | S033 | tốn kém | repetition | S032: các nguồn lực tốn kém |
+| 53 | S035 | nói | repetition | S021: Ông nói |
+| 54 | S035 | người Mỹ | synonym | S027: Thượng viện Hoa Kỳ |
+| 55 | S037 | những hải sản | repetition | S025: hải sản nhập vào Hoa Kỳ |
+| 56 | S038 | chấm dứt | repetition | S030: Dự án Chấm dứt Đánh bắt bất hợp pháp |
+| 57 | S038 | nhấn mạnh | synonym | S035: nói |
+| 58 | S038 | hợp pháp | antonym | S030: cá được đánh bắt bất hợp pháp |
+| 59 | S039 | cho rằng | synonym | S035: nói |
+| 60 | S039 | hải sản | repetition | S037: những hải sản |
+| 61 | S040 | chính phủ Trung Quốc | repetition | S039: Trung Quốc |
+| 62 | S040 | đánh cá | repetition | S039: qui định đánh bắt của IUU |
+| 63 | S040 | tất cả các nước | repetition | S034: các nước đang phát triển |
+| 64 | S041 | ngăn chặn | repetition | S030: ngăn chặn cá được đánh bắt bất hợp pháp |
+| 65 | S041 | đánh bắt bất hợp pháp | repetition | S040: việc đánh cá |
+| 66 | S042 | cờ hiệu | repetition | S006: treo cờ Nam Triều Tiên |
+| 67 | S043 | hệ thống theo dõi bằng vệ tinh | repetition | S032: theo dõi bằng vệ tinh |
+| 68 | S043 | các tàu thuyền | repetition | S042: Các tàu đánh cá |
+| 69 | S044 | theo dõi | repetition | S043: hệ thống theo dõi bằng vệ tinh |
+| 70 | S044 | những tàu | repetition | S043: các tàu thuyền |
+| 71 | S044 | tín hiệu nhận diện | repetition | S042: số hiệu nhận diện đặc biệt |
+| 72 | S044 | thay đổi | repetition | S042: đổi tên |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn hai đầu |
@@ -766,45 +933,30 @@ mà VI không có; (ii) **tách S026 → S020+S021** dồn 4 hàng L vào một 
 
 *(Hết §8.)*
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 33 | 33 | §4.1 (R-EN1–EN33); 32 hướng A + 1 E (R-EN25); 4 hàng attribution "he said/he says"; 12 hàng nằm trong khối cắt |
-| EN — S | 1 | 1 | §3 (S-EN1 "the ones", [LC]); không có S [TC] |
-| EN — E | 2 | 2 | §2 (E-EN1, E-EN2) — **đều [TC]**, không dùng làm bằng chứng liên câu; E-EN2 trong khối cắt |
-| EN — C | 14 | 14 | §5.1 (C-EN1–EN14); 4 hàng trong khối cắt; 10 hàng đối ứng 1–1 với VI |
-| EN — L | 58 | 58 | §6.3 theo chính sách §6.1; 6 hàng có alt "R: the"; 20 hàng trong khối cắt; chuỗi đậm nhất: C (9), G (6), J (9), A (5) |
-| VI — R | 19 | 19 | §4.2 (R-VI1–VI19); toàn bộ hướng A; 2 hàng neo trong lede tự sinh (R-VI1/2) |
-| VI — S | 0 | 0 | §3: không có pro-form thế |
-| VI — E | 1 | 1 | §2 (E-VI1 "đã phê chuẩn ∅", [LC]) — minh họa R→E |
-| VI — C | 11 | 11 | §5.2 (C-VI1–VI11); 1 hàng tự sinh ("cũng" S016 = C-VI3); 10 hàng đối ứng 1–1 |
-| VI — L | 41 | 41 | §6.3 theo chính sách §6.1; chuỗi đậm nhất: C (7), A (6), L (4), D/G/H/K (3) |
+| EN — R | 33 | 33 | §4 |
+| EN — S | 1 | 1 | §3 |
+| EN — C | 14 | 14 | §5 |
+| EN — E | 2 | 2 | §2 |
+| EN — L | 129 | 129 | §6 (pilot 58 + v2 71) |
+| VI — R | 19 | 19 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 11 | 11 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 113 | 113 | §6 (pilot 41 + v2 72) |
 
-**Kết luận:**
-
-- **Từ vựng là thiết bị chủ lực của cặp cắt mạnh nhất này:** L chiếm 58/108
-  tie EN (54%) và 41/72 tie VI (57%); mật độ 1,69 tie/câu EN và 1,64 tie/câu
-  VI — đậm nhất trong các cặp đã phân tích, phản ánh tin chính sách VOA với
-  hệ thuật ngữ dày (thẻ đỏ/thẻ vàng, IUU, PSMA) lặp có chủ đích.
-- **Chênh lệch L (58 vs 41) chủ yếu do cắt, không do phân rã khi dịch:**
-  20/58 hàng L-EN nằm gọn trong 4 khối cắt; phần được dịch giữ chuỗi gần đối
-  xứng từng vị trí (thẻ đỏ S004/S007; thuật ngữ IUU hai phía; chuỗi PSMA
-  biến thể đồng nghĩa song song; hai khung mở–đóng nhận diện và quy định được
-  VI giữ nguyên vẹn).
-- **R→danh ngữ hóa là dịch chuyển hệ thống:** trong 18 cặp R có đối ứng, VI
-  chỉ giữ pro-form 3 lần ("đó/Đây/Đó"); 6 cặp đổi sang danh từ + chỉ từ
-  ("It" → "Cuộc nghiên cứu này/Thỏa thuận này/Hệ thống này"), 3 cặp R→L, 1
-  cặp R→E — đây là nguồn chính của chênh lệch R (33 vs 19) và của việc VI
-  gần như không có đại từ ngôi 3 (duy nhất "họ" R-VI17).
-- **S/E gần như vắng ở cấp liên câu:** EN S1 [LC] + E2 đều [TC]; VI S0 + E1
-  [LC]. Các hiện tượng [TC] (E-EN1/2; VI "các thị trường này" S021, "những
-  tàu này" S042, "con tàu" S015, "nhiều chiếc" S006, "14 nước khác" S029)
-  chỉ mang tính mô tả, **không dùng làm bằng chứng cho bất kỳ kết luận nào về
-  liên kết liên câu** (CONVENTIONS §5).
-- Số "Đọc tay" ở trên là chuẩn để lấp tie table (cột "Đã ghi tie table" để
-  trống chờ cổng QC `pipeline.annotate`/`render`); lưu ý số liệu đúng của
-  `rows.json` là **35 hàng / 14 ô VI trống** (§8m), khác số đếm ghi ở §1 —
-  cần hiệu chỉnh khi thống kê khảo sát.
-
-*(Hết §9 — hoàn chỉnh §1–§9 cho P20.)*
+- Tổng tie: EN **179** / VI **144** (pilot: EN 108 / VI 72).
+- Bổ sung v2 (71 EN + 72 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 129 (72%),
+  L-VI 113 (78%).
+- L-EN (129) > L-VI (113): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 33 / VI 19 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 2 / VI 1; thế EN 1 / VI 0;
+  nối EN 14 / VI 11.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

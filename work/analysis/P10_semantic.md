@@ -406,6 +406,108 @@ câu) · S043 đồng đô la đã suy yếu, lặp ← S006 đồng đô la Úc
   predicting/Dự đoán→dự đoán (anchor subhead kề) đều nằm trong kho §6.2
   nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 40 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | impact | synonym | S001: could hit |
+| 2 | S003 | The Australian dollar | repetition | S002: a weaker Aussie dollar |
+| 3 | S008 | the Australian dollar | repetition | S007: the weakening of the Australian dollar |
+| 4 | S009 | the dollar's value | repetition | S008: the Australian dollar |
+| 5 | S009 | influence | synonym | S002: can impact |
+| 6 | S011 | the Australian dollar | repetition | S009: the dollar's value |
+| 7 | S011 | other currencies | repetition | S009: other currencies |
+| 8 | S012 | the Australian dollar | repetition | S011: the Australian dollar |
+| 9 | S012 | impacting | repetition | S002: can impact |
+| 10 | S013 | the Australian dollar | repetition | S012: the Australian dollar |
+| 11 | S014 | Chief economist | synonym | S009: Consumer expert |
+| 12 | S014 | agreed | synonym | S009: Graeme Hughes said |
+| 13 | S015 | the US | repetition | S010: in the US |
+| 14 | S015 | The prospect | synonym | S013: the potential for trade wars |
+| 15 | S016 | affect | synonym | S009: influence |
+| 16 | S017 | The Australian dollar | repetition | S016: the value of the Australian dollar |
+| 17 | S017 | the Chinese economy | repetition | S012: China's economic stimulus efforts |
+| 18 | S018 | a weak dollar | repetition | S017: The Australian dollar |
+| 19 | S018 | affect | repetition | S016: will affect |
+| 20 | S020 | affects | repetition | S018: affect |
+| 21 | S020 | dependent | repetition | S002: dependent on imports |
+| 22 | S020 | said | repetition | S011: he said |
+| 23 | S021 | cost | repetition | S018: the cost of living |
+| 24 | S021 | other items | superordinate | S002: electronics, clothes and petrol to groceries |
+| 25 | S022 | the value of the dollar | repetition | S016: the value of the Australian dollar |
+| 26 | S022 | falls | repetition | S001: the falling Aussie dollar |
+| 27 | S022 | cost | repetition | S021: increase in cost |
+| 28 | S022 | rise | synonym | S021: increase in cost |
+| 29 | S023 | hurt | synonym | S001: could hit |
+| 30 | S023 | households | repetition | S019: household budgets |
+| 31 | S023 | imports | repetition | S019: imports |
+| 32 | S024 | currency | repetition | S011: other currencies |
+| 33 | S025 | a falling dollar | repetition | S023: a falling dollar |
+| 34 | S025 | impact | synonym | S020: affects |
+| 35 | S027 | travelling | repetition | S025: an upcoming overseas trip |
+| 36 | S027 | the dollar | repetition | S025: a falling dollar |
+| 37 | S028 | the Australian dollar | repetition | S027: the dollar |
+| 38 | S029 | predicting | repetition | S028: the prediction |
+| 39 | S029 | currency | repetition | S026: exchanging some currency |
+| 40 | S030 | strength | antonym | S019: A weak Australian dollar |
+
+
+Phía VI — 38 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | đồng đô la Úc | repetition | S001: Đồng đô la Úc giảm giá |
+| 2 | S002 | ảnh hưởng | repetition | S001: ảnh hưởng đến túi tiền |
+| 3 | S004 | đồng đô la Úc | repetition | S003: Giá trị của đồng đô la Úc |
+| 4 | S004 | tác động | synonym | S002: ảnh hưởng |
+| 5 | S004 | hàng nhập khẩu | repetition | S002: nhập khẩu |
+| 6 | S005 | đồng đô la giảm giá | repetition | S004: đồng đô la Úc yếu hơn |
+| 7 | S007 | đồng đô la Úc | repetition | S006: đồng đô la Úc suy yếu |
+| 8 | S008 | đồng đô la | repetition | S007: đồng đô la Úc |
+| 9 | S008 | ảnh hưởng | synonym | S004: tác động |
+| 10 | S011 | đồng đô la Úc | repetition | S010: bao gồm cả đồng đô la Úc |
+| 11 | S011 | tác động | synonym | S008: ảnh hưởng |
+| 12 | S012 | đồng đô la Úc | repetition | S011: đồng đô la Úc |
+| 13 | S013 | đồng ý | synonym | S010: ông cho biết |
+| 14 | S016 | Hoa Kỳ | repetition | S009: ở Hoa Kỳ |
+| 15 | S016 | Trung Quốc | repetition | S011: của Trung Quốc |
+| 16 | S017 | ảnh hưởng | synonym | S011: tác động |
+| 17 | S018 | Đồng đô la Úc | repetition | S017: đồng đô la Úc |
+| 18 | S018 | Trung Quốc | repetition | S016: từ Trung Quốc |
+| 19 | S018 | nền kinh tế | repetition | S011: kích thích kinh tế của Trung Quốc |
+| 20 | S019 | Đồng đô la yếu | repetition | S018: Đồng đô la Úc |
+| 21 | S019 | ảnh hưởng | repetition | S017: ảnh hưởng |
+| 22 | S021 | ảnh hưởng | repetition | S019: ảnh hưởng |
+| 23 | S021 | cho biết | synonym | S017: ông giải thích |
+| 24 | S023 | ảnh hưởng | repetition | S021: ảnh hưởng |
+| 25 | S023 | hàng nhập khẩu | repetition | S020: hàng nhập khẩu |
+| 26 | S024 | chi phí sinh hoạt | repetition | S023: chi phí sinh hoạt |
+| 27 | S025 | các biện pháp | repetition | S024: Một số biện pháp |
+| 28 | S026 | thuốc | synonym | S025: phúc lợi dược phẩm |
+| 29 | S028 | lệnh đóng băng | repetition | S027: Lệnh đóng băng |
+| 30 | S029 | thuốc | repetition | S026: các loại thuốc |
+| 31 | S031 | Trợ cấp thanh niên | repetition | S030: Trợ cấp thanh niên |
+| 32 | S031 | Austudy | repetition | S030: Austudy (Youth Allowance) |
+| 33 | S032 | Người Úc | repetition | S030: người Úc |
+| 34 | S036 | ảnh hưởng | repetition | S023: ảnh hưởng |
+| 35 | S038 | đồng đô la | repetition | S036: đồng đô la giảm giá |
+| 36 | S038 | đi du lịch | repetition | S036: du lịch |
+| 37 | S040 | đồng đô la Úc | repetition | S039: đồng AUD |
+| 38 | S041 | dự đoán | repetition | S040: Dự đoán về đồng đô la Úc |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -485,43 +587,30 @@ câu) · S043 đồng đô la đã suy yếu, lặp ← S006 đồng đô la Úc
 - **(k) Số liệu/đơn vị lặp:** "62 US cents" ↔ "62 xu Mỹ", "10 per cent" ↔
   "10 phần trăm", "US$0.65–0.60" (chỉ EN) — không phải tie.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 13 | 13 | §4.1 (R-EN1–EN13); 10 hướng A + 3 ref=E (ngôi 2 độc giả); 5 hàng đại từ attribution |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 0 | 0 | §2: EN lấp đầy mọi chủ ngữ bằng đại từ |
-| EN — C | 7 | 7 | §5 (C-EN1–EN7): 3 adversative, 2 additive, 2 causal; "in turn", "So" bị VI lược |
-| EN — L | 25 | 25 | §6.3 theo chính sách §6.1 (4 hàng conf med: exports, global markets, interest rate decisions, weakened) |
-| VI — R | 13 | 13 | §4.2 (R-VI1–VI13); 10 hướng A + 3 ref=E; 4 hàng "ông + V" attribution; 2 hàng trong khối tự sinh |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1) — **[TC]**, zero chủ ngữ vế "nhưng" (S023); không dùng làm bằng chứng liên kết liên câu |
-| VI — C | 7 | 7 | §5 (C-VI1–C-VI7): 4 adversative, 3 additive; 2 liên từ tự sinh (S030, S039) |
-| VI — L | 29 | 29 | §6.3 theo chính sách §6.1 (6 hàng conf med; 9 hàng thuộc khối tự sinh S024–S039) |
+| EN — R | 13 | 13 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 7 | 7 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 65 | 65 | §6 (pilot 25 + v2 40) |
+| VI — R | 13 | 13 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 7 | 7 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 67 | 67 | §6 (pilot 29 + v2 38) |
 
-**Kết luận:**
-- Cặp 31/43 câu bất đối xứng mạnh (VI nhiều hơn 12 câu: 14 câu tự sinh, 2 câu
-  EN bị cắt): mật độ EN 45/31 ≈ 1,45 tie/câu, VI 50/43 ≈ 1,16 — EN đậm hơn
-  (ngược P17), chủ yếu vì VI chen 6 câu tự sinh không phát sinh tie và chuỗi
-  AUD phía VI lặp cùng dạng liên tục (không phát sinh mark) trong khi EN liên
-  tục đổi biến thể.
-- Quy chiếu đối xứng tuyệt đối 13↔13 (mỗi phía 10 A + 3 E); đáng chú ý là 3
-  hàng ref=E mỗi phía đều là ngôi 2 hướng độc giả — đặc trưng thể loại "tài
-  chính cá nhân" (deck/headline gọi "you/bạn"), và 1 cặp ngôi 1 tập thể trong
-  trích dẫn ("our"/"chúng ta") đủ điều kiện [LC] nhờ attribution ở câu trước.
-- Nối 7↔7 nhưng không đối xứng thành phần: 5 cặp giữ 1–1, 2 liên từ EN bị VI
-  lược ("in turn", "So"), 2 liên từ VI tự sinh trong khối chèn — minh họa cả
-  hai chiều dịch chuyển nối.
-- Từ vựng là thiết bị chủ lực (EN 25, VI 29); chuỗi AUD chi phối (EN 7 mark /
-  VI 5 mark trong ~20 thành viên mỗi phía) với các khung mở–đóng đặc trưng
-  ("falling/weakened" mở–đóng EN; "giảm giá/suy yếu" mở–đóng VI, tới 37 câu).
-- 94/95 hàng tie là [LC]; hàng [TC] duy nhất (E-VI1, zero chủ ngữ VI S023)
-  không dùng làm bằng chứng cho bất kỳ kết luận nào về liên kết liên câu;
-  ba câu artifact lặp nguyên văn (EN S005, VI S014, S015) và các câu trong
-  khối cắt chỉ được mô tả (§8), không đánh dấu.
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 45 ties R13/S0/E0/C7/L25;
-  VI 50 ties R13/S0/E1/C7/L29).
-
-
+- Tổng tie: EN **85** / VI **88** (pilot: EN 45 / VI 50).
+- Bổ sung v2 (40 EN + 38 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 65 (76%),
+  L-VI 67 (76%).
+- L-VI (67) > L-EN (65): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 13 / VI 13 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 1; thế EN 0 / VI 0;
+  nối EN 7 / VI 7.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

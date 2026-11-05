@@ -593,6 +593,182 @@ chức" 1 lần trong S053); các câu có nhiều hàng thuộc các chuỗi kh
   Tòa Bạch Ốc S016→S017, "vịt què" S052→S053) và trường tuyển dụng tản mát
   đều chỉ nằm trong kho §6.2, không thành hàng.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 98 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | election | repetition | S001: parliamentary elections |
+| 2 | S004 | Britain’s opposition party | repetition | S001: his party swept parliamentary elections |
+| 3 | S004 | winning | repetition | S002: won the November 5 U.S. election |
+| 4 | S004 | an election | repetition | S002: U.S. election |
+| 5 | S005 | The United States | repetition | S002: U.S. election |
+| 6 | S006 | America’s | synonym | S005: The United States |
+| 7 | S007 | ready | repetition | S004: ready to seize power |
+| 8 | S008 | Election Day | repetition | S002: U.S. election |
+| 9 | S008 | American democracy | repetition | S006: America’s |
+| 10 | S010 | the transition | repetition | S008: The presidential transition |
+| 11 | S010 | said | repetition | S007: said Valerie Smith Boyd |
+| 12 | S010 | ready | repetition | S007: to get ready to govern |
+| 13 | S011 | The transition period | repetition | S010: the transition |
+| 14 | S011 | America’s history | repetition | S008: American democracy |
+| 15 | S012 | presidential transition | repetition | S011: The transition period |
+| 16 | S012 | Riley | repetition | S011: historian Russel Riley |
+| 17 | S012 | from day one | repetition | S010: on day one |
+| 18 | S014 | tradition and custom | repetition | S013: Tradition and law |
+| 19 | S014 | laws and regulations | repetition | S013: Tradition and law |
+| 20 | S014 | governed | repetition | S007: to get ready to govern |
+| 21 | S015 | presidential transition | repetition | S014: the transition |
+| 22 | S015 | customs | repetition | S014: tradition and custom |
+| 23 | S015 | said | repetition | S010: said Michael Shurkin |
+| 24 | S016 | traditions | repetition | S014: tradition and custom |
+| 25 | S017 | post-election | repetition | S008: Election Day |
+| 26 | S018 | the White House | repetition | S017: the post-election White House meeting |
+| 27 | S018 | Eisenhower’s 1952 victory | synonym | S004: winning an election |
+| 28 | S019 | his 2020 defeat | antonym | S018: Eisenhower’s 1952 victory |
+| 29 | S020 | practices | synonym | S018: this tradition |
+| 30 | S023 | a peaceful transfer of power | repetition | S009: a seamless and peaceful transfer of power |
+| 31 | S023 | formalizes | repetition | S014: formalized process |
+| 32 | S025 | a transition coordinating council | repetition | S023: a peaceful transfer of power |
+| 33 | S025 | the president | repetition | S017: a sitting president |
+| 34 | S025 | the election | repetition | S017: post-election |
+| 35 | S026 | agency heads | repetition | S025: each federal agency |
+| 36 | S026 | noncareer employees | synonym | S006: 3.5 million civilian and military personnel |
+| 37 | S027 | the federal government’s landlord | repetition | S015: the federal government |
+| 38 | S027 | transition teams | repetition | S012: the newcomer and his team |
+| 39 | S028 | the law | repetition | S022: written into law |
+| 40 | S028 | American history | repetition | S011: America’s history |
+| 41 | S029 | running for reelection | repetition | S025: the election |
+| 42 | S030 | the winner | synonym | S018: Eisenhower’s 1952 victory |
+| 43 | S031 | Trump | repetition | S029: Trump |
+| 44 | S031 | Biden | repetition | S030: President Joe Biden |
+| 45 | S031 | his inauguration | repetition | S008: Inauguration Day in January |
+| 46 | S032 | Trump | repetition | S031: Trump |
+| 47 | S032 | the winner | repetition | S030: the winner |
+| 48 | S032 | this year’s election | repetition | S029: running for reelection |
+| 49 | S033 | Biden | repetition | S031: Biden |
+| 50 | S033 | Trump | repetition | S032: Trump |
+| 51 | S033 | the White House | repetition | S031: the White House |
+| 52 | S034 | The White House | repetition | S033: the White House |
+| 53 | S034 | two-hour meeting | repetition | S017: the post-election White House meeting |
+| 54 | S035 | Filling 4,000-plus jobs | repetition | S010: come into their jobs |
+| 55 | S037 | staffing | synonym | S006: tasked with filling posts |
+| 56 | S038 | The incoming administration | repetition | S037: a new administration |
+| 57 | S038 | must fill | repetition | S006: tasked with filling posts |
+| 58 | S039 | Current political appointees | repetition | S006: thousands of presidential appointees |
+| 59 | S039 | is inaugurated | repetition | S031: his inauguration |
+| 60 | S040 | massive recruitment effort | synonym | S037: staffing a new administration |
+| 61 | S040 | resources | repetition | S027: office space and other resources |
+| 62 | S041 | political positions | repetition | S038: more than 4,000 positions |
+| 63 | S042 | presidents-elect | repetition | S039: the incoming president |
+| 64 | S042 | Inauguration Day | repetition | S039: is inaugurated |
+| 65 | S042 | most appointments | repetition | S039: Current political appointees |
+| 66 | S043 | CIA director | repetition | S010: a CIA analyst |
+| 67 | S044 | personnel | repetition | S006: 3.5 million civilian and military personnel |
+| 68 | S045 | the real work | repetition | S010: be ready to work on day one |
+| 69 | S046 | administrations | repetition | S043: key administration officials |
+| 70 | S046 | Agency-level teams | repetition | S027: transition teams |
+| 71 | S046 | work quietly | repetition | S045: the real work |
+| 72 | S048 | CIA | repetition | S043: CIA director |
+| 73 | S048 | Defense | repetition | S043: secretary of defense |
+| 74 | S052 | teams | repetition | S046: Agency-level teams |
+| 75 | S052 | coordination | synonym | S046: orchestrate the complex handover |
+| 76 | S053 | Biden | repetition | S052: Biden |
+| 77 | S053 | Trump's team | repetition | S052: the Trump and Biden teams |
+| 78 | S053 | his administration | repetition | S046: both administrations |
+| 79 | S053 | federal agencies | repetition | S046: Agency-level teams |
+| 80 | S053 | share information | repetition | S046: work quietly to share information |
+| 81 | S054 | Trump's team | repetition | S053: Trump's team |
+| 82 | S054 | real risks | repetition | S012: the risks to a presidency |
+| 83 | S055 | Muller said | repetition | S054: Muller said |
+| 84 | S055 | in an interview | repetition | S047: in an interview with VOA |
+| 85 | S058 | the sitting president | repetition | S017: a sitting president |
+| 86 | S060 | thread the needle | collocation | S059: a high-stakes chess game |
+| 87 | S060 | rivals | repetition | S018: a bitter political rival |
+| 88 | S061 | walk a diplomatic tightrope | collocation | S060: thread the needle |
+| 89 | S061 | the U.S. | repetition | S028: American history |
+| 90 | S063 | foreign governments | repetition | S061: Foreign governments |
+| 91 | S063 | U.S. embassies | repetition | S061: the U.S. |
+| 92 | S063 | maintain relations | synonym | S061: critical ties with the U.S. |
+| 93 | S064 | Trump | repetition | S063: Trump |
+| 94 | S064 | meet in person | repetition | S034: their two-hour meeting |
+| 95 | S065 | the United States | repetition | S063: U.S. embassies |
+| 96 | S065 | going to govern | repetition | S014: governed |
+| 97 | S065 | a delicate balancing act | collocation | S062: The diplomatic dance |
+| 98 | S065 | Muller said | repetition | S063: Muller noted |
+
+
+Phía VI — 54 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | cuộc bầu cử Hoa Kỳ | repetition | S001: cuộc bầu cử quốc hội |
+| 2 | S002 | giành chiến thắng | repetition | S001: thắng lớn |
+| 3 | S003 | Đảng đối lập của Anh | repetition | S001: đảng của ông |
+| 4 | S004 | Hoa Kỳ | repetition | S002: cuộc bầu cử Hoa Kỳ |
+| 5 | S007 | Ngày bầu cử | repetition | S002: cuộc bầu cử Hoa Kỳ ngày 5 tháng 11 |
+| 6 | S009 | quá trình chuyển giao | repetition | S008: quá trình chuyển giao quyền lực |
+| 7 | S009 | cho biết | synonym | S006: nói |
+| 8 | S010 | lịch sử nước Mỹ | synonym | S007: nền dân chủ Hoa Kỳ |
+| 9 | S011 | Ông Riley | repetition | S010: nhà sử học Russel Riley |
+| 10 | S011 | chuyển giao quyền lực tổng thống | repetition | S009: quá trình chuyển giao |
+| 11 | S013 | truyền thống và phong tục | repetition | S012: Truyền thống và luật pháp |
+| 12 | S013 | luật pháp và quy định | repetition | S012: Truyền thống và luật pháp |
+| 13 | S014 | quá trình chuyển giao quyền lực tổng thống | repetition | S011: chuyển giao quyền lực tổng thống |
+| 14 | S014 | phong tục | repetition | S013: truyền thống và phong tục |
+| 15 | S017 | chiến thắng năm 1952 | repetition | S003: giành chiến thắng |
+| 16 | S018 | thất bại năm 2020 | antonym | S017: chiến thắng năm 1952 |
+| 17 | S021 | chuyển giao quyền lực | repetition | S008: quá trình chuyển giao quyền lực |
+| 18 | S022 | quá trình chuyển giao | repetition | S021: chuyển giao quyền lực |
+| 19 | S023 | người đứng đầu cơ quan | repetition | S022: mỗi cơ quan liên bang |
+| 20 | S024 | các nhóm chuyển giao | repetition | S011: nhóm của ông |
+| 21 | S026 | thất bại | repetition | S018: thất bại năm 2020 |
+| 22 | S027 | người chiến thắng | repetition | S017: chiến thắng năm 1952 |
+| 23 | S028 | ông Trump | repetition | S026: ông Trump |
+| 24 | S028 | ông Biden | repetition | S027: Tổng thống Joe Biden |
+| 25 | S028 | lễ nhậm chức | repetition | S007: Ngày nhậm chức |
+| 26 | S029 | cuộc bầu cử năm nay | repetition | S026: gian lận bầu cử |
+| 27 | S030 | Tòa Bạch Ốc | repetition | S028: Tòa Bạch Ốc |
+| 28 | S031 | cuộc họp kéo dài hai giờ | repetition | S016: cuộc họp tại Tòa Bạch Ốc |
+| 29 | S032 | Lấp đầy hơn 4.000 việc làm | repetition | S005: lấp đầy các vị trí |
+| 30 | S035 | chính quyền mới | repetition | S034: chính quyền mới |
+| 31 | S035 | lấp đầy | repetition | S032: Lấp đầy hơn 4.000 việc làm |
+| 32 | S036 | Những người được bổ nhiệm chính trị | repetition | S005: được tổng thống bổ nhiệm |
+| 33 | S036 | tuyên thệ nhậm chức | repetition | S028: lễ nhậm chức |
+| 34 | S038 | các vị trí chính trị | repetition | S035: hơn 4.000 vị trí |
+| 35 | S039 | các tổng thống đắc cử | repetition | S036: tân tổng thống |
+| 36 | S039 | Ngày nhậm chức | repetition | S036: tuyên thệ nhậm chức |
+| 37 | S039 | các cuộc bổ nhiệm | repetition | S036: Những người được bổ nhiệm chính trị |
+| 38 | S040 | giám đốc CIA | repetition | S009: chuyên gia phân tích của CIA |
+| 39 | S041 | nhân sự | repetition | S034: tuyển dụng nhân sự |
+| 40 | S042 | công việc thực sự | repetition | S009: bắt tay vào công việc |
+| 41 | S043 | Các nhóm cấp cơ quan | repetition | S024: các nhóm chuyển giao |
+| 42 | S043 | chính quyền | repetition | S040: các quan chức chính quyền chủ chốt |
+| 43 | S043 | chia sẻ thông tin | repetition | S019: tổng thống chia sẻ |
+| 44 | S045 | Bộ Quốc phòng | repetition | S040: bộ trưởng quốc phòng |
+| 45 | S048 | nhóm | repetition | S043: Các nhóm cấp cơ quan |
+| 46 | S048 | Mức độ phối hợp | synonym | S043: điều phối quá trình chuyển giao |
+| 47 | S049 | nhóm của ông Trump | repetition | S048: nhóm của ông Trump |
+| 48 | S049 | các cơ quan liên bang | repetition | S043: Các nhóm cấp cơ quan |
+| 49 | S049 | chia sẻ đầy đủ thông tin | repetition | S043: chia sẻ thông tin |
+| 50 | S051 | ông Muller nói | repetition | S050: Ông Muller cho biết |
+| 51 | S051 | trong một cuộc phỏng vấn | repetition | S044: một cuộc phỏng vấn |
+| 52 | S054 | tổng thống đương nhiệm | repetition | S016: tổng thống đương nhiệm |
+| 53 | S059 | các chính phủ nước ngoài | repetition | S057: Các chính phủ nước ngoài |
+| 54 | S061 | ông Muller nói | repetition | S059: ông Muller lưu ý |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn hai đầu |
@@ -670,42 +846,30 @@ chức" 1 lần trong S053); các câu có nhiều hàng thuộc các chuỗi kh
   dịch chuyển R→zero đã đếm ở §7, không phải bất thường dữ liệu — ghi để
   khỏi nhầm với cắt nội dung (b)–(d).
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 20 | 20 | §4.1 (R-EN1–EN20), toàn bộ hướng A; hàng cầu nối: R-EN2, R-EN7 (med), R-EN15 (low); đọc chừng R-EN4 (low) |
-| EN — S | 2 | 2 | §3: S-EN1 [LC] conf thấp; S-EN2 [TC] — **không dùng làm bằng chứng liên câu** |
-| EN — E | 0 | 0 | §2: không có tỉnh lược (kể cả [TC]) |
-| EN — C | 4 | 4 | §5 (C-EN1–4), toàn bộ [LC]; C-EN2 thuộc khối cắt S024, conf thấp |
-| EN — L | 44 | 44 | §6.3 (L-EN1–EN44) theo chính sách §6.1; 10 hàng có alt "R: the" |
-| VI — R | 15 | 15 | §4.1 (R-VI1–VI15), toàn bộ hướng A; R-VI3 (low), R-VI11 (low) |
-| VI — S | 0 | 0 | §3: mọi pro-form EN được hiện thực hóa ("do"→"thực hiện", "those"→"những chính phủ", "the two"→"hai người") |
+| EN — R | 20 | 20 | §4 |
+| EN — S | 2 | 2 | §3 |
+| EN — C | 4 | 4 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 142 | 142 | §6 (pilot 44 + v2 98) |
+| VI — R | 15 | 15 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 3 | 3 | §5 |
 | VI — E | 0 | 0 | §2 |
-| VI — C | 3 | 3 | §5 (C-VI1–3), giữ 1–1 đúng vị trí với EN |
-| VI — L | 46 | 46 | §6.3 (L-VI1–VI46) theo chính sách §6.1 |
+| VI — L | 100 | 100 | §6 (pilot 46 + v2 54) |
 
-**Kết luận:**
-
-- **Từ vựng là thiết bị chủ lực của cặp này:** EN 44/70 tie ≈ 63%, VI 46/64 ≈
-  72% — L chiếm đa số hai phía; quy chiếu đứng thứ hai (20/15); tỉnh lược
-  vắng mặt hoàn toàn (0/0); nối rất mỏng (4/3) nhưng giữ 1–1 tuyệt đối về vị
-  trí và kiểu. Mật độ chung: EN ≈ 1,08 tie/câu (70/65; ≈1,09 nếu bỏ artifact
-  S051), VI ≈ 1,05 (64/61) — thấp hơn P01/P17 do bài dài, câu dài, kiểu
-  explainer.
-- **Bất đối xứng R↔L có hệ thống:** EN nhiều R hơn (20↔15) nhờ hệ chỉ từ –
-  mạo từ (those/these/the); VI bù bằng lặp danh từ và lặp tên kèm danh xưng
-  (L 46↔44) — "danh ngữ hóa" quy chiếu; 10 hàng L-EN mang alt "R: the" cho
-  thấy cùng một vị trí EN đọc được cả hai lớp.
-- **Theo dõi nhân vật gần đối xứng về số (9 hàng L mỗi phía: Trump 5, Muller
-  2, Biden 1, Shurkin 1) nhưng khác hình thức:** EN gọi tên trần ("Trump",
-  "Muller said" — không có "he said" nào, khác P17), VI thêm danh xưng ông/bà
-  ở mọi lần lặp — chiến lược theo dõi nhân vật chủ lực của VI là phép lặp
-  tên + danh xưng.
-- **[TC] không dùng làm bằng chứng liên câu:** duy nhất S-EN2 ("those" EN
-  S061); mọi hàng R/C/L và S-EN1 đều [LC], nên kết luận liên câu của cặp này
-  không dựa vào lớp bổ sung [TC].
-- **Các hàng conf thấp cần dùng thận trọng khi tổng hợp liên phiên:** S-EN1
-  (thế "do" không có VP nguyên bản), C-EN2 (mảnh dẫn danh sách, khối cắt),
-  R-EN4/R-VI3 ("they"/"họ" trong trích dẫn Shurkin), R-EN15/R-VI11 ("both"/
-  "cả hai" — cầu nối).
+- Tổng tie: EN **168** / VI **118** (pilot: EN 70 / VI 64).
+- Bổ sung v2 (98 EN + 54 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 142 (85%),
+  L-VI 100 (85%).
+- L-EN (142) > L-VI (100): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 20 / VI 15 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 0; thế EN 2 / VI 0;
+  nối EN 4 / VI 3.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

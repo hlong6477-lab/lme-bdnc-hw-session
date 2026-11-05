@@ -393,6 +393,135 @@ R, xem §4).
 kề nhau, L-EN sẽ vượt 60 — chọn lọc theo điểm nối diễn ngôn để bảng còn đọc
 được, mọi thành viên vẫn nằm trong kho 6.2.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 50 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S004 | the world | repetition | S001: the world |
+| 2 | S005 | the country | repetition | S002: One country |
+| 3 | S006 | explains | synonym | S002: says |
+| 4 | S007 | discharging | repetition | S006: discharged |
+| 5 | S007 | the environment | repetition | S006: the environment |
+| 6 | S007 | purified | repetition | S005: purified recycled water |
+| 7 | S008 | Singapore | repetition | S003: Singapore |
+| 8 | S009 | The country | repetition | S005: the country |
+| 9 | S010 | Khan | repetition | S006: Professor Stuart Khan |
+| 10 | S010 | says | synonym | S006: explains |
+| 11 | S011 | Singapore | repetition | S008: Singapore |
+| 12 | S013 | visitor centre | repetition | S012: a visitor centre |
+| 13 | S018 | Sydney | repetition | S014: Sydney |
+| 14 | S019 | says | repetition | S012: he says |
+| 15 | S019 | tipping point | repetition | S015: 'We're at a tipping point' |
+| 16 | S019 | dams | repetition | S018: dam levels |
+| 17 | S019 | drought | repetition | S018: drought |
+| 18 | S020 | water supplies | repetition | S019: our water supply |
+| 19 | S020 | rainfall | repetition | S017: rainfall |
+| 20 | S023 | Sydney | repetition | S020: Sydney desalination plant |
+| 21 | S024 | says | repetition | S019: says |
+| 22 | S025 | test | repetition | S023: tried and tested |
+| 23 | S026 | the technology | repetition | S025: the technology |
+| 24 | S027 | learn | repetition | S013: learn about water recycling |
+| 25 | S028 | the technology | repetition | S026: the technology |
+| 26 | S028 | safe and reliable | repetition | S007: safely and reliably |
+| 27 | S030 | says | repetition | S027: he says |
+| 28 | S032 | Toowoomba | repetition | S031: Toowoomba |
+| 29 | S032 | community | repetition | S026: community |
+| 30 | S033 | support | repetition | S032: public support |
+| 31 | S034 | successful | antonym | S032: failed |
+| 32 | S034 | public support | repetition | S033: support |
+| 33 | S034 | really important factor | repetition | S029: 'really important factor' |
+| 34 | S036 | says | repetition | S032: he says |
+| 35 | S036 | the world | repetition | S035: 'new to the world' |
+| 36 | S039 | cities | repetition | S016: cities |
+| 37 | S042 | says | repetition | S036: says |
+| 38 | S042 | depleting | repetition | S019: depleting |
+| 39 | S044 | Perth | repetition | S041: Perth |
+| 40 | S045 | Perth | repetition | S044: Perth |
+| 41 | S045 | groundwater | repetition | S042: groundwater |
+| 42 | S046 | purifying | repetition | S007: purified |
+| 43 | S047 | aquifers | repetition | S046: aquifers |
+| 44 | S047 | drinking water supply | repetition | S031: drinking water |
+| 45 | S049 | Queensland | repetition | S031: Queensland |
+| 46 | S050 | says | repetition | S044: he says |
+| 47 | S051 | Brisbane's | repetition | S050: Brisbane |
+| 48 | S052 | says | repetition | S050: says |
+| 49 | S054 | drop | repetition | S018: dropped |
+| 50 | S055 | Brisbane | repetition | S051: Brisbane's |
+
+
+Phía VI — 55 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Úc | repetition | S001: Úc |
+| 2 | S004 | thiếu nước | repetition | S003: thiếu nước |
+| 3 | S005 | Singapore | repetition | S003: Singapore |
+| 4 | S006 | giải thích | synonym | S002: cho rằng |
+| 5 | S007 | thải ra môi trường | repetition | S006: thải ra môi trường |
+| 6 | S007 | nguồn cung cấp nước uống | repetition | S005: nước uống |
+| 7 | S008 | Singapore | repetition | S005: Singapore |
+| 8 | S012 | nói | synonym | S006: giải thích |
+| 9 | S013 | Singapore | repetition | S011: Singapore |
+| 10 | S016 | dân số | repetition | S004: mật độ dân số |
+| 11 | S016 | áp lực | repetition | S001: áp lực |
+| 12 | S017 | Sydney | repetition | S014: Sydney |
+| 13 | S019 | nhận định | synonym | S012: nói |
+| 14 | S019 | bước ngoặt quan trọng | repetition | S015: 'Chúng ta đang ở bước ngoặt quan trọng' |
+| 15 | S019 | hạn hán | repetition | S018: hạn hán |
+| 16 | S019 | hồ chứa | repetition | S018: hồ chứa |
+| 17 | S020 | nguồn cung cấp nước | repetition | S016: nguồn cung cấp nước |
+| 18 | S020 | lượng mưa | repetition | S017: nước mưa |
+| 19 | S022 | Sydney | repetition | S020: Sydney |
+| 20 | S022 | công chúng | synonym | S008: Người dân Singapore |
+| 21 | S023 | cho biết | synonym | S019: nhận định |
+| 22 | S024 | thử nghiệm | repetition | S022: thử nghiệm |
+| 23 | S025 | công nghệ | repetition | S024: công nghệ |
+| 24 | S025 | cộng đồng | repetition | S011: giáo dục cộng đồng |
+| 25 | S027 | an toàn và đáng tin cậy | repetition | S007: an toàn và đáng tin cậy |
+| 26 | S029 | cho biết | repetition | S023: cho biết |
+| 27 | S030 | cư dân | synonym | S028: công chúng |
+| 28 | S030 | nước thải tái chế | repetition | S029: nước tái chế |
+| 29 | S030 | phản đối | antonym | S028: Sự ủng hộ |
+| 30 | S031 | Toowoomba | repetition | S030: Toowoomba |
+| 31 | S031 | thất bại | antonym | S010: sự thành công |
+| 32 | S033 | ủng hộ | repetition | S031: ủng hộ |
+| 33 | S035 | khẳng định | synonym | S031: nói |
+| 34 | S035 | Sydney | repetition | S022: Sydney |
+| 35 | S036 | tái chế nước thải | repetition | S035: tái chế nước thải |
+| 36 | S037 | thành phố | repetition | S016: thành phố |
+| 37 | S037 | xem xét | repetition | S021: xem xét |
+| 38 | S038 | thành công | antonym | S031: thất bại |
+| 39 | S039 | Sydney | repetition | S035: Sydney |
+| 40 | S039 | Perth | repetition | S038: Perth |
+| 41 | S039 | hồ chứa | repetition | S019: các hồ chứa |
+| 42 | S040 | suy giảm | repetition | S018: giảm xuống |
+| 43 | S042 | nói | repetition | S037: nói |
+| 44 | S042 | Người dân | repetition | S033: người dân |
+| 45 | S043 | nước ngầm | repetition | S040: nguồn nước ngầm |
+| 46 | S044 | tiên tiến | repetition | S007: nhà máy xử lý nước tiên tiến |
+| 47 | S045 | Perth | repetition | S043: Perth |
+| 48 | S045 | Mục tiêu | repetition | S023: ba mục tiêu chính |
+| 49 | S046 | Queensland | repetition | S030: Queensland |
+| 50 | S047 | dự án | repetition | S046: dự án tái chế nước |
+| 51 | S048 | Brisbane | repetition | S047: Brisbane |
+| 52 | S048 | cho biết | synonym | S042: nói |
+| 53 | S049 | cư dân | synonym | S042: Người dân Perth |
+| 54 | S049 | Queensland | repetition | S048: đông nam Queensland |
+| 55 | S049 | bổ sung | repetition | S043: kế hoạch bổ sung nước ngầm |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -441,32 +570,30 @@ kề nhau, L-EN sẽ vượt 60 — chọn lọc theo điểm nối diễn ngôn
 - **(g) Dấu biên tập:** EN S046 "[It]", S039 "(around the world)" — dấu ngoặc
   do biên tập viên chèn; R-EN24 vẫn đánh dấu "[It]" vì dạng nguyên văn.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 30 | 30 | §4.1 (R-EN1–EN30); 2 hàng ref=E (we S002, you S034) |
-| EN — S | 3 | 3 | §3 (S-EN1–EN3), toàn bộ [TC] |
-| EN — E | 0 | 0 | §2: EN không có tỉnh lược [LC]/[TC] nào |
-| EN — C | 8 | 8 | §5.1, toàn bộ [LC] |
-| EN — L | 47 | 47 | §6.3 theo chính sách §6.1 |
-| VI — R | 20 | 20 | §4.2 (R-VI1–VI20), toàn bộ hướng A |
-| VI — S | 1 | 1 | §3 (S-VI1), [TC] |
-| VI — E | 1 | 1 | §2 (E-VI1), [TC] |
-| VI — C | 8 | 8 | §5.2, toàn bộ [LC] |
-| VI — L | 37 | 37 | §6.3 theo chính sách §6.1 |
+| EN — R | 30 | 30 | §4 |
+| EN — S | 3 | 3 | §3 |
+| EN — C | 8 | 8 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 97 | 97 | §6 (pilot 47 + v2 50) |
+| VI — R | 20 | 20 | §4 |
+| VI — S | 1 | 1 | §3 |
+| VI — C | 8 | 8 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 92 | 92 | §6 (pilot 37 + v2 55) |
 
-**Kết luận:**
-- Cặp P01 thể hiện đúng đặc trưng tin tính năng song ngữ SBS: quy chiếu hồi
-  quy áp đảo (EN 28/30, VI 20/20 hướng A), nối giữ cân bằng số lượng (8=8) nhưng
-  đổi kiểu 2 lần, và liên kết từ vựng là thiết bị chủ lực (EN 47, VI 37 — chênh
-  lệch do EN phân rã thuật ngữ, VI hội tụ).
-- Dịch chuyển hệ thống rõ nhất: đại từ EN → danh ngữ/danh xưng VI (8+3 lần),
-  phân hóa ngôi "we" (chúng tôi/chúng ta/Úc), mạo từ "the" → chỉ từ "này".
-- Phía VI lấp đầy mọi khe tỉnh lược của EN (E-EN = 0) và chỉ có 1 zero tân ngữ
-  [TC] — ngược với dự báo "VI ưa tỉnh lược" ở cấp câu; zero của VI tập trung ở
-  chủ ngữ vế tọa hợp, không xuất hiện ở cặp này ở cấp liên câu.
-- Các mục chỉ [TC] (S-EN1–3, S-VI1, E-VI1) **không** dùng làm bằng chứng cho
-  kết luận về liên kết liên câu.
-- Số đếm tie table khớp 10/10 ô với đếm tay — kiểm chứng bằng
-  `pipeline.annotate` PASS (xem SESSION.md).
+- Tổng tie: EN **138** / VI **122** (pilot: EN 88 / VI 67).
+- Bổ sung v2 (50 EN + 55 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 97 (70%),
+  L-VI 92 (75%).
+- L-EN (97) > L-VI (92): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 30 / VI 20 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 1; thế EN 3 / VI 1;
+  nối EN 8 / VI 8.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

@@ -328,6 +328,105 @@ S011 đồng rúp Nga (tái lập sau 7 câu tại attribution Putin).
   ×6…), mỗi bên sẽ vượt 25 hàng; mọi thành viên vẫn nằm trong kho §6.2 để kiểm
   tra lại.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 36 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | crashing | synonym | S001: plunging (currency) |
+| 2 | S002 | overseas travel | synonym | S001: tourism industry |
+| 3 | S005 | the Russians | repetition | S004: the Russians |
+| 4 | S006 | Pattaya | repetition | S003: the beach resort city of Pattaya |
+| 5 | S007 | number one | synonym | S005: second to none |
+| 6 | S008 | said | synonym | S005: told (VOA News) |
+| 7 | S008 | Russian tourists | repetition | S007: Russian tourists |
+| 8 | S009 | Russian visitors | superordinate | S008: Russian tourists |
+| 9 | S010 | Russian tourists | repetition | S008: Russian tourists |
+| 10 | S010 | December | repetition | S004: December 28 |
+| 11 | S010 | last year | repetition | S008: Last year |
+| 12 | S010 | total | repetition | S009: totaled (1.4 million) |
+| 13 | S010 | a disaster | collocation | S001: suffering (tourism industry) |
+| 14 | S011 | expecting | repetition | S010: expects (a drop of 50 percent) |
+| 15 | S011 | bad | general word | S010: a disaster |
+| 16 | S011 | Pattaya | repetition | S006: Pattaya |
+| 17 | S011 | said | repetition | S008: said (Suladda) |
+| 18 | S013 | worried | synonym | S001: serious concerns |
+| 19 | S013 | hoteliers | synonym | S010: the national hotel operators' association |
+| 20 | S014 | decreasing | synonym | S010: a drop of 50 percent |
+| 21 | S014 | said | repetition | S011: (Suladda) said |
+| 22 | S014 | Pattaya | repetition | S011: Pattaya |
+| 23 | S015 | the Russians | repetition | S014: Russian incoming tourists |
+| 24 | S015 | Thai | repetition | S009: all of Thailand |
+| 25 | S015 | dependent | synonym | S011: heavily reliant |
+| 26 | S015 | make up for | synonym | S014: compensate |
+| 27 | S015 | marketing initiatives | repetition | S014: other markets |
+| 28 | S016 | tourists | repetition | S014: Russian incoming tourists |
+| 29 | S016 | Thailand | repetition | S009: all of Thailand |
+| 30 | S017 | shifting | repetition | S014: shift (to other markets) |
+| 31 | S017 | said | repetition | S014: said (Suladda) |
+| 32 | S017 | vacation plans | synonym | S002: overseas travel |
+| 33 | S018 | told | repetition | S005: told (VOA News) |
+| 34 | S018 | depreciating | synonym | S002: crashing (the ruble) |
+| 35 | S018 | last | antonym | S012: (going to) end |
+| 36 | S018 | improve | antonym | S011: (things to) stay bad |
+
+
+Phía VI — 39 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | sụt xuống | synonym | S001: tuột giá |
+| 2 | S002 | đi du lịch nước ngoài | repetition | S001: du lịch (công nghiệp du lịch) |
+| 3 | S004 | mất đi | synonym | S001: (đã bị) thiệt hại |
+| 4 | S005 | Pattaya | repetition | S003: (thành phố biển nghỉ mát) Pattaya |
+| 5 | S005 | người Nga | repetition | S004: du khách Nga |
+| 6 | S006 | Pattaya | repetition | S005: (văn phòng ở) Pattaya |
+| 7 | S007 | số một | synonym | S005: không thua kém ai |
+| 8 | S008 | du khách Nga | repetition | S007: Du khách Nga |
+| 9 | S008 | Pattaya | repetition | S006: Pattaya |
+| 10 | S009 | du khách Nga | repetition | S008: du khách Nga |
+| 11 | S010 | tháng 12 | repetition | S004: (từ 28) tháng 12 |
+| 12 | S010 | tai hại | repetition | S001: thiệt hại |
+| 13 | S010 | tổng số | repetition | S009: tổng cộng |
+| 14 | S010 | du khách Nga | repetition | S009: du khách Nga |
+| 15 | S010 | năm ngoái | repetition | S008: Năm ngoái |
+| 16 | S011 | nói | synonym | S005: cho (đài VOA) biết |
+| 17 | S011 | Pattaya | repetition | S008: Pattaya |
+| 18 | S011 | Thái | repetition | S009: (toàn bộ) Thái Lan |
+| 19 | S011 | dự kiến | repetition | S010: dự kiến (mức sụt giảm là 50%) |
+| 20 | S011 | xấu đi | general word | S010: (coi như là) tai hại |
+| 21 | S013 | tua du lịch | repetition | S002: đi du lịch (nước ngoài) |
+| 22 | S013 | các khách sạn | repetition | S010: (hiệp hội điều hành) khách sạn (quốc gia) |
+| 23 | S013 | lo ngại | synonym | S001: quan ngại (nghiêm trọng) |
+| 24 | S014 | sụt giảm | repetition | S010: (mức) sụt giảm (là 50%) |
+| 25 | S014 | Pattaya | repetition | S011: Pattaya |
+| 26 | S015 | Thái Lan | repetition | S011: (đồng baht của) Thái |
+| 27 | S015 | lệ thuộc | repetition | S011: lệ thuộc (nặng vào) |
+| 28 | S015 | người Nga | repetition | S014: du khách Nga |
+| 29 | S015 | tiếp thị | repetition | S014: (các) thị trường |
+| 30 | S015 | bù vào | repetition | S014: bù đắp (lại) |
+| 31 | S016 | du khách | repetition | S014: du khách Nga |
+| 32 | S016 | Thái Lan | repetition | S015: (các đảo của) Thái Lan |
+| 33 | S017 | nghe nói | repetition | S011: (Bà Suladda) nói |
+| 34 | S017 | chuyển | repetition | S014: chuyển (qua các thị trường khác) |
+| 35 | S017 | đi nghỉ | synonym | S002: đi du lịch (nước ngoài) |
+| 36 | S018 | nói | repetition | S017: nghe nói |
+| 37 | S018 | hạ giá | synonym | S002: sụt xuống (các mức thấp kỷ lục) |
+| 38 | S018 | cải thiện | antonym | S011: (tiếp tục) xấu đi |
+| 39 | S018 | kéo dài | antonym | S012: chấm dứt |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -380,36 +479,30 @@ S011 đồng rúp Nga (tái lập sau 7 câu tại attribution Putin).
   chú thích biên tập): hai khối trích dẫn S006–S008, S012–S014 là lời trích
   trực tiếp có attribution thật, dùng được làm bằng chứng cấp câu.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 9 | 9 | §4.1 (R-EN1–EN9); toàn bộ hướng A |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 0 | 0 | §2: EN không có khe ∅ (ứng viên đã loại) |
-| EN — C | 2 | 2 | §5: "But" S010, S014 — adversative [LC] |
-| EN — L | 19 | 19 | §6.3 theo chính sách §6.1 |
-| VI — R | 6 | 6 | §4.2 (R-VI1–VI6); toàn bộ hướng A |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 2 | 2 | §2: E-VI1 [TC] (S011) + E-VI2 [LC] (S013) |
-| VI — C | 2 | 2 | §5: "Nhưng" S010, S014 |
-| VI — L | 19 | 19 | §6.3 theo chính sách §6.1 |
+| EN — R | 9 | 9 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 2 | 2 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 55 | 55 | §6 (pilot 19 + v2 36) |
+| VI — R | 6 | 6 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 2 | 2 | §5 |
+| VI — E | 2 | 2 | §2 |
+| VI — L | 58 | 58 | §6 (pilot 19 + v2 39) |
 
-**Kết luận:**
-
-- Tin 18/18 câu với mật độ cao bất thường: EN 30/18 ≈ 1,7 tie/câu, VI 29/18 ≈
-  1,6 — ngang P01 (1,6) dù P16 ngắn hơn hai phần ba: bài xoay quanh hai chuỗi
-  protagonist (đồng rúp, du khách Nga) được tái lập liên tục qua các khối số
-  liệu và hai khối trích dẫn.
-- Quy chiếu toàn bộ hướng A (15/15), không có ref=E: mọi đại từ ngôi 1 đều nằm
-  trong trích dẫn và được xử lý bằng quy tắc attribution-câu-trước ("We"/"Chúng
-  ta" S012 đủ điều kiện vì "Suladda said"/"nói" đứng ở S011).
-- Từ vựng là thiết bị chủ lực (19 + 19) nhưng hai bên lệch thành phần: EN dày
-  hàng attribution (3 lần "Suladda") — VI lược attribution nhưng bù bằng 2 hàng
-  L đối ứng với R của EN (đồng rúp, tình hình) → hai dịch chuyển R→L tiêu biểu.
-- Hai hàng E phía VI đều gắn với dịch chuyển từ EN: zero chủ ngữ [TC] (EN dùng
-  chủ ngữ dùng chung) và zero bổ ngữ [LC] (EN "about it"); hàng [TC] **không
-  dùng làm bằng chứng** cho kết luận liên kết liên câu.
-- Số đếm tay khớp tie table 10/10 ô — kiểm chứng bằng `pipeline.annotate` và
-  `pipeline.render`: cả hai cổng in **PASS** (EN 30 ties R9/S0/E0/C2/L19;
-  VI 29 ties R6/S0/E2/C2/L19).
+- Tổng tie: EN **66** / VI **68** (pilot: EN 30 / VI 29).
+- Bổ sung v2 (36 EN + 39 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 55 (83%),
+  L-VI 58 (85%).
+- L-VI (58) > L-EN (55): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 9 / VI 6 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 2; thế EN 0 / VI 0;
+  nối EN 2 / VI 2.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

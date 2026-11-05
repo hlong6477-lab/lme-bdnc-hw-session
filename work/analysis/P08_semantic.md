@@ -457,6 +457,141 @@ suất (gap 6; lệch nghĩa §8d).
   prices" (S015), "sự cải thiện/improvement" (S024/S022), "Weak conditions/Các
   điều kiện yếu" nằm trong kho §6.2 nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 56 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S005 | fallen | repetition | S001: the biggest falls |
+| 2 | S005 | housing stock | repetition | S004: Australia's housing market |
+| 3 | S006 | Domain's | repetition | S005: this week's Domain's house price report |
+| 4 | S006 | fall | repetition | S005: home prices have fallen the most |
+| 5 | S006 | economics | repetition | S002: an economist |
+| 6 | S007 | buyer demand | repetition | S006: buyer behaviour |
+| 7 | S008 | demand | repetition | S007: a pullback in buyer demand |
+| 8 | S008 | people | general word | S007: a pullback in buyer demand |
+| 9 | S008 | Powell said | repetition | S006: Nicola Powell |
+| 10 | S009 | buyers | repetition | S003: in favour of buyers |
+| 11 | S010 | dropped | synonym | S005: home prices have fallen the most |
+| 12 | S010 | the quarter | repetition | S005: the December quarter |
+| 13 | S010 | the only capital city | repetition | S005: across the combined capitals |
+| 14 | S011 | slows down | synonym | S010: marking the second consecutive decline |
+| 15 | S012 | Sydney | repetition | S011: Sydney slows down Sydney remains… |
+| 16 | S013 | shows | repetition | S006: the data shows |
+| 17 | S013 | suburb | repetition | S001: the suburbs |
+| 18 | S013 | decreasing | synonym | S012: back-to-back quarterly decline |
+| 19 | S014 | experienced | repetition | S012: Sydney has experienced |
+| 20 | S015 | a popular suburb | repetition | S014: Some Queensland suburbs |
+| 21 | S015 | Gold Coast | repetition | S014: Gold Coast prices take a dip |
+| 22 | S015 | houses prices | repetition | S010: house prices |
+| 23 | S015 | decrease | repetition | S013: decreasing by 22.1 per cent |
+| 24 | S016 | house prices | repetition | S015: houses prices |
+| 25 | S016 | fall | repetition | S006: a fall in demand |
+| 26 | S016 | has seen | repetition | S007: What we have seen |
+| 27 | S017 | First-home buyers | repetition | S009: many buyers |
+| 28 | S017 | strongest quarterly increase | repetition | S005: an increase in housing stock |
+| 29 | S018 | first-home buyer activity | repetition | S017: First-home buyers |
+| 30 | S019 | Melbourne | repetition | S017: Melbourne unit prices |
+| 31 | S020 | a market | repetition | S011: Australia's most expensive housing market |
+| 32 | S020 | saw | repetition | S016: has seen house prices fall |
+| 33 | S022 | Sydney | repetition | S012: Sydney has experienced |
+| 34 | S022 | Melbourne | repetition | S019: Melbourne has been the surprise |
+| 35 | S022 | see | repetition | S020: we saw growth |
+| 36 | S023 | Melbourne | repetition | S022: Sydney and Melbourne price cycles |
+| 37 | S024 | dropping | repetition | S010: dropped by 0.1 per cent |
+| 38 | S024 | year-on-year | repetition | S015: year-on-year decrease |
+| 39 | S024 | has seen | repetition | S022: tend to see |
+| 40 | S025 | experienced | repetition | S014: have also experienced |
+| 41 | S025 | a fall | repetition | S016: house prices fall |
+| 42 | S025 | a median unit price | repetition | S024: unit prices |
+| 43 | S026 | dropped | repetition | S024: dropping by 33.3 per cent |
+| 44 | S027 | markets | repetition | S020: as a market |
+| 45 | S028 | decline | repetition | S025: an 18.9 per cent decline |
+| 46 | S029 | recorded | repetition | S010: to record a decline |
+| 47 | S029 | the sharpest decline | repetition | S028: a 19.6 per cent decline |
+| 48 | S030 | surged | synonym | S017: house prices increase 1.6 per cent |
+| 49 | S031 | unit prices | repetition | S029: unit prices |
+| 50 | S031 | at a capital level | repetition | S029: among all capital cities |
+| 51 | S032 | recorded | repetition | S029: Hobart recorded |
+| 52 | S032 | drop | repetition | S026: dropped 20.5 per cent |
+| 53 | S034 | has seen | repetition | S024: Chadstone has seen |
+| 54 | S040 | see | repetition | S034: has seen annual growth slow |
+| 55 | S040 | the change | repetition | S027: these changes |
+| 56 | S040 | Australia | repetition | S011: Australia's most expensive housing market |
+
+
+Phía VI — 55 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | Úc | repetition | S001: tại Úc |
+| 2 | S002 | năm 2025 | repetition | S001: trong năm 2024 |
+| 3 | S003 | năm nay | repetition | S002: năm 2025 |
+| 4 | S005 | trên toàn quốc | repetition | S004: trên toàn quốc |
+| 5 | S005 | những nơi | general word | S001: Những khu vực |
+| 6 | S006 | kinh tế | repetition | S002: nhà kinh tế học |
+| 7 | S006 | Domain | repetition | S005: của Domain |
+| 8 | S006 | phản ảnh | synonym | S005: đã tiết lộ |
+| 9 | S006 | sự thay đổi | repetition | S004: sự thay đổi nhu cầu |
+| 10 | S007 | người mua | repetition | S006: người mua nhà |
+| 11 | S007 | giảm | repetition | S005: giảm mạnh nhất |
+| 12 | S008 | nhu cầu | repetition | S007: nhu cầu của người mua |
+| 13 | S009 | người mua | repetition | S007: người mua |
+| 14 | S010 | trong quý | repetition | S005: quý 4/2024 |
+| 15 | S011 | Sydney | repetition | S010: Giá nhà Sydney giảm |
+| 16 | S011 | sụt giảm | synonym | S010: đã giảm 0,1% |
+| 17 | S011 | hai quý | repetition | S010: trong quý |
+| 18 | S012 | cho thấy | synonym | S006: dữ liệu phản ảnh |
+| 19 | S012 | Sydney | repetition | S011: Sydney |
+| 20 | S012 | giảm | repetition | S011: sụt giảm |
+| 21 | S013 | sự thay đổi lớn | repetition | S006: sự thay đổi |
+| 22 | S014 | giá nhà | repetition | S013: Giá nhà Gold Coast hạ nhiệt |
+| 23 | S014 | giảm | repetition | S012: đã giảm 22,1% |
+| 24 | S015 | giá nhà | repetition | S014: giá nhà |
+| 25 | S015 | giảm | repetition | S014: giảm 22,4% |
+| 26 | S016 | Người mua nhà lần đầu | repetition | S009: nhiều người mua |
+| 27 | S016 | tăng mạnh nhất | repetition | S009: giá cả tăng cao |
+| 28 | S017 | tăng | repetition | S016: tăng mạnh nhất |
+| 29 | S018 | cho rằng | synonym | S008: bà nói |
+| 30 | S018 | người mua nhà lần đầu | repetition | S016: Người mua nhà lần đầu |
+| 31 | S019 | Melbourne | repetition | S016: ở Melbourne |
+| 32 | S020 | hoạt động | repetition | S018: hoạt động tích cực |
+| 33 | S020 | ghi nhận | repetition | S013: ghi nhận |
+| 34 | S021 | phản ảnh | repetition | S006: dữ liệu phản ảnh |
+| 35 | S022 | chứng kiến | repetition | S011: Sydney chứng kiến |
+| 36 | S022 | giảm | repetition | S015: giảm 21,1% |
+| 37 | S023 | trải qua | repetition | S004: đang trải qua |
+| 38 | S023 | giá căn hộ | repetition | S022: giá căn hộ |
+| 39 | S024 | giảm | repetition | S022: giảm 33,3% |
+| 40 | S025 | Các thị trường nhỏ hơn | repetition | S020: Thị trường ở đây |
+| 41 | S026 | thị trấn | repetition | S024: thị trấn ven biển |
+| 42 | S026 | giảm | repetition | S024: giảm 20,5% |
+| 43 | S027 | giảm 1,5% | repetition | S026: giảm 19,6% |
+| 44 | S028 | tăng | repetition | S020: sự tăng trưởng |
+| 45 | S029 | căn hộ | repetition | S027: giá căn hộ |
+| 46 | S030 | giảm | repetition | S027: giảm 1,5% |
+| 47 | S031 | năm 2025 | repetition | S002: năm 2025 |
+| 48 | S032 | chứng kiến | repetition | S022: Chadstone chứng kiến |
+| 49 | S033 | gia tăng | synonym | S032: mức tăng trưởng hàng năm |
+| 50 | S036 | Năm 2025 | repetition | S031: năm 2025 |
+| 51 | S037 | điều kiện | repetition | S032: tạo điều kiện thuận lợi |
+| 52 | S037 | tích lũy | repetition | S021: giá trị tích lũy |
+| 53 | S037 | năm 2024 | repetition | S020: quý cuối năm 2024 |
+| 54 | S038 | thay đổi | repetition | S025: những thay đổi này |
+| 55 | S038 | thấy | repetition | S007: chúng tôi thấy |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -532,38 +667,30 @@ suất (gap 6; lệch nghĩa §8d).
   dẫn (S007–S008, S019–S020, S022–S023, S039–S040 EN) là câu thật (dấu chấm
   thật trong lời trích), quyết định [LC]/[TC] lấy theo câu thật.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 16 | 16 | §4.1 (R-EN1–EN16); 14 hướng A + 2 hướng C (S001 "These", S010 "it" — đều conf low, §8b/e); không có ref=E |
-| EN — S | 1 | 1 | §3 (S-EN1 "one"), [TC] |
-| EN — E | 0 | 0 | §2: EN không có tỉnh lược |
-| EN — C | 10 | 10 | §5: adversative 5 · additive 4 · temporal 1 |
-| EN — L | 49 | 49 | §6.3 theo chính sách §6.1 (5 hàng có alt "R: the") |
-| VI — R | 15 | 15 | §4.2 (R-VI1–VI15); toàn bộ hướng A |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 1 | 1 | §2 (E-VI1), [TC] |
-| VI — C | 11 | 11 | §5: adversative 5 · additive 5 · temporal 1 (2 hàng tự sinh) |
-| VI — L | 43 | 43 | §6.3 theo chính sách §6.1 |
+| EN — R | 16 | 16 | §4 |
+| EN — S | 1 | 1 | §3 |
+| EN — C | 10 | 10 | §5 |
+| EN — E | 0 | 0 | §2 |
+| EN — L | 105 | 105 | §6 (pilot 49 + v2 56) |
+| VI — R | 15 | 15 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 11 | 11 | §5 |
+| VI — E | 1 | 1 | §2 |
+| VI — L | 98 | 98 | §6 (pilot 43 + v2 55) |
 
-**Kết luận:**
-- Tin 40/38 câu (6 hàng subhead EN, 5 subhead + 1 headline VI) với mật độ EN
-  76/40 ≈ 1,90 tie/câu và VI 70/38 ≈ 1,84 — cao hơn P01 (1,6) vì thể loại
-  listicle thống kê: trường giá hiện diện gần như mỗi câu và là xương sống
-  liên kết (EN 15 + VI 14 mark L cho riêng chuỗi này).
-- EN đậm hơn VI (76 vs 70) — ngược P17: VI cắt khối S022–S023, nửa sau S005 và
-  nhiều định ngữ nên mất một số điểm tái lập chuỗi (nguồn cung, thủ phủ,
-  median, Victorian town chỉ còn EN); bù lại VI tự sinh 2 liên từ [LC] và các
-  khung đóng riêng.
-- Quy chiếu gần đối xứng 16↔15, toàn bộ hướng A trừ 2 hàng C của EN do cấu
-  trúc nguồn (dek + thứ tự đoạn Sydney); không có đại từ ngôi 1/2 nào đủ điều
-  kiện [LC] hai phía (attribution đều cùng câu hoặc cách ≥2 câu); VI chuộng
-  danh ngữ chỉ từ + danh từ ("Sự trì hoãn này", "Thị trường ở đây") nơi EN dùng
-  đại từ thuần.
-- Chỉ 2 hàng [TC] trong tie table (S-EN1 "one"; E-VI1 ∅ chủ ngữ S037) — mọi
-  kết luận về liên kết liên câu của cặp này dựa trên 144 hàng [LC]; hai hàng
-  [TC] không dùng làm bằng chứng liên câu.
-- Số đếm tay khớp tie table 10/10 ô — kiểm chứng bằng `pipeline.annotate` và
-  `pipeline.render`: cả hai cổng in **PASS** (cập nhật cột "Đã ghi tie table"
-  sau khi PASS).
+- Tổng tie: EN **132** / VI **125** (pilot: EN 76 / VI 70).
+- Bổ sung v2 (56 EN + 55 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 105 (80%),
+  L-VI 98 (78%).
+- L-EN (105) > L-VI (98): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 16 / VI 15 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 0 / VI 1; thế EN 1 / VI 0;
+  nối EN 10 / VI 11.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

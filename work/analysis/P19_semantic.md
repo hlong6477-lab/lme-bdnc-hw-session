@@ -371,6 +371,108 @@ câu — khung mở–đóng).
   EN/VI là bình thường (CONVENTIONS §1): EN "The case" (S003, đổi từ) được
   đánh dấu trong khi VI "Vụ kiện" (S004) lặp kề S003 nên chỉ inventory.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 36 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | A lawsuit | repetition | S001: a class action lawsuit |
+| 2 | S002 | air carriers | synonym | S001: eight airlines |
+| 3 | S003 | tickets | repetition | S001: ticket price-fixing |
+| 4 | S003 | airlines | repetition | S001: eight airlines (S002: air carriers) |
+| 5 | S003 | involves | repetition | S001: involving ticket price-fixing |
+| 6 | S004 | a lawsuit | repetition | S002: A lawsuit |
+| 7 | S004 | continues | repetition | S002: A lawsuit continues |
+| 8 | S005 | agreed | synonym | S004: Settlements have been reached |
+| 9 | S005 | refund | synonym | S001: eligible for benefits |
+| 10 | S007 | industry | repetition | S006: the air cargo industry |
+| 11 | S007 | air cargo | repetition | S006: price-fixing in the air cargo industry |
+| 12 | S007 | carriers | repetition | S002: five more air carriers |
+| 13 | S008 | cargo | repetition | S007: air cargo carriers |
+| 14 | S008 | carried | repetition | S007: air cargo carriers |
+| 15 | S008 | air passenger | repetition | S007: the air passenger industry |
+| 16 | S010 | said | general word | S006: explains |
+| 17 | S010 | our case | repetition | S006: the case |
+| 18 | S010 | defendants | synonym | S002: accused of the same thing |
+| 19 | S011 | Zapala | repetition | S010: said Zapala |
+| 20 | S011 | said | repetition | S010: said Zapala |
+| 21 | S012 | paid | synonym | S005: have agreed to refund nearly $40 million |
+| 22 | S013 | exaplined | repetition | S006: explains |
+| 23 | S014 | said | repetition | S011: Zapala said |
+| 24 | S014 | money | repetition | S011: how much money |
+| 25 | S014 | uncovering | synonym | S006: U.S. government investigations into price-fixing |
+| 26 | S014 | businesses | general word | S007: the same players (S001: eight airlines) |
+| 27 | S015 | claims | synonym | S014: The attorney said |
+| 28 | S015 | trans-Pacific | repetition | S001: flew on eight airlines across the Pacific |
+| 29 | S015 | travel | repetition | S001: Travelers |
+| 30 | S016 | Pacific | repetition | S015: trans-Pacific travel |
+| 31 | S016 | involved | repetition | S003: The case involves |
+| 32 | S018 | deny | repetition | S017: deny the allegation |
+| 33 | S018 | liability | repetition | S017: any liability |
+| 34 | S019 | ANA | repetition | S018: All Nippon Airways (ANA) |
+| 35 | S020 | file | repetition | S013: file claims |
+| 36 | S021 | obtained | synonym | S011: how much money passengers potentially can get |
+
+
+Phía VI — 42 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | vụ kiện | repetition | S001: một vụ kiện tập thể |
+| 2 | S002 | hãng máy bay | synonym | S001: 8 hãng hàng không |
+| 3 | S003 | vụ kiện tập thể | repetition | S002: vụ kiện (S001: một vụ kiện tập thể) |
+| 4 | S003 | xuyên Thái Bình Dương | repetition | S001: bay xuyên Thái Bình Dương |
+| 5 | S003 | chuyến bay | repetition | S001: bay xuyên Thái Bình Dương |
+| 6 | S004 | Vụ kiện | repetition | S003: một vụ kiện tập thể |
+| 7 | S004 | liên quan | repetition | S001: liên quan đến vụ lũng đoạn giá vé |
+| 8 | S004 | vé máy bay | repetition | S001: lũng đoạn giá vé |
+| 9 | S004 | hãng hàng không | repetition | S001: 8 hãng hàng không (S002: hãng máy bay) |
+| 10 | S005 | vụ kiện | repetition | S004: Vụ kiện |
+| 11 | S005 | tiếp tục | repetition | S002: vụ kiện đang tiếp tục |
+| 12 | S006 | Các hãng | repetition | S005: 8 hãng hàng không |
+| 13 | S006 | đồng ý | synonym | S005: đã thỏa thuận giải quyết |
+| 14 | S007 | giải thích | synonym | S002: tường trình |
+| 15 | S008 | nói | general word | S007: giải thích |
+| 16 | S008 | vận tải | repetition | S007: ngành công nghiệp vận tải hàng không |
+| 17 | S008 | hành khách | repetition | S003: Hành khách |
+| 18 | S009 | hàng hóa | repetition | S008: vận tải hàng hóa |
+| 19 | S009 | hành khách | repetition | S008: vận tải hành khách |
+| 20 | S010 | hàng hóa | repetition | S009: một lượng hàng hóa lớn |
+| 21 | S010 | vận chuyển | synonym | S009: được chuyên chở |
+| 22 | S010 | giá cước | repetition | S007: lũng đoạn giá cả |
+| 23 | S011 | vụ kiện | repetition | S007: vụ kiện này |
+| 24 | S012 | nói | repetition | S008: nói |
+| 25 | S012 | bồi thường | repetition | S003: có thể được bồi thường |
+| 26 | S012 | chia | repetition | S001: sẽ được chia tiền thắng kiện |
+| 27 | S013 | cho biết | synonym | S012: nói |
+| 28 | S013 | bồi thường | repetition | S012: đòi bồi thường |
+| 29 | S013 | trả | repetition | S006: đồng ý trả lại gần 40 triệu đôla |
+| 30 | S014 | hành khách | repetition | S013: hành khách |
+| 31 | S014 | chia | repetition | S012: số tiền được chia |
+| 32 | S015 | nói | repetition | S013: cho biết (S012: nói) |
+| 33 | S015 | tiền bạc | repetition | S012: số tiền |
+| 34 | S016 | chuyến bay | repetition | S013: số chuyến bay |
+| 35 | S016 | xuyên Thái Bình Dương | repetition | S003: các chuyến bay xuyên Thái Bình Dương |
+| 36 | S016 | tiền | repetition | S015: tiền bạc |
+| 37 | S017 | Thái Bình Dương | repetition | S016: xuyên Thái Bình Dương |
+| 38 | S017 | Hoa Kỳ | synonym | S007: chính phủ Mỹ |
+| 39 | S019 | bị kiện | repetition | S016: Các hãng hàng không bị kiện |
+| 40 | S019 | phủ nhận trách nhiệm | repetition | S018: bác bỏ cáo buộc và phủ nhận trách nhiệm |
+| 41 | S020 | ANA | repetition | S019: All Nippon Airways (ANA) |
+| 42 | S020 | thừa nhận | antonym | S019: phủ nhận trách nhiệm |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -434,37 +536,30 @@ câu — khung mở–đóng).
   VI lược "$40M" và "Settlement", giữ "Hành khách"; không dùng làm bằng
   chứng cấp câu.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 7 | 7 | §4.1 (R-EN1–EN7); toàn bộ hướng A; 1 hàng đại từ attribution, 1 hàng "the" duy nhất (S012) |
-| EN — S | 0 | 0 | §3: không có phép thế |
-| EN — E | 1 | 1 | §2 (E-EN1), [TC] — không dùng làm bằng chứng liên câu |
-| EN — C | 5 | 5 | §5: 4 additive + 1 adversative, đối ứng 1–1 với VI |
-| EN — L | 29 | 29 | §6.3 theo chính sách §6.1 (8 hàng có alt "R: the/such") |
-| VI — R | 6 | 6 | §4.2 (R-VI1–VI6); toàn bộ hướng A |
-| VI — S | 0 | 0 | §3: không có phép thế |
-| VI — E | 0 | 0 | §2: không có zero khả hồi; EN E [TC] được VI lấp đầy |
-| VI — C | 5 | 5 | §5: đối xứng 5↔5 với EN ("However"↔"Riêng" đổi dạng thức) |
-| VI — L | 30 | 30 | §6.3 theo chính sách §6.1 |
+| EN — R | 7 | 7 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 5 | 5 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 65 | 65 | §6 (pilot 29 + v2 36) |
+| VI — R | 6 | 6 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 5 | 5 | §5 |
+| VI — E | 0 | 0 | §2 |
+| VI — L | 72 | 72 | §6 (pilot 30 + v2 42) |
 
-**Kết luận:**
-- Tin 21/22 câu với mật độ cao: EN 42/21 = 2,0 tie/câu, VI 41/22 ≈ 1,86 —
-  đậm hơn P01 (1,6) vì văn bản pháp lý lặp thuật ngữ dày (vụ kiện/hãng/lũng
-  đoạn giá/hồ sơ) và nguồn có đoạn dư thừa (§8b, §8c); mọi hàng đều quyết
-  định bằng đọc hiểu theo chính sách §6.1.
-- Quy chiếu toàn bộ hướng A, không ref=E; VI không dùng đại từ nhân xưng liên
-  câu nào — VI neo bằng danh từ + chỉ từ ("vụ kiện này", "thời gian đó",
-  "việc này") hoặc lặp danh từ → 4/7 hàng R của EN thành L phía VI (dịch
-  chuyển R→L chủ đạo).
-- Nối đối xứng tuyệt đối 5↔5 về vị trí tương ứng, chỉ có "However"↔"Riêng"
-  đổi dạng thức (tương phản → ngoại lệ hóa); 3 nối additive nằm trong khối
-  trích dẫn lập luận của Zapala.
-- Từ vựng là thiết bị chủ lực (EN 29, VI 30); chuỗi danh xưng Zapala là điểm
-  đặc trưng VI (Ông↔Luật sư luân phiên 4 mark) đối lại EN dùng 1 đại từ + 1
-  rút gọn; duy nhất 1 hàng [TC] trong tie table (E-EN1) — mọi hàng còn lại
-  đều [LC], dùng được làm bằng chứng liên kết liên câu.
-- Số đếm tay khớp tie table 10/10 ô — đã kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 42 ties R7/S0/E1/C5/L29;
-  VI 41 ties R6/S0/E0/C5/L30).
+- Tổng tie: EN **78** / VI **83** (pilot: EN 42 / VI 41).
+- Bổ sung v2 (36 EN + 42 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 65 (83%),
+  L-VI 72 (87%).
+- L-VI (72) > L-EN (65): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 7 / VI 6 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 0; thế EN 0 / VI 0;
+  nối EN 5 / VI 5.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

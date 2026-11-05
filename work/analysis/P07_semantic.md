@@ -648,6 +648,194 @@ table lấy nguyên văn từng ký tự từ sentmap.
   trùng quan sát verba communicandi (EN communicate→relate→interact; VI đều là
   "giao tiếp/trò chuyện" — chỉ inventory).
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 78 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | the English language | repetition | S001: “English” |
+| 2 | S002 | Australians | repetition | S001: Aussie slang |
+| 3 | S003 | English | repetition | S002: the English language |
+| 4 | S004 | Australians | repetition | S002: Australians |
+| 5 | S008 | Australia | repetition | S004: particularly new Australians |
+| 6 | S011 | English | repetition | S003: really English |
+| 7 | S012 | “English” | repetition | S011: definitely English |
+| 8 | S012 | its stories | synonym | S002: the tale of |
+| 9 | S013 | a collection of stories | repetition | S012: its stories |
+| 10 | S013 | a language | repetition | S002: the English language |
+| 11 | S015 | hear | repetition | S014: we hear |
+| 12 | S016 | hear | repetition | S015: We hear |
+| 13 | S018 | English speakers | repetition | S017: meet English |
+| 14 | S019 | all French words | repetition | S018: (originally a Viking word) |
+| 15 | S020 | gave | repetition | S019: gave us “cuisine” |
+| 16 | S021 | new English words | repetition | S019: all French words |
+| 17 | S021 | tall tales | repetition | S020: “tall tales” |
+| 18 | S021 | true | repetition | S020: to be true |
+| 19 | S021 | the limits | repetition | S012: The limits of “English” (subhead) |
+| 20 | S022 | Australia | repetition | S008: in Australia |
+| 21 | S024 | lies | synonym | S021: Like tall tales |
+| 22 | S025 | Aussie words | repetition | S022: its words |
+| 23 | S026 | Australia’s English stories | repetition | S025: those stories |
+| 24 | S026 | history | repetition | S024: Australian history |
+| 25 | S028 | the British | repetition | S027: British formality |
+| 26 | S029 | The British | repetition | S028: the British |
+| 27 | S029 | the colony | repetition | S028: the Australian colony |
+| 28 | S030 | The British called themselves | repetition | S029: The British called them |
+| 29 | S030 | valuable | antonym | S029: had no value |
+| 30 | S031 | Aussies | repetition | S028: the Australian colony |
+| 31 | S033 | The word | repetition | S025: Aussie words |
+| 32 | S034 | Australians | repetition | S032: embedded in Australia |
+| 33 | S035 | The word | repetition | S033: The word “afternoon” |
+| 34 | S038 | a word like “bloody” | repetition | S037: Many British words |
+| 35 | S038 | in Britain | repetition | S030: the British Empire |
+| 36 | S038 | Australia | repetition | S037: the Aussie experience |
+| 37 | S039 | In Britain | repetition | S038: in Britain |
+| 38 | S040 | In Australia | repetition | S038: in Australia |
+| 39 | S040 | the “larrikin” | repetition | S039: the “larrikin” |
+| 40 | S043 | our English words | repetition | S038: a word like “bloody” |
+| 41 | S043 | yarns | repetition | S042: These stories - or yarns |
+| 42 | S044 | meaning | repetition | S006: (it means very good) |
+| 43 | S045 | Aussies | repetition | S043: a more Aussie feel |
+| 44 | S045 | “dinkum” | repetition | S044: “Dinkum” |
+| 45 | S046 | links | repetition | S045: linking “dinkum” to the goldfields |
+| 46 | S046 | meaning | repetition | S044: meaning |
+| 47 | S047 | goldfields gamblers | collocation | S046: Chinese goldminers |
+| 48 | S047 | “fair dinkum” | repetition | S045: “dinkum” |
+| 49 | S048 | “dinkum” | repetition | S047: “fair dinkum” |
+| 50 | S049 | a story | repetition | S048: These goldfields stories |
+| 51 | S050 | stories | repetition | S049: a story |
+| 52 | S050 | accurate or not | repetition | S049: that accuracy |
+| 53 | S051 | important | repetition | S049: not that important |
+| 54 | S051 | stories | repetition | S050: stories |
+| 55 | S053 | evolved | repetition | S040: soon evolved into |
+| 56 | S054 | interact | synonym | S051: how we relate |
+| 57 | S054 | important | repetition | S051: important |
+| 58 | S055 | Aussies | repetition | S054: Aussies interact |
+| 59 | S055 | say | repetition | S047: reputedly said |
+| 60 | S056 | Australian English | repetition | S003: Australian English |
+| 61 | S058 | funny | synonym | S054: These humorous idioms |
+| 62 | S059 | Australian English | repetition | S058: Australian English |
+| 63 | S059 | new Australians and old | repetition | S004: particularly new Australians |
+| 64 | S059 | relate | repetition | S051: how we relate to one another |
+| 65 | S061 | galah | repetition | S060: a “galah” |
+| 66 | S061 | saying | synonym | S046: meaning “real gold” |
+| 67 | S062 | said | repetition | S055: might say |
+| 68 | S063 | asked | repetition | S061: He asked |
+| 69 | S065 | smiled | repetition | S025: a sly wink and smile |
+| 70 | S066 | words | repetition | S065: Australian words |
+| 71 | S066 | don’t know | repetition | S063: Do Americans know that? |
+| 72 | S067 | added | synonym | S062: laughed and said |
+| 73 | S068 | pink | repetition | S067: ‘pink-atoo’ |
+| 74 | S068 | ‘cockatoo’ | collocation | S067: ‘pink-atoo’ |
+| 75 | S070 | keep growing | synonym | S053: has evolved into |
+| 76 | S072 | language | repetition | S013: a language |
+| 77 | S073 | history | repetition | S026: our history |
+| 78 | S073 | evolution | repetition | S070: keep growing |
+
+
+Phía VI — 86 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | tiếng Anh | repetition | S001: được xem là "tiếng Anh" |
+| 2 | S002 | người Úc | repetition | S001: tiếng lóng và thành ngữ Úc |
+| 3 | S003 | tiếng Anh | repetition | S002: biến tiếng Anh thành ngôn ngữ của riêng mình |
+| 4 | S004 | người Úc | repetition | S002: người Úc |
+| 5 | S008 | Úc | repetition | S004: những người Úc mới đến |
+| 6 | S008 | "mate" | repetition | S007: "Mate" là ai? |
+| 7 | S011 | tiếng Anh | repetition | S003: là tiếng Anh |
+| 8 | S012 | tiếng Anh | repetition | S011: đó là tiếng Anh |
+| 9 | S013 | ngôn ngữ | repetition | S002: ngôn ngữ của riêng mình |
+| 10 | S013 | những câu chuyện | repetition | S012: các câu chuyện (subhead) |
+| 11 | S015 | nghe thấy | repetition | S014: chúng ta sẽ nghe thấy |
+| 12 | S016 | nghe thấy | repetition | S015: Chúng ta nghe thấy |
+| 13 | S017 | ngôn ngữ | repetition | S013: một ngôn ngữ |
+| 14 | S018 | người nói tiếng Anh | repetition | S017: Những người từng nói tiếng Anh |
+| 15 | S019 | các từ này | repetition | S018: một từ của người Viking |
+| 16 | S020 | mang đến | repetition | S019: đã mang đến cho chúng ta |
+| 17 | S021 | những câu chuyện cổ tích | repetition | S020: "những câu chuyện cổ tích" |
+| 18 | S021 | những từ tiếng Anh mới | repetition | S019: các từ này |
+| 19 | S021 | sự thật | repetition | S020: khó có thể là sự thật |
+| 20 | S021 | giới hạn | synonym | S012: Những hạn chế của tiếng Anh (subhead) |
+| 21 | S022 | Nước Úc | repetition | S008: ở Úc |
+| 22 | S022 | tiếng Anh | repetition | S021: những từ tiếng Anh mới |
+| 23 | S024 | những lời nói dối đẹp đẽ nhất | synonym | S021: những câu chuyện cổ tích |
+| 24 | S025 | các từ ngữ Úc | repetition | S021: những từ tiếng Anh mới |
+| 25 | S026 | những câu chuyện tiếng Anh của Úc | repetition | S025: những câu chuyện |
+| 26 | S026 | lịch sử | repetition | S024: Lịch sử Úc |
+| 27 | S028 | người Anh | repetition | S027: tính thứ bậc của người Anh |
+| 28 | S029 | Người Anh gọi | repetition | S028: người Anh chế giễu |
+| 29 | S029 | thuộc địa | repetition | S028: thuộc địa Úc |
+| 30 | S030 | Người Anh tự gọi mình | repetition | S029: Người Anh gọi họ |
+| 31 | S030 | có giá trị | antonym | S029: không có giá trị |
+| 32 | S031 | người Úc | repetition | S028: thuộc địa Úc |
+| 33 | S033 | Từ | repetition | S025: các từ ngữ Úc |
+| 34 | S034 | người Úc | repetition | S032: nước Úc |
+| 35 | S035 | Từ | repetition | S033: Từ "buổi chiều" |
+| 36 | S037 | Nhiều từ tiếng Anh | repetition | S035: Từ "người Úc" |
+| 37 | S038 | từ "bloody" | repetition | S037: Nhiều từ tiếng Anh |
+| 38 | S038 | ở Anh | repetition | S030: Đế quốc Anh |
+| 39 | S038 | nước Úc | repetition | S037: trải nghiệm của người Úc |
+| 40 | S039 | Ở Anh | repetition | S038: ở Anh |
+| 41 | S039 | có nghĩa là | repetition | S006: (nghĩa là rất tốt) |
+| 42 | S040 | Ở Úc | repetition | S038: thì ở Úc |
+| 43 | S040 | larrikin | repetition | S039: "larrikin" |
+| 44 | S040 | có nghĩa là | repetition | S039: có nghĩa là |
+| 45 | S043 | các câu chuyện | repetition | S042: Những câu chuyện này |
+| 46 | S043 | các từ ngữ tiếng Anh | repetition | S025: các từ ngữ Úc |
+| 47 | S044 | có nghĩa là | repetition | S040: có nghĩa là |
+| 48 | S045 | “dinkum” | repetition | S044: Từ “Dinkum” |
+| 49 | S045 | người Úc | repetition | S043: cảm giác kiểu Úc hơn |
+| 50 | S046 | liên hệ | repetition | S045: liên hệ “dinkum” với các mỏ vàng |
+| 51 | S046 | có nghĩa là | repetition | S044: có nghĩa là |
+| 52 | S047 | đào vàng | repetition | S046: những thợ đào vàng Trung Quốc |
+| 53 | S047 | “fair dinkum” | repetition | S045: “dinkum” |
+| 54 | S048 | “dinkum” | repetition | S047: “fair dinkum” |
+| 55 | S049 | một câu chuyện | repetition | S048: Những câu chuyện về mỏ vàng này |
+| 56 | S050 | câu chuyện | repetition | S049: một câu chuyện |
+| 57 | S050 | chính xác | repetition | S049: tính chính xác |
+| 58 | S051 | quan trọng | repetition | S049: không quá quan trọng |
+| 59 | S052 | sự dí dỏm | synonym | S051: dù hài hước hay khó tin |
+| 60 | S054 | trò chuyện | synonym | S051: cách chúng ta giao tiếp |
+| 61 | S054 | hài hước | repetition | S051: dù hài hước hay khó tin |
+| 62 | S054 | quan trọng | repetition | S051: đều quan trọng |
+| 63 | S055 | Người Úc | repetition | S054: cách người Úc trò chuyện |
+| 64 | S055 | nói | repetition | S047: được cho là nói tiếng Anh |
+| 65 | S056 | tiếng Anh Úc | repetition | S022: tiếng Anh Úc |
+| 66 | S058 | hài hước | repetition | S054: Những thành ngữ hài hước này |
+| 67 | S059 | tiếng Anh Úc | repetition | S058: Tiếng Anh Úc |
+| 68 | S059 | giao tiếp | repetition | S051: cách chúng ta giao tiếp |
+| 69 | S059 | người Úc mới | repetition | S004: những người Úc mới đến |
+| 70 | S061 | galah | repetition | S060: một con "galah" |
+| 71 | S061 | có nghĩa là | repetition | S053: đều có nghĩa là chơi đẹp |
+| 72 | S062 | nói | repetition | S055: họ có thể nói rằng |
+| 73 | S063 | hỏi | repetition | S061: Nó hỏi |
+| 74 | S063 | Người Mỹ | repetition | S020: Những chàng cao bồi Mỹ |
+| 75 | S064 | không biết | repetition | S063: có biết điều này không? |
+| 76 | S065 | mỉm cười | repetition | S025: nụ cười tinh quái |
+| 77 | S066 | từ | repetition | S065: các từ ngữ Úc |
+| 78 | S066 | không biết | repetition | S064: Hầu hết họ đều không biết |
+| 79 | S067 | nói thêm | repetition | S062: Tôi cười và nói |
+| 80 | S068 | màu hồng | repetition | S067: 'pink-atoo' |
+| 81 | S068 | 'cockatoo' | collocation | S067: 'pink-atoo' |
+| 82 | S070 | phát triển | repetition | S053: phát triển thành |
+| 83 | S072 | Tiến sĩ Howie Manns | repetition | S071: Tiến sĩ Howie Manns dẫn chương trình |
+| 84 | S072 | ngôn ngữ | repetition | S013: một ngôn ngữ |
+| 85 | S073 | lịch sử | repetition | S026: gắn liền với lịch sử |
+| 86 | S073 | sự phát triển | repetition | S070: tiếp tục phát triển |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn hai đầu |
@@ -743,48 +931,30 @@ table lấy nguyên văn từng ký tự từ sentmap.
   tập (S071, hai bên), và hàng [TC] duy nhất E-VI2 (TT S014). Mọi hàng R/C/L
   và E còn lại đều [LC].
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 43 | 43 | §4.1a (R-EN1–43): 39 hướng A + 4 hướng E; tiểu loại personal 29 / demonstrative 13 / comparative 1 |
-| EN — S | 0 | 0 | §3: không có phép thế nào ([LC] lẫn [TC]) |
-| EN — E | 4 | 4 | §2.1 (E-EN1–4), toàn bộ [LC] |
-| EN — C | 8 | 8 | §5.1 (C-EN1–8), toàn bộ [LC] (6 adversative, 1 additive, 1 temporal) |
-| EN — L | 40 | 40 | §6.3 (L-EN1–40) theo chính sách §6.1 (33 repetition, 4 synonym, 2 antonym, 1 collocation) |
-| VI — R | 41 | 41 | §4.1b (R-VI1–41): 36 A + 5 E; tiểu loại personal 25 / demonstrative 15 / comparative 1; 1 hàng tự sinh (R-VI15 "bạn") |
-| VI — S | 0 | 0 | §3: không có phép thế nào |
-| VI — E | 4 | 4 | §2.2 (E-VI1–4): 3 [LC] + 1 [TC] (E-VI2, S014) |
-| VI — C | 9 | 9 | §5.2 (C-VI1–9), toàn bộ [LC]; 1 hàng tự sinh (C-VI4, S045) |
-| VI — L | 38 | 38 | §6.3 (L-VI1–38) theo chính sách §6.1 (35 repetition, 2 antonym, 1 collocation) |
+| EN — R | 43 | 43 | §4 |
+| EN — S | 0 | 0 | §3 |
+| EN — C | 8 | 8 | §5 |
+| EN — E | 4 | 4 | §2 |
+| EN — L | 118 | 118 | §6 (pilot 40 + v2 78) |
+| VI — R | 41 | 41 | §4 |
+| VI — S | 0 | 0 | §3 |
+| VI — C | 9 | 9 | §5 |
+| VI — E | 4 | 4 | §2 |
+| VI — L | 124 | 124 | §6 (pilot 38 + v2 86) |
 
-**Tổng đọc tay:** EN 95 tie (R43/S0/E4/C8/L40) trên 73 câu ≈ 1,30 tie/câu;
-VI 92 tie (R41/S0/E4/C9/L38) ≈ 1,26 tie/câu.
-
-**Kết luận:**
-
-- **Thiết bị chủ lực là quy chiếu + từ vựng** (EN 43+40 = 88% tổng; VI 41+38 =
-  86%): bài tự sự – giải thích ngôi "we" với chuỗi đại từ dày (11↔10 hàng
-  "chúng ta") và hệ thống thuật ngữ – thành ngữ chịu tải thông tin. C gần đối
-  xứng 8↔9 (VI tự sinh 1 adversative S045); E hiếm (4↔4), tập trung ở mảnh
-  đáp (S034, S057) và lời nói gián tiếp tách câu (S008, S064); **S = 0 hai
-  phía** — chức năng thế được đảm nhiệm bằng danh ngữ demonstrative ("từ này")
-  và lặp danh từ/gloss tiếng Anh.
-- **Mật độ 1,30/1,26 tie/câu — thấp hơn P01 (≈1,6) dù bài dài hơn 73 câu:**
-  kho ví dụ slang của P07 phần lớn chỉ xuất hiện một lần (grouse, mate,
-  Crikey, bloody, sanger… → inventory), và hai chuỗi dày nhất (Australia/
-  Aussie/người Úc; English/tiếng Anh trần) chỉ inventory theo §8.1.
-- **Bất đối xứng nổi bật:** (i) VI hiện thực hóa 4 vị trí đại từ EN thành danh
-  ngữ demonstrative, thêm honorific "Ông" (S073) và "nó" vô tri cho trẻ em
-  (S061/S063/S067) — VI ưa neo danh ngữ; (ii) EN S026 "our"×2 bị VI lược →
-  chuỗi "chúng ta" phía VI phải nhảy 22 câu (R-VI16 ← S021 thay vì S026);
-  (iii) L: VI hội tụ "tiếng Anh Úc" (S022, không có hàng EN) nhưng phân rã
-  chuỗi "British" (S037/S044 → "tiếng Anh") và mất biến thể story↔yarn (S046)
-  — EN 40 / VI 38.
-- **Hàng [TC] duy nhất là E-VI2 (TT S014, zero chủ ngữ vế điều kiện)** — không
-  dùng làm bằng chứng cho bất kỳ kết luận nào về liên kết liên câu; mọi hàng
-  R/C/L và 3/4 hàng E đều [LC].
-- **Các vị trí artifact đã loại khỏi số đếm:** caption "Mark Twain" (S025), câu
-  hỏi lặp nguyên văn S003 (S056), dòng chú thích biên tập (S071) — không phát
-  sinh tie (§8); số đếm tay ở trên đã loại đúng các vị trí này, sẵn sàng cho
-  bước tie table đối chiếu.
+- Tổng tie: EN **173** / VI **178** (pilot: EN 95 / VI 92).
+- Bổ sung v2 (78 EN + 86 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 118 (68%),
+  L-VI 124 (70%).
+- L-VI (124) > L-EN (118): bản VI lặp danh từ/tên riêng
+  trực tiếp dày hơn (Trần Ngọc Thêm: phép lặp), EN thay bằng đại từ.
+- Quy chiếu EN 43 / VI 41 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 4 / VI 4; thế EN 0 / VI 0;
+  nối EN 8 / VI 9.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.

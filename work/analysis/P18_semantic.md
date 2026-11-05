@@ -364,6 +364,117 @@ cùng câu; S022 kề không tính) · S024 62 triệu em bé, lặp ← S022 t�
   riêng lặp dày (UNICEF, Myanmar, Bangkok), thành phần trong tổ hợp khác (cứu
   trợ) đều nằm trong kho §6.2 nhưng không đánh dấu.
 
+### 6.4. Bổ sung L theo chính sách v2 (2026-11-05)
+
+Theo chỉ thị giảng viên (phân tích kỹ hơn, đánh dấu nhiều hơn), chính
+sách L được nới rộng (CONVENTIONS §8.1 v2): lặp cùng dạng kể cả câu kề,
+từ đơn có nội dung thực, chuỗi động từ attribution, tái lập tại điểm nối
+diễn ngôn. Kho chuỗi §6.2 được rà lại; các hàng L mới là quyết định đọc
+hiểu tay (không regex/word-list), mỗi hàng 1 mark/câu/chuỗi, ante luôn
+nằm trước. Danh sách hàng bổ sung (đối soát 2 cổng QC PASS):
+
+Phía EN — 48 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | says | repetition | S001: Childrens' Fund says |
+| 2 | S002 | Myanmar | repetition | S001: in Myanmar |
+| 3 | S003 | funding priorities | repetition | S002: regional priorities |
+| 4 | S004 | Myanmar | repetition | S002: Myanmar |
+| 5 | S004 | assistance | synonym | S001: humanitarian support |
+| 6 | S005 | UNICEF | repetition | S002: UNICEF |
+| 7 | S005 | said | repetition | S002: says |
+| 8 | S005 | states | repetition | S001: several states |
+| 9 | S006 | Rakhine | repetition | S005: Rakhine states |
+| 10 | S008 | challenges | repetition | S007: posed a challenge |
+| 11 | S008 | access | repetition | S007: Getting access |
+| 12 | S010 | said | repetition | S005: UNICEF said |
+| 13 | S011 | Carmen van Heese | repetition | S010: said van Heese |
+| 14 | S011 | UNICEF's | repetition | S005: UNICEF |
+| 15 | S011 | emergency advisor | repetition | S005: protracted emergencies |
+| 16 | S011 | stressed | synonym | S010: said |
+| 17 | S011 | provide | repetition | S009: providing life-saving support |
+| 18 | S011 | aid | repetition | S007: aid organizations |
+| 19 | S012 | Van Heese | repetition | S011: Carmen van Heese |
+| 20 | S012 | said | synonym | S011: stressed |
+| 21 | S012 | needed | repetition | S005: in need of |
+| 22 | S012 | assistance | repetition | S004: expand assistance |
+| 23 | S012 | emergency stocks | repetition | S011: emergency advisor |
+| 24 | S012 | affected | repetition | S006: has been affected |
+| 25 | S014 | organization | repetition | S002: the U.N. organization's |
+| 26 | S014 | provide | repetition | S011: provide aid |
+| 27 | S015 | agencies | synonym | S007: aid organizations |
+| 28 | S016 | said | repetition | S012: Van Heese said |
+| 29 | S017 | UNICEF’s | repetition | S011: UNICEF's |
+| 30 | S017 | said | repetition | S016: said van Heese |
+| 31 | S017 | critical need | repetition | S012: is needed |
+| 32 | S017 | nutrition | repetition | S004: severe acute malnutrition |
+| 33 | S018 | UNICEF | repetition | S017: UNICEF’s |
+| 34 | S019 | said | repetition | S017: appeal said |
+| 35 | S019 | affected | repetition | S012: may be affected |
+| 36 | S019 | conflict | synonym | S006: inter-communal violence |
+| 37 | S019 | the southern Philippines | repetition | S018: the Philippines |
+| 38 | S020 | UNICEF | repetition | S018: According to UNICEF |
+| 39 | S020 | the Philippines | repetition | S019: the southern Philippines |
+| 40 | S020 | children | repetition | S019: children |
+| 41 | S020 | access | repetition | S008: challenges on access |
+| 42 | S020 | education | repetition | S017: hygiene and education |
+| 43 | S020 | violence | repetition | S006: inter-communal violence |
+| 44 | S021 | largest | repetition | S002: largest-ever funding appeal |
+| 45 | S021 | UNICEF | repetition | S020: UNICEF |
+| 46 | S021 | funding needs | repetition | S003: funding priorities |
+| 47 | S022 | says | repetition | S019: The organization said |
+| 48 | S022 | assist | repetition | S017: humanitarian assistance |
+
+
+Phía VI — 39 hàng bổ sung:
+
+| # | sent | text | sub | ante |
+|---:|---|---|---|---|
+| 1 | S002 | UNICEF | repetition | S001: Quĩ Nhi đồng Liên hiệp quốc (UNICEF) |
+| 2 | S002 | nói | synonym | S001: cho biết |
+| 3 | S002 | Myanmar | repetition | S001: của Myanmar |
+| 4 | S002 | giúp đỡ | synonym | S001: sự hỗ trợ nhân đạo |
+| 5 | S004 | cho biết | synonym | S002: nói |
+| 6 | S004 | Myanmar | repetition | S002: Myanmar |
+| 7 | S004 | cuộc vận động quyên góp | repetition | S002: lời kêu gọi quyên góp |
+| 8 | S005 | UNICEF | repetition | S002: UNICEF |
+| 9 | S005 | Myanmar | repetition | S004: Myanmar |
+| 10 | S005 | quyên góp | repetition | S004: cuộc vận động quyên góp |
+| 11 | S006 | UNICEF | repetition | S005: UNICEF |
+| 12 | S006 | cho biết | repetition | S004: cho biết |
+| 13 | S006 | tiểu bang | repetition | S001: một số tiểu bang |
+| 14 | S007 | xung đột | repetition | S006: những vụ xung đột kéo dài |
+| 15 | S007 | Rakhine | repetition | S006: hai tiểu bang Shan và Rakhine |
+| 16 | S008 | cứu trợ | synonym | S006: sự trợ giúp nhân đạo |
+| 17 | S011 | UNICEF | repetition | S006: UNICEF |
+| 18 | S011 | cho biết | repetition | S006: cho biết |
+| 19 | S014 | nói thêm | synonym | S011: cho biết như sau |
+| 20 | S014 | cứu trợ | repetition | S008: Các tổ chức cứu trợ |
+| 21 | S015 | Bà van Heese | repetition | S014: Bà van Heese nói thêm |
+| 22 | S015 | nói | repetition | S014: nói thêm |
+| 23 | S015 | lũ lụt | repetition | S014: bị ảnh hưởng của lũ lụt |
+| 24 | S015 | Bắc Triều Tiên | repetition | S014: Bắc Triều Tiên nghèo khó |
+| 25 | S016 | cung cấp | repetition | S012: để cung cấp những sự trợ giúp |
+| 26 | S016 | một tổ chức | repetition | S004: tổ chức này |
+| 27 | S017 | cơ quan | synonym | S016: trong tư cách là một tổ chức |
+| 28 | S019 | UNICEF | repetition | S011: cố vấn của UNICEF |
+| 29 | S019 | nói | repetition | S015: Bà van Heese nói |
+| 30 | S019 | nhu cầu tối cần thiết | repetition | S016: cần phải tiếp tục tìm kiếm |
+| 31 | S019 | dinh dưỡng | repetition | S005: bị suy dinh dưỡng nặng |
+| 32 | S020 | UNICEF | repetition | S019: của UNICEF |
+| 33 | S021 | nói | repetition | S019: của UNICEF nói rằng |
+| 34 | S021 | tác động | synonym | S014: có thể bị ảnh hưởng |
+| 35 | S022 | trẻ em | repetition | S021: trẻ em |
+| 36 | S022 | UNICEF | repetition | S020: Theo UNICEF |
+| 37 | S022 | những hành vi bạo lực | synonym | S021: cuộc xung đột kéo dài nhiều thập niên |
+| 38 | S023 | UNICEF | repetition | S022: khiến UNICEF kêu gọi |
+| 39 | S024 | giúp đỡ | repetition | S022: để giúp Philippines giảm tử suất trẻ em |
+
+Số đếm §9 dưới đây đã gộp toàn bộ phần bổ sung này. Các kết luận §6.5
+(nếu có) của bản pilot về "chọn lọc lặp kề" không còn áp dụng — thay
+bằng chính sách v2.
+
 ## 7. Các dịch chuyển liên kết nổi bật (tổng hợp)
 
 | Kiểu dịch chuyển | Số lần | Ví dụ nguyên văn |
@@ -426,37 +537,30 @@ cùng câu; S022 kề không tính) · S024 62 triệu em bé, lặp ← S022 t�
   (body chỉ dùng "Myanmar") và "Triều Tiên" (body "Bắc Triều Tiên") — lệch từ
   vựng tiêu đề–body; chỉ so sánh định tính, không có tie table.
 
-## 9. Đối chiếu số đếm: phân tích tay ↔ tie table
+## 9. Đối chiếu số đếm: phân tích tay ↔ tie table (cập nhật v2 2026-11-05)
 
-| Chỉ số | Đọc tay | Đã ghi tie table | Ghi chú |
+| Chỉ số | Phân tích | Tie table | Ghi chú |
 |---|---:|---:|---|
-| EN — R | 7 | 7 | §4.1 (R-EN1–EN7); toàn bộ hướng A; 3 hàng "the"+NP liên kết duy nhất |
-| EN — S | 1 | 1 | §3 (S-EN1 "the same thing"), [LC] |
-| EN — E | 1 | 1 | §2 (E-EN1 "the largest ∅ ever"), [TC] — không dùng làm bằng chứng liên câu |
-| EN — C | 3 | 3 | §5 (But/And/So); "So" không đối ứng VI |
-| EN — L | 24 | 24 | §6.3 theo chính sách §6.1 (6 hàng alt: 5 "R: the" + 1 "R: this") |
-| VI — R | 8 | 8 | §4.2 (R-VI1–VI8); toàn bộ hướng A; 2 hàng ngôi 1 EN không có |
-| VI — S | 2 | 2 | §3: S-VI1 "như sau" [TC] tự sinh; S-VI2 "những việc như vậy" [LC] |
-| VI — E | 0 | 0 | §2: VI lấp đầy hết (EN E → VI hiện thực hóa) |
-| VI — C | 2 | 2 | §5 (Nhưng/Và), đối ứng 1–1 với But/And |
-| VI — L | 24 | 24 | §6.3 theo chính sách §6.1 (2 hàng alt: "R: đó" + "R: như sau" nằm ở S) |
+| EN — R | 7 | 7 | §4 |
+| EN — S | 1 | 1 | §3 |
+| EN — C | 3 | 3 | §5 |
+| EN — E | 1 | 1 | §2 |
+| EN — L | 72 | 72 | §6 (pilot 24 + v2 48) |
+| VI — R | 8 | 8 | §4 |
+| VI — S | 2 | 2 | §3 |
+| VI — C | 2 | 2 | §5 |
+| VI — E | 0 | 0 | §2 |
+| VI — L | 63 | 63 | §6 (pilot 24 + v2 39) |
 
-**Kết luận:**
-- Cặp 22/24 câu có tổng số tie cân bằng tuyệt đối 36↔36; mật độ EN 36/22 ≈ 1,64
-  tie/câu, VI 36/24 = 1,50 (VI "nhạt" hơn chỉ vì dài thêm 2 câu artifact + 1
-  câu attribution tự sinh).
-- Quy chiếu toàn bộ hướng A, không có ref=E (khác P01); khác biệt lớn nhất là
-  các đại từ ngôi 1 trong trích dẫn: EN 0 hàng (attribution đóng cuối khối) ↔
-  VI 2 hàng (VI đảo attribution lên đầu) — dịch chuyển cấu trúc attribution
-  tạo ra tie mới phía VI.
-- Nối 3↔2: "But"↔"Nhưng", "And"↔"Và" giữ 1–1; riêng "So" (EN S016) được VI
-  diễn đạt bằng nối ngầm — duy nhất một liên từ bị lược khi dịch.
-- Từ vựng là thiết bị chủ lực (24↔24) với chuỗi trẻ em (5↔5) và khung mở–đóng
-  "lời kêu gọi quyên góp / appeal" tái lập sau 19–21 câu; các bất đối xứng
-  đánh dấu (DPRK, lũ lụt, lui tới) đều do khác biệt hình thái hai phía, không
-  phải tie thiếu.
-- 70/72 hàng là [LC]; chỉ 2 hàng [TC] (E-EN1 S021, S-VI1 "như sau" S011) là lớp
-  bổ sung, không dùng làm bằng chứng cho bất kỳ kết luận nào về liên kết liên
-  câu. Số đếm tay khớp tie table 10/10 ô — kiểm chứng bằng `pipeline.annotate`
-  và `pipeline.render`: cả hai cổng in **PASS** (EN 36 ties R7/S1/E1/C3/L24;
-  VI 36 ties R8/S2/E0/C2/L24).
+- Tổng tie: EN **84** / VI **75** (pilot: EN 36 / VI 36).
+- Bổ sung v2 (48 EN + 39 VI hàng) theo chỉ thị giảng viên
+  2026-11-05 (CONVENTIONS §8.1 v2): lặp câu kề, từ đơn nội dung, động từ
+  attribution; đã PASS 2 cổng QC `pipeline.annotate` + `pipeline.render`.
+- Liên kết từ vựng giữ vai trò chủ lực: L-EN 72 (86%),
+  L-VI 63 (84%).
+- L-EN (72) > L-VI (63): bản EN phân tán chuỗi từ vựng
+  (biến thể/đại từ thay thế) trong khi VI hội tụ lặp danh từ.
+- Quy chiếu EN 7 / VI 8 (EN ưa đại từ, VI ưa danh ngữ lặp);
+  tỉnh lược EN 1 / VI 0; thế EN 1 / VI 2;
+  nối EN 3 / VI 2.
+- Các hàng chỉ [TC] không dùng làm bằng chứng cho kết luận liên kết liên câu.
