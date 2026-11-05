@@ -1406,7 +1406,11 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S001: Aussie slang and idioms",
+=======
+   "ante": "S001: Aussie slang",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "câu kề; chuỗi tên riêng Úc (Aussie → Australians)"
@@ -1423,7 +1427,11 @@
    "ante": "S002: the English language",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; occ 2 (Australian English / really English) — câu hỏi chủ đề của bài"
+=======
+   "note": "câu kề; occ 2 (Australian English / really English) — mark rơi vào “really English”; câu hỏi chủ đề của bài"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-099",
@@ -1434,10 +1442,17 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S003: Australian English",
    "conf": "high",
    "alt": null,
    "note": "câu kề; occ 2 (Australians communicate / new Australians)"
+=======
+   "ante": "S002: Australians",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; occ 2 (way Australians / new Australians) — mark ở lần 2"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-100",
@@ -1451,7 +1466,11 @@
    "ante": "S004: particularly new Australians",
    "conf": "med",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 4; trong ngoặc đáp câu hỏi “mate”; Australians → Australia"
+=======
+   "note": "gap 4; trong ngoặc đáp câu hỏi “mate”; Australians → Australia (địa danh)"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-101",
@@ -1465,7 +1484,11 @@
    "ante": "S003: really English",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 8; câu trả lời cho câu hỏi deck S003"
+=======
+   "note": "gap 8; câu trả lời cho câu hỏi deck S003; “it” mã R-EN6"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-102",
@@ -1483,6 +1506,23 @@
   },
   {
    "id": "P07-EN-103",
+<<<<<<< HEAD
+=======
+   "sent": "S012",
+   "text": "its stories",
+   "occ": 1,
+   "cat": "L",
+   "sub": "synonym",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: the tale of",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 10; subhead mục 1; tale → stories — biến thể mới vào chuỗi"
+  },
+  {
+   "id": "P07-EN-104",
+>>>>>>> origin/main
    "sent": "S013",
    "text": "a collection of stories",
    "occ": 1,
@@ -1490,13 +1530,21 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S012: its stories (subhead)",
+=======
+   "ante": "S012: its stories",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "câu kề; subhead → câu body đầu của mục 1"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-104",
+=======
+   "id": "P07-EN-105",
+>>>>>>> origin/main
    "sent": "S013",
    "text": "a language",
    "occ": 1,
@@ -1507,10 +1555,17 @@
    "ante": "S002: the English language",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 11; the English language → a language (dùng chung)"
   },
   {
    "id": "P07-EN-105",
+=======
+   "note": "gap 11; mark ở “language”; “English” cùng câu thuộc chuỗi English (inventory)"
+  },
+  {
+   "id": "P07-EN-106",
+>>>>>>> origin/main
    "sent": "S015",
    "text": "hear",
    "occ": 1,
@@ -1518,13 +1573,21 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S014: we hear the clashing and clanging",
+=======
+   "ante": "S014: we hear",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "câu kề; cụm song song “We hear…” (“We” là chuỗi R khác)"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-106",
+=======
+   "id": "P07-EN-107",
+>>>>>>> origin/main
    "sent": "S016",
    "text": "hear",
    "occ": 1,
@@ -1532,13 +1595,21 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S015: We hear the rowdy revelry",
+=======
+   "ante": "S015: We hear",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "câu kề; tiếp cụm song song “We hear…”"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-107",
+=======
+   "id": "P07-EN-108",
+>>>>>>> origin/main
    "sent": "S018",
    "text": "English speakers",
    "occ": 1,
@@ -1552,6 +1623,7 @@
    "note": "câu kề; English → English speakers (gia đình hình thái)"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-108",
    "sent": "S018",
    "text": "a Viking word",
@@ -1566,6 +1638,8 @@
    "note": "câu kề; mark nằm ở “word” (chuỗi từ); “Viking” cùng chuỗi Viking đã mã ở hàng “Rampaging Vikings” — 1 mark/chuỗi/câu"
   },
   {
+=======
+>>>>>>> origin/main
    "id": "P07-EN-109",
    "sent": "S019",
    "text": "all French words",
@@ -1574,10 +1648,17 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S018: a Viking word",
    "conf": "high",
    "alt": null,
    "note": "câu kề; ngoặc giải nghĩa song song “(originally a Viking word)”; mark nằm ở “words” — “French” đã mã ở hàng khác"
+=======
+   "ante": "S018: (originally a Viking word)",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; ngoặc giải nghĩa song song; mark ở “words”; “French” đã mã L-EN2"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-110",
@@ -1591,11 +1672,16 @@
    "ante": "S019: gave us “cuisine”",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; khung cho–nhận “gave…” (S018 mở chuỗi)"
+=======
+   "note": "câu kề; khung cho–nhận “gave…” (S018 mở chuỗi); mark ở động từ (“us” mã R-EN10)"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-111",
    "sent": "S021",
+<<<<<<< HEAD
    "text": "tall tales",
    "occ": 1,
    "cat": "L",
@@ -1624,6 +1710,8 @@
   {
    "id": "P07-EN-113",
    "sent": "S021",
+=======
+>>>>>>> origin/main
    "text": "new English words",
    "occ": 1,
    "cat": "L",
@@ -1633,10 +1721,59 @@
    "ante": "S019: all French words",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 2; mark nằm ở “words”; “English” thuộc chuỗi English"
   },
   {
    "id": "P07-EN-114",
+=======
+   "note": "câu kề; mark ở “words”; “English” thuộc chuỗi English (inventory)"
+  },
+  {
+   "id": "P07-EN-112",
+   "sent": "S021",
+   "text": "tall tales",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S020: “tall tales”",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; tái lập thành ngữ vừa nhập chuỗi (L-EN3)"
+  },
+  {
+   "id": "P07-EN-113",
+   "sent": "S021",
+   "text": "true",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S020: to be true",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; mở chuỗi true/accuracy (S048 “not true” cùng chuỗi)"
+  },
+  {
+   "id": "P07-EN-114",
+   "sent": "S021",
+   "text": "the limits",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S012: The limits of “English” (subhead)",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 9; hồi âm nhan đề mục 1"
+  },
+  {
+   "id": "P07-EN-115",
+>>>>>>> origin/main
    "sent": "S022",
    "text": "Australia",
    "occ": 1,
@@ -1650,6 +1787,7 @@
    "note": "gap 14; chuỗi tên riêng Úc"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-115",
    "sent": "S024",
    "text": "Australian history",
@@ -1664,6 +1802,8 @@
    "note": "gap 2; trong trích dẫn Twain; Australia → Australian"
   },
   {
+=======
+>>>>>>> origin/main
    "id": "P07-EN-116",
    "sent": "S024",
    "text": "lies",
@@ -1675,7 +1815,11 @@
    "ante": "S021: Like tall tales",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 3; trong trích dẫn Twain; “beautiful lies” ≈ “tall tales” — biến thể mới của chuỗi story"
+=======
+   "note": "gap 3; trong trích dẫn Twain; “lies” ≈ tall tales (câu chuyện không thật) — biến thể mới của chuỗi chuyện"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-117",
@@ -1689,7 +1833,11 @@
    "ante": "S022: its words",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 3; sau caption artifact “Mark Twain” (§8)"
+=======
+   "note": "gap 3; sau caption artifact “Mark Twain” (§8a); mark ở “words”; “Aussie” thuộc chuỗi Úc (inventory)"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-118",
@@ -1703,7 +1851,11 @@
    "ante": "S025: those stories",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; subhead mở mục 2 tái lập chuỗi stories (§8.1-iii); “Australia’s”/“English” cùng cụm — gộp 1 mark"
+=======
+   "note": "câu kề; subhead mục 2 tái lập chuỗi chuyện; mark ở “stories”"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-119",
@@ -1717,7 +1869,11 @@
    "ante": "S024: Australian history",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 2; trích dẫn Twain → thân bài"
+=======
+   "note": "gap 2; trích dẫn Twain → thân bài; mark ở “history”; “our” mã R-EN11"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-120",
@@ -1731,25 +1887,42 @@
    "ante": "S027: British formality",
    "conf": "high",
    "alt": "R: the",
+<<<<<<< HEAD
    "note": "câu kề; British → the British (danh ngữ hóa)"
   },
   {
    "id": "P07-EN-121",
    "sent": "S028",
    "text": "the Australian colony",
+=======
+   "note": "câu kề; mở chuỗi người Anh đối lập với người Úc"
+  },
+  {
+   "id": "P07-EN-121",
+   "sent": "S029",
+   "text": "The British",
+>>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S026: Australia’s English stories",
    "conf": "high",
    "alt": null,
    "note": "gap 2; chuỗi tên Úc (Australia’s → Australian); “colony” lần đầu"
+=======
+   "ante": "S028: the British",
+   "conf": "high",
+   "alt": "R: the",
+   "note": "câu kề; mở cặp câu song song “The British…”"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-122",
    "sent": "S029",
+<<<<<<< HEAD
    "text": "The British called",
    "occ": 1,
    "cat": "L",
@@ -1764,6 +1937,8 @@
   {
    "id": "P07-EN-123",
    "sent": "S029",
+=======
+>>>>>>> origin/main
    "text": "the colony",
    "occ": 1,
    "cat": "L",
@@ -1772,11 +1947,19 @@
    "level": "LC",
    "ante": "S028: the Australian colony",
    "conf": "high",
+<<<<<<< HEAD
    "alt": "R: the",
    "note": "câu kề; trong ngoặc giải nghĩa"
   },
   {
    "id": "P07-EN-124",
+=======
+   "alt": null,
+   "note": "câu kề; trong ngoặc giải nghĩa"
+  },
+  {
+   "id": "P07-EN-123",
+>>>>>>> origin/main
    "sent": "S030",
    "text": "The British called themselves",
    "occ": 1,
@@ -1790,7 +1973,11 @@
    "note": "câu kề; song song nguyên khối (them ↔ themselves)"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-125",
+=======
+   "id": "P07-EN-124",
+>>>>>>> origin/main
    "sent": "S030",
    "text": "valuable",
    "occ": 1,
@@ -1801,10 +1988,17 @@
    "ante": "S029: had no value",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; đối lập trong ngoặc giải nghĩa (vô giá trị ↔ có giá trị); gia đình hình thái value–valuable"
   },
   {
    "id": "P07-EN-126",
+=======
+   "note": "câu kề; đối lập trong ngoặc giải nghĩa (vô giá trị ↔ có giá trị)"
+  },
+  {
+   "id": "P07-EN-125",
+>>>>>>> origin/main
    "sent": "S031",
    "text": "Aussies",
    "occ": 1,
@@ -1815,10 +2009,17 @@
    "ante": "S028: the Australian colony",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 3; đối lập the British ↔ Aussies"
   },
   {
    "id": "P07-EN-127",
+=======
+   "note": "gap 3; Australian → Aussies; đối lập người Anh ↔ người Úc"
+  },
+  {
+   "id": "P07-EN-126",
+>>>>>>> origin/main
    "sent": "S033",
    "text": "The word",
    "occ": 1,
@@ -1829,10 +2030,17 @@
    "ante": "S025: Aussie words",
    "conf": "high",
    "alt": "R: the",
+<<<<<<< HEAD
    "note": "gap 8; khung metalinguistic “The word…”"
   },
   {
    "id": "P07-EN-128",
+=======
+   "note": "gap 8; khung metalinguistic “The word…” (wordplay clipping)"
+  },
+  {
+   "id": "P07-EN-127",
+>>>>>>> origin/main
    "sent": "S034",
    "text": "Australians",
    "occ": 1,
@@ -1846,7 +2054,11 @@
    "note": "gap 2; Australia → Australians"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-129",
+=======
+   "id": "P07-EN-128",
+>>>>>>> origin/main
    "sent": "S035",
    "text": "The word",
    "occ": 1,
@@ -1854,13 +2066,21 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S033: The word “afternoon”?",
+=======
+   "ante": "S033: The word “afternoon”",
+>>>>>>> origin/main
    "conf": "high",
    "alt": "R: the",
    "note": "gap 2; cặp hỏi–đáp song song (wordplay clipping)"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-130",
+=======
+   "id": "P07-EN-129",
+>>>>>>> origin/main
    "sent": "S038",
    "text": "a word like “bloody”",
    "occ": 1,
@@ -1871,17 +2091,27 @@
    "ante": "S037: Many British words",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; chuỗi word"
   },
   {
    "id": "P07-EN-131",
    "sent": "S038",
    "text": "Britain",
+=======
+   "note": "câu kề; chuỗi từ; “British” thuộc chuỗi người Anh (L-EN11)"
+  },
+  {
+   "id": "P07-EN-130",
+   "sent": "S038",
+   "text": "in Britain",
+>>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S037: British words",
    "conf": "high",
    "alt": null,
@@ -1889,6 +2119,15 @@
   },
   {
    "id": "P07-EN-132",
+=======
+   "ante": "S030: the British Empire",
+   "conf": "med",
+   "alt": null,
+   "note": "gap 8; British → Britain (gia đình hình thái); mở cặp đối lập in Britain ↔ in Australia"
+  },
+  {
+   "id": "P07-EN-131",
+>>>>>>> origin/main
    "sent": "S038",
    "text": "Australia",
    "occ": 1,
@@ -1899,10 +2138,17 @@
    "ante": "S037: the Aussie experience",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; occ 1/2 — lần 2 nằm trong “Australian” (bẫy substring, §8.3); “great Australian adjective” cùng chuỗi, gộp 1 mark"
   },
   {
    "id": "P07-EN-133",
+=======
+   "note": "câu kề; Aussie → Australia; occ 1 (đếm từ thật: “Australia” ⊂ “Australian” không đếm)"
+  },
+  {
+   "id": "P07-EN-132",
+>>>>>>> origin/main
    "sent": "S039",
    "text": "In Britain",
    "occ": 1,
@@ -1910,6 +2156,7 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S038: a rude insult in Britain",
    "conf": "high",
    "alt": null,
@@ -1917,6 +2164,15 @@
   },
   {
    "id": "P07-EN-134",
+=======
+   "ante": "S038: in Britain",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; lặp ở câu kề (§8.1-i)"
+  },
+  {
+   "id": "P07-EN-133",
+>>>>>>> origin/main
    "sent": "S040",
    "text": "In Australia",
    "occ": 1,
@@ -1924,13 +2180,21 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S038: commonly used in Australia",
+=======
+   "ante": "S038: in Australia",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "gap 2; đối lập song song với “In Britain” (S039)"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-135",
+=======
+   "id": "P07-EN-134",
+>>>>>>> origin/main
    "sent": "S040",
    "text": "the “larrikin”",
    "occ": 1,
@@ -1944,6 +2208,23 @@
    "note": "câu kề; tái lập từ khóa larrikin"
   },
   {
+<<<<<<< HEAD
+=======
+   "id": "P07-EN-135",
+   "sent": "S043",
+   "text": "our English words",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S038: a word like “bloody”",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 5; mark ở “words”; “English” thuộc chuỗi English (inventory)"
+  },
+  {
+>>>>>>> origin/main
    "id": "P07-EN-136",
    "sent": "S043",
    "text": "yarns",
@@ -1955,6 +2236,7 @@
    "ante": "S042: These stories - or yarns",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; “yarns” (đồng vị của “stories” ở S042) tái lập"
   },
   {
@@ -1987,6 +2269,12 @@
   },
   {
    "id": "P07-EN-139",
+=======
+   "note": "câu kề; yarn vừa nhập chuỗi ở S042 (đồng vị của story)"
+  },
+  {
+   "id": "P07-EN-137",
+>>>>>>> origin/main
    "sent": "S044",
    "text": "meaning",
    "occ": 2,
@@ -1997,10 +2285,17 @@
    "ante": "S006: (it means very good)",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 38; occ 2; chuỗi động từ metalinguistic means/meaning"
   },
   {
    "id": "P07-EN-140",
+=======
+   "note": "gap 38; occ 2 (2 lần trong câu) — mark ở lần 2; chuỗi động từ metalinguistic"
+  },
+  {
+   "id": "P07-EN-138",
+>>>>>>> origin/main
    "sent": "S045",
    "text": "Aussies",
    "occ": 1,
@@ -2014,7 +2309,11 @@
    "note": "gap 2; Aussie → Aussies"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-141",
+=======
+   "id": "P07-EN-139",
+>>>>>>> origin/main
    "sent": "S045",
    "text": "“dinkum”",
    "occ": 1,
@@ -2028,7 +2327,11 @@
    "note": "câu kề; tiếp chuỗi từ khóa dinkum"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-142",
+=======
+   "id": "P07-EN-140",
+>>>>>>> origin/main
    "sent": "S046",
    "text": "links",
    "occ": 1,
@@ -2039,10 +2342,17 @@
    "ante": "S045: linking “dinkum” to the goldfields",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; linking → links (gia đình hình thái)"
   },
   {
    "id": "P07-EN-143",
+=======
+   "note": "câu kề; lặp động từ “link” (gia đình hình thái)"
+  },
+  {
+   "id": "P07-EN-141",
+>>>>>>> origin/main
    "sent": "S046",
    "text": "meaning",
    "occ": 1,
@@ -2050,6 +2360,7 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S044: meaning “hard work”",
    "conf": "high",
    "alt": null,
@@ -2057,10 +2368,20 @@
   },
   {
    "id": "P07-EN-144",
+=======
+   "ante": "S044: meaning",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 2; chuỗi động từ metalinguistic"
+  },
+  {
+   "id": "P07-EN-142",
+>>>>>>> origin/main
    "sent": "S047",
    "text": "goldfields gamblers",
    "occ": 1,
    "cat": "L",
+<<<<<<< HEAD
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
@@ -2071,6 +2392,18 @@
   },
   {
    "id": "P07-EN-145",
+=======
+   "sub": "collocation",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S046: Chinese goldminers",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; lặp thành tố “gold”, cùng trường mỏ vàng; hạng mục mới thật sự"
+  },
+  {
+   "id": "P07-EN-143",
+>>>>>>> origin/main
    "sent": "S047",
    "text": "“fair dinkum”",
    "occ": 1,
@@ -2084,7 +2417,11 @@
    "note": "gap 2; thành ngữ mới nhập chuỗi dinkum"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-146",
+=======
+   "id": "P07-EN-144",
+>>>>>>> origin/main
    "sent": "S048",
    "text": "“dinkum”",
    "occ": 1,
@@ -2098,7 +2435,11 @@
    "note": "câu kề; tiền trạm gần nhất của chuỗi dinkum"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-147",
+=======
+   "id": "P07-EN-145",
+>>>>>>> origin/main
    "sent": "S049",
    "text": "a story",
    "occ": 1,
@@ -2109,10 +2450,17 @@
    "ante": "S048: These goldfields stories",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; tiếp chuỗi story"
   },
   {
    "id": "P07-EN-148",
+=======
+   "note": "câu kề; tiếp chuỗi chuyện (R-EN23 mã demonstrative trong cùng NP)"
+  },
+  {
+   "id": "P07-EN-146",
+>>>>>>> origin/main
    "sent": "S050",
    "text": "stories",
    "occ": 1,
@@ -2123,24 +2471,41 @@
    "ante": "S049: a story",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "lặp ở câu kề (v2 §8.1-i)"
   },
   {
    "id": "P07-EN-149",
    "sent": "S050",
    "text": "accurate",
+=======
+   "note": "câu kề; lặp ở câu kề (§8.1-i)"
+  },
+  {
+   "id": "P07-EN-147",
+   "sent": "S050",
+   "text": "accurate or not",
+>>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S049: that accuracy of a story",
+=======
+   "ante": "S049: that accuracy",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "câu kề; accuracy → accurate (gia đình hình thái)"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-150",
+=======
+   "id": "P07-EN-148",
+>>>>>>> origin/main
    "sent": "S051",
    "text": "important",
    "occ": 1,
@@ -2148,20 +2513,31 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S049: is not that important",
+=======
+   "ante": "S049: not that important",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "gap 2"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-151",
    "sent": "S053",
    "text": "Aussies",
+=======
+   "id": "P07-EN-149",
+   "sent": "S051",
+   "text": "stories",
+>>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S052: Aussie relationships",
    "conf": "high",
    "alt": null,
@@ -2169,6 +2545,15 @@
   },
   {
    "id": "P07-EN-152",
+=======
+   "ante": "S050: stories",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; mark L ở danh từ “stories” (“Aussie words” mã L-EN23 cùng câu)"
+  },
+  {
+   "id": "P07-EN-150",
+>>>>>>> origin/main
    "sent": "S053",
    "text": "evolved",
    "occ": 1,
@@ -2176,6 +2561,7 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S040: soon evolved into a fun, likeable person",
    "conf": "high",
    "alt": null,
@@ -2197,6 +2583,15 @@
   },
   {
    "id": "P07-EN-154",
+=======
+   "ante": "S040: soon evolved into",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 13; mở lại chuỗi evolve/grow (S070, S073 cùng chuỗi)"
+  },
+  {
+   "id": "P07-EN-151",
+>>>>>>> origin/main
    "sent": "S054",
    "text": "interact",
    "occ": 1,
@@ -2204,6 +2599,7 @@
    "sub": "synonym",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S051: how we relate to one another",
    "conf": "high",
    "alt": null,
@@ -2211,6 +2607,29 @@
   },
   {
    "id": "P07-EN-155",
+=======
+   "ante": "S051: how we relate",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 3; relate ↔ interact (chuỗi giao tiếp mở từ S004 “communicate”)"
+  },
+  {
+   "id": "P07-EN-152",
+   "sent": "S054",
+   "text": "important",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S051: important",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 3; song song “important to the way…”"
+  },
+  {
+   "id": "P07-EN-153",
+>>>>>>> origin/main
    "sent": "S055",
    "text": "Aussies",
    "occ": 1,
@@ -2221,10 +2640,17 @@
    "ante": "S054: Aussies interact",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; “Aussie” ×2 trong ngoặc giải nghĩa cùng chuỗi — gộp 1 mark"
   },
   {
    "id": "P07-EN-156",
+=======
+   "note": "câu kề; occ 1 (“classic Aussie” ×2 trong ngoặc cùng chuỗi — gộp 1 mark)"
+  },
+  {
+   "id": "P07-EN-154",
+>>>>>>> origin/main
    "sent": "S055",
    "text": "say",
    "occ": 2,
@@ -2232,10 +2658,45 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S047: as it was reputedly said",
    "conf": "high",
    "alt": null,
    "note": "gap 8; occ 2 (may not say / might say); chuỗi động từ say"
+=======
+   "ante": "S047: reputedly said",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 8; occ 2 (may not say / might say); chuỗi động từ nói"
+  },
+  {
+   "id": "P07-EN-155",
+   "sent": "S056",
+   "text": "Australian English",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S003: Australian English",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 53; subhead mục 3; occ 1 — câu hỏi lặp nguyên văn trong S056 là artifact (§8c) nên không đếm"
+  },
+  {
+   "id": "P07-EN-156",
+   "sent": "S058",
+   "text": "funny",
+   "occ": 1,
+   "cat": "L",
+   "sub": "synonym",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S054: These humorous idioms",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 4; humorous ↔ funny — biến thể synonym; “fun” cùng câu gộp 1 mark; “fair” mã L-EN31"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-157",
@@ -2254,6 +2715,7 @@
   {
    "id": "P07-EN-158",
    "sent": "S059",
+<<<<<<< HEAD
    "text": "relate to one another",
    "occ": 1,
    "cat": "L",
@@ -2268,6 +2730,8 @@
   {
    "id": "P07-EN-159",
    "sent": "S059",
+=======
+>>>>>>> origin/main
    "text": "new Australians and old",
    "occ": 1,
    "cat": "L",
@@ -2277,7 +2741,25 @@
    "ante": "S004: particularly new Australians",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 55; tái lập tổ hợp từ đoạn mở"
+=======
+   "note": "gap 55; tái lập tổ hợp “new Australians” từ đoạn mở"
+  },
+  {
+   "id": "P07-EN-159",
+   "sent": "S059",
+   "text": "relate",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S051: how we relate to one another",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 8; tái lập nguyên tổ hợp “relate to one another”; S054 “interact” là biến thể giữa chừng"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-160",
@@ -2288,7 +2770,11 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S060: spotted a “galah”",
+=======
+   "ante": "S060: a “galah”",
+>>>>>>> origin/main
    "conf": "high",
    "alt": null,
    "note": "câu kề; trong lời thoại của con trai"
@@ -2299,6 +2785,7 @@
    "text": "saying",
    "occ": 1,
    "cat": "L",
+<<<<<<< HEAD
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
@@ -2309,6 +2796,32 @@
   },
   {
    "id": "P07-EN-162",
+=======
+   "sub": "synonym",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S046: meaning “real gold”",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 15; chuỗi động từ metalinguistic; trong trích dẫn"
+  },
+  {
+   "id": "P07-EN-162",
+   "sent": "S062",
+   "text": "said",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S055: might say",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 7; chuỗi động từ nói; khung dẫn thoại “laughed and said”"
+  },
+  {
+   "id": "P07-EN-163",
+>>>>>>> origin/main
    "sent": "S063",
    "text": "asked",
    "occ": 1,
@@ -2319,6 +2832,7 @@
    "ante": "S061: He asked",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 2; chuỗi động từ attribution (v2 §8.1-v); chuỗi mở từ S004 “asking this question”"
   },
   {
@@ -2334,6 +2848,9 @@
    "conf": "high",
    "alt": null,
    "note": "gap 43; chuỗi tên riêng Mỹ"
+=======
+   "note": "gap 2; chuỗi động từ attribution (§8.1-v)"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-164",
@@ -2347,7 +2864,11 @@
    "ante": "S025: a sly wink and smile",
    "conf": "med",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 40; smile → smiled; hồi âm giọng tinh nghịch của Twain"
+=======
+   "note": "gap 40; smile → smiled; hồi âm giọng tinh quái của Twain"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-165",
@@ -2361,12 +2882,20 @@
    "ante": "S065: Australian words",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "câu kề; trong trích dẫn"
+=======
+   "note": "câu kề; trong trích dẫn; mark ở “words”; “our” mã R-EN38 (chuỗi người kể)"
+>>>>>>> origin/main
   },
   {
    "id": "P07-EN-166",
    "sent": "S066",
+<<<<<<< HEAD
    "text": "know",
+=======
+   "text": "don’t know",
+>>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
@@ -2375,10 +2904,31 @@
    "ante": "S063: Do Americans know that?",
    "conf": "high",
    "alt": null,
+<<<<<<< HEAD
    "note": "gap 3; hỏi ↔ đáp trong đối thoại cha–con"
   },
   {
    "id": "P07-EN-167",
+=======
+   "note": "gap 3; hỏi ↔ đáp trong trích dẫn; S064 lược “know” (E-EN4)"
+  },
+  {
+   "id": "P07-EN-167",
+   "sent": "S067",
+   "text": "added",
+   "occ": 1,
+   "cat": "L",
+   "sub": "synonym",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S062: laughed and said",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 5; said → added; khung dẫn thoại của con trai"
+  },
+  {
+   "id": "P07-EN-168",
+>>>>>>> origin/main
    "sent": "S068",
    "text": "pink",
    "occ": 1,
@@ -2386,6 +2936,7 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S067: a ‘pink-atoo’",
    "conf": "high",
    "alt": null,
@@ -2393,6 +2944,15 @@
   },
   {
    "id": "P07-EN-168",
+=======
+   "ante": "S067: ‘pink-atoo’",
+   "conf": "high",
+   "alt": null,
+   "note": "câu kề; nửa sau của wordplay pink-atoo: “a pink ‘cockatoo’”"
+  },
+  {
+   "id": "P07-EN-169",
+>>>>>>> origin/main
    "sent": "S068",
    "text": "‘cockatoo’",
    "occ": 1,
@@ -2406,7 +2966,25 @@
    "note": "câu kề; cặp wordplay: từ biến tấu pink-atoo và từ gốc cockatoo cùng trường"
   },
   {
+<<<<<<< HEAD
    "id": "P07-EN-169",
+=======
+   "id": "P07-EN-170",
+   "sent": "S070",
+   "text": "keep growing",
+   "occ": 1,
+   "cat": "L",
+   "sub": "synonym",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S053: has evolved into",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 17; evolve → grow; S071 (artifact) không dùng làm tiền trạm"
+  },
+  {
+   "id": "P07-EN-171",
+>>>>>>> origin/main
    "sent": "S072",
    "text": "language",
    "occ": 1,
@@ -2414,6 +2992,7 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S013: not just a language",
    "conf": "high",
    "alt": null,
@@ -2423,15 +3002,47 @@
    "id": "P07-EN-170",
    "sent": "S073",
    "text": "the history",
+=======
+   "ante": "S013: a language",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 59; “linguist” cùng câu cùng gia đình hình thái — gộp 1 mark; tái lập từ mục 1"
+  },
+  {
+   "id": "P07-EN-172",
+   "sent": "S073",
+   "text": "history",
+>>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
+<<<<<<< HEAD
    "ante": "S026: our history and our relationships",
    "conf": "high",
    "alt": "R: the",
    "note": "gap 47; S071 (artifact) có “the history” nhưng chỉ inventory — không dùng làm tiền trạm (§8)"
+=======
+   "ante": "S026: our history",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 47; S071 (artifact) có “history” nhưng chỉ inventory — không dùng làm tiền trạm (§8)"
+  },
+  {
+   "id": "P07-EN-173",
+   "sent": "S073",
+   "text": "evolution",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S070: keep growing",
+   "conf": "high",
+   "alt": null,
+   "note": "gap 3; gia đình hình thái evolve–evolution (S070 dùng “growing”); S071 (artifact) chỉ inventory"
+>>>>>>> origin/main
   }
  ]
 }

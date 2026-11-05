@@ -29,6 +29,20 @@
    "conf": "med",
    "alt": null,
    "note": "gia đình hình thái 'ứng viên/ứng cử viên'; hai thành viên khác thực thể (Kennedy vs Trump) — liên kết từ vựng thuần túy"
+  },
+  {
+   "id": "P12-VI-003",
+   "sent": "S003",
+   "text": "ủng hộ",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S001: ủng hộ (nhóm cử tri ủng hộ một ứng viên khác)",
+   "conf": "high",
+   "alt": null,
+   "note": "chuỗi 'ủng hộ' (kho D §6.2): lặp cùng dạng qua 2 câu thật kề nhau — v2 §8.1(i) bỏ ngoại lệ 'câu kề' của pilot; hai cặp chủ thể–bổ ngữ khác nhau (nhóm cử tri ↔ Kennedy) — lặp mục từ thuần túy, không quy chiếu; EN 'endorsement' chỉ xuất hiện 1 lần (bất đối xứng)"
   }
  ]
 }

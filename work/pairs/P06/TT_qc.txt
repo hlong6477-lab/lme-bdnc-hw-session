@@ -1,3 +1,8 @@
 QC P06 VI: PASS
+<<<<<<< HEAD
 counts: {'C': 5, 'L': 35, 'R': 4}
 ties: 44
+=======
+counts: {'C': 5, 'L': 33, 'R': 4}
+ties: 42
+>>>>>>> origin/main

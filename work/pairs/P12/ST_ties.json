@@ -16,6 +16,34 @@
    "alt": "L: superordinate",
    "note": "mạo từ + số từ 'two' truy hồi đúng 2 nhân vật đã nêu; 'politicians' là danh từ thượng vị mô tả; câu S003 thuộc khối VI cắt (§8b)",
    "ref": "A"
+  },
+  {
+   "id": "P12-EN-002",
+   "sent": "S003",
+   "text": "reports",
+   "occ": 1,
+   "cat": "L",
+   "sub": "repetition",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: announced his endorsement",
+   "conf": "med",
+   "alt": null,
+   "note": "động từ attribution (v2 §8.1-v), chuỗi khung báo chí: 'announced' (lượt tuyên bố của Kennedy) → 'reports' (dòng nguồn VOA; §7: EN mở bằng lời tuyên bố rồi attribution); hai mục từ khác nhau — tái lập chuỗi khung chứ không lặp từ; câu thuộc khối VI cắt (§8b)"
+  },
+  {
+   "id": "P12-EN-003",
+   "sent": "S003",
+   "text": "campaigned",
+   "occ": 1,
+   "cat": "L",
+   "sub": "collocation",
+   "dir": "ana",
+   "level": "LC",
+   "ante": "S002: the Republican presidential nominee",
+   "conf": "med",
+   "alt": null,
+   "note": "trường bầu cử (kho E §6.2): 'campaigned' liên tưởng cùng trường với 'presidential nominee' (S002) — hai câu thật của EN chỉ chia sẻ trường nghĩa, không chia sẻ hình thức từ (§6.4); v2 cho phép collocation; câu thuộc khối VI cắt (§8b)"
   }
  ]
 }
