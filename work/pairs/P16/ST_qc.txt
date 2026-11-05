@@ -1,3 +1,3 @@
 QC P16 EN: PASS
-counts: {'C': 2, 'L': 19, 'R': 9}
-ties: 30
+counts: {'C': 2, 'L': 55, 'R': 9}
+ties: 66
