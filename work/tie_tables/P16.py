@@ -435,4 +435,204 @@ TT = [
      None,
      "tái lập chuỗi sau 7 câu tại attribution Putin ('làm hạ giá đồng "
      "rúp'); đối ứng EN 'the ruble'", 1, None, None, "LC", None),
+
+    # ---------- L v2 bổ sung ----------
+    # Theo CHÍNH SÁCH L v2 (CONVENTIONS §8.1): từ đơn nội dung, lặp cùng dạng
+    # kể cả câu kề, biến thể hình thái/đồng nghĩa, tên riêng = 1 chuỗi, động
+    # từ attribution = chuỗi riêng; 1 mark/câu/chuỗi; occ đếm tay. Quyết định
+    # đọc hiểu theo văn bản VI (khác EN ở vài điểm: VI có 'Pattaya' định ngữ
+    # vị trí S005, 'tua du lịch' S013; VI không có attribution S008/S014).
+    # 39 hàng mới, đọc trực tiếp từ TT.txt / TT_sentmap.txt — L(TT) 19 → 58.
+    ("S002", "sụt xuống", "L", "synonym", "S001: tuột giá", "high", None,
+     "'sụt xuống' ~ 'tuột giá' — chuỗi động từ mất giá (S001→S002→'hạ giá' "
+     "S018); đối ứng EN 'crashing' → 'plunging'",
+     1, None, None, "LC", None),
+    ("S002", "đi du lịch nước ngoài", "L", "repetition",
+     "S001: du lịch (công nghiệp du lịch)", "high", None,
+     "lặp từ 'du lịch' (ngành ↔ hoạt động) — liên kết từ vựng, không quy "
+     "chiếu; EN đối ứng 'overseas travel' ~ 'tourism' (synonym vì EN khác "
+     "từ)",
+     1, None, None, "LC", None),
+    ("S004", "mất đi", "L", "synonym", "S001: (đã bị) thiệt hại", "med",
+     None,
+     "'mất đi (du khách)' ~ 'thiệt hại' — trường nghĩa mất mát; 'sụt giảm' "
+     "cùng câu thuộc chuỗi khác; EN 'the loss of' không đánh dấu riêng",
+     1, None, None, "LC", None),
+    ("S005", "Pattaya", "L", "repetition",
+     "S003: (thành phố biển nghỉ mát) Pattaya", "high", None,
+     "tái lập tên riêng trong chức danh 'văn phòng ở Pattaya' — định ngữ vị "
+     "trí nhưng trỏ đúng thành phố (khác EN 'Pattaya office' không tính)",
+     1, None, None, "LC", None),
+    ("S005", "người Nga", "L", "repetition", "S004: du khách Nga", "high",
+     None,
+     "biến thể rút gọn ('du khách Nga' → 'người Nga'); sau attribution 'cho "
+     "đài VOA biết'; đối ứng EN 'the Russians' S005",
+     1, None, None, "LC", None),
+    ("S006", "Pattaya", "L", "repetition", "S005: (văn phòng ở) Pattaya",
+     "high", None,
+     "lặp tên riêng ở câu kề, trong trích dẫn ('cho Pattaya'); đối ứng EN "
+     "S006 (EN tính từ S003)",
+     1, None, None, "LC", None),
+    ("S007", "số một", "L", "synonym", "S005: không thua kém ai", "med",
+     None,
+     "diễn giải lại trong trích dẫn ('số một' ~ 'không thua kém ai': đứng "
+     "đầu); đối ứng EN 'number one' S007",
+     1, None, None, "LC", None),
+    ("S008", "du khách Nga", "L", "repetition", "S007: Du khách Nga",
+     "high", None,
+     "lặp cùng dạng ở câu kề trong cùng trích dẫn (§8.1 i); đối ứng EN "
+     "'Russian tourists' S008",
+     1, None, None, "LC", None),
+    ("S008", "Pattaya", "L", "repetition", "S006: Pattaya", "high", None,
+     "tái lập tên riêng trong trích dẫn ('đến Pattaya'); EN không đánh dấu "
+     "S008 nhưng VI theo §8.1(i) đánh dấu cả câu kề",
+     1, None, None, "LC", None),
+    ("S009", "du khách Nga", "L", "repetition", "S008: du khách Nga",
+     "high", None,
+     "lặp cùng dạng ở câu kề (§8.1 i); đối ứng EN 'Russian visitors' (EN "
+     "khác từ nên superordinate)",
+     1, None, None, "LC", None),
+    ("S010", "tháng 12", "L", "repetition", "S004: (từ 28) tháng 12",
+     "med", None,
+     "lặp 'tháng 12' (mùa cao điểm 28/12–15/1 ↔ tháng 12); conf med vì S004 "
+     "là ngày cụ thể; đối ứng EN 'December' S010",
+     1, None, None, "LC", None),
+    ("S010", "tai hại", "L", "repetition", "S001: thiệt hại", "low", None,
+     "cùng gốc 'hại' ('thiệt hại' → 'tai hại'), khác từ loại (danh ↔ tính); "
+     "khoảng cách 9 câu; đối ứng EN 'a disaster' → 'suffering' (collocation, "
+     "low)",
+     1, None, None, "LC", None),
+    ("S010", "tổng số", "L", "repetition", "S009: tổng cộng", "med", None,
+     "gia đình hình thái 'tổng-' ('tổng cộng' → 'tổng số'); đối ứng EN "
+     "'total' S010",
+     1, None, None, "LC", None),
+    ("S010", "du khách Nga", "L", "repetition", "S009: du khách Nga",
+     "high", None,
+     "lặp cùng dạng ở câu kề (§8.1 i); đối ứng EN 'Russian tourists' S010",
+     1, None, None, "LC", None),
+    ("S010", "năm ngoái", "L", "repetition", "S008: Năm ngoái", "high",
+     None,
+     "lặp 'năm ngoái' (cùng chỉ năm 2013) trong 'so với năm ngoái'; đối ứng "
+     "EN 'last year' S010",
+     1, None, None, "LC", None),
+    ("S011", "nói", "L", "synonym", "S005: cho (đài VOA) biết", "high",
+     None,
+     "chuỗi động từ attribution (§8.1 v); 'nói' ~ 'cho biết'; đối ứng EN "
+     "'said' S011 (EN tính từ 'said' S008)",
+     1, None, None, "LC", None),
+    ("S011", "Pattaya", "L", "repetition", "S008: Pattaya", "high", None,
+     "tái lập tên riêng trong danh sách 'Pattaya, Phuket và Samui'; đối ứng "
+     "EN S011",
+     1, None, None, "LC", None),
+    ("S011", "Thái", "L", "repetition", "S009: (toàn bộ) Thái Lan", "med",
+     None,
+     "dạng rút gọn 'Thái' trong 'đồng baht của Thái' — gia đình hình thái "
+     "'Thái-/Thái Lan'; đối ứng EN 'Thai' S015",
+     1, None, None, "LC", None),
+    ("S011", "dự kiến", "L", "repetition",
+     "S010: dự kiến (mức sụt giảm là 50%)", "high", None,
+     "lặp 'dự kiến' ở câu kề; dự báo hiệp hội → nhận định Suladda; đối ứng "
+     "EN 'expecting' S011",
+     1, None, None, "LC", None),
+    ("S011", "xấu đi", "L", "general word", "S010: (coi như là) tai hại",
+     "med", None,
+     "'xấu đi' tổng quát hóa 'tai hại' (thảm họa → xấu); chuỗi tình huống "
+     "xấu S001→S010→S011; đối ứng EN 'bad' S011",
+     1, None, None, "LC", None),
+    ("S013", "tua du lịch", "L", "repetition",
+     "S002: đi du lịch (nước ngoài)", "med", None,
+     "lặp 'du lịch' sau 11 câu ('Du lịch' trong tên hiệp hội S005 là thành "
+     "phần tên riêng, không tính); chuỗi duy trì qua 'du khách'; EN 'tour' "
+     "không đánh dấu",
+     1, None, None, "LC", None),
+    ("S013", "các khách sạn", "L", "repetition",
+     "S010: (hiệp hội điều hành) khách sạn (quốc gia)", "high", None,
+     "lặp 'khách sạn' trong trích dẫn (khách sạn trực tiếp ↔ hiệp hội — "
+     "liên kết từ vựng, không quy chiếu); đối ứng EN 'hoteliers' S013",
+     1, None, None, "LC", None),
+    ("S013", "lo ngại", "L", "synonym", "S001: quan ngại (nghiêm trọng)",
+     "high", None,
+     "'lo ngại' ~ 'quan ngại' (cùng gốc 'ngại'); khoảng cách 12 câu, trong "
+     "trích dẫn; đối ứng EN 'worried' S013",
+     1, None, None, "LC", None),
+    ("S014", "sụt giảm", "L", "repetition", "S010: (mức) sụt giảm (là 50%)",
+     "high", None,
+     "lặp 'sụt giảm' sau 4 câu trong trích dẫn; chuỗi S004→S010→S014→'thất "
+     "thu' S015; đối ứng EN 'decreasing' S014",
+     1, None, None, "LC", None),
+    ("S014", "Pattaya", "L", "repetition", "S011: Pattaya", "high", None,
+     "tái lập tên riêng cuối trích dẫn ('đến Pattaya'); đối ứng EN S014",
+     1, None, None, "LC", None),
+    ("S015", "Thái Lan", "L", "repetition", "S011: (đồng baht của) Thái",
+     "high", None,
+     "trở lại dạng đầy đủ 'Thái Lan' sau dạng rút gọn 'Thái' S011 ('các đảo "
+     "của Thái Lan'); đối ứng EN 'Thai' S015",
+     1, None, None, "LC", None),
+    ("S015", "lệ thuộc", "L", "repetition", "S011: lệ thuộc (nặng vào)",
+     "high", None,
+     "lặp 'lệ thuộc' sau 4 câu, mở đoạn; EN đối ứng 'dependent' ~ 'reliant' "
+     "(synonym vì EN khác từ)",
+     1, None, None, "LC", None),
+    ("S015", "người Nga", "L", "repetition", "S014: du khách Nga", "high",
+     None,
+     "biến thể rút gọn, câu kề, mở đoạn; 'khách thăm' cùng câu trỏ thực thể "
+     "khác (TQ/ASEAN) nên không đánh dấu; đối ứng EN 'the Russians' S015",
+     1, None, None, "LC", None),
+    ("S015", "tiếp thị", "L", "repetition", "S014: (các) thị trường",
+     "low", None,
+     "cùng yếu tố Hán Việt 'thị' (chợ); khác nghĩa (tiếp thị = quảng bá ↔ "
+     "thị trường) — liên kết hình thái, conf low; đối ứng EN 'marketing' ~ "
+     "'market' S015",
+     1, None, None, "LC", None),
+    ("S015", "bù vào", "L", "repetition", "S014: bù đắp (lại)", "high",
+     None,
+     "gia đình hình thái 'bù' ('bù đắp' → 'bù vào'); câu kề; đối ứng EN "
+     "'make up for' ~ 'compensate' S015",
+     1, None, None, "LC", None),
+    ("S016", "du khách", "L", "repetition", "S014: du khách Nga", "med",
+     None,
+     "lặp 'du khách' (qua 'người Nga' S015); phạm vi mở rộng — nguồn du "
+     "khách nói chung; liên kết từ vựng, không quy chiếu; đối ứng EN "
+     "'tourists' S016",
+     1, None, None, "LC", None),
+    ("S016", "Thái Lan", "L", "repetition", "S015: (các đảo của) Thái Lan",
+     "high", None,
+     "lặp 'Thái Lan' ở câu kề ('ở Thái Lan'); đối ứng EN 'Thailand' S016 "
+     "(EN cách 7 câu)",
+     1, None, None, "LC", None),
+    ("S017", "nghe nói", "L", "repetition", "S011: (Bà Suladda) nói",
+     "med", None,
+     "attribution không nêu nguồn ('nghe nói'); chuỗi động từ attribution "
+     "(cho biết S005 → nói S011 → nghe nói); đối ứng EN 'are said to be' "
+     "S017",
+     1, None, None, "LC", None),
+    ("S017", "chuyển", "L", "repetition",
+     "S014: chuyển (qua các thị trường khác)", "med", None,
+     "lặp 'chuyển'; chủ thể khác (ngành ↔ du khách) nhưng cùng trường "
+     "chuyển hướng; đối ứng EN 'shifting' S017",
+     1, None, None, "LC", None),
+    ("S017", "đi nghỉ", "L", "synonym", "S002: đi du lịch (nước ngoài)",
+     "med", None,
+     "'đi nghỉ' ~ 'đi du lịch' (nghỉ dưỡng); cùng gốc 'nghỉ' với chuỗi "
+     "'nghỉ mát' S003–S015; đối ứng EN 'vacation plans' → 'overseas "
+     "travel'",
+     1, None, None, "LC", None),
+    ("S018", "nói", "L", "repetition", "S017: nghe nói", "med", None,
+     "chuỗi động từ attribution; 'nói với các phóng viên' — lượt lời Putin "
+     "(qua 'cho biết' S005, 'nói' S011); đối ứng EN 'told' S018",
+     1, None, None, "LC", None),
+    ("S018", "hạ giá", "L", "synonym",
+     "S002: sụt xuống (các mức thấp kỷ lục)", "high", None,
+     "'hạ giá' ~ 'tuột giá'/'sụt xuống' — chuỗi động từ mất giá "
+     "(S001→S002→S018); lời Putin; đối ứng EN 'depreciating' S018",
+     1, None, None, "LC", None),
+    ("S018", "cải thiện", "L", "antonym", "S011: (tiếp tục) xấu đi",
+     "med", None,
+     "'cải thiện' ↔ 'xấu đi' — phản nghĩa về diễn biến tình hình; đối ứng "
+     "EN 'improve' ↔ 'stay bad'",
+     1, None, None, "LC", None),
+    ("S018", "kéo dài", "L", "antonym", "S012: chấm dứt", "med", None,
+     "'kéo dài (tới khoảng hai năm)' ↔ 'chấm dứt' — phản nghĩa về thời "
+     "lượng; đối ứng EN 'last' ↔ 'end'",
+     1, None, None, "LC", None),
 ]
