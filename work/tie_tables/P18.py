@@ -529,4 +529,178 @@ TT = [
      "high", None,
      "tái lập sau 2 câu với lượng từ '62 triệu', đổi dạng em bé←các em; đối "
      "ứng EN '62 million children' (S022)", 1, None, None, "LC", None),
+
+    # ---------- L v2 bổ sung ----------
+    # Chính sách L v2 (CONVENTIONS §8.1): chuỗi gồm cả từ đơn nội dung, thuật
+    # ngữ đa từ, tên riêng, động từ attribution; lặp cùng dạng kể cả câu kề;
+    # 1 mark/câu/chuỗi; occ đếm tay số lần trong câu. Bỏ có chủ ý (đọc hiểu,
+    # §8.1/§8.2): S009/S010 (câu artifact — không đánh dấu, không dùng làm
+    # ante), S003 'Bangkok' (dateline S001 — dòng artifact báo chí), 'tổ chức
+    # này' S002/S004 (danh ngữ chỉ từ → lãnh thổ R, tiền lệ S021/S024; S002
+    # khởi chuỗi), 'tổ chức' trong 'tổ chức cứu trợ' S008 (lớp chung viện trợ
+    # ≠ UNICEF), S012 'mọi người' ← 'dân chúng' (đại từ bất định → R), S022
+    # 'giúp' (động từ mờ — chỉ dùng làm ante cho S024), 'đô la'/'triệu'/'tỉ'
+    # (số tiền trỏ thực thể khác nhau), 'năm nay/năm ngoái' (deictic thời
+    # gian), S022 'tới trường' ~ S019 'giáo dục' (hoạt động ↔ lĩnh vực —
+    # không chặt), S024 'thế giới' ~ S023 'toàn cầu' (định ngữ phạm vi, giá
+    # trị liên kết thấp), S011 'tình huống khẩn cấp' (lần đầu ở VI). Không
+    # dùng regex/danh sách từ/vòng lặp đếm chuỗi.
+    ("S002", "UNICEF", "L", "repetition",
+     "S001: Quĩ Nhi đồng Liên hiệp quốc (UNICEF)", "high", None,
+     "viết tắt tái lập câu kề (§8.1 i); S001 đã có '(UNICEF)' trong ngoặc — "
+     "v2 đánh dấu lặp kề (chính sách pilot bỏ)", 1, None, None, "LC", None),
+    ("S002", "nói", "L", "synonym", "S001: cho biết", "high", None,
+     "chuỗi động từ attribution (§8.1 v); 'nói' ~ 'cho biết' câu kề",
+     1, None, None, "LC", None),
+    ("S002", "Myanmar", "L", "repetition", "S001: của Myanmar", "high", None,
+     "lặp tên riêng câu kề (§8.1 i); đối ứng EN S002 (v2)", 1, None, None,
+     "LC", None),
+    ("S002", "giúp đỡ", "L", "synonym", "S001: sự hỗ trợ nhân đạo", "high",
+     None,
+     "'giúp đỡ' ~ 'hỗ trợ' — biến thể mới vào chuỗi hỗ trợ; VI tự sinh (EN "
+     "S002 không có)", 1, None, None, "LC", None),
+    ("S004", "cho biết", "L", "synonym", "S002: nói", "high", None,
+     "attribution (§8.1 v); ante = lần attribution trước đó (S002 'nói'); "
+     "'cho biết' nguyên dạng đã có ở S001", 1, None, None, "LC", None),
+    ("S004", "Myanmar", "L", "repetition", "S002: Myanmar", "high", None,
+     "tái lập tên riêng sau 2 câu, mở danh sách nước ưu tiên", 1, None,
+     None, "LC", None),
+    ("S004", "cuộc vận động quyên góp", "L", "repetition",
+     "S002: lời kêu gọi quyên góp", "high", None,
+     "lặp đầu từ 'quyên góp' sau 2 câu; 'vận động' ~ 'kêu gọi' (đổi đầu ngữ "
+     "— tiền lệ 'nước ưu tiên' ← 'quốc gia ưu tiên')", 1, None, None,
+     "LC", None),
+    ("S005", "UNICEF", "L", "repetition", "S002: UNICEF", "high", None,
+     "tái lập sau 3 câu, mở đoạn mục tiêu Myanmar; đối ứng EN S005 (v2)",
+     1, None, None, "LC", None),
+    ("S005", "Myanmar", "L", "repetition", "S004: Myanmar", "high", None,
+     "lặp tên riêng câu kề (§8.1 i), chủ ngữ mở câu; 'Miến Điện' biến thể "
+     "cùng câu — không đánh dấu riêng", 1, None, None, "LC", None),
+    ("S005", "quyên góp", "L", "repetition",
+     "S004: cuộc vận động quyên góp", "high", None,
+     "động từ hoá đầu từ chuỗi quyên góp câu kề; đối ứng EN 'raise' (S020 ← "
+     "S004, v2)", 1, None, None, "LC", None),
+    ("S006", "UNICEF", "L", "repetition", "S005: UNICEF", "high", None,
+     "lặp tên riêng câu kề (§8.1 i), chủ ngữ mở câu", 1, None, None, "LC",
+     None),
+    ("S006", "cho biết", "L", "repetition", "S004: cho biết", "high", None,
+     "attribution (§8.1 v); nguyên dạng sau 2 câu", 1, None, None, "LC",
+     None),
+    ("S006", "tiểu bang", "L", "repetition", "S001: một số tiểu bang",
+     "high", None,
+     "lặp sau 5 câu; cùng nhóm bang (S001 'một số tiểu bang' = Kachin, "
+     "Shan, Rakhine); đối ứng EN 'states' (S005 ← S001, v2)", 1, None,
+     None, "LC", None),
+    ("S007", "xung đột", "L", "repetition",
+     "S006: những vụ xung đột kéo dài", "high", None,
+     "tái lập tổ hợp 'xung đột kéo dài' câu kề (§8.1 i), mở đoạn Rakhine",
+     1, None, None, "LC", None),
+    ("S007", "Rakhine", "L", "repetition",
+     "S006: hai tiểu bang Shan và Rakhine", "high", None,
+     "lặp tên riêng câu kề (§8.1 i); đối ứng EN (S006 ← S005, v2)", 1,
+     None, None, "LC", None),
+    ("S008", "cứu trợ", "L", "synonym", "S006: sự trợ giúp nhân đạo", "med",
+     None,
+     "'cứu trợ' ~ 'trợ giúp' (cùng gốc 'trợ') — biến thể chuỗi hỗ trợ; "
+     "'tổ chức' trong 'tổ chức cứu trợ' = lớp chung viện trợ ≠ UNICEF — "
+     "không đánh dấu (tiền lệ EN S007); đối ứng EN 'aid' (S011 ← S007, v2)",
+     1, None, None, "LC", None),
+    ("S011", "UNICEF", "L", "repetition", "S006: UNICEF", "high", None,
+     "tái lập sau 5 câu trong chức danh 'cố vấn của UNICEF'; S009/S010 "
+     "'Theo UNICEF' là artifact (§8.2) — không dùng làm ante", 1, None,
+     None, "LC", None),
+    ("S011", "cho biết", "L", "repetition", "S006: cho biết", "high", None,
+     "attribution (§8.1 v); nguyên dạng sau 5 câu, mở trích dẫn 1; 'như "
+     "sau' đã là hàng S riêng", 1, None, None, "LC", None),
+    ("S014", "nói thêm", "L", "synonym", "S011: cho biết như sau", "high",
+     None,
+     "attribution (§8.1 v); 'nói' ~ 'cho biết'; đối ứng EN 'said' ← "
+     "'stressed' (S012 ← S011, v2)", 1, None, None, "LC", None),
+    ("S014", "cứu trợ", "L", "repetition", "S008: Các tổ chức cứu trợ",
+     "med", None,
+     "lặp 'cứu trợ' sau 6 câu trong tổ hợp mới (tổ chức ↔ vật phẩm) — lặp "
+     "mục từ theo H&H", 1, None, None, "LC", None),
+    ("S015", "Bà van Heese", "L", "repetition",
+     "S014: Bà van Heese nói thêm", "high", None,
+     "lặp tên người nói trong attribution câu kề (§8.1 iv), mở trích dẫn "
+     "2; EN đảo attribution xuống cuối trích dẫn (S016)", 1, None, None,
+     "LC", None),
+    ("S015", "nói", "L", "repetition", "S014: nói thêm", "high", None,
+     "attribution (§8.1 v); cùng lexeme 'nói' câu kề", 1, None, None,
+     "LC", None),
+    ("S015", "lũ lụt", "L", "repetition",
+     "S014: bị ảnh hưởng của lũ lụt", "high", None,
+     "lặp nguyên dạng câu kề qua ranh giới attribution→trích dẫn; chính "
+     "sách pilot bỏ lặp kề, v2 đánh dấu (§8.1 i; tiền lệ EN 'flooding "
+     "situations' S013 ← S012)", 1, None, None, "LC", None),
+    ("S015", "Bắc Triều Tiên", "L", "repetition",
+     "S014: Bắc Triều Tiên nghèo khó", "high", None,
+     "lặp tên riêng câu kề (§8.1 i), trong trích dẫn 2", 1, None, None,
+     "LC", None),
+    ("S016", "cung cấp", "L", "repetition",
+     "S012: để cung cấp những sự trợ giúp", "high", None,
+     "tái lập động từ sau 4 câu (trích dẫn 1 → trích dẫn 2); ×2 trong câu "
+     "— 1 mark, occ = số lần", 2, None, None, "LC", None),
+    ("S016", "một tổ chức", "L", "repetition", "S004: tổ chức này", "high",
+     None,
+     "lặp 'tổ chức' sau 12 câu ('chúng tôi, trong tư cách là một tổ chức' "
+     "= UNICEF); S002 khởi chuỗi; S008 'tổ chức cứu trợ' lớp chung — bỏ; "
+     "S021/S024 'tổ chức này' đã là hàng R; đối ứng EN (S014 ← S002, v2)",
+     1, None, None, "LC", None),
+    ("S017", "cơ quan", "L", "synonym",
+     "S016: trong tư cách là một tổ chức", "med", None,
+     "'cơ quan' ~ 'tổ chức' câu kề; 'khác' đã là hàng R riêng; đối ứng EN "
+     "'agencies' (S015 ← S007, v2)", 1, None, None, "LC", None),
+    ("S019", "UNICEF", "L", "repetition", "S011: cố vấn của UNICEF",
+     "high", None,
+     "tái lập sau 8 câu, mở đoạn sau khối trích dẫn; đối ứng EN S017 (v2)",
+     1, None, None, "LC", None),
+    ("S019", "nói", "L", "repetition", "S015: Bà van Heese nói", "high",
+     None,
+     "attribution (§8.1 v) với chủ ngữ vật 'Lời kêu gọi … nói rằng'; đối "
+     "ứng EN 'appeal said' (S017, v2)", 1, None, None, "LC", None),
+    ("S019", "nhu cầu tối cần thiết", "L", "repetition",
+     "S016: cần phải tiếp tục tìm kiếm", "med", None,
+     "gia đình hình thái 'cần' (S001 cần tới, S002 cần được, S006/S014 cần "
+     "có, S016 cần phải) → 'cần thiết' + danh từ hoá 'nhu cầu'; đối ứng EN "
+     "'critical need' (S017 ← S012, v2)", 1, None, None, "LC", None),
+    ("S019", "dinh dưỡng", "L", "repetition",
+     "S005: bị suy dinh dưỡng nặng", "med", None,
+     "lặp 'dinh dưỡng' sau 14 câu (tình trạng ↔ lĩnh vực); đối ứng EN "
+     "'nutrition' (S017 ← S004, v2)", 1, None, None, "LC", None),
+    ("S020", "UNICEF", "L", "repetition", "S019: của UNICEF", "high", None,
+     "lặp tên riêng câu kề (§8.1 i) trong khung 'Theo' (không có động từ "
+     "attribution); đối ứng EN (S020 ← S018, v2)", 1, None, None, "LC",
+     None),
+    ("S021", "nói", "L", "repetition", "S019: của UNICEF nói rằng", "high",
+     None,
+     "attribution (§8.1 v) câu kề; 'Tổ chức này' đã là hàng R riêng; đối "
+     "ứng EN (S019 ← S017, v2)", 1, None, None, "LC", None),
+    ("S021", "tác động", "L", "synonym", "S014: có thể bị ảnh hưởng",
+     "med", None,
+     "'tác động' ~ 'ảnh hưởng'; khác sự kiện (lũ BTT ↔ xung đột Mindanao) "
+     "— lặp mục từ (tiền lệ EN 'affected' S019 ← S012, v2)", 1, None,
+     None, "LC", None),
+    ("S022", "trẻ em", "L", "repetition", "S021: trẻ em", "high", None,
+     "lặp câu kề; ×2 trong câu ('tử suất trẻ em', 'tỉ lệ trẻ em tới "
+     "trường') — 1 mark, occ = số lần; 'các em' rút gọn cùng chuỗi cùng "
+     "câu", 2, None, None, "LC", None),
+    ("S022", "UNICEF", "L", "repetition", "S020: Theo UNICEF", "high",
+     None,
+     "tái lập sau 2 câu trong khung 'khiến UNICEF kêu gọi'", 1, None,
+     None, "LC", None),
+    ("S022", "những hành vi bạo lực", "L", "synonym",
+     "S021: cuộc xung đột kéo dài nhiều thập niên", "med", None,
+     "'bạo lực' ~ 'xung đột' (cùng gốc 'bạo' với 'bạo động' S008); khác "
+     "sự kiện — lặp mục từ (tiền lệ EN 'violence' S020 ← S006, v2)", 1,
+     None, None, "LC", None),
+    ("S023", "UNICEF", "L", "repetition", "S022: khiến UNICEF kêu gọi",
+     "high", None,
+     "lặp tên riêng câu kề (§8.1 i); khung 'lớn nhất … của UNICEF từ trước "
+     "tới nay' khép bài", 1, None, None, "LC", None),
+    ("S024", "giúp đỡ", "L", "repetition",
+     "S022: để giúp Philippines giảm tử suất trẻ em", "high", None,
+     "cùng gốc 'giúp' ('giúp' S022 động từ mờ — không đánh dấu riêng, chỉ "
+     "làm ante); chuỗi hỗ trợ khép bài (S001 hỗ trợ → S024 giúp đỡ); đối "
+     "ứng EN 'assist' (S022 ← S017, v2)", 1, None, None, "LC", None),
 ]

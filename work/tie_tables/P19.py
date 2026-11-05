@@ -195,6 +195,139 @@ ST = [
     ("S020", "claim form", "L", "repetition", "S013: file claims", "med",
      None, "gia đình hình thái (claims → claim form); VI 'nộp hồ sơ đòi bồi "
      "thường' (S021)", 1, None, None, "LC", None),
+
+    # ---------- L v2 bổ sung ----------
+    # 36 hàng theo CONVENTIONS §8.1 (chính sách L v2): từ đơn nội dung, lặp ở
+    # câu kề, chuỗi động từ attribution; 1 mark/câu/chuỗi; bỏ các trường hợp
+    # cùng dạng nhưng trỏ thực thể khác (đọc hiểu từng trường hợp).
+    ("S002", "A lawsuit", "L", "repetition",
+     "S001: a class action lawsuit", "high", None,
+     "biến thể rút gọn (bỏ định ngữ 'class action') ở câu thứ hai của lede",
+     1, None, None, "LC", None),
+    ("S002", "air carriers", "L", "synonym", "S001: eight airlines", "high",
+     None,
+     "đồng nghĩa ngành (airline ↔ air carrier); S005 sẽ rút gọn thành "
+     "'carriers'", 1, None, None, "LC", None),
+    ("S003", "tickets", "L", "repetition", "S001: ticket price-fixing", "med",
+     None,
+     "biến thể hình thái (ticket → tickets), tách khỏi tổ hợp lede; tiền "
+     "trạm của 'discounted tickets' (S019)", 1, None, None, "LC", None),
+    ("S003", "airlines", "L", "repetition",
+     "S001: eight airlines (S002: air carriers)", "med", None,
+     "dùng cấp danh mục ('tổng 26 hãng') — cùng chuỗi từ vựng, nhóm tham "
+     "chiếu rộng hơn (đối chiếu note hàng S004)", 1, None, None, "LC", None),
+    ("S003", "involves", "L", "repetition",
+     "S001: involving ticket price-fixing", "med", None,
+     "biến thể hình thái (involving → involves)", 1, None, None, "LC", None),
+    ("S004", "a lawsuit", "L", "repetition", "S002: A lawsuit", "high", None,
+     "mệnh đề 'a lawsuit continues against five more' tái lập gần nguyên "
+     "văn S002 (không nguyên văn cả câu nên vẫn đánh dấu)", 1, None, None,
+     "LC", None),
+    ("S004", "continues", "L", "repetition", "S002: A lawsuit continues",
+     "med", None,
+     "lặp động từ nội dung 'continues' trong mệnh đề tái lập từ S002", 1,
+     None, None, "LC", None),
+    ("S005", "agreed", "L", "synonym",
+     "S004: Settlements have been reached", "med", None,
+     "đồng nghĩa (thỏa thuận ↔ đồng ý): 'agreed to refund' hiện thực hóa "
+     "Settlements ở câu kề", 1, None, None, "LC", None),
+    ("S005", "refund", "L", "synonym", "S001: eligible for benefits", "med",
+     None,
+     "khoản hoàn tiền cụ thể hóa 'benefits' được hứa ở lede", 1, None, None,
+     "LC", None),
+    ("S007", "industry", "L", "repetition",
+     "S006: the air cargo industry", "high", None,
+     "lặp 'industry' (air cargo → air passenger), đối lập hai ngành", 1,
+     None, None, "LC", None),
+    ("S007", "air cargo", "L", "repetition",
+     "S006: price-fixing in the air cargo industry", "high", None,
+     "tái lập tổ hợp 'air cargo' ở câu kề", 1, None, None, "LC", None),
+    ("S007", "carriers", "L", "repetition",
+     "S002: five more air carriers", "high", None,
+     "lặp 'carriers' sau 5 câu ('air cargo carriers' = hãng chở hàng)", 1,
+     None, None, "LC", None),
+    ("S008", "cargo", "L", "repetition", "S007: air cargo carriers", "high",
+     None, "rút gọn (air cargo → cargo), câu kề", 1, None, None, "LC", None),
+    ("S008", "carried", "L", "repetition", "S007: air cargo carriers", "med",
+     None,
+     "biến thể hình thái (carriers → carried, cùng gốc carry); xuất hiện 2 "
+     "lần trong câu — 1 mark (occ 2)", 2, None, None, "LC", None),
+    ("S008", "air passenger", "L", "repetition",
+     "S007: the air passenger industry", "high", None,
+     "tái lập tổ hợp 'air passenger' (industry → planes), câu kề", 1, None,
+     None, "LC", None),
+    ("S010", "said", "L", "general word", "S006: explains", "med", None,
+     "chuỗi động từ attribution (§8.1 v): 'said' tổng quát hóa 'explains' "
+     "sau 4 câu", 1, None, None, "LC", None),
+    ("S010", "our case", "L", "repetition", "S006: the case", "high", None,
+     "cùng referent (vụ kiện chính) — khác 'that case' (vụ hàng hóa, hàng "
+     "R); lặp 'case' sau 4 câu", 1, None, None, "LC", None),
+    ("S010", "defendants", "L", "synonym",
+     "S002: accused of the same thing", "med", None,
+     "đồng nghĩa (bị buộc tội ↔ bị cáo): 'defendants in our case' = nhóm 5 "
+     "hãng ở S002; 2 lần trong câu — mark occ 2", 2, None, None, "LC", None),
+    ("S011", "Zapala", "L", "repetition", "S010: said Zapala", "high", None,
+     "lặp tên người nói trong attribution, câu kề (§8.1 iv — v2 đánh dấu cả "
+     "câu kề)", 1, None, None, "LC", None),
+    ("S011", "said", "L", "repetition", "S010: said Zapala", "high", None,
+     "chuỗi attribution (§8.1 v): lặp 'said' ở câu kề", 1, None, None, "LC",
+     None),
+    ("S012", "paid", "L", "synonym",
+     "S005: have agreed to refund nearly $40 million", "med", None,
+     "refund ↔ paid out — cùng sự kiện chi trả 40 triệu (đối chiếu 'can "
+     "get' S011)", 1, None, None, "LC", None),
+    ("S013", "exaplined", "L", "repetition", "S006: explains", "high", None,
+     "chuỗi attribution: 'exaplined' (lỗi chính tả của 'explained' trong "
+     "nguồn) cùng gốc explain với S006", 1, None, None, "LC", None),
+    ("S014", "said", "L", "repetition", "S011: Zapala said", "high", None,
+     "chuỗi attribution: lặp 'said' (dạng gần nhất) sau 3 câu", 1, None,
+     None, "LC", None),
+    ("S014", "money", "L", "repetition", "S011: how much money", "high",
+     None, "lặp 'money' sau 3 câu (khoản tiền bồi thường)", 1, None, None,
+     "LC", None),
+    ("S014", "uncovering", "L", "synonym",
+     "S006: U.S. government investigations into price-fixing", "med", None,
+     "đồng nghĩa (điều tra ↔ phát hiện, bóc trần): cùng hành vi bộc lộ vụ "
+     "lũng đoạn giá", 1, None, None, "LC", None),
+    ("S014", "businesses", "L", "general word",
+     "S007: the same players (S001: eight airlines)", "low", None,
+     "tổng quát hóa: các hãng (players/airlines) là doanh nghiệp — câu phát "
+     "biểu tổng quát về răn đe", 1, None, None, "LC", None),
+    ("S015", "claims", "L", "synonym", "S014: The attorney said", "med",
+     None,
+     "chuỗi attribution (§8.1 v): 'claims' (vụ kiện khẳng định) tiếp nối "
+     "said/explains ở câu kề", 1, None, None, "LC", None),
+    ("S015", "trans-Pacific", "L", "repetition",
+     "S001: flew on eight airlines across the Pacific", "high", None,
+     "lặp 'Pacific' sau 14 câu (across the Pacific → trans-Pacific)", 1,
+     None, None, "LC", None),
+    ("S015", "travel", "L", "repetition", "S001: Travelers", "med", None,
+     "biến thể hình thái (Travelers → travel, cùng gốc travel)", 1, None,
+     None, "LC", None),
+    ("S016", "Pacific", "L", "repetition", "S015: trans-Pacific travel",
+     "high", None, "lặp 'Pacific' ở câu kề ('Pacific islands')", 1, None,
+     None, "LC", None),
+    ("S016", "involved", "L", "repetition", "S003: The case involves", "med",
+     None,
+     "biến thể hình thái (involves → involved) của chuỗi 'involve' (S001, "
+     "S003)", 1, None, None, "LC", None),
+    ("S018", "deny", "L", "repetition", "S017: deny the allegation", "high",
+     None,
+     "lặp động từ 'deny' ở câu kề — hai nhóm hãng cùng bác bỏ", 1, None,
+     None, "LC", None),
+    ("S018", "liability", "L", "repetition", "S017: any liability", "high",
+     None, "lặp 'liability' ở câu kề", 1, None, None, "LC", None),
+    ("S019", "ANA", "L", "repetition", "S018: All Nippon Airways (ANA)",
+     "high", None,
+     "tên riêng: lặp dạng viết tắt đã được giới thiệu ở câu kề", 1, None,
+     None, "LC", None),
+    ("S020", "file", "L", "repetition", "S013: file claims", "high", None,
+     "chuỗi động từ 'file' (S011 file applications → S013 file claims → "
+     "S020 file)", 1, None, None, "LC", None),
+    ("S021", "obtained", "L", "synonym",
+     "S011: how much money passengers potentially can get", "low", None,
+     "đồng nghĩa (get ↔ obtain) sau 10 câu — 'nhận được' khép khung lede ↔ "
+     "hướng dẫn", 1, None, None, "LC", None),
 ]
 
 TT = [
