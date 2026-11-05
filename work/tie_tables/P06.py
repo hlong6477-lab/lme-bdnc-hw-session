@@ -457,25 +457,6 @@ TT = [
      1, None, None, "LC", None),
 
     # ---------- L v2 bổ sung ----------
-<<<<<<< HEAD
-    # Theo CONVENTIONS §8.1 (v2): chuỗi gồm cả từ đơn nội dung, thuật ngữ
-    # đa từ = 1 chuỗi, tên riêng = 1 chuỗi, động từ attribution = chuỗi
-    # riêng; đánh dấu cả lặp cùng dạng ở câu kề; 1 mark/câu/chuỗi. Mỗi hàng
-    # là một quyết định đọc hiểu tay theo TT_sentmap/TT_seg.json. Mức đánh
-    # dấu đối xứng ST: mark đại diện chuỗi (như EN không mark từng lần lặp
-    # 'the US'/'Australians' S004–S007). Bỏ do khác referent: "báo cáo"
-    # S024 (báo cáo ACCC ≠ Amex), "tuyến bay" S019/S022 (tuyến khác),
-    # "dịch vụ" S013 (bay thẳng Dubai). 29 hàng mới (L: 6 → 35).
-    ("S002", "Hoa Kỳ", "L", "repetition",
-     "S001: đi du lịch đến Hoa Kỳ", "high", None,
-     "tên riêng lặp câu kề; occ 2 — 'của Hoa Kỳ' (thuộc tên chương trình) "
-     "và 'khi đến Hoa Kỳ'; đối ứng L-EN 'the US' (S002)",
-     2, None, None, "LC", None),
-    ("S002", "đủ điều kiện", "L", "repetition",
-     "S001: bạn có thể đủ điều kiện", "high", None,
-     "tính từ nội dung lặp câu kề, cùng chủ đề Global Entry; đối ứng L-EN "
-     "'eligible' (S002)",
-=======
     # Theo CONVENTIONS §8.1 (v2) — bổ sung nhóm L phía TT, quyết định độc lập
     # theo văn bản VI (không rập khuôn EN): chuỗi gồm cả từ đơn nội dung
     # (danh/động/tính/trạng), thuật ngữ đa từ = 1 chuỗi, tên riêng = 1 chuỗi,
@@ -496,146 +477,10 @@ TT = [
      "S001: đủ điều kiện", "high", None,
      "tính từ đơn lặp câu kề (từ đơn nội dung, §8.1 v2); EN đối ứng "
      "'eligible'",
->>>>>>> origin/main
      1, None, None, "LC", None),
     ("S003", "Chương trình", "L", "repetition",
      "S002: chương trình Nhập cảnh Toàn cầu ưu tiên - Global Entry",
      "high", None,
-<<<<<<< HEAD
-     "rút gọn còn 'chương trình', câu kề; đối ứng L-EN 'The program' "
-     "(S003); S004 'chương trình này' cùng chuỗi (1 mark — L-VI1 'kế hoạch')",
-     1, None, None, "LC", None),
-    ("S003", "người Úc", "L", "repetition",
-     "S002: những du khách Úc đủ điều kiện", "high", None,
-     "tên riêng Úc (du khách Úc → người Úc), câu kề; đối ứng L-EN "
-     "'Australians' (S003); chuỗi người Úc còn chạy S004–S008 (mark đại "
-     "diện như EN)",
-     1, None, None, "LC", None),
-    ("S007", "ETA", "L", "repetition",
-     "S006: Giấy phép du lịch điện tử (Electronic Travel Authorisation - "
-     "ETA)", "high", None,
-     "tái lập dạng viết tắt, câu kề (nộp đơn xin ETA); chuỗi giấy phép "
-     "ETA/ETIAS (inventory §6.2 chuỗi B)",
-     1, None, None, "LC", None),
-    ("S007", "Vương quốc Anh", "L", "repetition",
-     "S006: nhập cảnh vào Vương quốc Anh", "high", None,
-     "tái lập tên nước, câu kề; EN rút gọn 'the UK' (L-EN S006) — VI giữ "
-     "nguyên dạng",
-     1, None, None, "LC", None),
-    ("S009", "ETIAS", "L", "repetition",
-     "S008: miễn thị thực ETIAS (Hệ thống thông tin và ủy quyền du lịch "
-     "châu Âu)", "high", None,
-     "tái lập tên hệ thống, câu kề; đối ứng L-EN 'ETIAS' (S008)",
-     1, None, None, "LC", None),
-    ("S009", "du khách", "L", "repetition",
-     "S002: những du khách Úc đủ điều kiện", "high", None,
-     "tái lập danh từ sau 7 câu; chuỗi du khách S002→S009→S010→S016 "
-     "(inventory §6.2 chuỗi S)",
-     1, None, None, "LC", None),
-    ("S010", "một quy trình bổ sung", "L", "repetition",
-     "S009: Quy trình ETIAS", "high", None,
-     "tái lập danh từ 'quy trình', câu kề; đối ứng L-EN 'the new process' "
-     "(S009); R-VI2 'Đây' là chỉ từ riêng — không double-code",
-     1, None, None, "LC", None),
-    ("S010", "khách du lịch", "L", "synonym",
-     "S009: du khách", "high", None,
-     "biến thể đảo trật tự vào chuỗi du khách (du khách → khách du lịch), "
-     "câu kề; đối ứng L-EN 'tourists' (S009)",
-     1, None, None, "LC", None),
-    ("S012", "chuyến bay", "L", "repetition",
-     "S005: các chuyến bay nội địa của Hoa Kỳ", "high", None,
-     "tái lập 'chuyến bay' sau 7 câu, cùng trường hàng không; 'bốn chuyến "
-     "một tuần' cùng câu cùng họ từ (1 mark); đối ứng L-EN 'flights' (S011)",
-     1, None, None, "LC", None),
-    ("S014", "cắt giảm", "L", "repetition",
-     "S013: Emirates sẽ cắt giảm các chuyến bay giữa Singapore và "
-     "Melbourne", "high", None,
-     "tái lập động từ, câu kề (Virgin cắt giảm nối Emirates); đối ứng L-EN "
-     "'cutting' (S013)",
-     1, None, None, "LC", None),
-    ("S015", "dịch vụ từ Cairns đến Tokyo", "L", "repetition",
-     "S014: dịch vụ hàng ngày từ Cairns đến Tokyo", "high", None,
-     "tái lập cả tổ hợp, bỏ định ngữ 'hàng ngày', câu kề; đối ứng L-EN "
-     "'the route' (S014); cùng chuỗi dịch vụ Cairns–Tokyo với L-VI4",
-     1, None, None, "LC", None),
-    ("S016", "hãng hàng không", "L", "repetition",
-     "S015: Hãng hàng không này", "high", None,
-     "tái lập tại attribution mở trích dẫn, câu kề; đối ứng L-EN 'the "
-     "airline' (S015)",
-     1, None, None, "LC", None),
-    ("S016", "du khách", "L", "repetition",
-     "S009: du khách", "high", None,
-     "tái lập chuỗi du khách sau 6 câu, trong trích dẫn Virgin; đối ứng "
-     "L-EN 'visitors' (S015)",
-     1, None, None, "LC", None),
-    ("S018", "Báo cáo", "L", "repetition",
-     "S017: báo cáo thường niên của Amex Air Monitor", "high", None,
-     "rút gọn tên báo cáo, câu kề; đối ứng L-EN 'The report' (S017); S024 "
-     "'báo cáo tháng 11' khác referent (ACCC) — bỏ",
-     1, None, None, "LC", None),
-    ("S018", "giá vé máy bay", "L", "repetition",
-     "S017: giá vé máy bay trong và ngoài nước Úc", "high", None,
-     "tái lập thuật ngữ then chốt, câu kề; 'giá vé từ Úc' cùng câu cùng "
-     "chuỗi (1 mark); chuỗi E (inventory §6.2)",
-     1, None, None, "LC", None),
-    ("S018", "tăng", "L", "repetition",
-     "S017: sẽ tăng vọt vào năm 2025", "high", None,
-     "gia đình hình thái (tăng vọt → tăng), câu kề; occ 2 — 'tăng 13,7%' "
-     "và 'tăng 12%'; đối ứng L-EN 'jump' (S017)",
-     2, None, None, "LC", None),
-    ("S019", "giá vé máy bay", "L", "repetition",
-     "S018: giá vé máy bay hạng phổ thông", "high", None,
-     "tái lập thuật ngữ, câu kề; chuỗi E dày S017–S022",
-     1, None, None, "LC", None),
-    ("S020", "ACCC", "L", "repetition",
-     "S019: Ủy ban Cạnh tranh và Người tiêu dùng Úc (ACCC)", "high", None,
-     "tái lập viết tắt đã giới thiệu câu trước, tại attribution, câu kề; "
-     "đối ứng L-EN 'ACCC' (S019)",
-     1, None, None, "LC", None),
-    ("S020", "nói", "L", "synonym",
-     "S016: một tuyên bố từ hãng hàng không cho biết", "high", None,
-     "chuỗi động từ attribution (§8.1): cho biết → nói, sau 4 câu; đối ứng "
-     "L-EN 'told' (S019)",
-     1, None, None, "LC", None),
-    ("S020", "giá vé máy bay", "L", "repetition",
-     "S019: giá vé máy bay nội địa", "high", None,
-     "tái lập thuật ngữ, câu kề; chuỗi E",
-     1, None, None, "LC", None),
-    ("S021", "lưu ý", "L", "synonym",
-     "S020: một phát ngôn viên của ACCC nói với SBS News", "high", None,
-     "chuỗi động từ attribution (§8.1): nói → lưu ý, câu kề, trong lượt "
-     "trích dẫn ACCC",
-     1, None, None, "LC", None),
-    ("S021", "giá vé máy bay", "L", "repetition",
-     "S020: giá vé máy bay trong tương lai", "high", None,
-     "tái lập thuật ngữ, câu kề; chuỗi E",
-     1, None, None, "LC", None),
-    ("S022", "giá vé máy bay", "L", "repetition",
-     "S021: giá vé máy bay", "high", None,
-     "tái lập thuật ngữ, câu kề; chuỗi E khép tại nghiên cứu Bộ Tài chính",
-     1, None, None, "LC", None),
-    ("S022", "giảm", "L", "repetition",
-     "S019: sự cạnh tranh giảm đáng kể", "high", None,
-     "tái lập động từ (cạnh tranh giảm → giảm giá vé), sau 3 câu; đối ứng "
-     "L-EN 'reduce' (S021)",
-     1, None, None, "LC", None),
-    ("S023", "quan trọng", "L", "repetition",
-     "S006: những thay đổi quan trọng nhất", "med", None,
-     "biến thể hình thái (quan trọng nhất → quan trọng hơn), tái lập sau "
-     "17 câu; khung 'Một trong những…' tương ứng S006; đối ứng L-EN "
-     "'significant' (S022)",
-     1, None, None, "LC", None),
-    ("S024", "giá nhiên liệu máy bay", "L", "repetition",
-     "S023: giá nhiên liệu máy bay", "high", None,
-     "tái lập nguyên văn cụm, câu kề; chuỗi H (inventory §6.2); đối ứng "
-     "L-EN 'the price of jet fuel' (S023)",
-     1, None, None, "LC", None),
-    ("S024", "lưu ý", "L", "repetition",
-     "S021: ACCC lưu ý", "high", None,
-     "chuỗi động từ attribution (§8.1): lưu ý tái lập sau 3 câu, khép "
-     "trích dẫn ACCC",
-     1, None, None, "LC", None),
-=======
      "rút gọn còn 'chương trình', câu kề; EN đối ứng 'The program' (S003)",
      1, None, None, "LC", None),
     ("S003", "người Úc", "L", "repetition",
@@ -750,5 +595,4 @@ TT = [
      "tái lập nguyên văn cụm, câu kề; EN đối ứng 'the price of jet fuel' "
      "(S023)",
      1, None, None, "LC", None),
->>>>>>> origin/main
 ]

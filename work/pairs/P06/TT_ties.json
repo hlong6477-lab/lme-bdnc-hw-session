@@ -225,17 +225,10 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S001: đi du lịch đến Hoa Kỳ",
-   "conf": "high",
-   "alt": null,
-   "note": "tên riêng lặp câu kề; occ 2 — 'của Hoa Kỳ' (thuộc tên chương trình) và 'khi đến Hoa Kỳ'; đối ứng L-EN 'the US' (S002)"
-=======
    "ante": "S001: Hoa Kỳ",
    "conf": "high",
    "alt": null,
    "note": "tên nước lặp câu kề; occ 2 — 'của Hoa Kỳ' (trong tên chương trình) và 'khi đến Hoa Kỳ'"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-017",
@@ -246,17 +239,10 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S001: bạn có thể đủ điều kiện",
-   "conf": "high",
-   "alt": null,
-   "note": "tính từ nội dung lặp câu kề, cùng chủ đề Global Entry; đối ứng L-EN 'eligible' (S002)"
-=======
    "ante": "S001: đủ điều kiện",
    "conf": "high",
    "alt": null,
    "note": "tính từ đơn lặp câu kề (từ đơn nội dung, §8.1 v2); EN đối ứng 'eligible'"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-018",
@@ -270,11 +256,7 @@
    "ante": "S002: chương trình Nhập cảnh Toàn cầu ưu tiên - Global Entry",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "rút gọn còn 'chương trình', câu kề; đối ứng L-EN 'The program' (S003); S004 'chương trình này' cùng chuỗi (1 mark — L-VI1 'kế hoạch')"
-=======
    "note": "rút gọn còn 'chương trình', câu kề; EN đối ứng 'The program' (S003)"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-019",
@@ -285,23 +267,14 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S002: những du khách Úc đủ điều kiện",
-   "conf": "high",
-   "alt": null,
-   "note": "tên riêng Úc (du khách Úc → người Úc), câu kề; đối ứng L-EN 'Australians' (S003); chuỗi người Úc còn chạy S004–S008 (mark đại diện như EN)"
-=======
    "ante": "S002: du khách Úc",
    "conf": "high",
    "alt": null,
    "note": "tái lập chuỗi người Úc, câu kề; EN đối ứng 'Australians'; các lần 'người Úc' S004–S008 cùng chuỗi (1 mark)"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-020",
    "sent": "S007",
-<<<<<<< HEAD
-=======
    "text": "Vương quốc Anh",
    "occ": 1,
    "cat": "L",
@@ -316,7 +289,6 @@
   {
    "id": "P06-VI-021",
    "sent": "S007",
->>>>>>> origin/main
    "text": "ETA",
    "occ": 1,
    "cat": "L",
@@ -326,25 +298,7 @@
    "ante": "S006: Giấy phép du lịch điện tử (Electronic Travel Authorisation - ETA)",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tái lập dạng viết tắt, câu kề (nộp đơn xin ETA); chuỗi giấy phép ETA/ETIAS (inventory §6.2 chuỗi B)"
-  },
-  {
-   "id": "P06-VI-021",
-   "sent": "S007",
-   "text": "Vương quốc Anh",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S006: nhập cảnh vào Vương quốc Anh",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập tên nước, câu kề; EN rút gọn 'the UK' (L-EN S006) — VI giữ nguyên dạng"
-=======
    "note": "tái lập tên viết tắt, câu kề; EN đối ứng 'ETIAS' (S008)"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-022",
@@ -355,17 +309,10 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S008: miễn thị thực ETIAS (Hệ thống thông tin và ủy quyền du lịch châu Âu)",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập tên hệ thống, câu kề; đối ứng L-EN 'ETIAS' (S008)"
-=======
    "ante": "S008: miễn thị thực ETIAS",
    "conf": "high",
    "alt": null,
    "note": "tái lập tên hệ thống, câu kề; EN đối ứng 'ETIAS' (L v2 EN)"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-023",
@@ -376,17 +323,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S002: những du khách Úc đủ điều kiện",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập danh từ sau 7 câu; chuỗi du khách S002→S009→S010→S016 (inventory §6.2 chuỗi S)"
-  },
-  {
-   "id": "P06-VI-024",
-   "sent": "S010",
-   "text": "một quy trình bổ sung",
-=======
    "ante": "S002: du khách Úc",
    "conf": "high",
    "alt": null,
@@ -410,7 +346,6 @@
    "id": "P06-VI-025",
    "sent": "S010",
    "text": "quy trình",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
@@ -419,17 +354,10 @@
    "ante": "S009: Quy trình ETIAS",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tái lập danh từ 'quy trình', câu kề; đối ứng L-EN 'the new process' (S009); R-VI2 'Đây' là chỉ từ riêng — không double-code"
-  },
-  {
-   "id": "P06-VI-025",
-=======
    "note": "thêm định ngữ 'bổ sung', câu kề, cùng referent; EN đối ứng 'the new process' (S009); 'Đây' (R-VI2) là item riêng"
   },
   {
    "id": "P06-VI-026",
->>>>>>> origin/main
    "sent": "S010",
    "text": "khách du lịch",
    "occ": 1,
@@ -440,12 +368,6 @@
    "ante": "S009: du khách",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "biến thể đảo trật tự vào chuỗi du khách (du khách → khách du lịch), câu kề; đối ứng L-EN 'tourists' (S009)"
-  },
-  {
-   "id": "P06-VI-026",
-=======
    "note": "biến thể trật tự (du khách → khách du lịch), câu kề"
   },
   {
@@ -464,7 +386,6 @@
   },
   {
    "id": "P06-VI-028",
->>>>>>> origin/main
    "sent": "S012",
    "text": "chuyến bay",
    "occ": 1,
@@ -472,15 +393,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S005: các chuyến bay nội địa của Hoa Kỳ",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập 'chuyến bay' sau 7 câu, cùng trường hàng không; 'bốn chuyến một tuần' cùng câu cùng họ từ (1 mark); đối ứng L-EN 'flights' (S011)"
-  },
-  {
-   "id": "P06-VI-027",
-=======
    "ante": "S005: các chuyến bay nội địa",
    "conf": "high",
    "alt": null,
@@ -488,7 +400,6 @@
   },
   {
    "id": "P06-VI-029",
->>>>>>> origin/main
    "sent": "S014",
    "text": "cắt giảm",
    "occ": 1,
@@ -496,15 +407,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S013: Emirates sẽ cắt giảm các chuyến bay giữa Singapore và Melbourne",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập động từ, câu kề (Virgin cắt giảm nối Emirates); đối ứng L-EN 'cutting' (S013)"
-  },
-  {
-   "id": "P06-VI-028",
-=======
    "ante": "S013: cắt giảm các chuyến bay",
    "conf": "high",
    "alt": null,
@@ -512,7 +414,6 @@
   },
   {
    "id": "P06-VI-030",
->>>>>>> origin/main
    "sent": "S015",
    "text": "dịch vụ từ Cairns đến Tokyo",
    "occ": 1,
@@ -523,17 +424,10 @@
    "ante": "S014: dịch vụ hàng ngày từ Cairns đến Tokyo",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tái lập cả tổ hợp, bỏ định ngữ 'hàng ngày', câu kề; đối ứng L-EN 'the route' (S014); cùng chuỗi dịch vụ Cairns–Tokyo với L-VI4"
-  },
-  {
-   "id": "P06-VI-029",
-=======
    "note": "tái lập chuỗi dịch vụ Cairns–Tokyo, câu kề, cùng referent; bù bất đối xứng với EN 'the route' (L-EN3)"
   },
   {
    "id": "P06-VI-031",
->>>>>>> origin/main
    "sent": "S016",
    "text": "hãng hàng không",
    "occ": 1,
@@ -544,33 +438,14 @@
    "ante": "S015: Hãng hàng không này",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tái lập tại attribution mở trích dẫn, câu kề; đối ứng L-EN 'the airline' (S015)"
-  },
-  {
-   "id": "P06-VI-030",
-=======
    "note": "lặp kề tại attribution (Virgin); EN đối ứng 'the airline' (S015)"
   },
   {
    "id": "P06-VI-032",
->>>>>>> origin/main
    "sent": "S016",
    "text": "du khách",
    "occ": 1,
    "cat": "L",
-<<<<<<< HEAD
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S009: du khách",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập chuỗi du khách sau 6 câu, trong trích dẫn Virgin; đối ứng L-EN 'visitors' (S015)"
-  },
-  {
-   "id": "P06-VI-031",
-=======
    "sub": "synonym",
    "dir": "ana",
    "level": "LC",
@@ -581,7 +456,6 @@
   },
   {
    "id": "P06-VI-033",
->>>>>>> origin/main
    "sent": "S018",
    "text": "Báo cáo",
    "occ": 1,
@@ -592,31 +466,10 @@
    "ante": "S017: báo cáo thường niên của Amex Air Monitor",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "rút gọn tên báo cáo, câu kề; đối ứng L-EN 'The report' (S017); S024 'báo cáo tháng 11' khác referent (ACCC) — bỏ"
-  },
-  {
-   "id": "P06-VI-032",
-   "sent": "S018",
-   "text": "giá vé máy bay",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S017: giá vé máy bay trong và ngoài nước Úc",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập thuật ngữ then chốt, câu kề; 'giá vé từ Úc' cùng câu cùng chuỗi (1 mark); chuỗi E (inventory §6.2)"
-  },
-  {
-   "id": "P06-VI-033",
-=======
    "note": "rút gọn tên báo cáo, câu kề; EN đối ứng 'The report' (S017)"
   },
   {
    "id": "P06-VI-034",
->>>>>>> origin/main
    "sent": "S018",
    "text": "tăng",
    "occ": 2,
@@ -624,16 +477,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S017: sẽ tăng vọt vào năm 2025",
-   "conf": "high",
-   "alt": null,
-   "note": "gia đình hình thái (tăng vọt → tăng), câu kề; occ 2 — 'tăng 13,7%' và 'tăng 12%'; đối ứng L-EN 'jump' (S017)"
-  },
-  {
-   "id": "P06-VI-034",
-   "sent": "S019",
-=======
    "ante": "S017: tăng vọt",
    "conf": "high",
    "alt": null,
@@ -642,22 +485,12 @@
   {
    "id": "P06-VI-035",
    "sent": "S018",
->>>>>>> origin/main
    "text": "giá vé máy bay",
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S018: giá vé máy bay hạng phổ thông",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập thuật ngữ, câu kề; chuỗi E dày S017–S022"
-  },
-  {
-   "id": "P06-VI-035",
-=======
    "ante": "S017: giá vé máy bay",
    "conf": "high",
    "alt": null,
@@ -665,7 +498,6 @@
   },
   {
    "id": "P06-VI-036",
->>>>>>> origin/main
    "sent": "S020",
    "text": "ACCC",
    "occ": 1,
@@ -676,17 +508,10 @@
    "ante": "S019: Ủy ban Cạnh tranh và Người tiêu dùng Úc (ACCC)",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tái lập viết tắt đã giới thiệu câu trước, tại attribution, câu kề; đối ứng L-EN 'ACCC' (S019)"
-  },
-  {
-   "id": "P06-VI-036",
-=======
    "note": "tái lập viết tắt tại attribution, câu kề; EN đối ứng 'ACCC' (S019)"
   },
   {
    "id": "P06-VI-037",
->>>>>>> origin/main
    "sent": "S020",
    "text": "nói",
    "occ": 1,
@@ -694,31 +519,10 @@
    "sub": "synonym",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S016: một tuyên bố từ hãng hàng không cho biết",
-   "conf": "high",
-   "alt": null,
-   "note": "chuỗi động từ attribution (§8.1): cho biết → nói, sau 4 câu; đối ứng L-EN 'told' (S019)"
-  },
-  {
-   "id": "P06-VI-037",
-   "sent": "S020",
-   "text": "giá vé máy bay",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S019: giá vé máy bay nội địa",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập thuật ngữ, câu kề; chuỗi E"
-=======
    "ante": "S016: cho biết",
    "conf": "high",
    "alt": null,
    "note": "chuỗi động từ attribution (§8.1 v): cho biết → nói; EN đối ứng 'told' (S019)"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-038",
@@ -729,63 +533,28 @@
    "sub": "synonym",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S020: một phát ngôn viên của ACCC nói với SBS News",
-   "conf": "high",
-   "alt": null,
-   "note": "chuỗi động từ attribution (§8.1): nói → lưu ý, câu kề, trong lượt trích dẫn ACCC"
-=======
    "ante": "S020: nói",
    "conf": "high",
    "alt": null,
    "note": "chuỗi động từ attribution (§8.1 v): nói → lưu ý, câu kề"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-039",
    "sent": "S021",
-<<<<<<< HEAD
-   "text": "giá vé máy bay",
-=======
    "text": "tác động",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S020: giá vé máy bay trong tương lai",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập thuật ngữ, câu kề; chuỗi E"
-=======
    "ante": "S020: tác động đến giá vé máy bay",
    "conf": "high",
    "alt": null,
    "note": "lặp kề trong lượt trích dẫn ACCC; cùng khung 'tác động đến giá vé máy bay' (động từ → danh từ)"
->>>>>>> origin/main
   },
   {
    "id": "P06-VI-040",
    "sent": "S022",
-<<<<<<< HEAD
-   "text": "giá vé máy bay",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S021: giá vé máy bay",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập thuật ngữ, câu kề; chuỗi E khép tại nghiên cứu Bộ Tài chính"
-  },
-  {
-   "id": "P06-VI-041",
-   "sent": "S022",
-=======
->>>>>>> origin/main
    "text": "giảm",
    "occ": 1,
    "cat": "L",
@@ -795,45 +564,10 @@
    "ante": "S019: sự cạnh tranh giảm đáng kể",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tái lập động từ (cạnh tranh giảm → giảm giá vé), sau 3 câu; đối ứng L-EN 'reduce' (S021)"
-  },
-  {
-   "id": "P06-VI-042",
-   "sent": "S023",
-   "text": "quan trọng",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S006: những thay đổi quan trọng nhất",
-   "conf": "med",
-   "alt": null,
-   "note": "biến thể hình thái (quan trọng nhất → quan trọng hơn), tái lập sau 17 câu; khung 'Một trong những…' tương ứng S006; đối ứng L-EN 'significant' (S022)"
-  },
-  {
-   "id": "P06-VI-043",
-   "sent": "S024",
-   "text": "giá nhiên liệu máy bay",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S023: giá nhiên liệu máy bay",
-   "conf": "high",
-   "alt": null,
-   "note": "tái lập nguyên văn cụm, câu kề; chuỗi H (inventory §6.2); đối ứng L-EN 'the price of jet fuel' (S023)"
-  },
-  {
-   "id": "P06-VI-044",
-=======
    "note": "động từ lặp sau 3 câu (cạnh tranh giảm → giảm giá vé); EN đối ứng 'reduce' (S021)"
   },
   {
    "id": "P06-VI-041",
->>>>>>> origin/main
    "sent": "S024",
    "text": "lưu ý",
    "occ": 1,
@@ -844,9 +578,6 @@
    "ante": "S021: ACCC lưu ý",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "chuỗi động từ attribution (§8.1): lưu ý tái lập sau 3 câu, khép trích dẫn ACCC"
-=======
    "note": "chuỗi động từ attribution (§8.1 v): lặp 'lưu ý' sau 3 câu, khép trích dẫn ACCC"
   },
   {
@@ -862,7 +593,6 @@
    "conf": "high",
    "alt": null,
    "note": "tái lập nguyên văn cụm, câu kề; EN đối ứng 'the price of jet fuel' (S023)"
->>>>>>> origin/main
   }
  ]
 }

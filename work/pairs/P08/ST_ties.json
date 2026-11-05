@@ -1084,29 +1084,13 @@
   },
   {
    "id": "P08-EN-077",
-<<<<<<< HEAD
-   "sent": "S006",
-   "text": "a shift",
-=======
    "sent": "S005",
    "text": "fallen",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S004: shifting demand",
-   "conf": "med",
-   "alt": null,
-   "note": "cùng rod 'shift' (V→N), câu cách 2 — Powell diễn đạt lại hiện tượng"
-  },
-  {
-   "id": "P08-EN-078",
-   "sent": "S006",
-   "text": "Domain's chief of research and economics",
-=======
    "ante": "S001: the biggest falls",
    "conf": "high",
    "alt": null,
@@ -1130,7 +1114,6 @@
    "id": "P08-EN-079",
    "sent": "S006",
    "text": "Domain's",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
@@ -1139,12 +1122,6 @@
    "ante": "S005: this week's Domain's house price report",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tên riêng 'Domain' tái lập, chức danh mới ('economics' đối ứng 'economist' S002)"
-  },
-  {
-   "id": "P08-EN-079",
-=======
    "note": "tên riêng Domain, gap 1"
   },
   {
@@ -1177,7 +1154,6 @@
   },
   {
    "id": "P08-EN-082",
->>>>>>> origin/main
    "sent": "S007",
    "text": "buyer demand",
    "occ": 1,
@@ -1185,29 +1161,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S006: a fall in demand",
-   "conf": "high",
-   "alt": null,
-   "note": "tổ hợp mới gộp chuỗi 'buyer' + 'demand', câu kề"
-  },
-  {
-   "id": "P08-EN-080",
-   "sent": "S008",
-   "text": "Powell said",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S006: Nicola Powell, Domain's chief of research and economics",
-   "conf": "high",
-   "alt": null,
-   "note": "attribution — rút gọn tên riêng Nicola Powell → Powell, gap 2"
-  },
-  {
-   "id": "P08-EN-081",
-=======
    "ante": "S006: buyer behaviour",
    "conf": "high",
    "alt": null,
@@ -1215,7 +1168,6 @@
   },
   {
    "id": "P08-EN-083",
->>>>>>> origin/main
    "sent": "S008",
    "text": "demand",
    "occ": 1,
@@ -1226,12 +1178,6 @@
    "ante": "S007: a pullback in buyer demand",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "trong trích dẫn, câu kề"
-  },
-  {
-   "id": "P08-EN-082",
-=======
    "note": "rút gọn, gap 1"
   },
   {
@@ -1264,7 +1210,6 @@
   },
   {
    "id": "P08-EN-086",
->>>>>>> origin/main
    "sent": "S009",
    "text": "buyers",
    "occ": 1,
@@ -1272,15 +1217,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S007: a pullback in buyer demand",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 2 (chuỗi người mua)"
-  },
-  {
-   "id": "P08-EN-083",
-=======
    "ante": "S003: in favour of buyers",
    "conf": "high",
    "alt": null,
@@ -1302,7 +1238,6 @@
   },
   {
    "id": "P08-EN-088",
->>>>>>> origin/main
    "sent": "S010",
    "text": "the quarter",
    "occ": 1,
@@ -1313,31 +1248,10 @@
    "ante": "S005: the December quarter",
    "conf": "high",
    "alt": "R: the",
-<<<<<<< HEAD
-   "note": "gap 5"
-  },
-  {
-   "id": "P08-EN-084",
-   "sent": "S010",
-   "text": "decline",
-   "occ": 2,
-   "cat": "L",
-   "sub": "synonym",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S005: home prices have fallen",
-   "conf": "high",
-   "alt": null,
-   "note": "biến thể 'decline' vào chuỗi giảm; occ 2/2 — lần 1 ('the second consecutive decline') và 'dropped' cùng chuỗi, 1 mark/câu"
-  },
-  {
-   "id": "P08-EN-085",
-=======
    "note": "chuỗi quý, rút gọn, gap 5"
   },
   {
    "id": "P08-EN-089",
->>>>>>> origin/main
    "sent": "S010",
    "text": "the only capital city",
    "occ": 1,
@@ -1347,13 +1261,6 @@
    "level": "LC",
    "ante": "S005: across the combined capitals",
    "conf": "high",
-<<<<<<< HEAD
-   "alt": null,
-   "note": "gap 5, số nhiều ↔ đơn"
-  },
-  {
-   "id": "P08-EN-086",
-=======
    "alt": "R: the",
    "note": "chuỗi thủ phủ, gap 5"
   },
@@ -1373,7 +1280,6 @@
   },
   {
    "id": "P08-EN-091",
->>>>>>> origin/main
    "sent": "S012",
    "text": "Sydney",
    "occ": 1,
@@ -1381,15 +1287,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S011: Sydney remains Australia's most expensive housing market",
-   "conf": "high",
-   "alt": null,
-   "note": "tên riêng, câu kề (từ subhead Sydney)"
-  },
-  {
-   "id": "P08-EN-087",
-=======
    "ante": "S011: Sydney slows down Sydney remains…",
    "conf": "high",
    "alt": null,
@@ -1411,7 +1308,6 @@
   },
   {
    "id": "P08-EN-093",
->>>>>>> origin/main
    "sent": "S013",
    "text": "suburb",
    "occ": 1,
@@ -1422,12 +1318,6 @@
    "ante": "S001: the suburbs",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "gap 12, số nhiều ↔ đơn"
-  },
-  {
-   "id": "P08-EN-088",
-=======
    "note": "chuỗi khu vực, gap 12, đơn↔số nhiều"
   },
   {
@@ -1446,7 +1336,6 @@
   },
   {
    "id": "P08-EN-095",
->>>>>>> origin/main
    "sent": "S014",
    "text": "experienced",
    "occ": 1,
@@ -1454,45 +1343,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S012: Sydney has experienced back-to-back quarterly decline",
-   "conf": "high",
-   "alt": null,
-   "note": "động từ, câu cách 2"
-  },
-  {
-   "id": "P08-EN-089",
-   "sent": "S015",
-   "text": "the Gold Coast",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S014: Gold Coast prices take a dip",
-   "conf": "high",
-   "alt": null,
-   "note": "tên riêng, câu kề (subhead → thân)"
-  },
-  {
-   "id": "P08-EN-090",
-   "sent": "S015",
-   "text": "houses prices",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S014: Gold Coast prices take a dip (S013: median prices)",
-   "conf": "high",
-   "alt": null,
-   "note": "nguồn viết 'houses prices'; 'houses' ↔ S010 'house prices'"
-  },
-  {
-   "id": "P08-EN-091",
-   "sent": "S015",
-   "text": "suburb",
-=======
    "ante": "S012: Sydney has experienced",
    "conf": "high",
    "alt": null,
@@ -1502,7 +1352,6 @@
    "id": "P08-EN-096",
    "sent": "S015",
    "text": "a popular suburb",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
@@ -1511,12 +1360,6 @@
    "ante": "S014: Some Queensland suburbs",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "câu kề, số nhiều ↔ đơn"
-  },
-  {
-   "id": "P08-EN-092",
-=======
    "note": "chuỗi khu vực, gap 1"
   },
   {
@@ -1549,7 +1392,6 @@
   },
   {
    "id": "P08-EN-099",
->>>>>>> origin/main
    "sent": "S015",
    "text": "decrease",
    "occ": 1,
@@ -1557,15 +1399,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S013: median prices decreasing by 22.1 per cent",
-   "conf": "high",
-   "alt": null,
-   "note": "danh hóa động từ 'decreasing', câu cách 2"
-  },
-  {
-   "id": "P08-EN-093",
-=======
    "ante": "S013: decreasing by 22.1 per cent",
    "conf": "high",
    "alt": null,
@@ -1573,7 +1406,6 @@
   },
   {
    "id": "P08-EN-100",
->>>>>>> origin/main
    "sent": "S016",
    "text": "house prices",
    "occ": 1,
@@ -1584,47 +1416,14 @@
    "ante": "S015: houses prices",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "câu kề"
-  },
-  {
-   "id": "P08-EN-094",
-=======
    "note": "chuỗi giá, gap 1"
   },
   {
    "id": "P08-EN-101",
->>>>>>> origin/main
    "sent": "S016",
    "text": "fall",
    "occ": 1,
    "cat": "L",
-<<<<<<< HEAD
-   "sub": "synonym",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S015: a 22.4 per cent year-on-year decrease",
-   "conf": "high",
-   "alt": null,
-   "note": "'fall' tái lập rod của S005 'fallen' — câu kề với biến thể 'decrease'"
-  },
-  {
-   "id": "P08-EN-095",
-   "sent": "S017",
-   "text": "house prices",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S016: house prices fall by 21.1 per cent",
-   "conf": "high",
-   "alt": null,
-   "note": "câu kề"
-  },
-  {
-   "id": "P08-EN-096",
-=======
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
@@ -1677,7 +1476,6 @@
   },
   {
    "id": "P08-EN-105",
->>>>>>> origin/main
    "sent": "S018",
    "text": "first-home buyer activity",
    "occ": 1,
@@ -1685,15 +1483,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S009: many buyers (S007: buyer demand)",
-   "conf": "high",
-   "alt": null,
-   "note": "tổ hợp mới 'first-home buyer' — biến thể cụ thể của chuỗi người mua, gap 9"
-  },
-  {
-   "id": "P08-EN-097",
-=======
    "ante": "S017: First-home buyers",
    "conf": "high",
    "alt": null,
@@ -1701,7 +1490,6 @@
   },
   {
    "id": "P08-EN-106",
->>>>>>> origin/main
    "sent": "S019",
    "text": "Melbourne",
    "occ": 1,
@@ -1709,17 +1497,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S017: First-home buyers in Melbourne",
-   "conf": "high",
-   "alt": null,
-   "note": "tên riêng, mở trích dẫn, gap 2"
-  },
-  {
-   "id": "P08-EN-098",
-   "sent": "S020",
-   "text": "market",
-=======
    "ante": "S017: Melbourne unit prices",
    "conf": "high",
    "alt": null,
@@ -1729,7 +1506,6 @@
    "id": "P08-EN-107",
    "sent": "S020",
    "text": "a market",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
@@ -1738,17 +1514,10 @@
    "ante": "S011: Australia's most expensive housing market",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "gap 9, trong lời Powell"
-  },
-  {
-   "id": "P08-EN-099",
-=======
    "note": "chuỗi thị trường, gap 9, trong lời Powell"
   },
   {
    "id": "P08-EN-108",
->>>>>>> origin/main
    "sent": "S020",
    "text": "saw",
    "occ": 1,
@@ -1756,15 +1525,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S007: What we have seen",
-   "conf": "med",
-   "alt": null,
-   "note": "động từ quan sát, cùng giọng Powell, gap 13"
-  },
-  {
-   "id": "P08-EN-100",
-=======
    "ante": "S016: has seen house prices fall",
    "conf": "high",
    "alt": null,
@@ -1772,7 +1532,6 @@
   },
   {
    "id": "P08-EN-109",
->>>>>>> origin/main
    "sent": "S022",
    "text": "Sydney",
    "occ": 1,
@@ -1780,15 +1539,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S012: Sydney has experienced back-to-back quarterly decline",
-   "conf": "high",
-   "alt": null,
-   "note": "tên riêng, trong lời Powell, gap 10"
-  },
-  {
-   "id": "P08-EN-101",
-=======
    "ante": "S012: Sydney has experienced",
    "conf": "high",
    "alt": null,
@@ -1796,7 +1546,6 @@
   },
   {
    "id": "P08-EN-110",
->>>>>>> origin/main
    "sent": "S022",
    "text": "Melbourne",
    "occ": 1,
@@ -1807,12 +1556,6 @@
    "ante": "S019: Melbourne has been the surprise",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tên riêng, trong lời Powell, gap 3"
-  },
-  {
-   "id": "P08-EN-102",
-=======
    "note": "tên riêng, gap 3, trong lời Powell"
   },
   {
@@ -1831,7 +1574,6 @@
   },
   {
    "id": "P08-EN-112",
->>>>>>> origin/main
    "sent": "S023",
    "text": "Melbourne",
    "occ": 1,
@@ -1842,59 +1584,10 @@
    "ante": "S022: Sydney and Melbourne price cycles",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tên riêng, câu kề, trong lời Powell"
-  },
-  {
-   "id": "P08-EN-103",
-   "sent": "S023",
-   "text": "we've seen",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S020: we saw growth",
-   "conf": "med",
-   "alt": null,
-   "note": "động từ quan sát, gap 3, trong lời Powell"
-  },
-  {
-   "id": "P08-EN-104",
-   "sent": "S023",
-   "text": "an established recovery",
-   "occ": 1,
-   "cat": "L",
-   "sub": "synonym",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S020: we saw growth",
-   "conf": "med",
-   "alt": null,
-   "note": "biến thể mới vào chuỗi tăng — 'recovery' = hồi phục sau giảm"
-  },
-  {
-   "id": "P08-EN-105",
-   "sent": "S024",
-   "text": "year-on-year",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S015: a 22.4 per cent year-on-year decrease",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 9"
-  },
-  {
-   "id": "P08-EN-106",
-=======
    "note": "tên riêng, gap 1"
   },
   {
    "id": "P08-EN-113",
->>>>>>> origin/main
    "sent": "S024",
    "text": "dropping",
    "occ": 1,
@@ -1902,17 +1595,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S010: house prices dropped by 0.1 per cent",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 14 (S016 'fall' cùng chuỗi)"
-  },
-  {
-   "id": "P08-EN-107",
-   "sent": "S025",
-   "text": "a fall",
-=======
    "ante": "S010: dropped by 0.1 per cent",
    "conf": "high",
    "alt": null,
@@ -1922,23 +1604,11 @@
    "id": "P08-EN-114",
    "sent": "S024",
    "text": "year-on-year",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S016: house prices fall by 21.1 per cent",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 9; câu còn có 'an 18.9 per cent decline' cùng chuỗi — 1 mark/câu"
-  },
-  {
-   "id": "P08-EN-108",
-   "sent": "S025",
-   "text": "a median unit price",
-=======
    "ante": "S015: year-on-year decrease",
    "conf": "med",
    "alt": null,
@@ -1948,21 +1618,11 @@
    "id": "P08-EN-115",
    "sent": "S024",
    "text": "has seen",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S024: unit prices dropping by 33.3 per cent (S013: median prices)",
-   "conf": "high",
-   "alt": null,
-   "note": "tổ hợp 'median' + 'unit price' gộp hai chuỗi, câu kề"
-  },
-  {
-   "id": "P08-EN-109",
-=======
    "ante": "S022: tend to see",
    "conf": "high",
    "alt": null,
@@ -1970,7 +1630,6 @@
   },
   {
    "id": "P08-EN-116",
->>>>>>> origin/main
    "sent": "S025",
    "text": "experienced",
    "occ": 1,
@@ -1978,15 +1637,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S014: have also experienced significant property price changes",
-   "conf": "high",
-   "alt": null,
-   "note": "động từ, gap 11"
-  },
-  {
-   "id": "P08-EN-110",
-=======
    "ante": "S014: have also experienced",
    "conf": "high",
    "alt": null,
@@ -2022,7 +1672,6 @@
   },
   {
    "id": "P08-EN-119",
->>>>>>> origin/main
    "sent": "S026",
    "text": "dropped",
    "occ": 1,
@@ -2030,15 +1679,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S010: house prices dropped by 0.1 per cent",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 16 (S024 'dropping' cùng chuỗi, gap 2)"
-  },
-  {
-   "id": "P08-EN-111",
-=======
    "ante": "S024: dropping by 33.3 per cent",
    "conf": "high",
    "alt": null,
@@ -2046,7 +1686,6 @@
   },
   {
    "id": "P08-EN-120",
->>>>>>> origin/main
    "sent": "S027",
    "text": "markets",
    "occ": 1,
@@ -2054,15 +1693,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S020: underperformed as a market",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 7, đơn ↔ số nhiều"
-  },
-  {
-   "id": "P08-EN-112",
-=======
    "ante": "S020: as a market",
    "conf": "high",
    "alt": null,
@@ -2070,7 +1700,6 @@
   },
   {
    "id": "P08-EN-121",
->>>>>>> origin/main
    "sent": "S028",
    "text": "decline",
    "occ": 1,
@@ -2078,15 +1707,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S012: back-to-back quarterly decline",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 16 (S026 'dropped' cùng chuỗi, gap 2)"
-  },
-  {
-   "id": "P08-EN-113",
-=======
    "ante": "S025: an 18.9 per cent decline",
    "conf": "high",
    "alt": null,
@@ -2094,7 +1714,6 @@
   },
   {
    "id": "P08-EN-122",
->>>>>>> origin/main
    "sent": "S029",
    "text": "recorded",
    "occ": 1,
@@ -2102,17 +1721,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S010: the only capital city to record a decline",
-   "conf": "high",
-   "alt": null,
-   "note": "động từ, gap 19"
-  },
-  {
-   "id": "P08-EN-114",
-   "sent": "S029",
-   "text": "decline",
-=======
    "ante": "S010: to record a decline",
    "conf": "high",
    "alt": null,
@@ -2122,23 +1730,11 @@
    "id": "P08-EN-123",
    "sent": "S029",
    "text": "the sharpest decline",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S028: after a 19.6 per cent decline",
-   "conf": "high",
-   "alt": null,
-   "note": "câu kề; 'falling' cùng câu cùng chuỗi — 1 mark/câu"
-  },
-  {
-   "id": "P08-EN-115",
-   "sent": "S029",
-   "text": "sharpest",
-=======
    "ante": "S028: a 19.6 per cent decline",
    "conf": "high",
    "alt": "R: the",
@@ -2148,37 +1744,11 @@
    "id": "P08-EN-124",
    "sent": "S030",
    "text": "surged",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "synonym",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S001: the biggest falls",
-   "conf": "med",
-   "alt": null,
-   "note": "tính từ so sánh nhất cùng chuỗi giảm: 'biggest' ↔ 'sharpest', gap 28"
-  },
-  {
-   "id": "P08-EN-116",
-   "sent": "S030",
-   "text": "surged",
-   "occ": 1,
-   "cat": "L",
-   "sub": "antonym",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S029: the sharpest decline … falling 1.5 per cent",
-   "conf": "high",
-   "alt": null,
-   "note": "trái nghĩa chuỗi giảm — nhà tại Hobart tăng ↔ căn hộ giảm"
-  },
-  {
-   "id": "P08-EN-117",
-   "sent": "S031",
-   "text": "house or unit prices",
-=======
    "ante": "S017: house prices increase 1.6 per cent",
    "conf": "med",
    "alt": null,
@@ -2188,23 +1758,11 @@
    "id": "P08-EN-125",
    "sent": "S031",
    "text": "unit prices",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S030: house prices there surged (S029: unit prices)",
-   "conf": "high",
-   "alt": null,
-   "note": "tổ hợp gộp 'house' + 'unit', câu kề"
-  },
-  {
-   "id": "P08-EN-118",
-   "sent": "S031",
-   "text": "no change",
-=======
    "ante": "S029: unit prices",
    "conf": "high",
    "alt": null,
@@ -2214,35 +1772,11 @@
    "id": "P08-EN-126",
    "sent": "S031",
    "text": "at a capital level",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S027: these changes (S014: property price changes)",
-   "conf": "high",
-   "alt": null,
-   "note": "'change' tái lập trong phủ định — Canberra đứng yên ↔ các khu khác biến động, gap 4"
-  },
-  {
-   "id": "P08-EN-119",
-   "sent": "S031",
-   "text": "a capital level",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S029: all capital cities",
-   "conf": "high",
-   "alt": null,
-   "note": "gap 2"
-  },
-  {
-   "id": "P08-EN-120",
-=======
    "ante": "S029: among all capital cities",
    "conf": "high",
    "alt": null,
@@ -2250,7 +1784,6 @@
   },
   {
    "id": "P08-EN-127",
->>>>>>> origin/main
    "sent": "S032",
    "text": "recorded",
    "occ": 1,
@@ -2258,15 +1791,6 @@
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S029: Hobart recorded the sharpest decline",
-   "conf": "high",
-   "alt": null,
-   "note": "động từ, gap 3"
-  },
-  {
-   "id": "P08-EN-121",
-=======
    "ante": "S029: Hobart recorded",
    "conf": "high",
    "alt": null,
@@ -2274,7 +1798,6 @@
   },
   {
    "id": "P08-EN-128",
->>>>>>> origin/main
    "sent": "S032",
    "text": "drop",
    "occ": 1,
@@ -2285,51 +1808,17 @@
    "ante": "S026: dropped 20.5 per cent",
    "conf": "high",
    "alt": null,
-<<<<<<< HEAD
-   "note": "gap 6 (S010 'dropped', S024 'dropping' cùng chuỗi)"
-  },
-  {
-   "id": "P08-EN-122",
-   "sent": "S032",
-   "text": "house prices",
-=======
    "note": "chuỗi giảm, gap 6"
   },
   {
    "id": "P08-EN-129",
    "sent": "S034",
    "text": "has seen",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S031: no change in house or unit prices (S030: house prices there surged)",
-   "conf": "high",
-   "alt": null,
-   "note": "câu kề"
-  },
-  {
-   "id": "P08-EN-123",
-   "sent": "S032",
-   "text": "the ACT",
-   "occ": 1,
-   "cat": "L",
-   "sub": "superordinate",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S031: Canberra's housing market",
-   "conf": "med",
-   "alt": null,
-   "note": "lãnh thổ ACT bao gộp Canberra — định vị Denman Prospect, câu kề"
-  },
-  {
-   "id": "P08-EN-124",
-   "sent": "S034",
-   "text": "this year",
-=======
    "ante": "S024: Chadstone has seen",
    "conf": "high",
    "alt": null,
@@ -2339,23 +1828,11 @@
    "id": "P08-EN-130",
    "sent": "S040",
    "text": "see",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S002: This year",
-   "conf": "med",
-   "alt": "R: this",
-   "note": "'year' tái lập, gap 32 — khung mở/đóng"
-  },
-  {
-   "id": "P08-EN-125",
-   "sent": "S034",
-   "text": "slow",
-=======
    "ante": "S034: has seen annual growth slow",
    "conf": "high",
    "alt": null,
@@ -2365,21 +1842,11 @@
    "id": "P08-EN-131",
    "sent": "S040",
    "text": "the change",
->>>>>>> origin/main
    "occ": 1,
    "cat": "L",
    "sub": "repetition",
    "dir": "ana",
    "level": "LC",
-<<<<<<< HEAD
-   "ante": "S011: Sydney slows down",
-   "conf": "med",
-   "alt": null,
-   "note": "động từ 'slow' tái lập (subhead Sydney), gap 23 — khung mở/đóng"
-  },
-  {
-   "id": "P08-EN-126",
-=======
    "ante": "S027: these changes",
    "conf": "med",
    "alt": "R: the",
@@ -2387,7 +1854,6 @@
   },
   {
    "id": "P08-EN-132",
->>>>>>> origin/main
    "sent": "S040",
    "text": "Australia",
    "occ": 1,
@@ -2398,39 +1864,7 @@
    "ante": "S011: Australia's most expensive housing market",
    "conf": "med",
    "alt": null,
-<<<<<<< HEAD
-   "note": "tên nước tái lập trong tên 'Reserve Bank of Australia', gap 29"
-  },
-  {
-   "id": "P08-EN-127",
-   "sent": "S040",
-   "text": "see",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S023: we've seen (S020: we saw)",
-   "conf": "med",
-   "alt": null,
-   "note": "động từ quan sát, trong lời Powell, gap 17"
-  },
-  {
-   "id": "P08-EN-128",
-   "sent": "S040",
-   "text": "the change",
-   "occ": 1,
-   "cat": "L",
-   "sub": "repetition",
-   "dir": "ana",
-   "level": "LC",
-   "ante": "S031: no change in house or unit prices (S027: these changes)",
-   "conf": "med",
-   "alt": null,
-   "note": "danh từ 'change' tái lập — nghĩa trừu tượng hơn (bước ngoặt), gap 9"
-=======
    "note": "tên nước tái lập trong tên mới RBA, gap 29"
->>>>>>> origin/main
   }
  ]
 }
