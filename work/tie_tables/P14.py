@@ -188,4 +188,208 @@ TT = [
      "S010: đặt lịch hẹn phỏng vấn", "high", None,
      "tái lập chuỗi lịch hẹn sau 2 câu; VI thêm 'phỏng vấn' ở S010 (§7)",
      1, None, None, "LC", None),
+
+    # ---------- L v2 bổ sung ----------
+    # Chính sách L v2 (CONVENTIONS §8.1): từ đơn có nội dung thực, tên riêng,
+    # thuật ngữ đa từ, động từ attribution, lặp câu kề — 36 hàng mới; 15 hàng
+    # L cũ giữ nguyên. Bỏ theo ĐỌC HIỂU (không bịa): "bao gồm" S010 ≠ "liên
+    # quan đến" S006 (VI dịch bằng hai động từ khác nhau — chuỗi include của
+    # EN không tái lập bên VI); "cửa khẩu biên giới" S010 là điểm cửa khẩu ≠
+    # "vượt biên" S006 (chuỗi O §6.2); "Tổng thống" S005/S006 trỏ hai người
+    # khác nhau (Trump/Biden); "Mỹ" trong "Hải quan Mỹ" S002 lồng trong tên
+    # riêng cơ quan, "giấc mơ Mỹ" S003 là thuật ngữ cố định; "hợp pháp" S008
+    # lồng trong span hàng cũ; "di cư ồ ạt" S011 gộp 1 mark với "người nhập
+    # cư" (quá trình↔người, §6.2 P); "cơ quan này" S002 là quy chiếu (R).
+    ("S002", "Ứng dụng", "L", "repetition", "S001: một ứng dụng mới", "high",
+     None,
+     "v2: từ đơn 'ứng dụng' (chuỗi C §6.2) tái lập từ S001 — cùng thực thể "
+     "CBP Home; S002 lần đầu nêu cơ quan chủ quản và tên 'CBP Home'",
+     1, None, None, "LC", None),
+    ("S003", "Ứng dụng CBP Home", "L", "repetition",
+     "S002: Ứng dụng của Cơ quan Bảo vệ Biên giới và Hải quan Mỹ, gọi là "
+     "CBP Home", "high", None,
+     "v2 bỏ hạn chế 'câu kề': tái lập cả tên 'CBP Home' (chuỗi A §6.2) lẫn "
+     "'ứng dụng' (chuỗi C) tại lượt lời mới (trích dẫn Noem)",
+     1, None, None, "LC", None),
+    ("S003", "cho phép", "L", "repetition",
+     "S001: cho phép những người nhập cư", "high", None,
+     "'cho phép' tái lập sau 2 câu; khung song song 'ứng dụng + cho phép + "
+     "người di cư + V' (S001 tự trục xuất ↔ S003 rời đi và tự trục xuất); "
+     "EN đối ứng là 'allow' (S010)",
+     1, None, None, "LC", None),
+    ("S003", "rời đi", "L", "repetition", "S002: ý định rời đi", "high",
+     None,
+     "tái lập nguyên dạng 'rời đi' (chuỗi M §6.2) trong trích dẫn Noem; EN "
+     "đối ứng leave ~ depart là biến thể đồng nghĩa, VI cùng dạng",
+     1, None, None, "LC", None),
+    ("S003", "nói", "L", "synonym", "S002: theo tuyên bố của cơ quan này",
+     "high", None,
+     "chuỗi động từ attribution riêng (§8.1 v): tuyên bố → nói; EN đối ứng "
+     "said → said (repetition) — VI là biến thể mới",
+     1, None, None, "LC", None),
+    ("S003", "hợp pháp", "L", "antonym", "S001: đang ở Mỹ trái phép", "high",
+     None,
+     "đối nghĩa phái sinh hợp pháp ↔ trái phép; đối lập 'cư trú trái phép' "
+     "↔ 'quay lại hợp pháp' là trọng tâm lập luận của Noem; EN đối ứng "
+     "legally ↔ illegally",
+     1, None, None, "LC", None),
+    ("S003", "cơ hội", "L", "collocation", "S002: một sự lựa chọn", "med",
+     None,
+     "cùng trường 'khả năng ứng dụng mang lại' (sự lựa chọn ~ cơ hội); EN "
+     "gộp option–opportunity thành 1 chuỗi ở S003; VI 'cơ hội' = khả năng "
+     "quay lại — khác thực thể cụ thể, liên kết trường nghĩa",
+     1, None, None, "LC", None),
+    ("S004", "trục xuất", "L", "repetition", "S001: chính sách trục xuất",
+     "high", None,
+     "gốc 'trục xuất' tái lập (chuỗi J §6.2 — trục xuất cưỡng bức, khác "
+     "chuỗi 'tự trục xuất' đã đánh dấu ở S003)",
+     1, None, None, "LC", None),
+    ("S004", "quay lại", "L", "repetition", "S003: quay lại hợp pháp",
+     "high", None,
+     "tái lập 'quay lại' trong cùng trích dẫn Noem; đối lập 'quay lại hợp "
+     "pháp' ↔ 'không bao giờ được quay lại'",
+     1, None, None, "LC", None),
+    ("S005", "cam kết", "L", "collocation", "S003: Kristi Noem nói", "med",
+     None,
+     "động từ báo cáo 'cam kết' — cùng trường attribution tuyên bố/nói "
+     "(§8.1 v); báo cáo phát ngôn của Trump, không trích trực tiếp; EN đối "
+     "ứng 'vowed'",
+     1, None, None, "LC", None),
+    ("S005", "trục xuất", "L", "repetition", "S004: sẽ trục xuất họ",
+     "high", None,
+     "lặp kề — v2 cho phép; 'cam kết trục xuất' tiếp chuỗi J (trục xuất "
+     "cưỡng bức)",
+     1, None, None, "LC", None),
+    ("S006", "ông Trump", "L", "repetition", "S005: Tổng thống Trump",
+     "high", None,
+     "lặp kề — v2 cho phép (v1 ghi chú 'kề → không đánh dấu'); tái lập tên "
+     "người dạng danh xưng 'ông' + họ",
+     1, None, None, "LC", None),
+    ("S006", "trục xuất", "L", "repetition", "S005: cam kết trục xuất",
+     "high", None,
+     "chuỗi J tiếp tục: 'trục xuất' ×2 trong câu ('Số liệu trục xuất', "
+     "'các đợt trục xuất') — 1 mark",
+     2, None, None, "LC", None),
+    ("S006", "Số liệu", "L", "collocation", "S005: một số lượng kỷ lục",
+     "med", None,
+     "cùng trường số liệu thống kê, chung gốc 'số' (số lượng ↔ số liệu); "
+     "EN đối ứng numbers → numbers là repetition — VI dùng từ khác nên "
+     "collocation",
+     1, None, None, "LC", None),
+    ("S007", "người nhập cư", "L", "repetition", "S003: người nhập cư",
+     "high", None,
+     "tái lập nguyên từ sau 4 câu (S005 'di dân', S006 'người vượt biên' "
+     "cùng chuỗi G đã đánh dấu); v2 tách cụm S007 thành các chuỗi từ đơn",
+     1, None, None, "LC", None),
+    ("S007", "trái phép", "L", "repetition", "S005: di dân vào Mỹ trái phép",
+     "high", None,
+     "tái lập 'trái phép' (dạng S005 lồng trong span hàng cũ — chỉ dùng làm "
+     "ante); chuỗi legality: trái phép (S001, S005, S007) ↔ hợp pháp (S003, "
+     "S010)",
+     1, None, None, "LC", None),
+    ("S007", "rời khỏi", "L", "repetition", "S003: rời đi ngay", "high",
+     None,
+     "động từ 'rời' tái lập (chuỗi M: rời đi S002–S003 → rời khỏi), khác "
+     "tiểu từ hướng; EN đối ứng 'to leave' (S007)",
+     1, None, None, "LC", None),
+    ("S007", "nước Mỹ", "L", "repetition", "S005: vào Mỹ", "high", None,
+     "chuỗi tên riêng Mỹ (L §6.2): S001 'ở Mỹ' → S005 'vào Mỹ' (lồng trong "
+     "span hàng cũ) → S007 'nước Mỹ' → S008 'tại Mỹ' → S011 'vào Mỹ'",
+     1, None, None, "LC", None),
+    ("S008", "chính quyền Trump", "L", "repetition",
+     "S007: Chính quyền Trump", "high", None,
+     "lặp kề — v2 cho phép (v1 ghi chú 'S008 kề → không đánh dấu'); tái "
+     "lập thuật ngữ tổ chức (chuỗi E §6.2)",
+     1, None, None, "LC", None),
+    ("S008", "quy định", "L", "collocation", "S007: các biện pháp khác",
+     "med", None,
+     "cùng trường 'biện pháp của chính quyền': 'quy định' cụ thể hóa một "
+     "trong các 'biện pháp' ở câu trước; EN đối ứng 'regulation' ~ 'other "
+     "steps'",
+     1, None, None, "LC", None),
+    ("S008", "đối mặt với", "L", "repetition",
+     "S001: đối mặt với khả năng bị bắt giam", "high", None,
+     "động từ nội dung 'đối mặt' tái lập sau 7 câu; cùng khung 'đối mặt "
+     "với + hình phạt'; EN đối ứng 'face'",
+     1, None, None, "LC", None),
+    ("S008", "án phạt hoặc án tù", "L", "collocation",
+     "S001: khả năng bị bắt giam", "med", None,
+     "cùng trường trừng phạt (án phạt/án tù ~ bắt giam); cấu trúc song "
+     "song 'đối mặt với X hoặc Y' với S001; EN đối ứng 'fines or jail "
+     "time' ~ 'arrest and detention'",
+     1, None, None, "LC", None),
+    ("S008", "Mỹ", "L", "repetition", "S007: nước Mỹ", "high", None,
+     "chuỗi tên riêng Mỹ — lặp kề (v2 cho phép); 'tại Mỹ' không lồng trong "
+     "span hàng cũ nào nên đánh dấu được",
+     1, None, None, "LC", None),
+    ("S009", "ra mắt", "L", "repetition", "S001: ra mắt một ứng dụng mới",
+     "high", None,
+     "'ra mắt' tái lập sau 8 câu; hai app khác nhau (CBP One cũ ≠ CBP Home "
+     "mới) — liên kết từ vựng thuần túy; EN đối ứng rolled out → launched "
+     "là synonym, VI cùng dạng nên repetition",
+     1, None, None, "LC", None),
+    ("S009", "ứng dụng", "L", "repetition", "S003: Ứng dụng CBP Home",
+     "high", None,
+     "từ đơn 'ứng dụng' (chuỗi C §6.2) tái lập sau 6 câu; câu này lần đầu "
+     "xuất hiện tên 'CBP One' (chuỗi B — lần đầu, không đánh dấu)",
+     1, None, None, "LC", None),
+    ("S010", "Ứng dụng CBP One", "L", "repetition",
+     "S009: ứng dụng CBP One", "high", None,
+     "tái lập cả 'ứng dụng' (chuỗi C) lẫn tên 'CBP One' (chuỗi B) — gộp 1 "
+     "mark kiểu hàng EN S003 'The CBP Home app'; 'của thời Biden' là bổ "
+     "nghĩa mới",
+     1, None, None, "LC", None),
+    ("S010", "Biden", "L", "repetition", "S009: Biden", "high", None,
+     "chuỗi tên riêng Biden (F §6.2): S006 'cựu Tổng thống Joe Biden' → "
+     "S009 'Biden' → S010 'thời Biden' (dạng thời kỳ, EN đối ứng "
+     "'Biden-era'); lặp kề — v2 cho phép",
+     1, None, None, "LC", None),
+    ("S010", "cho phép", "L", "repetition", "S003: cho phép", "high", None,
+     "'cho phép' tái lập sau 7 câu (chuỗi S001 → S003 → S010); khung song "
+     "song 'cho phép + người di cư + V' (tự trục xuất ↔ đặt lịch hẹn); EN "
+     "đối ứng 'allowed'",
+     1, None, None, "LC", None),
+    ("S010", "hợp pháp", "L", "repetition",
+     "S008: không có giấy tờ hợp pháp", "high", None,
+     "chuỗi legality: 'hợp pháp' tái lập (dạng S008 lồng trong span hàng "
+     "cũ — chỉ dùng làm ante); đối nghĩa với 'trái phép' S001/S005/S007; "
+     "EN đối ứng 'legal' (S010)",
+     1, None, None, "LC", None),
+    ("S010", "tính năng", "L", "collocation", "S002: một sự lựa chọn",
+     "low", None,
+     "cùng trường 'chức năng/lựa chọn của ứng dụng' (tính năng ~ sự lựa "
+     "chọn); không đồng quy chiếu: tính năng đặt lịch của CBP One ≠ tùy "
+     "chọn tự rời của CBP Home — conf thấp; EN đối ứng 'feature'",
+     1, None, None, "LC", None),
+    ("S011", "cho rằng", "L", "collocation", "S005: cam kết", "med", None,
+     "chuỗi attribution (§8.1 v): tuyên bố → nói → cam kết → cho rằng; "
+     "ante = lần attribution trước đó; 'chỉ trích' cùng khung phát ngôn "
+     "trong câu — 1 mark; EN đối ứng 'saying'",
+     1, None, None, "LC", None),
+    ("S011", "người nhập cư", "L", "repetition", "S007: người nhập cư",
+     "high", None,
+     "tái lập nguyên từ sau 4 câu; trong câu còn 'di cư ồ ạt' — quá trình ↔ "
+     "người (§6.2 P) — gộp 1 mark cho chuỗi; EN đối ứng 'migrants' + 'mass "
+     "migration' gộp",
+     1, None, None, "LC", None),
+    ("S011", "Mỹ", "L", "repetition", "S008: tại Mỹ", "high", None,
+     "chuỗi tên riêng Mỹ — thành viên cuối (S001, S005 lồng hàng cũ, S007 "
+     "'nước Mỹ', S008 'tại Mỹ', S011 'vào Mỹ'); EN đối ứng 'the United "
+     "States' (S011)",
+     1, None, None, "LC", None),
+    ("S012", "đóng", "L", "antonym", "S009: ra mắt", "high", None,
+     "CBP One được 'ra mắt' (S009) ↔ bị 'đóng' (S012) — cùng thực thể, "
+     "hành động đối ngẫu mở ↔ đóng; EN đối ứng 'shut down' ↔ 'launched'",
+     1, None, None, "LC", None),
+    ("S012", "di dân", "L", "repetition", "S010: di dân ở Mexico", "high",
+     None,
+     "'các di dân có lịch hẹn chưa giải quyết' = nhóm người dùng CBP One "
+     "(S010) — nhóm con của chuỗi người di cư; S011 'người nhập cư' cùng "
+     "chuỗi; ante = dạng 'di dân' gần nhất",
+     1, None, None, "LC", None),
+    ("S012", "ứng dụng", "L", "repetition", "S010: Ứng dụng CBP One",
+     "high", None,
+     "từ đơn 'ứng dụng' (chuỗi C) tái lập; tên 'CBP One' đã có hàng riêng "
+     "trong câu (chuỗi B) — hai chuỗi, hai span kề nhau, không lồng nhau",
+     1, None, None, "LC", None),
 ]

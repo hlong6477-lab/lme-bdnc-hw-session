@@ -1,3 +1,3 @@
 QC P07 EN: PASS
-counts: {'C': 8, 'E': 4, 'L': 40, 'R': 43}
-ties: 95
+counts: {'C': 8, 'E': 4, 'L': 115, 'R': 43}
+ties: 170
