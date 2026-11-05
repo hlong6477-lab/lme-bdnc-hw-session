@@ -516,4 +516,176 @@ TT = [
      "S012: nộp hồ sơ đòi bồi thường", "high", None,
      "tái lập nguyên cụm sau 9 câu — khung mở–đóng; đối ứng EN 'claim form' "
      "(S020)", 1, None, None, "LC", None),
+
+    # ---------- L v2 bổ sung ----------
+    # 42 hàng theo CONVENTIONS §8.1 (chính sách L v2): từ đơn nội dung, lặp ở
+    # câu kề, biến thể hình thái, chuỗi động từ attribution (tường trình →
+    # giải thích → nói → cho biết); 1 mark/câu/chuỗi; bỏ trường hợp cùng dạng
+    # nhưng trỏ thực thể khác (đọc hiểu từng trường hợp).
+    ("S002", "vụ kiện", "L", "repetition", "S001: một vụ kiện tập thể",
+     "high", None,
+     "rút gọn định ngữ ('tập thể') ở câu thứ hai của lede; đối ứng EN 'A "
+     "lawsuit' (S002)", 1, None, None, "LC", None),
+    ("S002", "hãng máy bay", "L", "synonym", "S001: 8 hãng hàng không",
+     "high", None,
+     "đồng nghĩa ngành ('hãng máy bay' ↔ 'hãng hàng không'); 5 hãng ngoài "
+     "nhóm 8 — cùng chuỗi từ vựng; đối ứng EN 'air carriers' (S002)", 1,
+     None, None, "LC", None),
+    ("S003", "vụ kiện tập thể", "L", "repetition",
+     "S002: vụ kiện (S001: một vụ kiện tập thể)", "high", None,
+     "tái lập thuật ngữ sau 2 câu trong câu VI tự sinh — cùng cụm lede "
+     "'Hành khách'/'khoảng thời gian' đã đánh dấu", 1, None, None, "LC",
+     None),
+    ("S003", "xuyên Thái Bình Dương", "L", "repetition",
+     "S001: bay xuyên Thái Bình Dương", "high", None,
+     "tái lập tổ hợp 'xuyên Thái Bình Dương' sau 2 câu; đối ứng EN "
+     "'trans-Pacific' (S015)", 1, None, None, "LC", None),
+    ("S003", "chuyến bay", "L", "repetition",
+     "S001: bay xuyên Thái Bình Dương", "med", None,
+     "biến thể hình thái (động từ 'bay' → danh từ 'chuyến bay', cùng gốc); "
+     "tiền trạm của 'chuyến bay' (S013, S016)", 1, None, None, "LC", None),
+    ("S004", "Vụ kiện", "L", "repetition", "S003: một vụ kiện tập thể",
+     "high", None,
+     "lặp danh từ 'vụ kiện' ở câu kề (S003 giữ đủ định ngữ 'tập thể'); đối "
+     "ứng EN 'The case' (S003)", 1, None, None, "LC", None),
+    ("S004", "liên quan", "L", "repetition",
+     "S001: liên quan đến vụ lũng đoạn giá vé", "med", None,
+     "lặp động từ 'liên quan' sau 3 câu; đối ứng EN 'involves' (S003)", 1,
+     None, None, "LC", None),
+    ("S004", "vé máy bay", "L", "repetition", "S001: lũng đoạn giá vé",
+     "med", None,
+     "lặp 'vé' (giá vé → vé máy bay), tách khỏi tổ hợp lede; tiền trạm của "
+     "'vé giảm giá' (S020); đối ứng EN 'tickets' (S003)", 1, None, None,
+     "LC", None),
+    ("S004", "hãng hàng không", "L", "repetition",
+     "S001: 8 hãng hàng không (S002: hãng máy bay)", "med", None,
+     "cấp danh mục ('tổng 26 hãng') — cùng chuỗi, nhóm tham chiếu rộng hơn "
+     "nhóm 8; đối ứng EN 'airlines' (S003)", 1, None, None, "LC", None),
+    ("S005", "vụ kiện", "L", "repetition", "S004: Vụ kiện", "high", None,
+     "lặp 'vụ kiện' ở câu kề — mệnh đề 'vụ kiện vẫn tiếp tục với thêm 5 "
+     "hãng máy bay' tái lập S002", 1, None, None, "LC", None),
+    ("S005", "tiếp tục", "L", "repetition",
+     "S002: vụ kiện đang tiếp tục", "med", None,
+     "lặp động từ 'tiếp tục' trong mệnh đề tái lập S002; đối ứng EN "
+     "'continues' (S004)", 1, None, None, "LC", None),
+    ("S006", "Các hãng", "L", "repetition", "S005: 8 hãng hàng không",
+     "high", None,
+     "rút gọn ('hãng hàng không' → 'hãng') + danh sách 8 tên riêng xác định "
+     "lại nhóm ở câu kề", 1, None, None, "LC", None),
+    ("S006", "đồng ý", "L", "synonym", "S005: đã thỏa thuận giải quyết",
+     "med", None,
+     "đồng nghĩa (thỏa thuận ↔ đồng ý): 8 hãng hiện thực hóa thỏa thuận ở "
+     "câu kề; đối ứng EN 'agreed' (S005)", 1, None, None, "LC", None),
+    ("S007", "giải thích", "L", "synonym", "S002: tường trình", "med",
+     None,
+     "chuỗi động từ attribution (§8.1 v): 'giải thích' tiếp nối 'tường "
+     "trình' sau 5 câu", 1, None, None, "LC", None),
+    ("S008", "nói", "L", "general word", "S007: giải thích", "med", None,
+     "chuỗi attribution (§8.1 v): 'nói' tổng quát hóa 'giải thích' ở câu "
+     "kề; đối ứng EN 'said' (S010) tổng quát hóa 'explains'", 1, None,
+     None, "LC", None),
+    ("S008", "vận tải", "L", "repetition",
+     "S007: ngành công nghiệp vận tải hàng không", "high", None,
+     "lặp 'vận tải' 2 lần trong câu (vận tải hành khách, vận tải hàng hóa) "
+     "— 1 mark (occ 2); đối lập hai ngành với S007", 2, None, None, "LC",
+     None),
+    ("S008", "hành khách", "L", "repetition", "S003: Hành khách", "med",
+     None,
+     "'hành khách' trong tổ hợp 'vận tải hành khách' — lặp sau 5 câu (S001, "
+     "S003)", 1, None, None, "LC", None),
+    ("S009", "hàng hóa", "L", "repetition", "S008: vận tải hàng hóa",
+     "high", None, "lặp 'hàng hóa' ở câu kề ('một lượng hàng hóa lớn')", 1,
+     None, None, "LC", None),
+    ("S009", "hành khách", "L", "repetition", "S008: vận tải hành khách",
+     "med", None, "lặp 'hành khách' ở câu kề ('máy bay hành khách')", 1,
+     None, None, "LC", None),
+    ("S010", "hàng hóa", "L", "repetition", "S009: một lượng hàng hóa lớn",
+     "high", None,
+     "lặp 'hàng hóa' ở câu kề ('giá cước vận chuyển hàng hóa')", 1, None,
+     None, "LC", None),
+    ("S010", "vận chuyển", "L", "synonym", "S009: được chuyên chở", "high",
+     None, "đồng nghĩa (chuyên chở ↔ vận chuyển) ở câu kề", 1, None, None,
+     "LC", None),
+    ("S010", "giá cước", "L", "repetition", "S007: lũng đoạn giá cả",
+     "med", None,
+     "lặp 'giá' (giá cả → giá cước); referent khác — giá cước hàng hóa của "
+     "vụ kiện song song (đối chiếu note hàng 'vụ kiện tập thể' S010); đối "
+     "ứng EN 'price-fixing' (S009)", 1, None, None, "LC", None),
+    ("S011", "vụ kiện", "L", "repetition", "S007: vụ kiện này", "high",
+     None,
+     "cùng referent (vụ kiện chính) — khác 'vụ này' (vụ hàng hóa, hàng R) "
+     "ở cùng câu; 'vụ kiện của chúng tôi' đối ứng EN 'our case' (S010)", 1,
+     None, None, "LC", None),
+    ("S012", "nói", "L", "repetition", "S008: nói", "high", None,
+     "chuỗi attribution (§8.1 v): lặp 'nói' (dạng gần nhất) sau 4 câu, sau "
+     "khối trích dẫn", 1, None, None, "LC", None),
+    ("S012", "bồi thường", "L", "repetition",
+     "S003: có thể được bồi thường", "high", None,
+     "tái lập 'bồi thường' sau 9 câu (lede tự sinh S003; S001 dùng 'tiền "
+     "thắng kiện')", 1, None, None, "LC", None),
+    ("S012", "chia", "L", "repetition",
+     "S001: sẽ được chia tiền thắng kiện", "med", None,
+     "lặp động từ 'chia' sau 11 câu (tiền thắng kiện → số tiền)", 1, None,
+     None, "LC", None),
+    ("S013", "cho biết", "L", "synonym", "S012: nói", "high", None,
+     "chuỗi attribution (§8.1 v): biến thể 'cho biết' ở câu kề, mở trích "
+     "dẫn (lượt lời mới)", 1, None, None, "LC", None),
+    ("S013", "bồi thường", "L", "repetition", "S012: đòi bồi thường",
+     "high", None, "lặp 'bồi thường' ở câu kề ('Tiền bồi thường')", 1,
+     None, None, "LC", None),
+    ("S013", "trả", "L", "repetition",
+     "S006: đồng ý trả lại gần 40 triệu đôla", "med", None,
+     "lặp động từ 'trả' (trả lại → được trả) sau 7 câu — cùng sự kiện chi "
+     "trả; đối ứng EN 'paid' (S012)", 1, None, None, "LC", None),
+    ("S014", "hành khách", "L", "repetition", "S013: hành khách", "high",
+     None,
+     "xuất hiện 2 lần trong câu ('20% hành khách', 'số hành khách chiếm "
+     "20% đó') — 1 mark (occ 2); lặp ở câu kề", 2, None, None, "LC", None),
+    ("S014", "chia", "L", "repetition", "S012: số tiền được chia", "med",
+     None,
+     "lặp động từ 'chia' sau 2 câu ('sẽ được chia cho số hành khách')", 1,
+     None, None, "LC", None),
+    ("S015", "nói", "L", "repetition", "S013: cho biết (S012: nói)",
+     "high", None,
+     "chuỗi attribution (§8.1 v): lặp attribution sau 3 câu — dạng 'nói' "
+     "gần nhất ở S012", 1, None, None, "LC", None),
+    ("S015", "tiền bạc", "L", "repetition", "S012: số tiền", "med", None,
+     "lặp 'tiền' (số tiền → tiền bạc) sau 3 câu; đối ứng EN 'money' "
+     "(S014)", 1, None, None, "LC", None),
+    ("S016", "chuyến bay", "L", "repetition", "S013: số chuyến bay",
+     "high", None,
+     "lặp 'chuyến bay' sau 3 câu ('các chuyến bay xuyên Thái Bình "
+     "Dương')", 1, None, None, "LC", None),
+    ("S016", "xuyên Thái Bình Dương", "L", "repetition",
+     "S003: các chuyến bay xuyên Thái Bình Dương", "high", None,
+     "tái lập tổ hợp 'xuyên Thái Bình Dương' sau 13 câu; đối ứng EN "
+     "'trans-Pacific' (S015)", 1, None, None, "LC", None),
+    ("S016", "tiền", "L", "repetition", "S015: tiền bạc", "med", None,
+     "lặp 'tiền' ở câu kề ('trả nhiều tiền hơn mức cần thiết')", 1, None,
+     None, "LC", None),
+    ("S017", "Thái Bình Dương", "L", "repetition",
+     "S016: xuyên Thái Bình Dương", "high", None,
+     "'một số đảo Thái Bình Dương' — lặp 'Thái Bình Dương' ở câu kề; đối "
+     "ứng EN 'Pacific' (S016)", 1, None, None, "LC", None),
+    ("S017", "Hoa Kỳ", "L", "synonym", "S007: chính phủ Mỹ", "med", None,
+     "đồng nghĩa tên nước (Mỹ ↔ Hoa Kỳ) sau 10 câu", 1, None, None, "LC",
+     None),
+    ("S019", "bị kiện", "L", "repetition",
+     "S016: Các hãng hàng không bị kiện", "high", None,
+     "lặp 'bị kiện' sau 3 câu — xác định nhóm 5 hãng đối lập nhóm đã giải "
+     "quyết; đối ứng EN 'still being sued' (S018, hàng R 'Những hãng')", 1,
+     None, None, "LC", None),
+    ("S019", "phủ nhận trách nhiệm", "L", "repetition",
+     "S018: bác bỏ cáo buộc và phủ nhận trách nhiệm", "high", None,
+     "lặp cụm 'phủ nhận trách nhiệm' ở câu kề — hai nhóm hãng cùng bác "
+     "bỏ; đối ứng EN 'deny' + 'liability' (S017→S018)", 1, None, None,
+     "LC", None),
+    ("S020", "ANA", "L", "repetition", "S019: All Nippon Airways (ANA)",
+     "high", None,
+     "tên riêng: lặp dạng viết tắt đã giới thiệu ở câu kề; đối ứng EN "
+     "'ANA' (S019)", 1, None, None, "LC", None),
+    ("S020", "thừa nhận", "L", "antonym", "S019: phủ nhận trách nhiệm",
+     "high", None,
+     "đối lập ('thừa nhận' ↔ 'phủ nhận'): ANA khác các hãng còn lại — "
+     "tương ứng quan hệ 'Riêng' (C, cùng câu)", 1, None, None, "LC", None),
 ]
